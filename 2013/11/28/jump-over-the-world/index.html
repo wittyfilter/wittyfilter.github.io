@@ -6,36 +6,30 @@
   <title>如何科学上网 | 滤波器不机智</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="记录一下平时怎么科 学 上 网
-1. goagent
-这个不必多说，用的人太多了...... 项目主页在https://code.google.com/p/goagent/
+1. goagent这个不必多说，用的人太多了…… 项目主页在https://code.google.com/p/goagent/
 Wiki里面有安装和使用的介绍，非常详细。
-2. ssh+proxy
-首先，你要有个SSH帐号，可以到www.cjb.net申请一个。
+2. ssh+proxy首先，你要有个SSH帐号，可以到www.cjb.net申请一个。
 有了帐号以后，linux下如果有ssh客户端的话，直接
-sudo ssh -D 127.0">
+sudo ssh -D 127.0.0.1:7">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何科学上网">
 <meta property="og:url" content="http://wittyfilter.github.io/2013/11/28/jump-over-the-world/index.html">
 <meta property="og:site_name" content="滤波器不机智">
 <meta property="og:description" content="记录一下平时怎么科 学 上 网
-1. goagent
-这个不必多说，用的人太多了...... 项目主页在https://code.google.com/p/goagent/
+1. goagent这个不必多说，用的人太多了…… 项目主页在https://code.google.com/p/goagent/
 Wiki里面有安装和使用的介绍，非常详细。
-2. ssh+proxy
-首先，你要有个SSH帐号，可以到www.cjb.net申请一个。
+2. ssh+proxy首先，你要有个SSH帐号，可以到www.cjb.net申请一个。
 有了帐号以后，linux下如果有ssh客户端的话，直接
-sudo ssh -D 127.0">
+sudo ssh -D 127.0.0.1:7">
 <meta property="og:updated_time" content="2014-10-16T13:33:34.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何科学上网">
 <meta name="twitter:description" content="记录一下平时怎么科 学 上 网
-1. goagent
-这个不必多说，用的人太多了...... 项目主页在https://code.google.com/p/goagent/
+1. goagent这个不必多说，用的人太多了…… 项目主页在https://code.google.com/p/goagent/
 Wiki里面有安装和使用的介绍，非常详细。
-2. ssh+proxy
-首先，你要有个SSH帐号，可以到www.cjb.net申请一个。
+2. ssh+proxy首先，你要有个SSH帐号，可以到www.cjb.net申请一个。
 有了帐号以后，linux下如果有ssh客户端的话，直接
-sudo ssh -D 127.0">
+sudo ssh -D 127.0.0.1:7">
   
     <link rel="alternative" href="/atom.xml" title="滤波器不机智" type="application/atom+xml">
   
@@ -108,48 +102,33 @@ sudo ssh -D 127.0">
     <div class="article-entry" itemprop="articleBody">
       
         <p>记录一下平时怎么科 学 上 网</p>
-<h3>1. goagent</h3>
-<p>这个不必多说，用的人太多了...... 项目主页在<a href="https://code.google.com/p/goagent/" target="_blank" rel="external">https://code.google.com/p/goagent/</a></p>
+<h3 id="1-_goagent"><a href="#1-_goagent" class="headerlink" title="1. goagent"></a>1. goagent</h3><p>这个不必多说，用的人太多了…… 项目主页在<a href="https://code.google.com/p/goagent/" target="_blank" rel="external">https://code.google.com/p/goagent/</a></p>
 <p>Wiki里面有安装和使用的介绍，非常详细。</p>
-<h3>2. ssh+proxy</h3>
-<p>首先，你要有个SSH帐号，可以到<a href="http://www.cjb.net" target="_blank" rel="external">www.cjb.net</a>申请一个。</p>
+<h3 id="2-_ssh+proxy"><a href="#2-_ssh+proxy" class="headerlink" title="2. ssh+proxy"></a>2. ssh+proxy</h3><p>首先，你要有个SSH帐号，可以到<a href="http://www.cjb.net" target="_blank" rel="external">www.cjb.net</a>申请一个。</p>
 <p>有了帐号以后，linux下如果有ssh客户端的话，直接</p>
 <pre><code>sudo ssh -D 127.0.0.1:7070 username@216.194.70.6
-</code></pre>
-<p>windows下可以使用MyEnTunnel，注意启用动态SOCKS，本地端口填7070(非SSH端口22)。</p>
+</code></pre><p>windows下可以使用MyEnTunnel，注意启用动态SOCKS，本地端口填7070(非SSH端口22)。</p>
 <p>存在的问题是，如果太久没用这个ssh账号，就会被回收。另外连接有点不稳定。</p>
 <p>接下来就是浏览器的扩展了。</p>
-<p>&lt;!-- more --&gt;</p>
-<h4>Firefox</h4>
-<p>火狐带有autoproxy，在规则列表里面选择gfwList，默认代理选择&quot;ssh -D&quot;</p>
-<h4>Chrome</h4>
-<p>在应用商店里面下载Proxy SwitchySharp扩展，链接是<a href="https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm" target="_blank" rel="external">https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm</a>。<br>
-若商店不可用，请在<a href="https://code.google.com/p/switchysharp/downloads/list" target="_blank" rel="external">https://code.google.com/p/switchysharp/downloads/list</a>下载crx文件安装。</p>
+<a id="more"></a>
+<h4 id="Firefox"><a href="#Firefox" class="headerlink" title="Firefox"></a>Firefox</h4><p>火狐带有autoproxy，在规则列表里面选择gfwList，默认代理选择”ssh -D”</p>
+<h4 id="Chrome"><a href="#Chrome" class="headerlink" title="Chrome"></a>Chrome</h4><p>在应用商店里面下载Proxy SwitchySharp扩展，链接是<a href="https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm" target="_blank" rel="external">https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm</a>。<br>若商店不可用，请在<a href="https://code.google.com/p/switchysharp/downloads/list" target="_blank" rel="external">https://code.google.com/p/switchysharp/downloads/list</a>下载crx文件安装。</p>
 <p>打开以后新建情景模式，比如“SSH”，SOCKS代理地址127.0.0.1，端口7070，选择SOCKS v5，保存。</p>
-<p>切换规则中启用切换规则，有俄网:mobilefree.ru以及在线规则googlecode.com，模式匹配均为正则表达式，情景模式选择刚刚的“SSH”。在线规则列表为：http://autoproxy-gfwlist.googlecode.com/svn/trunk/gfwlist.txt，自动更新时间15分钟，同样为“SSH”情景模式。勾选“AutoProxy兼容列表”。保存，更新列表。</p>
-<p>当然也可以使用lovessh.com的在线恢复备份。在选项中选择导入/导出，在线恢复备份地址为：https://www.lovessh.com/sw.bak，然后回到切换规则-&gt;更新列表。</p>
-<h3>3. IPv6</h3>
-<p>IPv6已经有很多网站可以上了，比如谷歌的所有服务(G+, Analytics...)，Wiki百科等等。学校内网就是这样，但是此种方法能上的网站太少。</p>
+<p>切换规则中启用切换规则，有俄网:mobilefree.ru以及在线规则googlecode.com，模式匹配均为正则表达式，情景模式选择刚刚的“SSH”。在线规则列表为：<a href="http://autoproxy-gfwlist.googlecode.com/svn/trunk/gfwlist.txt，自动更新时间15分钟，同样为“SSH”情景模式。勾选“AutoProxy兼容列表”。保存，更新列表。" target="_blank" rel="external">http://autoproxy-gfwlist.googlecode.com/svn/trunk/gfwlist.txt，自动更新时间15分钟，同样为“SSH”情景模式。勾选“AutoProxy兼容列表”。保存，更新列表。</a></p>
+<p>当然也可以使用lovessh.com的在线恢复备份。在选项中选择导入/导出，在线恢复备份地址为：<a href="https://www.lovessh.com/sw.bak，然后回到切换规则-&gt;更新列表。" target="_blank" rel="external">https://www.lovessh.com/sw.bak，然后回到切换规则-&gt;更新列表。</a></p>
+<h3 id="3-_IPv6"><a href="#3-_IPv6" class="headerlink" title="3. IPv6"></a>3. IPv6</h3><p>IPv6已经有很多网站可以上了，比如谷歌的所有服务(G+, Analytics…)，Wiki百科等等。学校内网就是这样，但是此种方法能上的网站太少。</p>
 <p>推荐一个IPv6的代理 <a href="http://yegle.net/glype/" target="_blank" rel="external">proxy</a> ，作者可是个牛人。</p>
-<h3>4. Android手机</h3>
-<p>fqrouter绝对是个神器，至少对于我的nexus设备来说。</p>
-<p><a href="http://www.coolapk.com/apk/fq.router2" target="_blank" rel="external">下载地址1</a>
-<a href="https://s3-ap-southeast-1.amazonaws.com/fqrouter/fqrouter-latest.apk" target="_blank" rel="external">下载地址2</a></p>
+<h3 id="4-_Android_u624B_u673A"><a href="#4-_Android_u624B_u673A" class="headerlink" title="4. Android手机"></a>4. Android手机</h3><p>fqrouter绝对是个神器，至少对于我的nexus设备来说。</p>
+<p><a href="http://www.coolapk.com/apk/fq.router2" target="_blank" rel="external">下载地址1</a><br><a href="https://s3-ap-southeast-1.amazonaws.com/fqrouter/fqrouter-latest.apk" target="_blank" rel="external">下载地址2</a></p>
 <p>另外HOLA加速器也不错，在Google Play可以找到。除了加速网络外，还可以访问一些国外Social Network。</p>
-<h3>5. 其他</h3>
-<p>免费版ssh用不爽的话，可以去买SSH代理(壕我们做朋友吧！)<br>
-<a href="http://www.myssh.cc/buy.html" target="_blank" rel="external">MySSH</a></p>
-<p>另外上述方式想看u2b视频好像有时候不太给力，那么请看看这个网站，或许有帮助<br>
-<a href="http://www.u2bdaili.com/" target="_blank" rel="external">U2B代理</a>  (目前貌似已经失效)</p>
-<h3>参考：</h3>
-<p><a href="http://www.muxi.me/web/210.html" target="_blank" rel="external">沐熙工作室</a><br>
-<a href="https://yqjun.wordpress.com" target="_blank" rel="external">yqjun</a><br>
-<a href="https://www.lovessh.com/" target="_blank" rel="external">lovessh.com</a> (这里有免费ssh帐号每日可用，推荐一下)</p>
+<h3 id="5-__u5176_u4ED6"><a href="#5-__u5176_u4ED6" class="headerlink" title="5. 其他"></a>5. 其他</h3><p>免费版ssh用不爽的话，可以去买SSH代理(壕我们做朋友吧！)<br><a href="http://www.myssh.cc/buy.html" target="_blank" rel="external">MySSH</a></p>
+<p>另外上述方式想看u2b视频好像有时候不太给力，那么请看看这个网站，或许有帮助<br><a href="http://www.u2bdaili.com/" target="_blank" rel="external">U2B代理</a>  (目前貌似已经失效)</p>
+<h3 id="u53C2_u8003_uFF1A"><a href="#u53C2_u8003_uFF1A" class="headerlink" title="参考："></a>参考：</h3><p><a href="http://www.muxi.me/web/210.html" target="_blank" rel="external">沐熙工作室</a><br><a href="https://yqjun.wordpress.com" target="_blank" rel="external">yqjun</a><br><a href="https://www.lovessh.com/" target="_blank" rel="external">lovessh.com</a> (这里有免费ssh帐号每日可用，推荐一下)</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://wittyfilter.github.io/2013/11/28/jump-over-the-world/" data-id="cijij8vby0013pjydgcgppbju" class="article-share-link">Share</a>
+      <a data-url="http://wittyfilter.github.io/2013/11/28/jump-over-the-world/" data-id="cijilywkg0013lmydtd323d1e" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GFW/">GFW</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Internet/">Internet</a></li></ul>
@@ -215,7 +194,7 @@ sudo ssh -D 127.0">
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02/">February 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/12/">December 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">November 2013</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">August 2013</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02/">February 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/12/">December 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">November 2013</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">August 2013</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -225,10 +204,6 @@ sudo ssh -D 127.0">
     <h3 class="widget-title">Recents</h3>
     <div class="widget">
       <ul>
-        
-          <li>
-            <a href="/2016/01/17/hello-world/">Hello World</a>
-          </li>
         
           <li>
             <a href="/2014/10/22/L2TP-VPN-in-ZJU/">浙大VPN在OS X下的配置方法</a>
@@ -244,6 +219,10 @@ sudo ssh -D 127.0">
         
           <li>
             <a href="/2013/12/08/literature-retrieval-in-zju/">文献检索小记</a>
+          </li>
+        
+          <li>
+            <a href="/2013/11/28/jump-over-the-world/">如何科学上网</a>
           </li>
         
       </ul>

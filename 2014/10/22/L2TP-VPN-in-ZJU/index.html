@@ -6,53 +6,29 @@
   <title>浙大VPN在OS X下的配置方法 | 滤波器不机智</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="1 新建VPN
-
-2 相关设置
-填上服务器名称和用户名,服务器可以是lns.zju.edu.cn，或者10.5.1.7
-
-3 鉴定设置
-在Authentication Setting中填上你的密码
-
-4 高级选项
-在”Advanced...“中的”Options“将”Send all traffic over VPN connection“打上勾
-
-5 破解IPSec共享密钥，下面介绍2种方法。">
+2 相关设置填上服务器名称和用户名,服务器可以是lns.zju.edu.cn，或者10.5.1.7
+3 鉴定设置在Authentication Setting中填上你的密码
+4 高级选项在”Advanced…“中的”Options“将”Send all traffic over VPN connection“打上勾">
 <meta property="og:type" content="article">
 <meta property="og:title" content="浙大VPN在OS X下的配置方法">
 <meta property="og:url" content="http://wittyfilter.github.io/2014/10/22/L2TP-VPN-in-ZJU/index.html">
 <meta property="og:site_name" content="滤波器不机智">
 <meta property="og:description" content="1 新建VPN
-
-2 相关设置
-填上服务器名称和用户名,服务器可以是lns.zju.edu.cn，或者10.5.1.7
-
-3 鉴定设置
-在Authentication Setting中填上你的密码
-
-4 高级选项
-在”Advanced...“中的”Options“将”Send all traffic over VPN connection“打上勾
-
-5 破解IPSec共享密钥，下面介绍2种方法。">
+2 相关设置填上服务器名称和用户名,服务器可以是lns.zju.edu.cn，或者10.5.1.7
+3 鉴定设置在Authentication Setting中填上你的密码
+4 高级选项在”Advanced…“中的”Options“将”Send all traffic over VPN connection“打上勾">
 <meta property="og:image" content="http://ww1.sinaimg.cn/large/63033c35gw1elk9oqgdz1j20bv06fdg9.jpg">
 <meta property="og:image" content="http://ww3.sinaimg.cn/large/63033c35gw1elk9z22l87j20ds05j0sz.jpg">
 <meta property="og:image" content="http://ww1.sinaimg.cn/large/63033c35gw1elk9zxmwn7j207u05nwej.jpg">
 <meta property="og:image" content="http://ww2.sinaimg.cn/large/63033c35gw1elka1uge38j207a04uglm.jpg">
 <meta property="og:image" content="http://ww1.sinaimg.cn/large/63033c35gw1elkago1gqmj207c058jri.jpg">
-<meta property="og:updated_time" content="2014-10-22T14:12:37.000Z">
+<meta property="og:updated_time" content="2016-01-17T14:16:41.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="浙大VPN在OS X下的配置方法">
 <meta name="twitter:description" content="1 新建VPN
-
-2 相关设置
-填上服务器名称和用户名,服务器可以是lns.zju.edu.cn，或者10.5.1.7
-
-3 鉴定设置
-在Authentication Setting中填上你的密码
-
-4 高级选项
-在”Advanced...“中的”Options“将”Send all traffic over VPN connection“打上勾
-
-5 破解IPSec共享密钥，下面介绍2种方法。">
+2 相关设置填上服务器名称和用户名,服务器可以是lns.zju.edu.cn，或者10.5.1.7
+3 鉴定设置在Authentication Setting中填上你的密码
+4 高级选项在”Advanced…“中的”Options“将”Send all traffic over VPN connection“打上勾">
   
     <link rel="alternative" href="/atom.xml" title="滤波器不机智" type="application/atom+xml">
   
@@ -124,36 +100,26 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h4>1 新建VPN</h4>
-<p><img src="http://ww1.sinaimg.cn/large/63033c35gw1elk9oqgdz1j20bv06fdg9.jpg" alt=""></p>
-<h4>2 相关设置</h4>
-<p>填上服务器名称和用户名,服务器可以是lns.zju.edu.cn，或者10.5.1.7
-<img src="http://ww3.sinaimg.cn/large/63033c35gw1elk9z22l87j20ds05j0sz.jpg" alt=""></p>
-<h4>3 鉴定设置</h4>
-<p>在Authentication Setting中填上你的密码
-<img src="http://ww1.sinaimg.cn/large/63033c35gw1elk9zxmwn7j207u05nwej.jpg" alt=""></p>
-<h4>4 高级选项</h4>
-<p>在”Advanced...“中的”Options“将”Send all traffic over VPN connection“打上勾
-<img src="http://ww2.sinaimg.cn/large/63033c35gw1elka1uge38j207a04uglm.jpg" alt=""></p>
-<h4>5 破解IPSec共享密钥，下面介绍2种方法。</h4>
-<h6>方法1</h6>
-<p>需要在<code>/etc/ppp/options</code>文件里输入下面两行字</p>
-<p><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">plugin L2TP<span class="class">.ppp</span></span><br><span class="line">l2tpnoipsec</span><br></pre></td></tr></table></figure></p>
-<h6>方法2</h6>
-<p>前提是可以打开校内网，进入<a href="http://zuits.zju.edu.cn" target="_blank" rel="external">信息化服务网站</a>，在用户自助服务区点击“VPN接入”，下载L2TP.pkg（解决IPSec共享密钥丢失软件包）即可。</p>
-<p>运行&quot;应用程序&quot;里的L2TP，选择要设置的VPN，然后Apply</p>
+        <h4 id="1__u65B0_u5EFAVPN"><a href="#1__u65B0_u5EFAVPN" class="headerlink" title="1 新建VPN"></a>1 新建VPN</h4><p><img src="http://ww1.sinaimg.cn/large/63033c35gw1elk9oqgdz1j20bv06fdg9.jpg" alt=""></p>
+<h4 id="2__u76F8_u5173_u8BBE_u7F6E"><a href="#2__u76F8_u5173_u8BBE_u7F6E" class="headerlink" title="2 相关设置"></a>2 相关设置</h4><p>填上服务器名称和用户名,服务器可以是lns.zju.edu.cn，或者10.5.1.7<br><img src="http://ww3.sinaimg.cn/large/63033c35gw1elk9z22l87j20ds05j0sz.jpg" alt=""></p>
+<h4 id="3__u9274_u5B9A_u8BBE_u7F6E"><a href="#3__u9274_u5B9A_u8BBE_u7F6E" class="headerlink" title="3 鉴定设置"></a>3 鉴定设置</h4><p>在Authentication Setting中填上你的密码<br><img src="http://ww1.sinaimg.cn/large/63033c35gw1elk9zxmwn7j207u05nwej.jpg" alt=""></p>
+<h4 id="4__u9AD8_u7EA7_u9009_u9879"><a href="#4__u9AD8_u7EA7_u9009_u9879" class="headerlink" title="4 高级选项"></a>4 高级选项</h4><p>在”Advanced…“中的”Options“将”Send all traffic over VPN connection“打上勾<br><img src="http://ww2.sinaimg.cn/large/63033c35gw1elka1uge38j207a04uglm.jpg" alt=""></p>
+<a id="more"></a>
+<h4 id="5__u7834_u89E3IPSec_u5171_u4EAB_u5BC6_u94A5_uFF0C_u4E0B_u9762_u4ECB_u7ECD2_u79CD_u65B9_u6CD5_u3002"><a href="#5__u7834_u89E3IPSec_u5171_u4EAB_u5BC6_u94A5_uFF0C_u4E0B_u9762_u4ECB_u7ECD2_u79CD_u65B9_u6CD5_u3002" class="headerlink" title="5 破解IPSec共享密钥，下面介绍2种方法。"></a>5 破解IPSec共享密钥，下面介绍2种方法。</h4><h6 id="u65B9_u6CD51"><a href="#u65B9_u6CD51" class="headerlink" title="方法1"></a>方法1</h6><p>需要在<code>/etc/ppp/options</code>文件里输入下面两行字</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">plugin L2TP<span class="class">.ppp</span></span><br><span class="line">l2tpnoipsec</span><br></pre></td></tr></table></figure>
+<h6 id="u65B9_u6CD52"><a href="#u65B9_u6CD52" class="headerlink" title="方法2"></a>方法2</h6><p>前提是可以打开校内网，进入<a href="http://zuits.zju.edu.cn" target="_blank" rel="external">信息化服务网站</a>，在用户自助服务区点击“VPN接入”，下载L2TP.pkg（解决IPSec共享密钥丢失软件包）即可。</p>
+<p>运行”应用程序”里的L2TP，选择要设置的VPN，然后Apply</p>
 <p>这里特别说明下:</p>
 <ol>
 <li>先去掉L2TP Ipsec的钩，然后试试能不能连上</li>
 <li>如果可以连上，再尝试钩上ZJU Router，看能不能连上，如果不能就不要钩了</li>
-<li>如果上述程序出错无法打开，请尝试将步骤1中新建的vpn删除，再重新做一遍
-<img src="http://ww1.sinaimg.cn/large/63033c35gw1elkago1gqmj207c058jri.jpg" alt=""></li>
+<li>如果上述程序出错无法打开，请尝试将步骤1中新建的vpn删除，再重新做一遍<br><img src="http://ww1.sinaimg.cn/large/63033c35gw1elkago1gqmj207c058jri.jpg" alt=""></li>
 </ol>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://wittyfilter.github.io/2014/10/22/L2TP-VPN-in-ZJU/" data-id="cijika4j90000szydrbvbsswa" class="article-share-link">Share</a>
+      <a data-url="http://wittyfilter.github.io/2014/10/22/L2TP-VPN-in-ZJU/" data-id="cijilywi90000lmydh1wsur7i" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/VPN/">VPN</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ZJU/">ZJU</a></li></ul>
@@ -163,15 +129,6 @@
   
     
 <nav id="article-nav">
-  
-    <a href="/2016/01/17/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Hello World
-        
-      </div>
-    </a>
   
   
     <a href="/2014/10/16/test/" id="article-nav-older" class="article-nav-link-wrap">
@@ -219,7 +176,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02/">February 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/12/">December 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">November 2013</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">August 2013</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02/">February 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/12/">December 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">November 2013</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">August 2013</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -229,10 +186,6 @@
     <h3 class="widget-title">Recents</h3>
     <div class="widget">
       <ul>
-        
-          <li>
-            <a href="/2016/01/17/hello-world/">Hello World</a>
-          </li>
         
           <li>
             <a href="/2014/10/22/L2TP-VPN-in-ZJU/">浙大VPN在OS X下的配置方法</a>
@@ -248,6 +201,10 @@
         
           <li>
             <a href="/2013/12/08/literature-retrieval-in-zju/">文献检索小记</a>
+          </li>
+        
+          <li>
+            <a href="/2013/11/28/jump-over-the-world/">如何科学上网</a>
           </li>
         
       </ul>
