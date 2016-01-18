@@ -3,37 +3,44 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Openbox个人配置 | Wittyfilter</title>
+  <title>Openbox个人配置 | WittyFilter</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="记录一下自己Openbox配置，with Archlinux
 
-关于Openboxopenbox是一个轻量级，可定制性高的窗口管理器。安装完成后, 应该把默认的配置文件 rc.xml, menu.xml, 和 autostart 和environment复制到~/.config/openbox：
+关于Openbox
+openbox是一个轻量级，可定制性高的窗口管理器。
+安装完成后, 应该把默认的配置文件 rc.xml, menu.xml, 和 autostart 和environment复制到~/.config/openbox：
 $ mkdir -p ~/.config/openbox
-$ cp /etc/xdg/openbox/">
+$ cp /etc/xdg/openbo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Openbox个人配置">
 <meta property="og:url" content="http://wittyfilter.github.io/2013/08/29/my-openbox-configuration/index.html">
-<meta property="og:site_name" content="Wittyfilter">
+<meta property="og:site_name" content="WittyFilter">
 <meta property="og:description" content="记录一下自己Openbox配置，with Archlinux
 
-关于Openboxopenbox是一个轻量级，可定制性高的窗口管理器。安装完成后, 应该把默认的配置文件 rc.xml, menu.xml, 和 autostart 和environment复制到~/.config/openbox：
+关于Openbox
+openbox是一个轻量级，可定制性高的窗口管理器。
+安装完成后, 应该把默认的配置文件 rc.xml, menu.xml, 和 autostart 和environment复制到~/.config/openbox：
 $ mkdir -p ~/.config/openbox
-$ cp /etc/xdg/openbox/">
+$ cp /etc/xdg/openbo">
 <meta property="og:updated_time" content="2014-10-11T02:20:46.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Openbox个人配置">
 <meta name="twitter:description" content="记录一下自己Openbox配置，with Archlinux
 
-关于Openboxopenbox是一个轻量级，可定制性高的窗口管理器。安装完成后, 应该把默认的配置文件 rc.xml, menu.xml, 和 autostart 和environment复制到~/.config/openbox：
+关于Openbox
+openbox是一个轻量级，可定制性高的窗口管理器。
+安装完成后, 应该把默认的配置文件 rc.xml, menu.xml, 和 autostart 和environment复制到~/.config/openbox：
 $ mkdir -p ~/.config/openbox
-$ cp /etc/xdg/openbox/">
+$ cp /etc/xdg/openbo">
+<meta name="twitter:creator" content="@WittyFilter">
   
   
     <link rel="icon" href="favicon.png">
   
   
- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
- <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+ <link href='//fonts.useso.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+ <link href="//fonts.useso.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
 
 
   <link rel="stylesheet" href="/css/style.css" type="text/css">
@@ -49,7 +56,7 @@ $ cp /etc/xdg/openbox/">
     <header id="header">
   <div id="header-main" class="header-inner">
     <div class="outer">
-      <a href="/" id="logo"><i class="logo" style="background-image: url(/css/images/logo.png)"></i><span class="site-title">Wittyfilter</span></a>
+      <a href="/" id="logo"><i class="logo" style="background-image: url(/css/images/logo.png)"></i><span class="site-title">WittyFilter</span></a>
       <nav id="main-nav">
         
           <a class="main-nav-link" href="/.">Home</a>
@@ -72,7 +79,10 @@ $ cp /etc/xdg/openbox/">
       
       <div id="search-form-wrap">
         
-          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit"> </button><input type="hidden" name="sitesearch" value="http://wittyfilter.github.io"></form>
+          <form class="search-form">
+            <input type="text" class="st-default-search-input search-form-input" placeholder="Search">
+            <button type="submit" class="search-form-submit"></button>
+          </form>
         
       </div>
     </div>
@@ -93,7 +103,9 @@ $ cp /etc/xdg/openbox/">
         
         <td>
           
-            <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><input type="hidden" name="sitesearch" value="http://wittyfilter.github.io"></form>
+            <div class="search-form">
+              <input type="text" class="st-default-search-input search-form-input" placeholder="Search">
+            </div>
           
         </td>
       </tr>
@@ -127,13 +139,11 @@ $ cp /etc/xdg/openbox/">
       <table class="contact-list">
         <tr>
           
-          <td><a href="http://github.com/ppoffice/hexo-theme-icarus" target="_blank" title="github"><i class="fa fa-github"></i></a></td>
+          <td><a href="http://github.com/wittyfilter" target="_blank" title="github"><i class="fa fa-github"></i></a></td>
           
-          <td><a href="/#" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></td>
+          <td><a href="https://twitter.com/WittyFilter" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></td>
           
-          <td><a href="/#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></td>
-          
-          <td><a href="/#" target="_blank" title="dribbble"><i class="fa fa-dribbble"></i></a></td>
+          <td><a href="https://www.facebook.com/Simon.Z.Yang" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></td>
           
           <td><a href="/atom.xml" target="_blank" title="rss"><i class="fa fa-rss"></i></a></td>
           
@@ -183,31 +193,49 @@ $ cp /etc/xdg/openbox/">
                 
         <p>记录一下自己Openbox配置，with Archlinux</p>
 <hr>
-<h3 id="u5173_u4E8EOpenbox"><a href="#u5173_u4E8EOpenbox" class="headerlink" title="关于Openbox"></a>关于Openbox</h3><p>openbox是一个轻量级，可定制性高的窗口管理器。<br>安装完成后, 应该把默认的配置文件 rc.xml, menu.xml, 和 autostart 和environment复制到<code>~/.config/openbox</code>：</p>
+<h3>关于Openbox</h3>
+<p>openbox是一个轻量级，可定制性高的窗口管理器。<br>
+安装完成后, 应该把默认的配置文件 rc.xml, menu.xml, 和 autostart 和environment复制到<code>~/.config/openbox</code>：</p>
 <pre><code>$ mkdir -p ~/.config/openbox
 $ cp /etc/xdg/openbox/{rc.xml,menu.xml,autostart,environment} ~/.config/openbox
-</code></pre><p><strong>注意: 不要用 root 进行以上操作，应使用普通用户</strong></p>
+</code></pre>
+<p><strong>注意: 不要用 root 进行以上操作，应使用普通用户</strong></p>
 <p>这四个文件组成了Openbox配置的基础。每一个文件是配置的独立的部分，它们的功能是：</p>
 <ul>
-<li><p>rc.xml<br>本文件是配置文件，用于定义键盘快捷键, 主题, 虚拟桌面等。</p>
+<li>
+<p>rc.xml
+本文件是配置文件，用于定义键盘快捷键, 主题, 虚拟桌面等。</p>
 </li>
-<li><p>menu.xml<br>本文件定义了在桌面用鼠标击键时显示的菜单。它定义了程序启动器和快捷方式。</p>
+<li>
+<p>menu.xml
+本文件定义了在桌面用鼠标击键时显示的菜单。它定义了程序启动器和快捷方式。</p>
 </li>
-<li><p>autostart<br>本文件在 Openbox 启动时读取。包含了一些需要启动的程序，通常用来定义许多环境变量、启动面板/dock、设置壁纸或者执行其他启动脚本等等。</p>
+<li>
+<p>autostart
+本文件在 Openbox 启动时读取。包含了一些需要启动的程序，通常用来定义许多环境变量、启动面板/dock、设置壁纸或者执行其他启动脚本等等。</p>
 </li>
-<li><p>environment<br>本文件被openbox-session启动时调用。它包含了在Openbox上下文中定义的变量。任何你想对 Openbox 本身可见以及从菜单启动的程序需要的变量都放在这里。</p>
+<li>
+<p>environment
+本文件被openbox-session启动时调用。它包含了在Openbox上下文中定义的变量。任何你想对 Openbox 本身可见以及从菜单启动的程序需要的变量都放在这里。</p>
 </li>
 </ul>
 <p>如果将Openbox作为单独的窗口管理器使用，则只需要在<code>~./xinitrc</code>中添加</p>
 <pre><code>exec openbox-session
-</code></pre><p>startx即可启动Openbox。Openbox中的xdg-autostart需要pyxdg。<br>如果有桌面环境的话，自带的登录管理器会话选择就比较方便。推荐cdm，基于会话且轻量。</p>
+</code></pre>
+<p>startx即可启动Openbox。Openbox中的xdg-autostart需要pyxdg。
+如果有桌面环境的话，自带的登录管理器会话选择就比较方便。推荐cdm，基于会话且轻量。</p>
 <hr>
-<h3 id="u914D_u7F6EOpenbox"><a href="#u914D_u7F6EOpenbox" class="headerlink" title="配置Openbox"></a>配置Openbox</h3><a id="more"></a>
-<h4 id="u9996_u9009_u9879"><a href="#u9996_u9009_u9879" class="headerlink" title="首选项"></a>首选项</h4><p>配置文件于<code>~/.config/openbox/rc.xml</code>，自带有注释。图形化界面的程序可以使用Obconf。</p>
-<h4 id="u83DC_u5355"><a href="#u83DC_u5355" class="headerlink" title="菜单"></a>菜单</h4><p>菜单文件<code>~/.config/openbox/menu.xml</code>，可手动编辑，推荐使用mmaker自动生成。</p>
+<h3>配置Openbox</h3>
+<p>&lt;!-- more --&gt;</p>
+<h4>首选项</h4>
+<p>配置文件于<code>~/.config/openbox/rc.xml</code>，自带有注释。图形化界面的程序可以使用Obconf。</p>
+<h4>菜单</h4>
+<p>菜单文件<code>~/.config/openbox/menu.xml</code>，可手动编辑，推荐使用mmaker自动生成。</p>
 <pre><code>$ mmaker -vf Openbox3 #-f选项覆盖之前的菜单
-</code></pre><p>基于GUI的菜单编辑可以使用obmenu。</p>
-<h4 id="u81EA_u542F_u52A8"><a href="#u81EA_u542F_u52A8" class="headerlink" title="自启动"></a>自启动</h4><p>自启动程序脚本位于<code>~/.config/openbox/autostart</code>,Openbox也会启动在<code>/etc/xdg/autostart</code>中的所有的*.desktop文件。本人自启动脚本：</p>
+</code></pre>
+<p>基于GUI的菜单编辑可以使用obmenu。</p>
+<h4>自启动</h4>
+<p>自启动程序脚本位于<code>~/.config/openbox/autostart</code>,Openbox也会启动在<code>/etc/xdg/autostart</code>中的所有的*.desktop文件。本人自启动脚本：</p>
 <pre><code>xbacklight -set 0
 fcitx &amp;
 feh --bg-scale /home/simonyang/Pictures/bg.jpg
@@ -216,13 +244,21 @@ tint2 &amp;
 xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &amp;
 volumeicon &amp;
 batti &amp;
-</code></pre><p>xbacklight调整背光，主要是为了省电。</p>
-<h4 id="u4E3B_u9898_u548C_u5916_u89C2"><a href="#u4E3B_u9898_u548C_u5916_u89C2" class="headerlink" title="主题和外观"></a>主题和外观</h4><p>安装openbox-themes可获得丰富的主题，推荐主题numix。可以在<a href="http://www.box-look.org" target="_blank" rel="external">这里</a>找到更多主题，然后用Obconf安装。<br>gtk主题可以通过安装gtk-theme-switch控制，依然推荐numix。具体的主题配置在<code>~/.gtkrc-2.0</code>。<br>图标推荐faenza，可以安装faience-icon-theme获得，然后编辑<code>~/.gtkrc-2.0</code>，添加：</p>
+</code></pre>
+<p>xbacklight调整背光，主要是为了省电。</p>
+<h4>主题和外观</h4>
+<p>安装openbox-themes可获得丰富的主题，推荐主题numix。可以在<a href="http://www.box-look.org" target="_blank" rel="external">这里</a>找到更多主题，然后用Obconf安装。
+gtk主题可以通过安装gtk-theme-switch控制，依然推荐numix。具体的主题配置在<code>~/.gtkrc-2.0</code>。
+图标推荐faenza，可以安装faience-icon-theme获得，然后编辑<code>~/.gtkrc-2.0</code>，添加：</p>
 <pre><code>gtk-icon-theme-name = &quot;Faenza&quot;
-</code></pre><h4 id="u6587_u4EF6_u5173_u8054"><a href="#u6587_u4EF6_u5173_u8054" class="headerlink" title="文件关联"></a>文件关联</h4><p>从仓库安装perl-file-mimeinfo，调用mimeopen类似这样:</p>
+</code></pre>
+<h4>文件关联</h4>
+<p>从仓库安装perl-file-mimeinfo，调用mimeopen类似这样:</p>
 <pre><code>$ mimeopen -d /path/to/file
-</code></pre><p>会提示用哪个程序来打开 /path/to/file。</p>
-<h4 id="u97F3_u91CF_u63A7_u5236"><a href="#u97F3_u91CF_u63A7_u5236" class="headerlink" title="音量控制"></a>音量控制</h4><p>使用alsamixer可以全局控制。对于快捷键的绑定，如媒体控制功能键，需要修改rc.xml，添加：</p>
+</code></pre>
+<p>会提示用哪个程序来打开 /path/to/file。</p>
+<h4>音量控制</h4>
+<p>使用alsamixer可以全局控制。对于快捷键的绑定，如媒体控制功能键，需要修改rc.xml，添加：</p>
 <pre><code>&lt;keybind key=&quot;XF86AudioRaiseVolume&quot;&gt;
  &lt;action name=&quot;Execute&quot;&gt;
    &lt;command&gt;amixer set Master 5%+ unmute&lt;/command&gt;
@@ -238,29 +274,42 @@ batti &amp;
    &lt;command&gt;amixer set Master toggle&lt;/command&gt;
  &lt;/action&gt;
 &lt;/keybind&gt;
-</code></pre><hr>
-<h3 id="u4E00_u4E9B_u5E94_u7528_u7A0B_u5E8F"><a href="#u4E00_u4E9B_u5E94_u7528_u7A0B_u5E8F" class="headerlink" title="一些应用程序"></a>一些应用程序</h3><h4 id="u56FE_u7247_u67E5_u770B"><a href="#u56FE_u7247_u67E5_u770B" class="headerlink" title="图片查看"></a>图片查看</h4><p>推荐轻量的feh。feh也可以用来设定桌面背景：</p>
+</code></pre>
+<hr>
+<h3>一些应用程序</h3>
+<h4>图片查看</h4>
+<p>推荐轻量的feh。feh也可以用来设定桌面背景：</p>
 <pre><code>$ feh --bg-scale /path/to/picture
-</code></pre><h4 id="u9762_u677F"><a href="#u9762_u677F" class="headerlink" title="面板"></a>面板</h4><p>推荐tint2，配置可以使用tintwizard程序。最好安装tint2-svn，有更多新特性可以使用。<br>托盘需要显示电源和音量控制，推荐batti和volumeicon</p>
-<h4 id="u7F51_u7EDC"><a href="#u7F51_u7EDC" class="headerlink" title="网络"></a>网络</h4><p>推荐wicd，systemd自启动，禁用其他网络的systemd，networkmanager貌似不可正常显示通知。</p>
-<h4 id="u6587_u4EF6_u7BA1_u7406_u5668"><a href="#u6587_u4EF6_u7BA1_u7406_u5668" class="headerlink" title="文件管理器"></a>文件管理器</h4><p>spacefm是个不错的选择，虽然功能上和nautilus与dolphin比起来差太多了。自动挂载windows硬盘请用ntfs-config。</p>
-<h4 id="u5E94_u7528_u7A0B_u5E8F_u542F_u52A8_u5668"><a href="#u5E94_u7528_u7A0B_u5E8F_u542F_u52A8_u5668" class="headerlink" title="应用程序启动器"></a>应用程序启动器</h4><p>推荐dmenu。</p>
-<h4 id="u5176_u4ED6"><a href="#u5176_u4ED6" class="headerlink" title="其他"></a>其他</h4><p>要想使得窗口有阴影特效，可以这样：</p>
+</code></pre>
+<h4>面板</h4>
+<p>推荐tint2，配置可以使用tintwizard程序。最好安装tint2-svn，有更多新特性可以使用。
+托盘需要显示电源和音量控制，推荐batti和volumeicon</p>
+<h4>网络</h4>
+<p>推荐wicd，systemd自启动，禁用其他网络的systemd，networkmanager貌似不可正常显示通知。</p>
+<h4>文件管理器</h4>
+<p>spacefm是个不错的选择，虽然功能上和nautilus与dolphin比起来差太多了。自动挂载windows硬盘请用ntfs-config。</p>
+<h4>应用程序启动器</h4>
+<p>推荐dmenu。</p>
+<h4>其他</h4>
+<p>要想使得窗口有阴影特效，可以这样：</p>
 <pre><code>$ xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &amp;
-</code></pre><p>输入法使用fcitx再好不过了。将以下加入到<code>~/.xprofile</code>中：</p>
+</code></pre>
+<p>输入法使用fcitx再好不过了。将以下加入到<code>~/.xprofile</code>中：</p>
 <pre><code>export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=&quot;@im=fcitx&quot;
-</code></pre><p>drop-down终端推荐用guake</p>
+</code></pre>
+<p>drop-down终端推荐用guake</p>
 <hr>
-<h3 id="u53C2_u8003"><a href="#u53C2_u8003" class="headerlink" title="参考"></a>参考</h3><p><a href="https://wiki.archlinux.org" target="_blank" rel="external">https://wiki.archlinux.org</a></p>
+<h3>参考</h3>
+<p><a href="https://wiki.archlinux.org" target="_blank" rel="external">https://wiki.archlinux.org</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://wittyfilter.github.io/2013/08/29/my-openbox-configuration/" data-id="cijjb9k4i000xiaydtnftas1i" class="article-share-link">Share</a>
+      <a data-url="http://wittyfilter.github.io/2013/08/29/my-openbox-configuration/" data-id="cijjx9u5r0010rgydhqwedcag" class="article-share-link">Share</a>
       
-        <a href="http://wittyfilter.github.io/2013/08/29/my-openbox-configuration/#disqus_thread" class="article-comment-link">Comments</a>
+        <a href="http://wittyfilter.github.io/2013/08/29/my-openbox-configuration/#ds-thread" class="article-comment-link">Comments</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/">linux</a></li></ul>
@@ -275,7 +324,7 @@ export XMODIFIERS=&quot;@im=fcitx&quot;
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          用MathJax解决Markdown公式编辑问题
+          博客中Markdown公式编辑问题
         
       </div>
     </a>
@@ -288,11 +337,11 @@ export XMODIFIERS=&quot;@im=fcitx&quot;
 </article>
 
 
-<section id="comments">
-  <div id="disqus_thread">
-    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </div>
-</section>
+  <section id="comments">
+    <div id="ds-thread" class="ds-thread" data-thread-key="http://wittyfilter.github.io/2013/08/29/my-openbox-configuration/" data-title="Openbox个人配置" data-url="http://wittyfilter.github.io/2013/08/29/my-openbox-configuration/">
+      <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by DuoShuo.</a></noscript>
+      </div>
+  </section>
 
 </section>
       
@@ -447,22 +496,32 @@ export XMODIFIERS=&quot;@im=fcitx&quot;
 </footer>
     
 
-<script>
-  var disqus_shortname = 'wittyfilter';
-  (function(){
-    var dsq = document.createElement('script');
-    dsq.type = 'text/javascript';
-    dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"wittyfilter"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
   })();
 </script>
 
 
 
+  <script type="text/javascript">
+    (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+    })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+    _st('install','1nNQfSRx7NWmc3D4z7ZU','2.0.0');
+  </script>
 
 
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+ <script src="//ajax.useso.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 
 
