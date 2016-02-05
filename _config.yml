@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: WittyFilter
-email: yangzhevlsi@zju.edu.cn
+title: WittyBlog
+email: 
 description: > # this means to ignore newlines until "baseurl:"
    这个人很懒，什么都没写
 baseurl: "" # the subpath of your site, e.g. /blog
