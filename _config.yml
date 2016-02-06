@@ -24,3 +24,12 @@ flickr:
   screen_name: wittyfilter
   api_key: 3071e8d508c99f6debb6cefc0d789a51
   api_secret: 52656154d66916cd
+
+flickr_set:
+  gallery_tag:   'p'
+  gallery_class: 'gallery'
+  a_href:        nil
+  a_target:      '_blank'
+  image_rel:     ''
+  image_size:    's'
+  api_key:       ''
