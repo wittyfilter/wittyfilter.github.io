@@ -27,9 +27,9 @@ flickr:
 
 flickr_set:
   gallery_tag:   'p'
-  gallery_class: 'gallery'
+  gallery_class: 'album'
   a_href:        nil
   a_target:      '_blank'
   image_rel:     ''
   image_size:    's'
-  api_key:       ''
+  api_key:       '3071e8d508c99f6debb6cefc0d789a51'
