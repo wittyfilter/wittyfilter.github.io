@@ -7,13 +7,23 @@
 
 # Site settings
 title: WittyFilter
-email: 
 description: > # this means to ignore newlines until "baseurl:"
    这个人很懒，什么都没写
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://wittyfilter.github.io" # the base hostname & protocol for your site
-twitter_username: WittyFilter
-github_username:  wittyfilter
+tagline:	'并不机智的滤波器'
+paginate:	5
+
+# About/contact
+author:
+  name:              Simon Yang
+  url:               https://twitter.com/WittyFilter
+  email:             
+
+# Custom vars
+version:             2.0.0
+
+gems: [jekyll-paginate]
 
 # Build settings
 markdown: kramdown
@@ -25,11 +35,4 @@ flickr:
   api_key: 3071e8d508c99f6debb6cefc0d789a51
   api_secret: 52656154d66916cd
 
-flickr_set:
-  gallery_tag:   'p'
-  gallery_class: 'album'
-  a_href:        nil
-  a_target:      '_blank'
-  image_rel:     ''
-  image_size:    's'
-  api_key:       '3071e8d508c99f6debb6cefc0d789a51'
+# 'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
