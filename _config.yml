@@ -30,9 +30,7 @@ markdown: kramdown
 
 permalink: "/blog/:title"
 
-flickr:
-  screen_name: wittyfilter
-  api_key: 3071e8d508c99f6debb6cefc0d789a51
-  api_secret: 52656154d66916cd
-
+# Instagram plugin
+instagram_cache:         false # or true
+instagram_cache_dir:     '.instagram-cache'      # default '.instagram-cache'
 
