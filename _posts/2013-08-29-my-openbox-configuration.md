@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Openbox个人配置
-categories: Computer
+categories: Coding
 tags:
   - linux
+  - openbox
 date: 2013-08-29 00:00:00
 ---
 记录一下自己Openbox配置，with Archlinux
