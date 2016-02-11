@@ -1,0 +1,21 @@
+<div class="post-addons">
+  Categories:
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a href="/categories/#{{category|slugize}}">{{category}}</a>{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  &nbsp &nbsp
+  Tags: 
+  {% if post %}
+    {% assign tags = post.tags %}
+  {% else %}
+    {% assign tags = page.tags %}
+  {% endif %}
+  {% for tag in tags %}
+  <a href="/tags/#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+</div>

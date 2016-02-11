@@ -10,4 +10,4 @@ date: 2014-02-21 00:00:00
 
 Reference: [Univariate Distribution Relationships](http://www.math.wm.edu/~leemis/chart/UDR/UDR.html)
 
-![]({{ site.baseurl }}/images/BaseImage.png)
+![]({{ site.baseurl }}/public/images/BaseImage.png)

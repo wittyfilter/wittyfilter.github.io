@@ -2,10 +2,9 @@
 layout: post
 title: 如何更好地用手机拍照
 tags:
-  - photography
   - phone
 categories:
-  - Photos
+  - Photography
 date: 2016-02-09 15:27:35
 ---
 
@@ -43,5 +42,5 @@ date: 2016-02-09 15:27:35
 
 广角效果最强的在镜头的四个角上，所以把脚往四个角上靠，也会有拉伸的作用。基础坐姿：身体向后靠一点点，膝盖合拢，腿往广角伸。
 
-＃ Reference
+# Reference
 http://mp.weixin.qq.com/s?__biz=MzA3NTk1MjgwNQ==&mid=207201998&idx=1&sn=435f6cca02ac5a4d97a5daedb8c456d9#rd

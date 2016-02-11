@@ -4,8 +4,9 @@ title: Tokyo Impression
 tags:
   - Tokyo
   - travel
+  - LX100
 categories:
-  - Photos
+  - Photography
 date: 2016-01-28 20:16:12
 ---
 

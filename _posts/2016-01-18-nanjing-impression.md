@@ -4,8 +4,9 @@ title: Nanjing Impression
 tags:
   - Nanjing
   - Travel
+  - LX100
 categories:
-  - Photos
+  - Photography
 date: 2016-01-18 22:14:31
 ---
 

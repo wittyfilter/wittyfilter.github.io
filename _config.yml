@@ -28,9 +28,8 @@ gems: [jekyll-paginate]
 # Build settings
 markdown: kramdown
 
-permalink: "/blog/:title"
+permalink: "/blog/categories/:title"
 
 # Instagram plugin
 instagram_cache:         false # or true
 instagram_cache_dir:     '.instagram-cache'      # default '.instagram-cache'
-
