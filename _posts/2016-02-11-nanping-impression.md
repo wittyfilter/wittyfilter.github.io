@@ -2,10 +2,9 @@
 layout: post
 title: 南平印象
 tags:
-  - DC
-  - Nanping
+  - valentine
 categories:
-  - Photography
+  - Trivial
 date: 2016-02-11 16:03:30
 ---
 
