@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tokyo Impression
+title: 东京印象
 tags:
   - Tokyo
   - travel
