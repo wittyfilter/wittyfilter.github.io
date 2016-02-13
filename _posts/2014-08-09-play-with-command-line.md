@@ -16,3 +16,9 @@ date: 2014-08-09 00:00:00
 {% highlight shell %}
 telnet towel.blinkenlights.nl 23
 {% endhighlight %}
+
+# 2. Nyan Cat
+
+{% highlight shell %}
+nc -v nyancat.dakko.us 23
+{% endhighlight %}
