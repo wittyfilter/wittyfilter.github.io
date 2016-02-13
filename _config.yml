@@ -13,7 +13,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://wittyfilter.github.io" # the base hostname & protocol for your site
 tagline:	'并不机智的滤波器'
 paginate:	5
-timezone: Asia/Shanghai
+# timezone: Asia/Shanghai
 
 # About/contact
 author:
