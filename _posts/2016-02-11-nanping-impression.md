@@ -5,7 +5,7 @@ tags:
   - valentine
 categories:
   - Trivial
-date: 2016-02-11
+date: 2016-02-11 16:03:30
 ---
 
 春节在家，翻出了6年前买的大法DSC-WX7数码相机。
