@@ -11,43 +11,43 @@ date: 2014-03-04 00:00:00
 
 # 1. iTerm 2
 
-###1. Mouseless Copy
+### 1. Mouseless Copy
 
 cmd-f -> tab
 
-####2. Split Panes
+### 2. Split Panes
 
 cmd-d (vertically) / cmd-shift-d (horizontally)
 
 navigate among split panes: cmd-opt-arrow
 
-###3. System Wide Hotkey
+### 3. System Wide Hotkey
 
 Preferences > Keys. Enable “Show/Hide iTerm2 with a system-wide hotkey”
 
-###4. Save Mark/Jump to Mark
+### 4. Save Mark/Jump to Mark
 
 cmd-shift-M / cmd-shift-J
 
-###5. Autocomplete
+### 5. Autocomplete
 
 cmd-;
 
-###6. Paste History
+### 6. Paste History
 
 cmd-shift-H
 
-###7. Instant Replay
+### 7. Instant Replay
 
 cmd-opt-B / Esc
 
 这个功能比较给力，可以看到之前特定时刻的显示信息，比如特定时间点 top 的显示。
 
-###8. Full Screen
+### 8. Full Screen
 
 cmd-Enter
 
-###9. Exposé Tabs
+### 9. Exposé Tabs
 
 cmd-opt-E
 
@@ -74,11 +74,6 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
 # 4.调整声音
 系统会发出“嘟嘟”的声音，按住shift键就没了  
 同时按shift+option， 可以4分1格调节（同样适用于键盘背光和屏幕亮度）
-
-# 6.杂
-当打开一个程序的多个窗口，如finder，如果要同时最小化， 按住Option，然后按其中一个窗口上的最小化按钮就ok了，要同时全部还原就按住option点dock图标就好了～
-
-
 
 # 5. 快捷键
 ## 表示法：
@@ -152,6 +147,7 @@ Page Down=fn + ▼
 - 查看活动的用户程序 command + Tab（反向+shift）
 
 启动中
+
 - 启动到安全模式 shift（在开机声音后）
 - 关闭打开的窗口 shift (登录过程中)
 - 从光盘启动 c
