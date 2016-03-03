@@ -50,3 +50,6 @@ ls -Z
 # 4. 故障排除：
 `iptables -S` 查看端口开的情况
 `system-config-firewall` 设置端口，防火墙等
+
+# 5. windows虚拟机
+root登录diamond后，执行 `virt-manager`
