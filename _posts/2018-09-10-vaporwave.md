@@ -17,9 +17,6 @@ date: 2018-09-10 00:00:00
 
 ```
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/XwRbGqHFp2BL8ueDrKvrzGtnB4qS26icql8AdSr0VE0zTImFzue6aTs5gTqicAxzibpMIo0AiaGxQlcGjB1lCn5Q8Q/640?wx_fmt=jpeg)
-
-
 我们常常能听到这样利用音乐词汇的描述，语法上并没有什么问题，因为这里的音乐与其所属的文化是密不可分的。上文所说的三种文化（Hip-Hop，Punk，Rock），其起源与发展都和相关的音乐流派息息相关。今天我们要讲一个从2010年起源的新兴文化——蒸汽波（Vaporwave）文化——里面的音乐部分。
 
 **那么，到底什么是蒸汽波呢？**
@@ -198,10 +195,13 @@ date: 2018-09-10 00:00:00
 ![16]({{ site.baseurl }}/public/images/vw16.png)
 
 
-
 大功告成！听听看，是不是有点意思了呢？
 
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/499908588&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
+原曲是这样的
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/499907943%3Fsecret_token%3Ds-Vt7Kq&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
 这里只是一个简单的Demo，后续应该再加入你自己的Bass和你自己的一些电子乐剪辑技巧（对，就类似于打碟的那种，买个采样机吧哈哈哈哈），来让曲子更加丰富、有创意。大家可以试试看，其他的音乐编辑软件应该也是大同小异！
 
