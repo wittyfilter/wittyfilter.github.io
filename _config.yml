@@ -26,9 +26,8 @@ author:
   email:             
 
 # Custom vars
-version:             2.0.0
+version:             3.0.0
 
-gems: [jekyll-paginate]
 
 # Build settings
 markdown: kramdown
@@ -39,6 +38,8 @@ permalink: "/blog/:title"
 instagram_cache:         false # or true
 instagram_cache_dir:     '.instagram-cache'      # default '.instagram-cache'
 
-
+plugins:
+  - jemoji
+  - jekyll-paginate
 
 

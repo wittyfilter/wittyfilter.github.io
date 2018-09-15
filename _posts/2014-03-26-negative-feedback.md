@@ -13,6 +13,7 @@ date: 2014-03-26 00:00:00
 ![]({{ site.baseurl }}/public/images/feedback1.jpg)
 ![]({{ site.baseurl }}/public/images/feedback2.jpg)
 ![]({{ site.baseurl }}/public/images/feedback3.jpg)
+<!-- more -->
 ![]({{ site.baseurl }}/public/images/feedback4.jpg)
 ![]({{ site.baseurl }}/public/images/feedback5.jpg)
 ![]({{ site.baseurl }}/public/images/feedback6.jpg)

@@ -8,24 +8,24 @@ tags:
 date: 2015-10-12 00:00:00
 ---
 
-# 1. 关于VNC中出现的`Error: could not run xauth`
+# 1. 关于VNC中出现的 `Error: could not run xauth`
 
 If the SELinux configuration is set to enforcing then we need to make sure the home directories are set in the correct context:
 
-{% highlight shell %}
-egrep -e '^SELINUX=' /etc/selinux/config
-SELINUX=enforcing
-{% endhighlight %}
+```zsh
+$ egrep -e '^SELINUX=' /etc/selinux/config
+$ SELINUX=enforcing
+```
 
 Taking a look at the SELinux settings for the home directories (use Z with the ls command):
 
-{% highlight shell %}
-ls -aslZ /home/
+```zsh
+$ ls -aslZ /home/
 total 36
 drwxr-xr-x. root    root    system_u:object_r:home_root_t:s0 .
 drwxr-xr-x. root    root    system_u:object_r:root_t:s0      ..
 drwx------. 55 unconfined_u:object_r:home_root_t:s0 jason users  4096 Jan 20 14:22 jason
-{% endhighlight %}
+```
 
 The context for my home directory (jason) should be unconfined_u:object_r:user_home_dir_t:s0 and not unconfined_u:object_r:home_root_t:s0 as it is a home directory and not part of the root file system per se.
 
@@ -38,12 +38,12 @@ test connection成功的话fetch DNs
 
 # 3. 新建用户后(adduser或用ldap新建) 
 
-在/home下
+在`/home`下
 
-{% highlight shell %}
-restorecon $USER -R
-ls -Z
-{% endhighlight %}
+```zsh
+$ restorecon $USER -R
+$ ls -Z
+```
 
 查看是否user_home_dir
 

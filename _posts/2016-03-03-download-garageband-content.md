@@ -40,6 +40,8 @@ http://audiocontentdownload.apple.com/lp10_ms3_content_2015/MAContent10_GarageBa
 
 如果安装之后还不生效的话，那就用cleanmymac重置一下GarageBand，然后再安装就可以了。
 
+<!-- more -->
+
 附：Logic Pro的内容
 
 2G Essential包：
