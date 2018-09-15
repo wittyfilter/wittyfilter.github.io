@@ -16,10 +16,10 @@ date: 2013-08-29 00:00:00
 openbox是一个轻量级，可定制性高的窗口管理器。  
 安装完成后, 应该把默认的配置文件 rc.xml, menu.xml, 和 autostart 和environment复制到`~/.config/openbox`：
 
-{% highlight shell %}
+```zsh
 mkdir -p ~/.config/openbox
 cp /etc/xdg/openbox/{rc.xml,menu.xml,autostart,environment} ~/.config/openbox
-{% endhighlight %}
+```
 
 **注意: 不要用 root 进行以上操作，应使用普通用户**
 
@@ -58,9 +58,9 @@ startx即可启动Openbox。Openbox中的xdg-autostart需要pyxdg。
 
 菜单文件`~/.config/openbox/menu.xml`，可手动编辑，推荐使用mmaker自动生成。
 
-{% highlight shell %}
-mmaker -vf Openbox3 #-f选项覆盖之前的菜单
-{% endhighlight %}
+```zsh
+$ mmaker -vf Openbox3 #-f选项覆盖之前的菜单
+```
 
 基于GUI的菜单编辑可以使用obmenu。
 
@@ -68,16 +68,16 @@ mmaker -vf Openbox3 #-f选项覆盖之前的菜单
 
 自启动程序脚本位于`~/.config/openbox/autostart`,Openbox也会启动在`/etc/xdg/autostart`中的所有的*.desktop文件。我的自启动脚本：
 
-{% highlight shell %}
-xbacklight -set 0
-fcitx &
-feh --bg-scale /home/simonyang/Pictures/bg.jpg
-guake &
-tint2 &
-xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
-volumeicon &
-batti &
-{% endhighlight %}
+```zsh
+$ xbacklight -set 0
+$ fcitx &
+$ feh --bg-scale /home/simonyang/Pictures/bg.jpg
+$ guake &
+$ tint2 &
+$ xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
+$ volumeicon &
+$ batti &
+```
 
 xbacklight调整背光，主要是为了省电。
 
@@ -93,9 +93,9 @@ gtk主题可以通过安装gtk-theme-switch控制，依然推荐numix。具体�
 
 从仓库安装perl-file-mimeinfo，调用mimeopen类似这样:
 
-{% highlight shell %}
-mimeopen -d /path/to/file
-{% endhighlight %}
+```zsh
+$ mimeopen -d /path/to/file
+```
 
 会提示用哪个程序来打开 /path/to/file。
 
@@ -127,9 +127,9 @@ mimeopen -d /path/to/file
 
 推荐轻量的feh。feh也可以用来设定桌面背景：
 
-{% highlight shell %}
-feh --bg-scale /path/to/picture
-{% endhighlight %}
+```zsh
+$ feh --bg-scale /path/to/picture
+```
 
 #### 面板
 
@@ -152,17 +152,17 @@ spacefm是个不错的选择，虽然功能上和nautilus与dolphin比起来差�
 
 要想使得窗口有阴影特效，可以这样：
 
-{% highlight shell %}
-xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
-{% endhighlight %}
+```zsh
+$ xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
+```
 
 输入法使用fcitx再好不过了。将以下加入到`~/.xprofile`中：
 
-{% highlight shell %}
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS="@im=fcitx"
-{% endhighlight %}
+```zsh
+$ export GTK_IM_MODULE=fcitx
+$ export QT_IM_MODULE=fcitx
+$ export XMODIFIERS="@im=fcitx"
+```
 
 drop-down终端推荐用guake
 

@@ -10,10 +10,10 @@ date: 2016-03-03 17:54:44
 
 lsof查下载的文件：
 
-{% highlight shell %}
+```zsh
 ps aux | grep GarageBand  
 lsof -g 291 > ~/log.txt
-{% endhighlight %}
+```
 
 在我的电脑上下载后所保存的临时目录为：
 

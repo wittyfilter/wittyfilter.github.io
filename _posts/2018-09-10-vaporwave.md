@@ -197,7 +197,7 @@ date: 2018-09-10 00:00:00
 
 大功告成！听听看，是不是有点意思了呢？
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/499908588&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=3&id=2056553236&auto=1&height=66"></iframe>
 
 原曲是这样的
 

@@ -155,13 +155,7 @@ A：出发时间是blablabla，先去哪个国家，再去哪个国家，然后�
 
 ```
 
-最后她确认了一下我们是五个人一个团，并且说后续有什么问题再联系我们五个人。后来其他四个人都没有收到电话调研，我估计是因为我排在申请材料的第一个（根据我的查询号），然后回答的比较好，加之我们所有人材料基本一样，所以就电调了我一个人，其他都没有接到电话。
-
-
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/XwRbGqHFp2BxRxzBAyric3sl4U3quISNTiabMc5XltzXTiaZMYMwwI6FZNiaXcumw5LGMFzN4cc5ssFp1cbI6k0OWw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
-
-
-还好只电调了我，毕竟Girls误以为自己接到电调时候的反应是世界末日来临一般......总结而言，这次电调表现比较好的原因是：
+最后她确认了一下我们是五个人一个团，并且说后续有什么问题再联系我们五个人。后来其他四个人都没有收到电话调研，我估计是因为我排在申请材料的第一个（根据我的查询号），然后回答的比较好，加之我们所有人材料基本一样，所以就电调了我一个人，其他都没有接到电话。还好只电调了我，毕竟Girls误以为自己接到电调时候的反应是世界末日来临一般......总结而言，这次电调表现比较好的原因是：
 
 1. 这次行程完全是我们自己规划的，各种票也是自己买的，所以比较熟悉，不会出现一问三不知的情况。 
 
@@ -170,7 +164,7 @@ A：出发时间是blablabla，先去哪个国家，再去哪个国家，然后�
 
 电调过了三天后，显示已经寄出护照了，隔天拿到手上的时候发现大家签证都过了！总体来说还是非常顺利的，源于我们充分的准备！
 
-![img](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)
+![img](https://i.imgur.com/bAe66Vq.jpg)
 
 
 最后祝大家，所有的签证都顺顺利利，出国游玩平平安安！
