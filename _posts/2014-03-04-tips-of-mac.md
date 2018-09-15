@@ -58,13 +58,14 @@ cmd-opt-E
 以mongodb为例，其他服务不知道是不是类似
 
 To have launchd start mongodb at login:
-{% highlight shell %} 
-ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents
-{% endhighlight %}
+
+```zsh
+$ ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents
+```
 Then to load mongodb now:
-{% highlight shell %} 
-launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
-{% endhighlight %}
+```zsh
+$ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
+```
 
 # 3. 锁定屏幕
 应用程序—>实用工具—> 钥匙串访问  

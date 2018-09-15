@@ -6,6 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
+
+excerpt_separator: <!-- more -->
+
+
 title: WittyFilter
 description: > # this means to ignore newlines until "baseurl:"
  幻想乡音乐家，信电库里（误）
@@ -34,5 +38,7 @@ permalink: "/blog/:title"
 # Instagram plugin
 instagram_cache:         false # or true
 instagram_cache_dir:     '.instagram-cache'      # default '.instagram-cache'
+
+
 
 

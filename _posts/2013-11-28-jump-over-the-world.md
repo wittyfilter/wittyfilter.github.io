@@ -23,9 +23,9 @@ Shadowsocks是首选啦，目前暂时可用。
 
 一个老办法了。首先，你要有个SSH帐号，例如去[MySSH](http://www.myssh.cc/buy.html)申请一个。有了帐号以后，linux下如果有ssh客户端的话，直接
 
-{% highlight shell %}
-sudo ssh -D 127.0.0.1:7070 username@216.194.70.6
-{% endhighlight %}
+```zsh
+$ sudo ssh -D 127.0.0.1:7070 username@216.194.70.6
+```
 
 windows下可以使用MyEnTunnel，注意启用动态SOCKS，本地端口填7070(非SSH端口22)。
 

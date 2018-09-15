@@ -17,8 +17,8 @@ openbox是一个轻量级，可定制性高的窗口管理器。
 安装完成后, 应该把默认的配置文件 rc.xml, menu.xml, 和 autostart 和environment复制到`~/.config/openbox`：
 
 ```zsh
-mkdir -p ~/.config/openbox
-cp /etc/xdg/openbox/{rc.xml,menu.xml,autostart,environment} ~/.config/openbox
+$ mkdir -p ~/.config/openbox
+$ cp /etc/xdg/openbox/{rc.xml,menu.xml,autostart,environment} ~/.config/openbox
 ```
 
 **注意: 不要用 root 进行以上操作，应使用普通用户**
@@ -69,14 +69,14 @@ $ mmaker -vf Openbox3 #-f选项覆盖之前的菜单
 自启动程序脚本位于`~/.config/openbox/autostart`,Openbox也会启动在`/etc/xdg/autostart`中的所有的*.desktop文件。我的自启动脚本：
 
 ```zsh
-$ xbacklight -set 0
-$ fcitx &
-$ feh --bg-scale /home/simonyang/Pictures/bg.jpg
-$ guake &
-$ tint2 &
-$ xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
-$ volumeicon &
-$ batti &
+xbacklight -set 0
+fcitx &
+feh --bg-scale /home/simonyang/Pictures/bg.jpg
+guake &
+tint2 &
+xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
+volumeicon &
+batti &
 ```
 
 xbacklight调整背光，主要是为了省电。
@@ -102,7 +102,7 @@ $ mimeopen -d /path/to/file
 #### 音量控制
 
 使用alsamixer可以全局控制。对于快捷键的绑定，如媒体控制功能键，需要修改rc.xml，添加：
-
+```xml
     <keybind key="XF86AudioRaiseVolume">
      <action name="Execute">
        <command>amixer set Master 5%+ unmute</command>
@@ -118,6 +118,7 @@ $ mimeopen -d /path/to/file
        <command>amixer set Master toggle</command>
      </action>
     </keybind>
+```
 
 ---
 
@@ -159,9 +160,9 @@ $ xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
 输入法使用fcitx再好不过了。将以下加入到`~/.xprofile`中：
 
 ```zsh
-$ export GTK_IM_MODULE=fcitx
-$ export QT_IM_MODULE=fcitx
-$ export XMODIFIERS="@im=fcitx"
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
 ```
 
 drop-down终端推荐用guake

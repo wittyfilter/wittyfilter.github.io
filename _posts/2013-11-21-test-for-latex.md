@@ -12,11 +12,10 @@ date: 2013-11-21 00:00:00
 利用MathJax渲染
 每个页面开头加这么一句话：
 
-{% highlight js %}
+```js
 
 <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-
-{% endhighlight %}
+```
 
 测试一下 
 

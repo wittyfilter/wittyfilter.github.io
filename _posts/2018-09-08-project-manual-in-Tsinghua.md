@@ -33,6 +33,8 @@ $ rostopic pub cmd_vel geometry_msgs/Twist -r 2 -- '[1,0,0]' '[0,0,3.5]'
 
 或者可以将指令写到一个文件中，请参考command_run.sh和command_yz.sh
 
+<!-- more -->
+
 # TX1控制
 
 ## 1. 登陆
