@@ -2,7 +2,7 @@
 layout: post
 title: 东京印象
 tags:
-  - Tokyo
+  - Japan
   - travel
   - LX100
 categories:

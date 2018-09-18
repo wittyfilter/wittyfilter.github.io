@@ -1,11 +1,11 @@
 ---
-layout: post
 title: 蒸汽波音乐：从精通到入门
+layout: post
 tags:
-  - vaporwave
+- vaporwave
 categories:
-  - Music
-date: 2018-09-10 00:00:00
+- Music
+date: '2018-09-10 08:00:00 +0800'
 ---
 
 ```
@@ -75,48 +75,48 @@ date: 2018-09-10 00:00:00
 
 1. ✿ MACROSS 82-99 ✿
 
-   1.
-   <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2778649555/size=small/bgcol=ffffff/linkcol=0687f5/track=153435029/transparent=true/" seamless><a href="http://macross82-99.bandcamp.com/album/jutsu-ep">Jutsu EP by マクロスMACROSS 82-99</a></iframe>
+   1. 
+		<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2778649555/size=small/bgcol=ffffff/linkcol=0687f5/track=153435029/transparent=true/" seamless><a href="http://macross82-99.bandcamp.com/album/jutsu-ep">Jutsu EP by マクロスMACROSS 82-99</a></iframe>
+	
+   2. 
+		<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1892710195/size=small/bgcol=ffffff/linkcol=0687f5/track=1032295006/transparent=true/" seamless><a href="http://neoncityrecords.bandcamp.com/album/sailorwave">SAILORWAVE by マクロスMACROSS 82-99</a></iframe>
 
-   2.
-   <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1892710195/size=small/bgcol=ffffff/linkcol=0687f5/track=1032295006/transparent=true/" seamless><a href="http://neoncityrecords.bandcamp.com/album/sailorwave">SAILORWAVE by マクロスMACROSS 82-99</a></iframe>
-
-   3.
-   <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=267851522/size=small/bgcol=ffffff/linkcol=0687f5/track=1327792628/transparent=true/" seamless><a href="http://keatscollective.bandcamp.com/album/-">ネオ東京 by マクロスMACROSS 82-99</a></iframe>
+   3. 
+		<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=267851522/size=small/bgcol=ffffff/linkcol=0687f5/track=1327792628/transparent=true/" seamless><a href="http://keatscollective.bandcamp.com/album/-">ネオ東京 by マクロスMACROSS 82-99</a></iframe>
 
 2. YUNG BAE
 
-   1.
-   <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2107829660/size=small/bgcol=ffffff/linkcol=0687f5/track=116342680/transparent=true/" seamless><a href="http://yungbaebae.bandcamp.com/album/japanese-disco-edits-2">Japanese Disco Edits 2 by YUNG BAE</a></iframe>
+   1. 
+		<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2107829660/size=small/bgcol=ffffff/linkcol=0687f5/track=116342680/transparent=true/" seamless><a href="http://yungbaebae.bandcamp.com/album/japanese-disco-edits-2">Japanese Disco Edits 2 by YUNG BAE</a></iframe>
 
-   2.
-   <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3767483628/size=small/bgcol=ffffff/linkcol=0687f5/track=4116861767/transparent=true/" seamless><a href="http://yungbaebae.bandcamp.com/album/japanese-disco-edits">Japanese Disco Edits by YUNG BAE</a></iframe>
+   2. 
+		<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3767483628/size=small/bgcol=ffffff/linkcol=0687f5/track=4116861767/transparent=true/" seamless><a href="http://yungbaebae.bandcamp.com/album/japanese-disco-edits">Japanese Disco Edits by YUNG BAE</a></iframe>
 
-   3.
-   <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3492424374/size=small/bgcol=ffffff/linkcol=0687f5/track=1715989226/transparent=true/" seamless><a href="http://yungbaebae.bandcamp.com/album/bae">Bae by YUNG BAE</a></iframe>
+   3. 
+		<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3492424374/size=small/bgcol=ffffff/linkcol=0687f5/track=1715989226/transparent=true/" seamless><a href="http://yungbaebae.bandcamp.com/album/bae">Bae by YUNG BAE</a></iframe>
 
 3. ナニダト/nanidato
 
-   1.
-   <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2027786381/size=small/bgcol=ffffff/linkcol=0687f5/track=4112725586/transparent=true/" seamless><a href="http://nanidato.bandcamp.com/album/mobile-sailor-gundam">Mobile Sailor Gundam by Nanidato (ナニダト)</a></iframe>
+   1. 
+		<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2027786381/size=small/bgcol=ffffff/linkcol=0687f5/track=4112725586/transparent=true/" seamless><a href="http://nanidato.bandcamp.com/album/mobile-sailor-gundam">Mobile Sailor Gundam by Nanidato (ナニダト)</a></iframe>
 
-   2.
-   <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2027786381/size=small/bgcol=ffffff/linkcol=0687f5/track=3835838675/transparent=true/" seamless><a href="http://nanidato.bandcamp.com/album/mobile-sailor-gundam">Mobile Sailor Gundam by Nanidato (ナニダト)</a></iframe>
+   2. 
+		<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2027786381/size=small/bgcol=ffffff/linkcol=0687f5/track=3835838675/transparent=true/" seamless><a href="http://nanidato.bandcamp.com/album/mobile-sailor-gundam">Mobile Sailor Gundam by Nanidato (ナニダト)</a></iframe>
 
-   3.
-   <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2027786381/size=small/bgcol=ffffff/linkcol=0687f5/track=2088841486/transparent=true/" seamless><a href="http://nanidato.bandcamp.com/album/mobile-sailor-gundam">Mobile Sailor Gundam by Nanidato (ナニダト)</a></iframe>
+   3. 
+		<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2027786381/size=small/bgcol=ffffff/linkcol=0687f5/track=2088841486/transparent=true/" seamless><a href="http://nanidato.bandcamp.com/album/mobile-sailor-gundam">Mobile Sailor Gundam by Nanidato (ナニダト)</a></iframe>
 
 
 4. 一些中文蒸汽
 
-   1.
-   <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=448917683&auto=1&height=66"></iframe>
+   1. 
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=448917683&auto=1&height=66"></iframe>
    
-   2.
-   <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=462755205&auto=1&height=66"></iframe>
+   2. 
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=462755205&auto=1&height=66"></iframe>
 
-   3.
-   <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=462765136&auto=1&height=66"></iframe>
+   3. 
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=462765136&auto=1&height=66"></iframe>
 
 
 

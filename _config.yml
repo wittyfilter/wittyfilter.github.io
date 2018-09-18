@@ -41,5 +41,6 @@ instagram_cache_dir:     '.instagram-cache'      # default '.instagram-cache'
 plugins:
   - jemoji
   - jekyll-paginate
+  - jekyll-admin
 
 
