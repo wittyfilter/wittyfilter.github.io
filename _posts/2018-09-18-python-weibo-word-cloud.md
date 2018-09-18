@@ -11,7 +11,7 @@ categories:
 
 受到[Liuzhujun同学的博客](https://foofish.net/python-word-cloud.html)启发，想探究一下自己的微博究竟写了些什么东西？基于原博客的代码，有些地方稍作改动。以滤波器本人微博为例，结果是这样的：
 ![]({{ site.baseurl }}/public/images/wordcloud.jpg)
-
+<!-- more -->
 1. `featurecode`这个域似乎没有用了。有用的域只剩下`uid`和`container_id`。
 
 2. 修改了raw html预处理的正则表达。使之成为：
