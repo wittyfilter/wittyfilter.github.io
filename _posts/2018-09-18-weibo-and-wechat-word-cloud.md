@@ -28,15 +28,6 @@ categories:
 	作为重度分享患者，pattern1和3去掉各种：来自@网易云音乐，来自@虾米音乐，刚刚在IG上上传了xxx图片/视频，分享了xxx的歌曲xxx，等等垃圾信息。而pattern2去掉了过长的转发时转发内容的垃圾信息，例如：@aa:123//@bb:234//@cc:345
 3. 修改Jieba的Stop Words。这里整理了来自[Baiduguide](http://www.baiduguide.com/baidu-stopwords/)和[xpo6](http://xpo6.com/wp-content/uploads/2015/01/stop-word-list.txt)的中英文Stop Words，合成一个文件，可以在[这里](https://gist.github.com/wittyfilter/27e0b6bbd496ac43ed1a6cb18dc2dd17)下载。
 
-完整代码如下，其中Prerequisite为: 
-* jieba
-* matplotlib
-* pyparsing
-* requests
-* wordcloud
-
-<script src="https://gist.github.com/wittyfilter/d0cff90a513b14f7eeed5006aad4a11f.js"></script>
-
 同理，我们是不是也可以针对微信的聊天记录制作词云呢？答案是可以！首先需要做的就是把聊天记录给提取出来。这里以iOS系统微信为例，首先打开iTunes，点击手机小图标，选择“本电脑”，再点击“立即备份”按钮开始备份。
 ![]({{ site.baseurl }}/public/images/itunes1.png)
 ![]({{ site.baseurl }}/public/images/itunes2.png)
@@ -68,5 +59,14 @@ wordcloud = WordCloud(width=640,
     ).generate(data)
 ```
 
-完整代码如下
+Weibo版完整代码如下，其中Prerequisite为: 
+* jieba
+* matplotlib
+* pyparsing
+* requests
+* wordcloud
+
+<script src="https://gist.github.com/wittyfilter/d0cff90a513b14f7eeed5006aad4a11f.js"></script>
+
+Wechat版完整代码如下
 <script src="https://gist.github.com/wittyfilter/93a87ba1a1af1f4f217fafe1bc82c794.js"></script>
