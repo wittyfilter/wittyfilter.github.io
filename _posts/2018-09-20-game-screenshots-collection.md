@@ -15,4 +15,4 @@ Here are some special moments I wanna show you from my daily game playing.
 
 Check them out!
  
- <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/wittyfilter/albums/72157695692560500" title="Games"><img src="https://farm2.staticflickr.com/1900/29863895177_8212a8bbcb_b.jpg" width="895" height="525" alt="Games"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/wittyfilter/albums/72157695692560500" title="Games"><img src="https://farm2.staticflickr.com/1874/44751033752_ab74529f1c.jpg" width="500" height="281" alt="Games"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

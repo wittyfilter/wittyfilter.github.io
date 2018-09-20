@@ -23,3 +23,11 @@ date: '2014-09-18 08:00:00 +0800'
 ```zsh 
 $ sudo grub-update
 ```
+
+# 4. 对某目录及子目录下某类型文件进行某种操作？
+
+```zsh
+$ find . -name "*.txt" -type f -print -exec rm -rf {} \;
+```
+
+本例为删除目录及其子目录下某种类型文件
