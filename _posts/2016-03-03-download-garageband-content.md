@@ -1,11 +1,11 @@
 ---
-layout: post
 title: GarageBand下载基本音乐、声效库缓慢的解决办法
+layout: post
 tags:
-  - garageband
+- garageband
 categories:
-  - Music
-date: 2016-03-03 17:54:44
+- Music
+date: '2016-03-04 01:54:44 +0800'
 ---
 
 lsof查下载的文件：
@@ -20,7 +20,7 @@ lsof -g 291 > ~/log.txt
 `/private/var/folders/数字/.../C/com.apple.garageband10/com.apple.MusicApps/audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_GarageBandCoreContent.pkg`
 
 去下面这里下载（除了第一个，下面都是可选）：
-
+<!-- more -->
 http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_GarageBandCoreContent.pkg  
 http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_GarageBandPremiumContent.pkg  
 http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_GB_StereoDrumKitsSongWriter.pkg  
@@ -40,7 +40,7 @@ http://audiocontentdownload.apple.com/lp10_ms3_content_2015/MAContent10_GarageBa
 
 如果安装之后还不生效的话，那就用cleanmymac重置一下GarageBand，然后再安装就可以了。
 
-<!-- more -->
+
 
 附：Logic Pro的内容
 

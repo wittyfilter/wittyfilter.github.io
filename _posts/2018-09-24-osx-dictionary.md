@@ -9,21 +9,21 @@ categories:
 - Technique
 ---
 
-# 如何扩充词库？
-## 1. 使用DictUnifier + Stardict等词库数据
+## 如何扩充词库？
+### 1. 使用DictUnifier + Stardict等词库数据
 
 下载安装[DictUnifier](https://github.com/jjgod/mac-dictionary-kit)，然后将词典数据拖入即可完成自动安装。词典数据请参考[](http://download.huzheng.org/zh_CN)
 
 比较推荐小学馆的中日日中，以及朗道的英汉汉英。
 
 <!-- more -->
-## 2. 使用Mdict转换
+### 2. 使用Mdict转换
 
 参考[Kaihao's Blog](https://kaihao.io/2018/mdict-to-macos-dictionary/)，此处不赘述。具体需要的工具是[pyglossary](https://github.com/ilius/pyglossary)，[python-lzo](https://github.com/jd-boyd/python-lzo)和其他一些包：[lxml beautifulsoup4 html5lib]
 
 他在知乎上的[回答](https://www.zhihu.com/question/21964466)已经帮我们转换好了Macmillan English Dictionary，Oxford Advanced Learner's Dictionary和Longman Dictionary of Contemporary English，这三个.dictionary文件亲测足够用了，拖到`~/Library/Dictionaries`里面试试看吧！
 
-# 生词本功能
+## 生词本功能
 可以参考[BetterDictionary](https://github.com/pooriaazimi/BetterDictionary)，但是已经很久没有维护了。
 
 另一种需要自己动动手的方法是利用OS X自己的Automator（自动操作），请参考[郭海旭的博客](https://hectorguo.com/zh/save-words-in-dictionary/)，其中比较亮点的是自动保存到Evernote的功能，操作方法是：
