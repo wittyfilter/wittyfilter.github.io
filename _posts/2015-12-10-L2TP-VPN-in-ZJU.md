@@ -1,12 +1,13 @@
 ---
-layout: post
 title: 浙大VPN在OS X下的配置方法
+layout: post
 tags:
-  - VPN
-  - ZJU
+- VPN
+- ZJU
+- osx
 categories:
-  - Technique
-date: 2015-12-10 22:26:22
+- Technique
+date: '2015-12-11 06:26:22 +0800'
 ---
 
 #### 1 新建VPN
@@ -52,10 +53,3 @@ date: 2015-12-10 22:26:22
 2. 如果可以连上，再尝试钩上ZJU Router，看能不能连上，如果不能就不要钩了
 3. 如果上述程序出错无法打开，请尝试将步骤1中新建的vpn删除，再重新做一遍
 ![]({{ site.baseurl }}/public/images/vpn5.jpg)
-
-
-
-
- 
-
-
