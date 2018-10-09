@@ -12,7 +12,7 @@ categories:
 ## 如何扩充词库？
 ### 1. 使用DictUnifier + Stardict等词库数据
 
-下载安装[DictUnifier](https://github.com/jjgod/mac-dictionary-kit)，然后将词典数据拖入即可完成自动安装。词典数据请参考[](http://download.huzheng.org/zh_CN)
+下载安装[DictUnifier](https://github.com/jjgod/mac-dictionary-kit)，然后将词典数据拖入即可完成自动安装。词典数据请参考[Huzheng's Blog](http://download.huzheng.org/zh_CN)
 
 比较推荐小学馆的中日日中，以及朗道的英汉汉英。
 
