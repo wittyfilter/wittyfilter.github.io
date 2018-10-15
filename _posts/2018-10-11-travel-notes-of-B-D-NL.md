@@ -88,7 +88,7 @@ tags:
 
 饭后一起散步到了码头，夜景特别好看。东西码头各有一个灯塔，一个闪着红光，一个闪着绿光，它们在等待着谁呢？看到远处的亮光点点，不禁让人以为是不是对岸的英国正灯火通明，谁知道呢？脑海中回响的，是关于敦刻尔克的一些零碎猜想。
 
-## Day3, Day4 and Day5:  Brussels, Leuven, Alken, Hasselts, Aachen and Cologne
+## 3. Day3, Day4 and Day5:  Brussels, Leuven, Alken, Hasselts, Aachen and Cologne
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1V9KDvxs7WokwuKcxIoD3334h62fb6HCn" width="320" height="240"></iframe>
 
 ### Day3: Atomium, Mini-Europe, Leuven and Doorkijkkerk
@@ -155,7 +155,7 @@ tags:
 
 不知道是科隆这座城市的情况还是德国的整体情况，让我们特别不喜欢此行的德国部分。首先街上很脏很乱，到处都是纹身的小混混走来走去，盯着你看。到了晚上，到处都是喝醉的人，聚众大笑着，然后如果看女生一个人的话就过去搭话，蛮可怕的。淡淡说，虽然欧洲男人很帅，但德国男人长得太棱角分明有点可怕，还是比利时男人看上去比较和蔼可亲。托马斯说，街上的脏乱也一定程度上和难民政策有关，谁又能怎么办呢？不知道柏林和慕尼黑会不会给我们大的印象改观呢？
 
-## Day6, Day7 and Day8: Nijmegen, Rotterdam, Shiedam, Kinderdijk, The Hague, Hoek van Holland and Amsterdam
+## 4. Day6, Day7 and Day8: Nijmegen, Rotterdam, Shiedam, Kinderdijk, The Hague, Hoek van Holland and Amsterdam
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1brWoEf7SHbWvM3eo5UvzjbzZjIUuVj-z" width="320" height="240"></iframe>
 
 ### Day 6: Nijmegen, Rotterdam, Shiedam
@@ -167,3 +167,22 @@ tags:
 下一站我们开往斯希丹，那里有订的Airbnb住所。到了以后发现住的特别好，又是整栋房子！客厅有超大天窗，然后房东给我们留了巧克力，还特地告诉我们水池水龙头可以出100度热水用来泡茶！房间非常干净，床也很软，给房东点赞！房子外面是一片大草原，可以看到很多奶牛，这是我第一次这么近看奶牛，旁边的荷兰人看我们这么认真看牛都惊呆了。
 
 由于交通比较拥挤，我们选择了乘坐公共交通去鹿特丹。第一次坐陆上轨道电车，在城市之中穿梭的感觉特别好，窗外风景令人心醉，就是票价好贵，每人要3.5欧，虽然两小时之内免费换乘，但是我们肯定不止玩两个小时。
+
+到了鹿特丹中央车站，被这个神奇的建筑给惊到了。虽说早有耳闻鹿特丹是以建筑设计闻名的城市，但实际看到这些神奇的建筑的时候还是会叹为观止。鹿特丹的河道很多，所以有很多路是沿着河边走的，配合一些小桥，风景真的独赞！
+
+从中央车站一路走到Willemsbrug（红桥），就能看到鹿特丹比较有特色的几个景点。首先是听说晚上会灯火辉煌的Markthal市场，看上去就像一个内部挂有彩色屏幕的山洞截面，但实际上我们晚上没看到里面有亮灯，感觉被骗了，反而是外面的一个摩天轮增添了不少风景。然后是立体方块屋，到了以后从外面拍感觉很有意思，但进去以后觉得索然无味，可能是我们没有进入到其中某个方块房子体验一下的缘故，听说还是有人真的住在里面的。红桥和白桥我们只去了红桥，可以在河边看到很多艺术品展示，当然红桥本身也是一件艺术作品！
+
+享受着夜色，我们在Oude Haven（老港口）的Plan C餐厅吃了晚饭。晚饭我们点了Mussels，Steak，Fries还有鱼排，很好吃！由于前一天喝了Radler lemon让人怀念，于是girls在这里又点了几杯radler lemon。不得不说荷兰的啤酒没有名气，除了喜力，其他卖的都是比利时的啤酒，比如Jupiler，Duvel等。
+
+### Day 7: Kinderdijk, The Hague, Hoek van Holland
+
+
+### Day 8: Amsterdam
+
+## 5. Back to China
+
+一早起来我们就赶紧收拾东西，因为要去邮局寄明信片，还要给托马斯的车加油。不得不说荷兰的邮票特别有意思，每张上面都是一个地方特色，让我都想买一整套送给老爸收藏了。在Schipol机场我们和托马斯道别，淡淡竟然哭了，因为真的很舍不得！在机场麦当劳吃完午饭后，我们逛了一下机场免税店，发现东西竟然都比国内贵好多！太坑了。
+
+国泰航空的体验还不错，主要是吃的东西真的好吃，在荷兰就会比较西式，而快到香港就会有港式茶点。半夜的时候肚子饿了，我和淡淡甚至一人叫了一个泡面吃。在飞机上根本睡不着，可能是早上手贱喝了一杯咖啡的缘故。于是我连着看了四部电影：Blade Runner 2049，Jurassic World 2，時をかける少女以及言の葉の庭，（精灵旅社3和死侍2看了开头就不想看了）淡淡也看了好几部电影。
+
+到了香港是早上六点半，
