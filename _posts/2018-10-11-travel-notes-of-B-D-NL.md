@@ -43,11 +43,11 @@ tags:
 一下飞机我们便开始找托马斯，淡淡一眼就在人群中找到了他：“憨憨的比利时人”。这里憨憨是一个褒义词，代表我们真的很喜欢比利时人民和蔼的帅哥长相，后文会再叙述到。托马斯开来了爸妈的大SUV，好不容易把我们所有人的行李装上车，这就出发去布鲁塞尔市中心了。这里需要提醒读者的是：10天以下的自驾出行不要带太大箱子，单人20寸、两个人一起24寸，都是比较合理的选择。
 
 塞好行李后我们就出发了，然后我们发现布鲁塞尔的停车费真的好贵，包括机场和市区的大停车场。不知道是不是周五清晨的缘故，布鲁塞尔市区显得有点冷清而肃穆。我们首先来到了St. Michael and St. Gudula Cathedral，虽说看过一些教堂，但这么大的教堂还是第一次见，在门外被震撼了许久。等到进入内部，才发现真的好壮观！看着内部的装潢和摆设，感觉整个人都庄严了起来，不禁让人想到第一次走进国内大寺庙的感觉，不得不说宗教的震慑力真的很有效。
-
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45307359302/in/dateposted-public/" title="St Michael and St Gudula Cathedral"><img src="https://farm2.staticflickr.com/1956/45307359302_e395dfaf62_n.jpg" width="213" height="320" alt="St Michael and St Gudula Cathedral"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/31482458208/in/dateposted-public/" title="St Michael and St Gudula Cathedral"><img src="https://farm2.staticflickr.com/1920/31482458208_2ce082af7d_n.jpg" width="213" height="320" alt="St Michael and St Gudula Cathedral"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44444359385/in/dateposted-public/" title="St Michael and St Gudula Cathedral"><img src="https://farm2.staticflickr.com/1977/44444359385_6f54a62001_n.jpg" width="213" height="320" alt="St Michael and St Gudula Cathedral"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44634795044/in/dateposted-public/" title="St Michael and St Gudula Cathedral"><img src="https://farm2.staticflickr.com/1928/44634795044_6a03ae2294_n.jpg" width="213" height="320" alt="St Michael and St Gudula Cathedral"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 离开大教堂来到了St. Hubert长廊，说是Gallery但其实不是画廊是一个小型shopping mall，两边都是各种商铺，以巧克力店居多。我们甚至在这附近找到了一个叫做Weyn's的蜂蜜店，于是魏滢和它来了一个亲密合影。
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/30418834957/in/dateposted-public/" title="Royal Gallery of Saint Hubert"><img src="https://farm2.staticflickr.com/1978/30418834957_d23218edcf_n.jpg" width="213" height="320" alt="Royal Gallery of Saint Hubert"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 画廊不远处便是布鲁塞尔大广场，这里便是布鲁塞尔最人山人海的地方。本来想在大广场好好拍个照片，无奈那一天广场上有一个搭建的舞台，似乎是晚上有演出，于是整个广场显得比较拥挤且混乱，尽管市政厅依然那么威严。
 
