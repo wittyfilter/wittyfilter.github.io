@@ -26,10 +26,7 @@ tags:
 
 虽然杭州离上海很近，但是实际出发时还是发现要去浦东坐飞机一件麻烦事儿。首先由于下班不会太早，所以杭州黄龙到浦东机场的直达大巴没法坐了。然后因为晚上太迟上海的地铁和磁悬浮停运，于是只能选择到了虹桥火车站后坐机场大巴一号线到浦东机场。机场大巴一号晚上每半小时才一班，所以错过要等好久哦！好在夜晚的上海不是非常堵，于是一个小时左右就能到达国际航站楼了。大巴票价30，加上高铁，杭州到浦东拢共要100多块。
 
-到航站楼以后已经是晚上十一点了，听说日上十一点半关门，想到check in和安检都需要好长时间，于是girls们都哀嚎：买不到东西了！果然，成功进去以后已经十一点半，好多店关门了，但是日上！还！开！着！于是girls们冲进去开始买买买。
-
-不买东西的哲哥一个人先到了登机口，没想到在这里偶遇卓神：他也去布鲁塞尔！在那里和迪奥哥会和，然后一起欧洲行！好惊喜啊。想到信电的杨氏家族都非常有出息（比如还有杨珑颀和世远哥），不禁流下了不争气的口水。是的，由于从杭州到上海行程太长，肚子饿了，于是一上飞机以后就吃了一个正餐（海航的伙食还行）。
-
+到航站楼以后已经是晚上十一点了，听说日上十一点半关门，想到check in和安检都需要好长时间，于是girls们都哀嚎：买不到东西了！果然，成功进去以后已经十一点半，好多店关门了，但是日上！还！开！着！于是girls们冲进去开始买买买。不买东西的哲哥一个人先到了登机口，没想到在这里偶遇卓神：他也去布鲁塞尔！在那里和迪奥哥会和，然后一起欧洲行！好惊喜啊。想到信电的杨氏家族都非常有出息（比如还有杨珑颀和世远哥），不禁流下了不争气的口水。是的，由于从杭州到上海行程太长，肚子饿了，于是一上飞机以后就吃了一个正餐（海航的伙食还行）。
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Bo-m-VcDm2A/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"><a href="https://www.instagram.com/p/Bo-m-VcDm2A/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
 由于最近特别痴迷赛博朋克，于是下载了新老Blade runner在电脑里准备飞机上看，结果上去以后忘记拿出来了，于是只好使用机上的娱乐系统看了一部《Upgrade》，意外的很好看！这里要夸一下海航飞机上竟然有WiFi的，虽然速度不快，但是真的让人感到安心！
@@ -64,6 +61,8 @@ tags:
 走累了，我们来到根特的谷物广场，在这里喝了欧洲行的第一次啤酒。淡淡对此特别兴奋，还没到地点就开始喊：“Beer！Beer！”。在找了一家店坐定以后，淡淡点了Jupiler，我点了Cider，其他人点了托马斯推荐的酒。不得不说，比利时的啤酒很有名，很多牌子在杭州的酒吧里面都有见过！至于味道，那更不用说，喝了一瓶还想再来一瓶（为了读者的健康，请适度饮酒）！老板是个非常好客的老头儿，听到我们是中国来的，和我们说他也去过中国，到过上海和义乌，我们都发出了不可思议的赞叹。
 
 酒后天色未晚，我们便去了Gravensteen城堡，后来发现这是我们本次欧洲行唯一一次参观城堡。城堡内部很大，有很多地下室，感觉都是用于行刑的地方，架着铁栏杆和烛台。城堡顶上风景特别好，能俯瞰整座根特城！城堡让我们流连忘返，直到日落之时才依依不舍地离开。
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoSEpoNDOWm/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoSEpoNDOWm/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> </a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoSEVMxjE-P/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoSEVMxjE-P/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
 晚饭我们在Amadeus Gent 1 就餐，托马斯推荐了我点不限量的Ribs：吃完还能再要！其他人点了羊排，鸡排，牛排和混合肉排。一开始我对自己的胃很有自信，觉得肯定能吃回本！没想到最后端上来吓死我，好大一块猪排骨，一共有快10根肋骨了！结果最后分给大家一点了，自己还只是勉强吃完，店员过来问我吃饱没有还要不要Ribs，我吓得赶紧说不要了不要了。人均20欧的晚饭，不贵也不便宜，属于平均水平，但是真的很好吃！
 
@@ -100,6 +99,8 @@ tags:
 
 离开住的地方，我们前往布鲁塞尔的Atomium（原子塔），这是60年前布鲁塞尔世博会的产物，即使现在看来也特别震撼人心。听说这是将金属铁分子的模型等比例放大，实际上看上去就是一个球连着八个球组成的正方体。登上塔的最高处，能俯瞰布鲁塞尔的城市风光，就好像东方明珠一样。塔内其他球是一些关于那年世博会的介绍以及塔的设计理念与思想，甚至有一个球内是专门播放那种future电子乐的。在一个纪念币贩卖机里面我投入了两欧的硬币，出来一个0欧元的原子塔纪念纸币，看到这个“0”的一刻我突然对淡淡说：我觉得好亏啊！
 
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoXZTajD0CG/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoXZTajD0CG/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+
 在原子塔下拍的全景照片：
 
 <video width="320" height="240" controls="controls">
@@ -112,10 +113,12 @@ tags:
 
 我们买了原子塔的套票，票内还包括了旁边的Mini Europe。Mini Europe里面非常涨知识！建议一定要拿一个中文的手册边走边看。里面最吸引我的是一些逼真的模型，比如欧洲之星的铁轨列车，埃菲尔铁塔微缩，比萨斜塔微缩等等。对于每个国家的特征地点与建筑，在公园内都展现的淋漓尽致，比如布达佩斯的大皇宫做得非常华丽，让girls不禁决定：下次去匈牙利。听说过两年Mini Europe就要关门了，不知道是什么原因？可能由于不是政府经营的，因此也会存在办不下去的情况，但说真的这个公园能学到特别多的知识，寓教于乐的效果非常好，挺舍不得的。
 
+
 本来从布鲁塞尔我们要直接回到托马斯家的，但中途临时起意决定去鲁汶看看，因为托马斯在鲁汶大学念博士中。到了鲁汶大学以后发现：环境真美！！！一流大学真的能享受到更多的资源，淡淡不禁YY起了来鲁汶大学念博士的美好生活：“我要每天喝一杯啤酒！”
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoeFyr_Dv02/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoeFyr_Dv02/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
 来到鲁汶大广场，这里终于没有舞台了，然而我们也对欧式建筑感到腻了。唯一值得看的就是鲁汶市政厅，特别有特色，仿佛一块精致的蛋糕。
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoeFLtJDVNT/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoeFLtJDVNT/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
 离开鲁汶，去往托马斯家所在的小镇——阿尔肯，半路上我们先拜访了传说中的“透明教堂”——整个教堂都是用一种特殊的方式堆叠起来的，在某些角度看起来仿佛是透明的一样。开车开到某个偏远小路然后顺着果园地往里走，有谷歌地图的导航并不是很难找。实际看到的时候觉得：“天呐，这也太小了吧”！托马斯笑而不语：“我早就提醒过你们了”。虽然很小，但是配合周围的环境，竟特别有感觉，让我在这个地方拍了好久的照片。回去的路上看到路两边的玉米地，特别有一种周杰伦《七里香》封面的感觉，于是在这里拍了一些淡淡的个人照，特别好看。
 
@@ -136,6 +139,7 @@ tags:
 下午我们来到了根克的Bokrijk，这里本来是一个非常有名的露天花园Museum，但是没有开门，于是我们只好到旁边的bokrijk公园玩。我们首先在公园里的长凳上吃了一顿野餐，特别开心！都是从托马斯家带来的面包和夹心料。接着我们在公园里面玩到疯，因为这里太好玩了！滑滑梯超级高超级绕，有各种各样攀岩的装置，有索桥可以荡来荡去，也有一个小湖可以人力划船，每一个元素都超级棒！每玩完一个装置就在想，为啥国内的公园没有这样的娱乐设施，而都是老年推推乐？
 
 离开Bokrijk公园，我们来到了Abbey Herkenrode（赫肯洛德修道院），因为是修道院所以特别安静，景色也特别美。我们在这里拍了美美的合照，托马斯也给妹子拍了各种人像照，非常像模特！离开修道院后我们送Jill回家，再见的时候特别不舍！
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoZlbgwjp82/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoZlbgwjp82/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
 晚上回到托马斯家，吃烤肉！他们拿了一个长长的铁架子，不放油，直接拿肉上去烤。我说这样不是容易烤焦吗？托马斯说没有油比较健康🙄️。然后有些肉烤的久了，会有黑色的烤焦的痕迹，我说这不太健康要去掉，托马斯却说，这是他最喜欢吃的部分，天呐！中外有如此大的差异！但是托马斯爸妈都是当地有名的医生，能拿什么反驳呢？？？
 
@@ -152,10 +156,19 @@ tags:
 科隆的中央火车站让人印象深刻，对于铁路轨道特别感兴趣的我，光是看列车来来往往就很满足了。在中央车站不远处便是有名的科隆大教堂。虽然前几天看腻了教堂一类的建筑，但科隆大教堂还是震撼到我了。它真的很大，而且很有威慑感。走到里面一看，真的很壮观！本来我对彩画玻璃窗不是很感兴趣，但是这里的花窗玻璃真的很吸引人，每一扇都是一个精致的艺术作品。一个好笑的小插曲是，我们在参观时，安然指着里面一个穿红衣的神父说：“那个保安真的很魁梧”（目测190cm）。
 
 离开科隆大教堂，我们在远处瞥见了Groß St. Martin（圣马丁大教堂），由于天色渐晚，于是决定先去登上Hohenzollernbrücke（霍亨索伦桥）。听说这个桥是有名的定情桥，桥上的铁丝网锁着各式各样的锁，上面刻有爱人的名字和时间。印象最深刻的，是有个人把烤华夫饼的烤盘给锁上去了，怎么想的？？？笑死。
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoceiD1j6wF/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoceiD1j6wF/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
-从桥上看莱茵河特别美，回望对岸，科隆大教堂和圣马丁教堂格外好看！时不时在桥上经过的列车，让人心跳加速，在这座桥上，我感受到了德国之行最美好的时刻。接着我们到了桥对岸的KölnTriangle（科隆三角大楼），楼顶的玻璃观景台可以鸟瞰整个科隆！那天凑巧没有带相机，所以只能用手机拍拍科隆夜景了，但不管怎么拍都好看，因为这个大楼角度真的太好了！
+
+从桥上看莱茵河特别美，回望对岸，科隆大教堂和圣马丁教堂格外好看！时不时在桥上经过的列车，让人心跳加速，在这座桥上，我感受到了德国之行最美好的时刻。
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BochmBcj2n_/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BochmBcj2n_/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BocROnhDkr9/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BocROnhDkr9/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> </a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+
+接着我们到了桥对岸的KölnTriangle（科隆三角大楼），楼顶的玻璃观景台可以鸟瞰整个科隆！那天凑巧没有带相机，所以只能用手机拍拍科隆夜景了，但不管怎么拍都好看，因为这个大楼角度真的太好了！
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BociG08j1AY/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BociG08j1AY/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
 晚饭我们选择了FRÜH酒馆，因为很有名。实际到了以后发现真的好火爆，到处都是人，我们可能往地下走了好几层才找到空位，还是挤在一起的。服务员根本没有时间照顾到所有人，每次叫都没空，真的太可怕。好在这家的啤酒真的很好喝，饭菜真的很好吃！首先德国有名的猪肘子，我们点了一个烤的一个水煮的。烤的皮焦酥脆但肉质太柴，水煮的肉非常鲜嫩但是肥肉太油了，两个结合一起就特别好吃。德国大香肠也很好吃，但我不喜欢烟熏的那款。它们家自制的Radler lemon好喝到爆炸了，第一次觉得Rio的那些水果酒可以扔进垃圾桶了。
+
 
 不知道是科隆这座城市的情况还是德国的整体情况，让我们特别不喜欢此行的德国部分。首先街上很脏很乱，到处都是纹身的小混混走来走去，盯着你看。到了晚上，到处都是喝醉的人，聚众大笑着，然后如果看女生一个人的话就过去搭话，蛮可怕的。淡淡说，虽然欧洲男人很帅，但德国男人长得太棱角分明有点可怕，还是比利时男人看上去比较和蔼可亲。托马斯说，街上的脏乱也一定程度上和难民政策有关，谁又能怎么办呢？不知道柏林和慕尼黑会不会给我们大的印象改观呢？
 
@@ -166,17 +179,22 @@ tags:
 
 离开德国，我们前往荷兰。由于路程比较长（三个小时的车程），于是我们决定在某个中点的城市休息一下吃个午饭。最后我们选择了奈梅亨，因为托马斯说他没去过。德国的高速公路不限速，托马斯一度开到了170km/h，简直要飞起来了，平均的速度也有160左右了！路上嘉舟简直睡成狗，被我们拍了非常好笑的视频。
 
-到了奈梅亨，感觉环境特别好，干净又惬意，可能是前一天在德国的体验不佳的对比关系，也有可能是因为奈梅亨是小城市，所以才有这样的体验。我们逛了大市场和Stevenskerk（圣史蒂芬大教堂），教堂里面有英文小手册，安然让托马斯给她讲解一下。托马斯讲解了一段，一看下面还有好多，就问安然这些全都要讲解吗？安然说：“Go on”，托马斯当场吓坏了。离开教堂我们来到了坐落在瓦尔河上的瓦尔桥，瓦尔河是莱茵河在荷兰的一个分支。在河边我们看到了两首轮船，里面竟然是密室逃脱！感觉这样的主题一定非常有趣，但我们没有时间只得作罢。中午在一家叫做bairro alto的地方吃了以沙拉为主的午餐，竟然还蛮好吃的，可能我点的是三文鱼面包沙拉的关系，肉吃的特别开心。淡淡特别喜欢它们家的汤，认为是全场亮点。
+到了奈梅亨，感觉环境特别好，干净又惬意，可能是前一天在德国的体验不佳的对比关系，也有可能是因为奈梅亨是小城市，所以才有这样的体验。我们逛了大市场和Stevenskerk（圣史蒂芬大教堂），教堂里面有英文小手册，安然让托马斯给她讲解一下。托马斯讲解了一段，一看下面还有好多，就问安然这些全都要讲解吗？安然说：“Go on”，托马斯当场吓坏了。
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoeDt5JjP85/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoeDt5JjP85/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+
+离开教堂我们来到了坐落在瓦尔河上的瓦尔桥，瓦尔河是莱茵河在荷兰的一个分支。在河边我们看到了两首轮船，里面竟然是密室逃脱！感觉这样的主题一定非常有趣，但我们没有时间只得作罢。中午在一家叫做bairro alto的地方吃了以沙拉为主的午餐，竟然还蛮好吃的，可能我点的是三文鱼面包沙拉的关系，肉吃的特别开心。淡淡特别喜欢它们家的汤，认为是全场亮点。
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoeUdJxj_Hw/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoeUdJxj_Hw/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
 下一站我们开往斯希丹，那里有订的Airbnb住所。到了以后发现住的特别好，又是整栋房子！客厅有超大天窗，然后房东给我们留了巧克力，还特地告诉我们水池水龙头可以出100度热水用来泡茶！房间非常干净，床也很软，给房东点赞！房子外面是一片大草原，可以看到很多奶牛，这是我第一次这么近看奶牛，旁边的荷兰人看我们这么认真看牛都惊呆了。
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BofFaIniDKR/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BofFaIniDKR/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> script async src="//www.instagram.com/embed.js"></script>
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BofFaIniDKR/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BofFaIniDKR/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
 由于交通比较拥挤，我们选择了乘坐公共交通去鹿特丹。第一次坐陆上轨道电车，在城市之中穿梭的感觉特别好，窗外风景令人心醉，就是票价好贵，每人要3.5欧，虽然两小时之内免费换乘，但是我们肯定不止玩两个小时。
 
 到了鹿特丹中央车站，被这个神奇的建筑给惊到了。虽说早有耳闻鹿特丹是以建筑设计闻名的城市，但实际看到这些神奇的建筑的时候还是会叹为观止。鹿特丹的河道很多，所以有很多路是沿着河边走的，配合一些小桥，风景真的独赞！
 
 从中央车站一路走到Willemsbrug（红桥），就能看到鹿特丹比较有特色的几个景点。首先是听说晚上会灯火辉煌的Markthal市场，看上去就像一个内部挂有彩色屏幕的山洞截面，但实际上我们晚上没看到里面有亮灯，感觉被骗了，反而是外面的一个摩天轮增添了不少风景。然后是立体方块屋，到了以后从外面拍感觉很有意思，但进去以后觉得索然无味，可能是我们没有进入到其中某个方块房子体验一下的缘故，听说还是有人真的住在里面的。红桥和白桥我们只去了红桥，可以在河边看到很多艺术品展示，当然红桥本身也是一件艺术作品！
+
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoeuIY8jMJT/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoeuIY8jMJT/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
 享受着夜色，我们在Oude Haven（老港口）的Plan C餐厅吃了晚饭。晚饭我们点了Mussels，Steak，Fries还有鱼排，很好吃！由于前一天喝了Radler lemon让人怀念，于是girls在这里又点了几杯radler lemon。不得不说荷兰的啤酒没有名气，除了喜力，其他卖的都是比利时的啤酒，比如Jupiler，Duvel等。
 
@@ -185,6 +203,7 @@ tags:
 ### Day 7: Kinderdijk, The Hague, Hoek van Holland
 
 来荷兰一定要看的当然是风车啦！说到风车，最有名的风车世界文化遗产就在鹿特丹附近的金德代克，也就是直译的小孩堤坝。这里本身就是一片河道三角洲区域，风车在这片土地上完美融合。偶尔有小船开过时，连接河道两端的桥就会升起来，很有意思。
+
 
 看风车看了很久，我们离开金德代克来到海牙。刚到海牙就发现这里的中国元素好多，甚至有一个唐人街！本来要去唐人街里面很有名的月满楼吃火锅，但girls集体表示要吃泰国菜！于是找到了一家叫做Songkhla的泰国菜，刚好赶上开门，里面的泰国菜量很大味道很好吃！托马斯说吃这些菜让他想起了在中国的时光，很棒！不过我至今不明白的是为啥要来欧洲吃亚洲菜？？？（似乎是某天有人发了一张火锅的图片然后大家纷纷表示薯条牛排吃腻了，要吃火锅！！！）
 
@@ -205,12 +224,14 @@ tags:
 下午我们来到阿姆斯特丹博物馆广场，看到了I am stardam的标志，这个地标是每个来阿姆斯特丹的人都会拍的，于是我们不免很游客地停下来在前面的水池拍了好多照片。广场对面就是有名的梵高艺术馆，门票18欧，讲解器5欧，由于之前错过了很多艺术博物馆，加上梵高的知名度，我们决定进去一探究竟。
 
 馆内的实际体验非常好，虽然没有星空和其他几幅向日葵，但是代表梵高生平的几个关键节点的画作都有在。配合讲解器的中文解说，能够很深入地了解每张画背后的故事，与梵高一同体验那个年代的喜与悲，学会用梵高的眼睛观察这个世界。馆内的数字互动元素很多，印象最深刻的是自己学会用不同颜色调配出梵高画作中的华彩之色，每次淡淡都很快调完了，让我怀疑她是被埋没的画画天才。
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BojZN7yleGO/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BojZN7yleGO/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
 梵高的色彩表达特别出众，而且偏爱黄色，从向日葵这幅画就能看出，他调配出了各种不同风格的黄色来表达勃勃生机。到了生涯晚期，他弯弯曲曲的画风也反映了当时所受到的精神折磨，包括幻视和幻听症。看了梵高生平和拉瓦尔的生平，我们都一致觉得：梵高的弟弟人真好，保罗高更真的有毒。
 
 离开博物馆，我发现自己的UCSB的毛线帽丢了，非常伤心。这是我最喜欢的帽子了，不仅仅是戴起来好看，也是去UCSB的纪念。一路上淡淡都在安慰我，并让我发现了一个事实：淡淡非常不会安慰人，哈哈哈哈哈哈。在去吃晚饭的路上，托马斯特地带我们穿过了阿姆斯特丹有名的红灯区，这里真的到处都是红灯！街边的各种橱窗里都是性感女郎向你招手，甚至有一个店的老板看到我们用蹩脚的中文大喊：“你好！进来看看！可以发票！”，让人忍俊不禁。
 
 晚餐我们在中央车站附近的Eastwood Beer & Grill吃了烤牛排和烤猪腿，看着餐厅对岸的圣尼古拉斯教堂就餐，一切都特别好吃！！！阿姆斯特丹真的是一个很美丽的城市，到处都是自行车，甚至比国内的共享单车还密集，但他们的自行车都特别好看！到处都是河道和船，让阿姆斯特丹看起来像是一个更多陆地版的威尼斯。当然，阿姆斯特丹也有令人讨厌的地方。在热闹的时间，街上到处都是吸大麻和迷幻蘑菇的人。甚至有一个男人吸high了，走着走着突然跳到girls面前大叫了一声，把大家吓了一大跳。每走几步就能看到一个Coffee Shop，不是卖咖啡的，而是卖叶子的。可能城市越大，就越会包容各种各样的文化吧，反正我们是很难接受的。
+
 
 ## 5. Back to China
 
