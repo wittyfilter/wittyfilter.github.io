@@ -59,9 +59,16 @@ tags:
 
 下午逛了Palais Royal（布鲁塞尔皇宫），听托马斯说只要皇宫顶上的🇧🇪升起来，就代表国王在里面，否则代表外出了。我们去的时候刚好升起来，lucky！皇宫对面的布鲁塞尔公园也特别漂亮，由于人不多，特别安静惬意。唯一美中不足的是，那天布鲁塞尔正好有游行，一群人要到政府门前示威（听托马斯说是法定节假日的一个调整引起大家不满），于是在不远处能够听到催泪弹、警笛声和叫喊声，很多道路也被封了起来。对此托马斯的评价：“Stupid！”
 
-匆匆离开布鲁塞尔，我们赶往根特，因为那里离我们定的Airbnb住宿比较近，所以选择在那里吃晚饭。相较于布鲁塞尔的混乱，根特显得特别安静文雅（停车费也更加便宜）。我们逛了St. Bavo's Cathedral，Saint Nicholas Church和根特钟楼，虽然也是教堂，但由于街道更加干净，游客也没有那么多，因此总觉得比布鲁塞尔的教堂建筑更好看。在根特钟楼下的广场，有一个大叔在吹大泡泡，配合欧洲的建筑，显得格外迷人。
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45329625322/in/datetaken-public/" title="Parc de Bruxelles"><img src="https://farm2.staticflickr.com/1962/45329625322_d0e386cfc1_n.jpg" width="320" height="213" alt="Parc de Bruxelles"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-走累了，我们来到根特的谷物广场，在这里喝了欧洲行的第一次啤酒。淡淡对此特别兴奋，还没到地点就开始喊：“Beer！Beer！”。在找了一家店坐定以后，淡淡点了Jupiler，我点了Cider，其他人点了托马斯推荐的酒。不得不说，比利时的啤酒很有名，很多牌子在杭州的酒吧里面都有见过！至于味道，那更不用说，喝了一瓶还想再来一瓶（为了读者的健康，请适度饮酒）！老板是个非常好客的老头儿，听到我们是中国来的，和我们说他也去过中国，到过上海和义乌，我们都发出了不可思议的赞叹。
+匆匆离开布鲁塞尔，我们赶往根特，因为那里离我们定的Airbnb住宿比较近，所以选择在那里吃晚饭。相较于布鲁塞尔的混乱，根特显得特别安静文雅（停车费也更加便宜）。我们逛了St. Bavo's Cathedral，虽然也是教堂，但由于街道更加干净，游客也没有那么多，因此总觉得比布鲁塞尔的教堂建筑更好看。
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44656525874/in/datetaken-public/" title="Saint Bavo&#x27;s Cathedral"><img src="https://farm2.staticflickr.com/1926/44656525874_068f2a01fb_n.jpg" width="320" height="213" alt="Saint Bavo&#x27;s Cathedral"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45329404532/in/dateposted-public/" title="Saint Bavo&#x27;s Cathedral"><img src="https://farm2.staticflickr.com/1959/45329404532_7a4751c1e7_n.jpg" width="213" height="320" alt="Saint Bavo&#x27;s Cathedral"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+圣巴夫教堂外面就是根特钟楼，在根特钟楼下的广场，有一个大叔在吹大泡泡，配合欧洲的建筑，显得格外迷人。顺着钟楼继续往前走，就能看到另一个教堂：Saint Nicholas Church，但大家已经走累了，于是准备找一个地方坐下喝啤酒。
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44656515664/in/datetaken-public/" title="Saint Nicholas&#x27; Church"><img src="https://farm2.staticflickr.com/1902/44656515664_15bc477f81_n.jpg" width="213" height="320" alt="Saint Nicholas&#x27; Church"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+我们来到根特的谷物广场，在这里喝了欧洲行的第一次啤酒。淡淡对此特别兴奋，还没到地点就开始喊：“Beer！Beer！”。在找了一家店坐定以后，淡淡点了Jupiler，我点了Cider，其他人点了托马斯推荐的酒。不得不说，比利时的啤酒很有名，很多牌子在杭州的酒吧里面都有见过！至于味道，那更不用说，喝了一瓶还想再来一瓶（为了读者的健康，请适度饮酒）！老板是个非常好客的老头儿，听到我们是中国来的，和我们说他也去过中国，到过上海和义乌，我们都发出了不可思议的赞叹。
 
 酒后天色未晚，我们便去了Gravensteen城堡，后来发现这是我们本次欧洲行唯一一次参观城堡。城堡内部很大，有很多地下室，感觉都是用于行刑的地方，架着铁栏杆和烛台。城堡顶上风景特别好，能俯瞰整座根特城！城堡让我们流连忘返，直到日落之时才依依不舍地离开。
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoSEpoNDOWm/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoSEpoNDOWm/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> </a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
