@@ -44,11 +44,14 @@ tags:
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44634795044/in/dateposted-public/" title="St Michael and St Gudula Cathedral"><img src="https://farm2.staticflickr.com/1928/44634795044_6a03ae2294_n.jpg" width="213" height="320" alt="St Michael and St Gudula Cathedral"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 离开大教堂来到了St. Hubert长廊，说是Gallery但其实不是画廊是一个小型shopping mall，两边都是各种商铺，以巧克力店居多。我们甚至在这附近找到了一个叫做Weyn's的蜂蜜店，于是魏滢和它来了一个亲密合影。
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/30418834957/in/dateposted-public/" title="Royal Gallery of Saint Hubert"><img src="https://farm2.staticflickr.com/1978/30418834957_d23218edcf_n.jpg" width="213" height="320" alt="Royal Gallery of Saint Hubert"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/30439352077/in/dateposted-public/" title="Royal Gallery of Saint Hubert"><img src="https://farm2.staticflickr.com/1914/30439352077_05e6702d32_n.jpg" width="213" height="320" alt="Royal Gallery of Saint Hubert"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44655107574/in/dateposted-public/" title="Royal Gallery of Saint Hubert"><img src="https://farm2.staticflickr.com/1941/44655107574_d665f64116_n.jpg" width="213" height="320" alt="Royal Gallery of Saint Hubert"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 画廊不远处便是布鲁塞尔大广场，这里便是布鲁塞尔最人山人海的地方。本来想在大广场好好拍个照片，无奈那一天广场上有一个搭建的舞台，似乎是晚上有演出，于是整个广场显得比较拥挤且混乱，尽管市政厅依然那么威严。
 
+
 在大广场没有久留，我们走到了Manneken Pis（撒尿小童）的雕像旁，非常失望：这个雕像真的好小，好没有存在感！若不是旁边有人在拍照，根本不会发现这里是一个景点。
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44465216195/in/dateposted-public/" title="Manneken Pis"><img src="https://farm2.staticflickr.com/1973/44465216195_be3a014c7d_n.jpg" width="213" height="320" alt="Manneken Pis"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 中午在撒尿小童附近的Waffle Factory吃了一顿午饭，没想到简单的华夫饼里面能夹很多东西一起吃。味道嘛，就是比较西式的肉夹馍吧！人均10欧元，价格还是可以的。但比起这种软绵绵的华夫饼，我更喜欢烤的脆脆的华夫饼，那味道让托马斯恨不得每五分钟吃一个！
 
@@ -141,9 +144,7 @@ tags:
 离开Bokrijk公园，我们来到了Abbey Herkenrode（赫肯洛德修道院），因为是修道院所以特别安静，景色也特别美。我们在这里拍了美美的合照，托马斯也给妹子拍了各种人像照，非常像模特！离开修道院后我们送Jill回家，再见的时候特别不舍！
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoZlbgwjp82/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoZlbgwjp82/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
-晚上回到托马斯家，吃烤肉！他们拿了一个长长的铁架子，不放油，直接拿肉上去烤。我说这样不是容易烤焦吗？托马斯说没有油比较健康🙄️。然后有些肉烤的久了，会有黑色的烤焦的痕迹，我说这不太健康要去掉，托马斯却说，这是他最喜欢吃的部分，天呐！中外有如此大的差异！但是托马斯爸妈都是当地有名的医生，能拿什么反驳呢？？？
-
-吃完饭，girls开始在托妈妈的指导下撸狗。本来魏滢很怕狗的，这次竟然突破极限，疯狂撸狗起来。作为妈妈的Luna特别安静，好撸，而爸爸Chico虽然凶，但是由于上了年纪所以行动缓慢。另外两只小朋友特别聒噪且好动，根本没法好好撸。撸到最后大家满身都是狗毛，于是拿黏性滚筒清理自己的衣服。在这里要特别批评Chico，我和淡淡把它摸的那么爽了，眼睛都眯起来了，它最后竟然凶我，还咬了淡淡一下，真的是没有良心啊！
+晚上回到托马斯家，吃烤肉！饭前，girls开始在托妈妈的指导下撸狗。本来魏滢很怕狗的，这次竟然突破极限，疯狂撸狗起来。作为妈妈的Luna特别安静，好撸，而爸爸Chico虽然凶，但是由于上了年纪所以行动缓慢。另外两只小朋友特别聒噪且好动，根本没法好好撸。撸到最后大家满身都是狗毛，于是拿黏性滚筒清理自己的衣服。在这里要特别批评Chico，我和淡淡把它摸的那么爽了，眼睛都眯起来了，它最后竟然凶我，还咬了淡淡一下，真的是没有良心啊！晚饭时候托爸妈拿了一个长长的铁架子出来，不放油，直接拿肉上去烤。我说这样不是容易烤焦吗？托马斯说没有油比较健康🙄️。然后有些肉烤的久了，会有黑色的烤焦的痕迹，我说这不太健康要去掉，托马斯却说，这是他最喜欢吃的部分，天呐！中外有如此大的差异！但是托马斯爸妈都是当地有名的医生，能拿什么反驳呢？？？
 
 ### Day5: Aachen, Cologne
 
@@ -153,7 +154,7 @@ tags:
 
 由于天下着雨，山上气温慢慢变冷，我们马上驱车赶往科隆。到了科隆第一印象便是脏乱差，地上到处都是烟头，街边的流浪汉很多。我们住的地方是在Booking上订的，不舒适也不干净，价格还贼贵，好在只住一晚，并且住的比较中心，所以便忍下来了。中午托马斯给我们展示了比利时煮饭方法：直接把一包米开个口，然后扔到水煮的锅里去煮，让我们都惊呆了，最后发现竟然还煮的挺正常的！非常不可思议。
 
-科隆的中央火车站让人印象深刻，对于铁路轨道特别感兴趣的我，光是看列车来来往往就很满足了。在中央车站不远处便是有名的科隆大教堂。虽然前几天看腻了教堂一类的建筑，但科隆大教堂还是震撼到我了。它真的很大，而且很有威慑感。走到里面一看，真的很壮观！本来我对彩画玻璃窗不是很感兴趣，但是这里的花窗玻璃真的很吸引人，每一扇都是一个精致的艺术作品。一个好笑的小插曲是，我们在参观时，安然指着里面一个穿红衣的神父说：“那个保安真的很魁梧”（目测190cm）。
+科隆的中央火车站让人印象深刻，对于铁路轨道特别感兴趣的我，光是看列车来来往往就很满足了。在中央车站不远处便是有名的科隆大教堂。虽然前几天看腻了教堂一类的建筑，但科隆大教堂还是震撼到我了。它非常庞大，而且很有威慑感。走到里面一看，内饰和装潢很壮观！本来我对彩画玻璃窗不是很感兴趣，但是这里的花窗玻璃真的很吸引人，每一扇都是一个精致的艺术作品。一个好笑的小插曲是，我们在参观时，安然指着里面一个穿红衣的神父说：“那个保安真的很魁梧”（目测190cm）。
 
 离开科隆大教堂，我们在远处瞥见了Groß St. Martin（圣马丁大教堂），由于天色渐晚，于是决定先去登上Hohenzollernbrücke（霍亨索伦桥）。听说这个桥是有名的定情桥，桥上的铁丝网锁着各式各样的锁，上面刻有爱人的名字和时间。印象最深刻的，是有个人把烤华夫饼的烤盘给锁上去了，怎么想的？？？笑死。
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoceiD1j6wF/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoceiD1j6wF/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
@@ -179,7 +180,7 @@ tags:
 
 离开德国，我们前往荷兰。由于路程比较长（三个小时的车程），于是我们决定在某个中点的城市休息一下吃个午饭。最后我们选择了奈梅亨，因为托马斯说他没去过。德国的高速公路不限速，托马斯一度开到了170km/h，简直要飞起来了，平均的速度也有160左右了！路上嘉舟简直睡成狗，被我们拍了非常好笑的视频。
 
-到了奈梅亨，感觉环境特别好，干净又惬意，可能是前一天在德国的体验不佳的对比关系，也有可能是因为奈梅亨是小城市，所以才有这样的体验。我们逛了大市场和Stevenskerk（圣史蒂芬大教堂），教堂里面有英文小手册，安然让托马斯给她讲解一下。托马斯讲解了一段，一看下面还有好多，就问安然这些全都要讲解吗？安然说：“Go on”，托马斯当场吓坏了。
+到了奈梅亨，感觉环境特别好，干净又惬意，可能是前一天在德国的体验不佳的对比关系，也有可能是因为奈梅亨是小城市。我们逛了大市场和Stevenskerk（圣史蒂芬大教堂），教堂里面有英文小手册，安然让托马斯给她讲解一下。托马斯讲解了一段，一看下面还有好多，就问安然这些全都要讲解吗？安然说：“Go on”，托马斯当场吓坏了。
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoeDt5JjP85/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoeDt5JjP85/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
 离开教堂我们来到了坐落在瓦尔河上的瓦尔桥，瓦尔河是莱茵河在荷兰的一个分支。在河边我们看到了两首轮船，里面竟然是密室逃脱！感觉这样的主题一定非常有趣，但我们没有时间只得作罢。中午在一家叫做bairro alto的地方吃了以沙拉为主的午餐，竟然还蛮好吃的，可能我点的是三文鱼面包沙拉的关系，肉吃的特别开心。淡淡特别喜欢它们家的汤，认为是全场亮点。
@@ -218,6 +219,7 @@ tags:
 早餐吃的是昨晚剩下的披萨，托马斯表示非常震惊，你们竟然早餐能吃披萨？其实中国人早餐啥都能吃，给啥吃啥！离开斯希丹，我们前往阿姆斯特丹。由于阿姆斯特丹停车很贵，所以我们前一晚就在网上预定了中央车站附近的QParking的一天的停车费，一共20欧，很划算，似乎现场去停一天的话要50多欧。
 
 到达阿姆斯特丹中央车站后我们没有乘坐boat trip（有时间的话，还是比较推荐大家去坐的），而是直奔Rederij Plas。这里是一个小码头，能看到对岸的西北欧特有的“排屋”：一排五颜六色的歪歪扭扭的瘦长的房子，每一幢都好像一块木板立成的道具背景板，淡淡说：好像冰箱贴啊。是的，几乎大部分有关阿姆斯特丹的冰箱贴都会有这样一排河边小房子。托马斯说房子歪歪扭扭的原因是因为整个阿姆斯特丹都建立在水上，因此没有牢固的地基而是木质结构的架子，长期被水泡过以后变形，因此上方的房子相互挤在一起，形成了这样特有的“不规则”排列。
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BokIuBxFxDt/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BokIuBxFxDt/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
 离码头不远就是阿姆斯特丹水坝广场和阿姆斯特丹皇宫。因为接近旅行的末尾并且对教堂类建筑看腻了，这个地方并没有很吸引girls。印象最深刻的只有广场上一些奇装异服求拍照的人，以及到处接受游客投食的鸽子群，它们根本不怕人，看到谷物就冲过去吃。不知道是不是受到周杰伦早期音乐影响，对于“广场鸽子，哥特式建筑”这样的场景设定我还是非常喜欢的。离开广场，我们在一家意大利面店吃了午餐，由于厚重的芝士，大家都吃得很饱。值得一提的是，番茄忌廉汤真的差评。
 
