@@ -40,17 +40,20 @@ tags:
 一下飞机我们便开始找托马斯，淡淡一眼就在人群中找到了他：“憨憨的比利时人”。这里憨憨是一个褒义词，代表我们真的很喜欢比利时人民和蔼的帅哥长相，后文会再叙述到。托马斯开来了爸妈的大SUV，好不容易把我们所有人的行李装上车，这就出发去布鲁塞尔市中心了。这里需要提醒读者的是：10天以下的自驾出行不要带太大箱子，单人20寸、两个人一起24寸，都是比较合理的选择。
 
 塞好行李后我们就出发了，然后我们发现布鲁塞尔的停车费真的好贵，包括机场和市区的大停车场。不知道是不是周五清晨的缘故，布鲁塞尔市区显得有点冷清而肃穆。我们首先来到了St. Michael and St. Gudula Cathedral，虽说看过一些教堂，但这么大的教堂还是第一次见，在门外被震撼了许久。等到进入内部，才发现真的好壮观！看着内部的装潢和摆设，感觉整个人都庄严了起来，不禁让人想到第一次走进国内大寺庙的感觉，不得不说宗教的震慑力真的很有效。
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45383079261/in/datetaken-public/" title="St Michael and St Gudula Cathedral"><img src="https://farm2.staticflickr.com/1942/45383079261_53e18fc03c_m.jpg" width="160" height="240" alt="St Michael and St Gudula Cathedral"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/43566291880/in/datetaken-public/" title="St Michael and St Gudula Cathedral"><img src="https://farm2.staticflickr.com/1972/43566291880_ce11a7d767_m.jpg" width="160" height="240" alt="St Michael and St Gudula Cathedral"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45383079261/in/datetaken-public/" title="St Michael and St Gudula Cathedral"><img src="https://farm2.staticflickr.com/1942/45383079261_53e18fc03c_z.jpg" width="427" height="640" alt="St Michael and St Gudula Cathedral"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/43566291880/in/datetaken-public/" title="St Michael and St Gudula Cathedral"><img src="https://farm2.staticflickr.com/1972/43566291880_ce11a7d767_z.jpg" width="427" height="640" alt="St Michael and St Gudula Cathedral"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 离开大教堂来到了St. Hubert长廊，说是Gallery但其实不是画廊是一个小型shopping mall，两边都是各种商铺，以巧克力店居多。我们甚至在这附近找到了一个叫做Weyn's的蜂蜜店，于是魏滢和它来了一个亲密合影。
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/43567260130/in/datetaken-public/" title="Royal Gallery of Saint Hubert"><img src="https://farm2.staticflickr.com/1967/43567260130_281d33a38a.jpg" width="500" height="333" alt="Royal Gallery of Saint Hubert"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/43567260130/in/datetaken-public/" title="Royal Gallery of Saint Hubert"><img src="https://farm2.staticflickr.com/1967/43567260130_281d33a38a_z.jpg" width="640" height="427" alt="Royal Gallery of Saint Hubert"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 画廊不远处便是布鲁塞尔大广场，这里便是布鲁塞尔最人山人海的地方。本来想在大广场好好拍个照片，无奈那一天广场上有一个搭建的舞台，似乎是晚上有演出，于是整个广场显得比较拥挤且混乱，尽管市政厅依然那么威严。
 
 
 在大广场没有久留，我们走到了Manneken Pis（撒尿小童）的雕像旁，非常失望：这个雕像真的好小，好没有存在感！若不是旁边有人在拍照，根本不会发现这里是一个景点。
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/31508348498/in/datetaken-public/" title="Manneken Pis"><img src="https://farm2.staticflickr.com/1955/31508348498_45c53f45ff_m.jpg" width="160" height="240" alt="Manneken Pis"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/31508348498/in/datetaken-public/" title="Manneken Pis"><img src="https://farm2.staticflickr.com/1955/31508348498_45c53f45ff_z.jpg" width="427" height="640" alt="Manneken Pis"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 中午在撒尿小童附近的Waffle Factory吃了一顿午饭，没想到简单的华夫饼里面能夹很多东西一起吃。味道嘛，就是比较西式的肉夹馍吧！人均10欧元，价格还是可以的。但比起这种软绵绵的华夫饼，我更喜欢烤的脆脆的华夫饼，那味道让托马斯恨不得每五分钟吃一个！
 
@@ -58,22 +61,25 @@ tags:
 
 下午逛了Palais Royal（布鲁塞尔皇宫），听托马斯说只要皇宫顶上的🇧🇪升起来，就代表国王在里面，否则代表外出了。我们去的时候刚好升起来，lucky！皇宫对面的布鲁塞尔公园也特别漂亮，由于人不多，特别安静惬意。唯一美中不足的是，那天布鲁塞尔正好有游行，一群人要到政府门前示威（听托马斯说是法定节假日的一个调整引起大家不满），于是在不远处能够听到催泪弹、警笛声和叫喊声，很多道路也被封了起来。对此托马斯的评价：“Stupid！”
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/43567247550/in/datetaken-public/" title="Parc de Bruxelles"><img src="https://farm2.staticflickr.com/1903/43567247550_1bd682270b.jpg" width="500" height="333" alt="Parc de Bruxelles"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/43567247550/in/datetaken-public/" title="Parc de Bruxelles"><img src="https://farm2.staticflickr.com/1903/43567247550_1bd682270b_z.jpg" width="640" height="427" alt="Parc de Bruxelles"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-匆匆离开布鲁塞尔，我们赶往根特，因为那里离我们定的Airbnb住宿比较近，所以选择在那里吃晚饭。相较于布鲁塞尔的混乱，根特显得特别安静文雅（停车费也更加便宜）。我们逛了St. Bavo's Cathedral，虽然也是教堂，但由于街道更加干净，游客也没有那么多，因此总觉得比布鲁塞尔的教堂建筑更好看。
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/30444250287/in/datetaken-public/" title="Saint Bavo&#x27;s Cathedral"><img src="https://farm2.staticflickr.com/1938/30444250287_c64d46a093_n.jpg" width="320" height="213" alt="Saint Bavo&#x27;s Cathedral"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44660281784/in/datetaken-public/" title="Saint Bavo&#x27;s Cathedral"><img src="https://farm2.staticflickr.com/1902/44660281784_00089b9d07_m.jpg" width="160" height="240" alt="Saint Bavo&#x27;s Cathedral"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+匆匆离开布鲁塞尔，我们赶往根特，因为那里离我们定的Airbnb住宿比较近，所以选择在那里吃晚饭。相较于布鲁塞尔的混乱，根特显得特别安静文雅（停车费也更加便宜）。我们逛了St. Bavo's Cathedral，虽然也是教堂，但由于街道更加干净，游客也没有那么多，因此总觉得比布鲁塞尔的教堂建筑更好看。其内部更是没话说，花窗玻璃让人驻足许久。
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44660289464/in/datetaken-public/" title="Saint Bavo&#x27;s Cathedral"><img src="https://farm2.staticflickr.com/1937/44660289464_8324bf8c5f_z.jpg" width="427" height="640" alt="Saint Bavo&#x27;s Cathedral"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44660281784/in/datetaken-public/" title="Saint Bavo&#x27;s Cathedral"><img src="https://farm2.staticflickr.com/1902/44660281784_00089b9d07_z.jpg" width="427" height="640" alt="Saint Bavo&#x27;s Cathedral"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 圣巴夫教堂外面就是根特钟楼，在根特钟楼下的广场，有一个大叔在吹大泡泡，配合欧洲的建筑，显得格外迷人。顺着钟楼继续往前走，就能看到另一个教堂：Saint Nicholas Church，但大家已经走累了，于是准备找一个地方坐下喝啤酒。
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44660274304/in/datetaken-public/" title="Saint Nicholas&#x27; Church"><img src="https://farm2.staticflickr.com/1923/44660274304_b4efcaf2db_m.jpg" width="160" height="240" alt="Saint Nicholas&#x27; Church"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/30444230397/in/datetaken-public/" title="Saint Nicholas&#x27; Church"><img src="https://farm2.staticflickr.com/1973/30444230397_2bf3036a8c_z.jpg" width="427" height="640" alt="Saint Nicholas&#x27; Church"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 我们来到根特的谷物广场，在这里喝了欧洲行的第一次啤酒。淡淡对此特别兴奋，还没到地点就开始喊：“Beer！Beer！”。在找了一家店坐定以后，淡淡点了Jupiler，我点了Cider，其他人点了托马斯推荐的酒。不得不说，比利时的啤酒很有名，很多牌子在杭州的酒吧里面都有见过！至于味道，那更不用说，喝了一瓶还想再来一瓶（为了读者的健康，请适度饮酒）！老板是个非常好客的老头儿，听到我们是中国来的，和我们说他也去过中国，到过上海和义乌，我们都发出了不可思议的赞叹。
 
 酒后天色未晚，我们便去了Gravensteen城堡，后来发现这是我们本次欧洲行唯一一次参观城堡。城堡内部很大，有很多地下室，感觉都是用于行刑的地方，架着铁栏杆和烛台。城堡顶上风景特别好，能俯瞰整座根特城！城堡让我们流连忘返，直到日落之时才依依不舍地离开。
+
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoSEpoNDOWm/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoSEpoNDOWm/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> </a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44661686854/in/datetaken-public/" title="Gravensteen"><img src="https://farm2.staticflickr.com/1936/44661686854_002d48c7a2.jpg" width="500" height="333" alt="Gravensteen"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/31510367238/in/datetaken-public/" title="Gravensteen"><img src="https://farm2.staticflickr.com/1926/31510367238_b03203f362.jpg" width="500" height="333" alt="Gravensteen"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44661686854/in/datetaken-public/" title="Gravensteen"><img src="https://farm2.staticflickr.com/1936/44661686854_002d48c7a2_z.jpg" width="640" height="427" alt="Gravensteen"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/31510367238/in/datetaken-public/" title="Gravensteen"><img src="https://farm2.staticflickr.com/1926/31510367238_b03203f362_z.jpg" width="640" height="427" alt="Gravensteen"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 晚饭我们在Amadeus Gent 1 就餐，托马斯推荐了我点不限量的Ribs：吃完还能再要！其他人点了羊排，鸡排，牛排和混合肉排。一开始我对自己的胃很有自信，觉得肯定能吃回本！没想到最后端上来吓死我，好大一块猪排骨，一共有快10根肋骨了！结果最后分给大家一点了，自己还只是勉强吃完，店员过来问我吃饱没有还要不要Ribs，我吓得赶紧说不要了不要了。人均20欧的晚饭，不贵也不便宜，属于平均水平，但是真的很好吃！
 
