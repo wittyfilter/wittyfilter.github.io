@@ -33,7 +33,7 @@ tags:
 
 这次出行为了方便上网，大家买了无限流量的欧州4G上网卡，人均80的样子。落地以后发现是英国EE运营商的，听托马斯说等英国正式脱欧就没办法免费在其他国漫游了。一路下来的体验是：网速还可以的，但有时候老会搜不到信号。
 
-## 2. Day1, Day2: Brussels, Ghent, Bruges and Blankenburg
+## 2. Day1, Day2: Brussels, Ghent, Bruges and Blankenberge
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1F-iPdjJfmnuXywSxCGVj-UEkpECsXU7s" width="320" height="240"></iframe>
 
@@ -87,7 +87,7 @@ tags:
 
 今天还有一个重头戏，那就是托马斯的生日！！！我们从中国带了各种礼物送给他。我和淡淡送给托马斯一个茶壶三件套（茶壶滤网小茶杯）和一盒西湖龙井；魏滢送了托马斯一套以中国京剧为主题的中式餐具；嘉舟送给托马斯中国风的小日历；安然送给托马斯中国元素冰箱贴。送礼物现场是大型的毕生英语结业考试现场，大家都绞尽脑汁思考到底特么这个礼物用英文怎么说！！！由于时差关系，在送完礼物后大家都非常疲惫，早早上床睡觉了。
 
-### Day2: Bruges and Blankenburg
+### Day2: Bruges and Blankenberge
 
 第二天一早哲哥就醒了，大概是因为时差没倒过来。倍感无聊于是便出门看看周围，发现原来这家人有一个小院子，院子里烧烤架，吊床，小孩的娱乐场所应有尽有，真幸福！由于早餐要自己准备，于是我在附近找到了一个面包店和一个小超市，买了点面包和牛奶。一开始找牛奶的时候我特地去搜索lactose free的牛奶，没想到根本没有这样的选项（也许是谷歌翻译的荷兰语的锅），只好买了一罐脱脂牛奶，没想到喝完肚子完全没事，味道还很好喝，不禁让我想到刚去美国时候那个拉的，只能说比利时牛奶真棒！
 
@@ -97,15 +97,27 @@ tags:
 
 由于肚子饿，我们在半路吃了比利时薯条+沙拉酱。比利时薯条又大又脆，吃起来和薯片一样，特别上瘾！再搭配沙拉酱，那味道简直了！难怪托马斯说比利时人才是发明薯条的那个，我一点也不意外，以后不再说French Fries了，就说Belgium Fries！
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45347952942/in/datetaken-public/" title="Blankenberge"><img src="https://farm2.staticflickr.com/1943/45347952942_1419a5baea_z.jpg" width="427" height="640" alt="Blankenberge"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 接下来，我们逛了The Church of Our Lady（圣母大教堂），可能由于昨天已经看过了根特的各种老建筑，所以对教堂并不是很来电了。最令人崩溃的是，当我们来到布鲁日的Markt时，发现这里也搭建了一个舞台！结果广场上再次显得拥挤而嘈杂，好在这里的布鲁日钟楼和市政厅依然雄伟肃穆，让人不禁驻足多看两眼。
 
 中午我们在一家叫做Old Chocolate House的地方喝了热可可，不得不说喝巧克力虽然是一件很开心且很比利时的事情，但对我们来说真的太甜了！我特地点了很黑的巧克力，结果还是蛮甜的。Girls点的巧克力还配有花生末一样的甜点料，直接就是两倍“一点点”的甜度。喝完巧克力后我们赶紧到处走走消耗糖分。布鲁日的建筑风格特别欧式，很多路两旁的房子，窗户和门都是彩色的，让girls不禁停下脚步，在这里拍了足足半小时的照片，托马斯的耐心真好，在旁边就一直等下去了！
 
 因为布鲁日离海边特别近，所以我们驱车来到了比利时的一个海边小城：布兰肯贝赫。这里的风景真的很好！老远就能闻到海的味道。因为来到海边，大家伙儿都很兴奋，甚至对着一栋楼阳台的狗子们汪汪叫，结果狗子们一顿回怼，把主人都给吵出来了，我们赶紧逃跑。托马斯说：“你们千万别对着我家的四只吉娃娃叫，不然我爸会让你们到街上睡觉的。”吓得大家立刻安安静静。
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45348288282/in/datetaken-public/" title="IMG_8585-2"><img src="https://farm2.staticflickr.com/1978/45348288282_f451fd6409_z.jpg" width="640" height="427" alt="IMG_8585-2"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45398755621/in/datetaken-public/" title="IMG_8586-3"><img src="https://farm2.staticflickr.com/1915/45398755621_cc204c7d36_z.jpg" width="640" height="427" alt="IMG_8586-3"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 布兰肯贝赫的海和大多数能看到的海滩差不多，唯一让这个地方不一样的是，我们终于体验了一下在海滩边喝啤酒享受阳光的生活了！听托马斯说今天是海边酒馆的最后一天，明天起就要关门了，因为寒冷的天气就要来了，所以我们非常幸运。在喝完酒后，我们去了Bistro Botenga的餐馆吃饭，因为那里的Mussels（青口/淡菜）价格特别实惠。自从听说比利时人一种常见的伙食搭配：薯条配青口，girls就心心念念要吃青口，可终于是吃到了。
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/31523681798/in/datetaken-public/" title="IMG_8589-5"><img src="https://farm2.staticflickr.com/1908/31523681798_71b8ea4dd5_z.jpg" width="640" height="427" alt="IMG_8589-5"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45398538981/in/datetaken-public/" title="IMG_8593-9"><img src="https://farm2.staticflickr.com/1961/45398538981_eaaa3aa851_z.jpg" width="640" height="427" alt="IMG_8593-9"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 饭后一起散步到了码头，夜景特别好看。东西码头各有一个灯塔，一个闪着红光，一个闪着绿光，它们在等待着谁呢？看到远处的亮光点点，不禁让人以为是不是对岸的英国正灯火通明，谁知道呢？脑海中回响的，是关于敦刻尔克的一些零碎猜想。
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44674834824/in/datetaken-public/" title="Blankenberge"><img src="https://farm2.staticflickr.com/1947/44674834824_172e039a4f_z.jpg" width="640" height="427" alt="Blankenberge"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45347653012/in/datetaken-public/" title="IMG_8640-20"><img src="https://farm2.staticflickr.com/1953/45347653012_80d7d72a3a_z.jpg" width="640" height="360" alt="IMG_8640-20"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 
 ## 3. Day3, Day4 and Day5:  Brussels, Leuven, Alken, Hasselts, Aachen and Cologne
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1V9KDvxs7WokwuKcxIoD3334h62fb6HCn" width="320" height="240"></iframe>
@@ -137,7 +149,12 @@ tags:
 来到鲁汶大广场，这里终于没有舞台了，然而我们也对欧式建筑感到腻了。唯一值得看的就是鲁汶市政厅，特别有特色，仿佛一块精致的蛋糕。
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoeFLtJDVNT/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoeFLtJDVNT/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
-离开鲁汶，去往托马斯家所在的小镇——阿尔肯，半路上我们先拜访了传说中的“透明教堂”——整个教堂都是用一种特殊的方式堆叠起来的，在某些角度看起来仿佛是透明的一样。开车开到某个偏远小路然后顺着果园地往里走，有谷歌地图的导航并不是很难找。实际看到的时候觉得：“天呐，这也太小了吧”！托马斯笑而不语：“我早就提醒过你们了”。虽然很小，但是配合周围的环境，竟特别有感觉，让我在这个地方拍了好久的照片。回去的路上看到路两边的玉米地，特别有一种周杰伦《七里香》封面的感觉，于是在这里拍了一些淡淡的个人照，特别好看。
+离开鲁汶，去往托马斯家所在的小镇——阿尔肯，半路上我们先拜访了传说中的“透明教堂”——整个教堂都是用一种特殊的方式堆叠起来的，在某些角度看起来仿佛是透明的一样。开车开到某个偏远小路然后顺着果园地往里走，有谷歌地图的导航并不是很难找。实际看到的时候觉得：“天呐，这也太小了吧”！托马斯笑而不语：“我早就提醒过你们了”。虽然很小，但是配合周围的环境，竟特别有感觉，让我在这个地方拍了好久的照片。
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/31527114288/in/datetaken-public/" title="Doorkijkkerk - Reading between the lines"><img src="https://farm2.staticflickr.com/1928/31527114288_bf73080521_z.jpg" width="427" height="640" alt="Doorkijkkerk - Reading between the lines"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44678172674/in/datetaken-public/" title="Doorkijkkerk - Reading between the lines"><img src="https://farm2.staticflickr.com/1906/44678172674_e5952fc007_z.jpg" width="427" height="640" alt="Doorkijkkerk - Reading between the lines"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+回去的路上看到路两边的玉米地，特别有一种周杰伦《七里香》封面的感觉，于是在这里拍了一些淡淡的个人照，特别好看。
 
 到了托马斯家，天呐，也太豪华了吧！一进门就是一架超古典的钢琴，然后各种好看的画和装饰。四只吉娃娃果然疯狂喊叫，托爸爸托妈妈花了好长时间才把它们安抚下来。托马斯的大姐今天也在家，人超级nice，给我们倒水倒薯片，薯片超级好吃！托爸爸人又高又帅，安然见到了不禁喊了一句：“You are handsome！”他还特地从不知道什么地方拿出来托马斯小时候的照片给我们看，托马斯看到不禁捂脸：“Oh，no！”。托妈妈给我们做了非常多好吃的饭，牛肉stew鸡肉stew还有meat balls，饭后还有冰淇淋和酸奶！太幸福了吧！等到我们吃完了以后托妈妈自己在厨房里吃饭，我们都觉得好惭愧😂。托妈妈和托爸爸都是当地医生，非常有名，在微信上发朋友圈，甚至能找到托马斯家名字的定位！
 
