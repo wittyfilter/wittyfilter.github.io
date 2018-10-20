@@ -35,7 +35,7 @@ tags:
 
 ## 2. Day1, Day2: Brussels, Ghent, Bruges and Blankenberge
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1F-iPdjJfmnuXywSxCGVj-UEkpECsXU7s" width="320" height="240"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1F-iPdjJfmnuXywSxCGVj-UEkpECsXU7s" width="640" height="480"></iframe>
 
 一下飞机我们便开始找托马斯，淡淡一眼就在人群中找到了他：“憨憨的比利时人”。这里憨憨是一个褒义词，代表我们真的很喜欢比利时人民和蔼的帅哥长相，后文会再叙述到。托马斯开来了爸妈的大SUV，好不容易把我们所有人的行李装上车，这就出发去布鲁塞尔市中心了。这里需要提醒读者的是：10天以下的自驾出行不要带太大箱子，单人20寸、两个人一起24寸，都是比较合理的选择。
 
@@ -76,8 +76,6 @@ tags:
 
 酒后天色未晚，我们便去了Gravensteen城堡，后来发现这是我们本次欧洲行唯一一次参观城堡。城堡内部很大，有很多地下室，感觉都是用于行刑的地方，架着铁栏杆和烛台。城堡顶上风景特别好，能俯瞰整座根特城！城堡让我们流连忘返，直到日落之时才依依不舍地离开。
 
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoSEpoNDOWm/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoSEpoNDOWm/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> </a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
-
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44661686854/in/datetaken-public/" title="Gravensteen"><img src="https://farm2.staticflickr.com/1936/44661686854_002d48c7a2_z.jpg" width="640" height="427" alt="Gravensteen"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/31510367238/in/datetaken-public/" title="Gravensteen"><img src="https://farm2.staticflickr.com/1926/31510367238_b03203f362_z.jpg" width="640" height="427" alt="Gravensteen"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
@@ -93,13 +91,20 @@ tags:
 
 出发去布鲁日，发现这里的停车费也便宜一些！我们首先逛的是爱之湖公园，又叫天鹅湖公园，因为湖边有特别多的白天鹅和绿头鸭。公园内部真的特别漂亮，有很多情侣在这里直接躺在草坪上或者拥吻。湖边景色怡人，但湖水没有特别干净，可能是养了太多禽类所以都有绿藻了。
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/31569655138/in/datetaken-public/" title="Minnewaterpark"><img src="https://farm2.staticflickr.com/1971/31569655138_11b35cf16f_z.jpg" width="640" height="480" alt="Minnewaterpark"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45444901551/in/datetaken-public/" title="Minnewaterpark"><img src="https://farm2.staticflickr.com/1949/45444901551_0078b6c459_z.jpg" width="640" height="480" alt="Minnewaterpark"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 公园内有一个Begijnhof修女院，里面要保持安静，因为住着很多修女。院内的纪念品店特别大！我们逛了有足足十几分钟。甚至在店里，我们找到一个和塞尔达里面的许愿女神长得一模一样的雕塑，真的很神奇！
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/43627558090/in/datetaken-public/" title="Begijnhuisje, Begijnhof"><img src="https://farm2.staticflickr.com/1957/43627558090_730d429f07_z.jpg" width="480" height="640" alt="Begijnhuisje, Begijnhof"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 由于肚子饿，我们在半路吃了比利时薯条+沙拉酱。比利时薯条又大又脆，吃起来和薯片一样，特别上瘾！再搭配沙拉酱，那味道简直了！难怪托马斯说比利时人才是发明薯条的那个，我一点也不意外，以后不再说French Fries了，就说Belgium Fries！
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45347952942/in/datetaken-public/" title="Blankenberge"><img src="https://farm2.staticflickr.com/1943/45347952942_1419a5baea_z.jpg" width="427" height="640" alt="Blankenberge"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 接下来，我们逛了The Church of Our Lady（圣母大教堂），可能由于昨天已经看过了根特的各种老建筑，所以对教堂并不是很来电了。最令人崩溃的是，当我们来到布鲁日的Markt时，发现这里也搭建了一个舞台！结果广场上再次显得拥挤而嘈杂，好在这里的布鲁日钟楼和市政厅依然雄伟肃穆，让人不禁驻足多看两眼。
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/30504570927/in/datetaken-public/" title="Markt Bruges"><img src="https://farm2.staticflickr.com/1922/30504570927_97536013cd_z.jpg" width="640" height="321" alt="Markt Bruges"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 中午我们在一家叫做Old Chocolate House的地方喝了热可可，不得不说喝巧克力虽然是一件很开心且很比利时的事情，但对我们来说真的太甜了！我特地点了很黑的巧克力，结果还是蛮甜的。Girls点的巧克力还配有花生末一样的甜点料，直接就是两倍“一点点”的甜度。喝完巧克力后我们赶紧到处走走消耗糖分。布鲁日的建筑风格特别欧式，很多路两旁的房子，窗户和门都是彩色的，让girls不禁停下脚步，在这里拍了足足半小时的照片，托马斯的耐心真好，在旁边就一直等下去了！
 
@@ -109,6 +114,7 @@ tags:
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45348288282/in/datetaken-public/" title="IMG_8585-2"><img src="https://farm2.staticflickr.com/1978/45348288282_f451fd6409_z.jpg" width="640" height="427" alt="IMG_8585-2"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45398755621/in/datetaken-public/" title="IMG_8586-3"><img src="https://farm2.staticflickr.com/1915/45398755621_cc204c7d36_z.jpg" width="640" height="427" alt="IMG_8586-3"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/43627547120/in/datetaken-public/" title="Blankenberge"><img src="https://farm2.staticflickr.com/1957/43627547120_9af1d1690d_z.jpg" width="640" height="284" alt="Blankenberge"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 布兰肯贝赫的海和大多数能看到的海滩差不多，唯一让这个地方不一样的是，我们终于体验了一下在海滩边喝啤酒享受阳光的生活了！听托马斯说今天是海边酒馆的最后一天，明天起就要关门了，因为寒冷的天气就要来了，所以我们非常幸运。在喝完酒后，我们去了Bistro Botenga的餐馆吃饭，因为那里的Mussels（青口/淡菜）价格特别实惠。自从听说比利时人一种常见的伙食搭配：薯条配青口，girls就心心念念要吃青口，可终于是吃到了。
 
@@ -122,7 +128,7 @@ tags:
 
 
 ## 3. Day3, Day4 and Day5:  Brussels, Leuven, Alken, Hasselts, Aachen and Cologne
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1V9KDvxs7WokwuKcxIoD3334h62fb6HCn" width="320" height="240"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1V9KDvxs7WokwuKcxIoD3334h62fb6HCn" width="640" height="480"></iframe>
 
 ### Day3: Atomium, Mini-Europe, Leuven and Doorkijkkerk
 
@@ -130,7 +136,8 @@ tags:
 
 离开住的地方，我们前往布鲁塞尔的Atomium（原子塔），这是60年前布鲁塞尔世博会的产物，即使现在看来也特别震撼人心。听说这是将金属铁分子的模型等比例放大，实际上看上去就是一个球连着八个球组成的正方体。登上塔的最高处，能俯瞰布鲁塞尔的城市风光，就好像东方明珠一样。塔内其他球是一些关于那年世博会的介绍以及塔的设计理念与思想，甚至有一个球内是专门播放那种future电子乐的。在一个纪念币贩卖机里面我投入了两欧的硬币，出来一个0欧元的原子塔纪念纸币，看到这个“0”的一刻我突然对淡淡说：我觉得好亏啊！
 
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoXZTajD0CG/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoXZTajD0CG/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44529788955/in/datetaken-public/" title="Atomium"><img src="https://farm2.staticflickr.com/1904/44529788955_df85d8f1c7_z.jpg" width="480" height="640" alt="Atomium"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44529785395/in/datetaken-public/" title="Atomium"><img src="https://farm2.staticflickr.com/1935/44529785395_f41d487cbc_z.jpg" width="285" height="640" alt="Atomium"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 在原子塔下拍的全景照片：
 
@@ -138,18 +145,16 @@ tags:
   <source src="https://panorameprod.blob.core.windows.net/panorame-selfie-from-brussels-atomium-pub/sessions/5bb0a3c004cddbdf6fa7f62c/a5061b5b-0bf0-4245-bc1e-cd9fc2683a64.mp4" type="video/mp4" />
 </video>
 
-<video width="320" height="240" controls="controls">
-  <source src="https://panorameprod.blob.core.windows.net/panorame-selfie-from-brussels-atomium-pub/sessions/5bb0a33c04cddbdf6fa7f608/cd3d12fb-1f6f-4403-91b1-8697267dff16.mp4" type="video/mp4" />
-</video>
-
 我们买了原子塔的套票，票内还包括了旁边的Mini Europe。Mini Europe里面非常涨知识！建议一定要拿一个中文的手册边走边看。里面最吸引我的是一些逼真的模型，比如欧洲之星的铁轨列车，埃菲尔铁塔微缩，比萨斜塔微缩等等。对于每个国家的特征地点与建筑，在公园内都展现的淋漓尽致，比如布达佩斯的大皇宫做得非常华丽，让girls不禁决定：下次去匈牙利。听说过两年Mini Europe就要关门了，不知道是什么原因？可能由于不是政府经营的，因此也会存在办不下去的情况，但说真的这个公园能学到特别多的知识，寓教于乐的效果非常好，挺舍不得的。
 
 
 本来从布鲁塞尔我们要直接回到托马斯家的，但中途临时起意决定去鲁汶看看，因为托马斯在鲁汶大学念博士中。到了鲁汶大学以后发现：环境真美！！！一流大学真的能享受到更多的资源，淡淡不禁YY起了来鲁汶大学念博士的美好生活：“我要每天喝一杯啤酒！”
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoeFyr_Dv02/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoeFyr_Dv02/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/30504547567/in/datetaken-public/" title="Katholieke Universiteit Leuven"><img src="https://farm2.staticflickr.com/1901/30504547567_46b069ffb4_z.jpg" width="640" height="484" alt="Katholieke Universiteit Leuven"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 来到鲁汶大广场，这里终于没有舞台了，然而我们也对欧式建筑感到腻了。唯一值得看的就是鲁汶市政厅，特别有特色，仿佛一块精致的蛋糕。
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoeFLtJDVNT/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoeFLtJDVNT/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45444858581/in/datetaken-public/" title="Historisch Stadhuis"><img src="https://farm2.staticflickr.com/1973/45444858581_fb1ec94e70_z.jpg" width="480" height="640" alt="Historisch Stadhuis"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 离开鲁汶，去往托马斯家所在的小镇——阿尔肯，半路上我们先拜访了传说中的“透明教堂”——整个教堂都是用一种特殊的方式堆叠起来的，在某些角度看起来仿佛是透明的一样。开车开到某个偏远小路然后顺着果园地往里走，有谷歌地图的导航并不是很难找。实际看到的时候觉得：“天呐，这也太小了吧”！托马斯笑而不语：“我早就提醒过你们了”。虽然很小，但是配合周围的环境，竟特别有感觉，让我在这个地方拍了好久的照片。
 
@@ -170,12 +175,16 @@ tags:
 
 本来有一个杜松子酒博物馆，里面可以凭票品尝一杯杜松子酒，结果他们刚刚好周一关门！非常不凑巧。于是我们只能在市区看看老市政厅和St. Quintinus Cathedral这样的老建筑。
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45444849571/in/datetaken-public/" title="Stadhuis Hasselt"><img src="https://farm2.staticflickr.com/1916/45444849571_4480edbc6c_z.jpg" width="640" height="480" alt="Stadhuis Hasselt"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/31569578388/in/datetaken-public/" title="Cathedral St. Quintinus"><img src="https://farm2.staticflickr.com/1910/31569578388_fd5b42b768_z.jpg" width="640" height="480" alt="Cathedral St. Quintinus"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 来到了哈瑟尔特大广场，我们在一家酒馆点了杜松子酒，味道喝起来就是水果味的白酒这样，对于我一个极度厌恶白酒的人来说都有点觉得好喝，最后淡淡竟然喝到微醺，赖在我身上闹了一路！天呐。阿尔肯有一个当地的特色啤酒叫做Cristal，很好喝，似乎在杭州我们也有见过！今天其实还有一个重头戏：托马斯的女朋友Jill一起加入我们！Jill本人很高，大长腿，很漂亮，而且才18岁！Girls听到年龄后异口同声地说了句：禽兽啊！（后来包瑶琦听到了这个喜讯，也说了一句，禽兽啊！）他俩非常恩爱，不分场合地就搂搂抱抱亲亲，羡煞旁人。
 
 下午我们来到了根克的Bokrijk，这里本来是一个非常有名的露天花园Museum，但是没有开门，于是我们只好到旁边的bokrijk公园玩。我们首先在公园里的长凳上吃了一顿野餐，特别开心！都是从托马斯家带来的面包和夹心料。接着我们在公园里面玩到疯，因为这里太好玩了！滑滑梯超级高超级绕，有各种各样攀岩的装置，有索桥可以荡来荡去，也有一个小湖可以人力划船，每一个元素都超级棒！每玩完一个装置就在想，为啥国内的公园没有这样的娱乐设施，而都是老年推推乐？
 
 离开Bokrijk公园，我们来到了Abbey Herkenrode（赫肯洛德修道院），因为是修道院所以特别安静，景色也特别美。我们在这里拍了美美的合照，托马斯也给妹子拍了各种人像照，非常像模特！离开修道院后我们送Jill回家，再见的时候特别不舍！
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoZlbgwjp82/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoZlbgwjp82/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44720269784/in/datetaken-public/" title="Abdij van Herkenrode"><img src="https://farm2.staticflickr.com/1963/44720269784_0c45baff70_z.jpg" width="640" height="181" alt="Abdij van Herkenrode"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 晚上回到托马斯家，吃烤肉！饭前，girls开始在托妈妈的指导下撸狗。本来魏滢很怕狗的，这次竟然突破极限，疯狂撸狗起来。作为妈妈的Luna特别安静，好撸，而爸爸Chico虽然凶，但是由于上了年纪所以行动缓慢。另外两只小朋友特别聒噪且好动，根本没法好好撸。撸到最后大家满身都是狗毛，于是拿黏性滚筒清理自己的衣服。在这里要特别批评Chico，我和淡淡把它摸的那么爽了，眼睛都眯起来了，它最后竟然凶我，还咬了淡淡一下，真的是没有良心啊！晚饭时候托爸妈拿了一个长长的铁架子出来，不放油，直接拿肉上去烤。我说这样不是容易烤焦吗？托马斯说没有油比较健康🙄️。然后有些肉烤的久了，会有黑色的烤焦的痕迹，我说这不太健康要去掉，托马斯却说，这是他最喜欢吃的部分，天呐！中外有如此大的差异！但是托马斯爸妈都是当地有名的医生，能拿什么反驳呢？？？
 
@@ -192,28 +201,31 @@ tags:
 
 科隆的中央火车站让人印象深刻，对于铁路轨道特别感兴趣的我，光是看列车来来往往就很满足了。
 
-
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44529715155/in/datetaken-public/" title="Cologne Central Station"><img src="https://farm2.staticflickr.com/1959/44529715155_ed7298db74_z.jpg" width="640" height="480" alt="Cologne Central Station"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 在中央车站不远处便是有名的科隆大教堂。虽然前几天看腻了教堂一类的建筑，但科隆大教堂还是震撼到我了。它非常庞大，而且很有威慑感。走到里面一看，内饰和装潢很壮观！本来我对彩画玻璃窗不是很感兴趣，但是这里的花窗玻璃真的很吸引人，每一扇都是一个精致的艺术作品。一个好笑的小插曲是，我们在参观时，安然指着里面一个穿红衣的神父说：“那个保安真的很魁梧”（目测190cm）。
 
 离开科隆大教堂，我们在远处瞥见了Groß St. Martin（圣马丁大教堂），由于天色渐晚，于是决定先去登上Hohenzollernbrücke（霍亨索伦桥）。听说这个桥是有名的定情桥，桥上的铁丝网锁着各式各样的锁，上面刻有爱人的名字和时间。印象最深刻的，是有个人把烤华夫饼的烤盘给锁上去了，怎么想的？？？笑死。
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BoceiD1j6wF/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BoceiD1j6wF/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44529720615/in/datetaken-public/" title="Groß St. Martin"><img src="https://farm2.staticflickr.com/1938/44529720615_d37becaef9_z.jpg" width="480" height="640" alt="Groß St. Martin"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 从桥上看莱茵河特别美，回望对岸，科隆大教堂和圣马丁教堂格外好看！时不时在桥上经过的列车，让人心跳加速，在这座桥上，我感受到了德国之行最美好的时刻。
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BochmBcj2n_/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BochmBcj2n_/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BocROnhDkr9/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BocROnhDkr9/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> </a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45444807971/in/datetaken-public/" title="Hohenzollernbrücke"><img src="https://farm2.staticflickr.com/1960/45444807971_95eae2b733_z.jpg" width="640" height="480" alt="Hohenzollernbrücke"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 接着我们到了桥对岸的KölnTriangle（科隆三角大楼），楼顶的玻璃观景台可以鸟瞰整个科隆！那天凑巧没有带相机，所以只能用手机拍拍科隆夜景了，但不管怎么拍都好看，因为这个大楼角度真的太好了！
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BociG08j1AY/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BociG08j1AY/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45444804141/in/datetaken-public/" title="KölnTriangle"><img src="https://farm2.staticflickr.com/1919/45444804141_85def71ca4_z.jpg" width="640" height="480" alt="KölnTriangle"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45444799411/in/datetaken-public/" title="Hohenzollernbrücke"><img src="https://farm2.staticflickr.com/1909/45444799411_7bd5bfd40b_z.jpg" width="640" height="480" alt="Hohenzollernbrücke"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 晚饭我们选择了FRÜH酒馆，因为很有名。实际到了以后发现真的好火爆，到处都是人，我们可能往地下走了好几层才找到空位，还是挤在一起的。服务员根本没有时间照顾到所有人，每次叫都没空，真的太可怕。好在这家的啤酒真的很好喝，饭菜真的很好吃！首先德国有名的猪肘子，我们点了一个烤的一个水煮的。烤的皮焦酥脆但肉质太柴，水煮的肉非常鲜嫩但是肥肉太油了，两个结合一起就特别好吃。德国大香肠也很好吃，但我不喜欢烟熏的那款。它们家自制的Radler lemon好喝到爆炸了，第一次觉得Rio的那些水果酒可以扔进垃圾桶了。
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/30504470537/in/datetaken-public/" title="FRÜH in Cologne"><img src="https://farm2.staticflickr.com/1941/30504470537_d2266d35ea_z.jpg" width="640" height="427" alt="FRÜH in Cologne"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 不知道是科隆这座城市的情况还是德国的整体情况，让我们特别不喜欢此行的德国部分。首先街上很脏很乱，到处都是纹身的小混混走来走去，盯着你看。到了晚上，到处都是喝醉的人，聚众大笑着，然后如果看女生一个人的话就过去搭话，蛮可怕的。淡淡说，虽然欧洲男人很帅，但德国男人长得太棱角分明有点可怕，还是比利时男人看上去比较和蔼可亲。托马斯说，街上的脏乱也一定程度上和难民政策有关，谁又能怎么办呢？不知道柏林和慕尼黑会不会给我们大的印象改观呢？
 
 ## 4. Day6, Day7 and Day8: Nijmegen, Rotterdam, Shiedam, Kinderdijk, The Hague, Hoek van Holland and Amsterdam
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1brWoEf7SHbWvM3eo5UvzjbzZjIUuVj-z" width="320" height="240"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1brWoEf7SHbWvM3eo5UvzjbzZjIUuVj-z" width="640" height="480"></iframe>
 
 ### Day 6: Nijmegen, Rotterdam, Shiedam
 
@@ -240,6 +252,7 @@ tags:
 
 下一站我们开往斯希丹，那里有订的Airbnb住所。到了以后发现住的特别好，又是整栋房子！客厅有超大天窗，然后房东给我们留了巧克力，还特地告诉我们水池水龙头可以出100度热水用来泡茶！房间非常干净，床也很软，给房东点赞！房子外面是一片大草原，可以看到很多奶牛，这是我第一次这么近看奶牛，旁边的荷兰人看我们这么认真看牛都惊呆了。
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45392715352/in/datetaken-public/" title="Schiedam"><img src="https://farm2.staticflickr.com/1907/45392715352_08403d0a63_z.jpg" width="640" height="250" alt="Schiedam"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45377801252/in/datetaken-public/" title="Schiedam"><img src="https://farm2.staticflickr.com/1940/45377801252_4b5e27e07f_z.jpg" width="640" height="427" alt="Schiedam"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44514375295/in/datetaken-public/" title="Schiedam"><img src="https://farm2.staticflickr.com/1963/44514375295_9cda7474ee_z.jpg" width="427" height="640" alt="Schiedam"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
@@ -249,14 +262,17 @@ tags:
 
 到了鹿特丹中央车站，被这个神奇的建筑给惊到了。虽说早有耳闻鹿特丹是以建筑设计闻名的城市，但实际看到这些神奇的建筑的时候还是会叹为观止。鹿特丹的河道很多，所以有很多路是沿着河边走的，配合一些小桥，风景真的独赞！
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44720191014/in/datetaken-public/" title="Rotterdam Centraal Station"><img src="https://farm2.staticflickr.com/1960/44720191014_61e963b5dd_z.jpg" width="640" height="360" alt="Rotterdam Centraal Station"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 从中央车站一路走到Willemsbrug（红桥），就能看到鹿特丹比较有特色的几个景点。首先是听说晚上会灯火辉煌的Markthal市场，看上去就像一个内部挂有彩色屏幕的山洞截面，但实际上我们晚上没看到里面有亮灯，感觉被骗了，反而是外面的一个摩天轮增添了不少风景。然后是立体方块屋，到了以后从外面拍感觉很有意思，但进去以后觉得索然无味，可能是我们没有进入到其中某个方块房子体验一下的缘故，听说还是有人真的住在里面的。
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/43612797610/in/datetaken-public/" title="Markthal"><img src="https://farm2.staticflickr.com/1972/43612797610_2c0acd503d_z.jpg" width="640" height="427" alt="Markthal"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44720184004/in/datetaken-public/" title="Markthal"><img src="https://farm2.staticflickr.com/1951/44720184004_eec4e3dccb_z.jpg" width="640" height="480" alt="Markthal"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44705927624/in/datetaken-public/" title="Ferris wheel in Rotterdam"><img src="https://farm2.staticflickr.com/1942/44705927624_027e55f6e9_z.jpg" width="427" height="640" alt="Ferris wheel in Rotterdam"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/43612806480/in/datetaken-public/" title="Cube house"><img src="https://farm2.staticflickr.com/1905/43612806480_008e3c7852_z.jpg" width="640" height="427" alt="Cube house"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 红桥和白桥我们只去了红桥，可以在河边看到很多艺术品展示，当然红桥本身也是一件艺术作品！
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44720176414/in/datetaken-public/" title="Willemsbrug"><img src="https://farm2.staticflickr.com/1916/44720176414_40edb22260_z.jpg" width="640" height="267" alt="Willemsbrug"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44515007205/in/datetaken-public/" title="Willemsbrug"><img src="https://farm2.staticflickr.com/1978/44515007205_f2aa3cb8ea_z.jpg" width="640" height="427" alt="Willemsbrug"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44514997155/in/datetaken-public/" title="Erasmusbrug"><img src="https://farm2.staticflickr.com/1936/44514997155_1628bcd9ef_z.jpg" width="640" height="427" alt="Erasmusbrug"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
@@ -279,7 +295,13 @@ tags:
 
 饭后我们步行到了Binnenhof & Ridderzall（国会大厦与骑士厅），大厦旁边是一片人工湖，阳光照射下的湖面闪耀着波光。托马斯帮淡淡拍了第一个Static Video，上传到Instagram story，画面不动但是画面中的天鹅啊鸭子啊都在游，特别有意思。接下来就是Mauritshuis（莫瑞泰斯皇家美术馆），里面有著名的画《戴珍珠耳环的少女》，然而由于票价太贵我们就没有进去。
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44529658425/in/datetaken-public/" title="Binnenhof &amp; Ridderzall"><img src="https://farm2.staticflickr.com/1950/44529658425_4463ce2522_z.jpg" width="640" height="360" alt="Binnenhof &amp; Ridderzall"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44529647335/in/datetaken-public/" title="Binnenhof &amp; Ridderzall"><img src="https://farm2.staticflickr.com/1972/44529647335_dcc2a74d04_z.jpg" width="640" height="480" alt="Binnenhof &amp; Ridderzall"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44529653165/in/datetaken-public/" title="Mauritshuis"><img src="https://farm2.staticflickr.com/1964/44529653165_534939fdd0_z.jpg" width="640" height="480" alt="Mauritshuis"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 听说海牙也是一个购物好去处，这里的Denneweg是一条有名的步行街，但是我们实际走过以后觉得大失所望，根本没有什么好买的，反而是一些有地方特色的小家居商店吸引人，还不如在鹿特丹大市场附近的商业街购物呢！离开登威格街，我们去往海牙和平宫，到达的时候已经关门了，但即使从铁栅栏朝里看，也能感受到这座国际法庭的威严霸气。都说海牙是实际上的荷兰行政中心，这一点儿也不假，整座城市的气氛和环境都有一种郑重其事的感觉。
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44530112115/in/datetaken-public/" title="Vredespaleis"><img src="https://farm2.staticflickr.com/1903/44530112115_bd1b8be6a2_z.jpg" width="640" height="480" alt="Vredespaleis"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 离开海牙，我们前往荷兰角，这是鹿特丹的一个港口小镇，有大量码头用于国际客运和货运，位置得天独厚。荷兰角的海与其他地方的海一样，但不同的是风景：远处是大片的工业设施以及大型风车，近处有轮船顺着滑道进入海洋，夕阳下每一个场景拍下来都是一幅画，我们特别喜欢这里。看完了风景我们在Beachclub the Bing喝了点小酒，便驱车赶回斯希丹的家。今晚吃的是Domino的披萨，外送到家，一共点了五个，每个都很脆很好吃！托马斯说想起在杭州的时候我们实验室请他一起去黄龙的必胜客吃披萨，一群人就点了三两个披萨，根本没吃饱！但他不好意思说出来，于是只好表示自己吃饱了。淡淡说：那次我也没有吃饱！
 
@@ -291,10 +313,11 @@ tags:
 
 到达阿姆斯特丹中央车站后我们没有乘坐boat trip（有时间的话，还是比较推荐大家去坐的），而是直奔Rederij Plas。这里是一个小码头，能看到对岸的西北欧特有的“排屋”：一排五颜六色的歪歪扭扭的瘦长的房子，每一幢都好像一块木板立成的道具背景板，淡淡说：好像冰箱贴啊。是的，几乎大部分有关阿姆斯特丹的冰箱贴都会有这样一排河边小房子。托马斯说房子歪歪扭扭的原因是因为整个阿姆斯特丹都建立在水上，因此没有牢固的地基而是木质结构的架子，长期被水泡过以后变形，因此上方的房子相互挤在一起，形成了这样特有的“不规则”排列。
 
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BokIuBxFxDt/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BokIuBxFxDt/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/30504384227/in/datetaken-public/" title="Amsterdam"><img src="https://farm2.staticflickr.com/1911/30504384227_3996dc2bea_z.jpg" width="640" height="480" alt="Amsterdam"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 离码头不远就是阿姆斯特丹水坝广场和阿姆斯特丹皇宫。因为接近旅行的末尾并且对教堂类建筑看腻了，这个地方并没有很吸引girls。印象最深刻的只有广场上一些奇装异服求拍照的人，以及到处接受游客投食的鸽子群，它们根本不怕人，看到谷物就冲过去吃。不知道是不是受到周杰伦早期音乐影响，对于“广场鸽子，哥特式建筑”这样的场景设定我还是非常喜欢的。离开广场，我们在一家意大利面店吃了午餐，由于厚重的芝士，大家都吃得很饱。值得一提的是，番茄忌廉汤真的差评。
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45444717191/in/datetaken-public/" title="Royal Palace Amsterdam"><img src="https://farm2.staticflickr.com/1966/45444717191_bf8cb5d025_z.jpg" width="640" height="480" alt="Royal Palace Amsterdam"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44525594265/in/datetaken-public/" title="Dam Square"><img src="https://farm2.staticflickr.com/1950/44525594265_542411ee8b_z.jpg" width="640" height="427" alt="Dam Square"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 路上看到一个福尔摩斯主题的密室逃脱，这个标志亮出来的瞬间，我的脑海里已经响起了那个经典的BGM！
@@ -303,12 +326,13 @@ tags:
 
 下午我们来到阿姆斯特丹博物馆广场，看到了I amstardam的标志，这个地标是每个来阿姆斯特丹的人都会拍的，于是我们不免很游客地停下来在前面的水池拍了好多照片。广场对面就是有名的梵高艺术馆，门票18欧，讲解器5欧，由于之前错过了很多艺术博物馆，加上梵高的知名度，我们决定进去一探究竟。
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/43627373270/in/datetaken-public/" title="I amsterdam"><img src="https://farm2.staticflickr.com/1977/43627373270_9bb600c43d_z.jpg" width="640" height="382" alt="I amsterdam"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/43623263360/in/datetaken-public/" title="I amsterdam"><img src="https://farm2.staticflickr.com/1955/43623263360_e43bb9dff3_z.jpg" width="640" height="427" alt="I amsterdam"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/30500396227/in/datetaken-public/" title="Van Gogh Museum"><img src="https://farm2.staticflickr.com/1931/30500396227_c9561e47a7_z.jpg" width="640" height="427" alt="Van Gogh Museum"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 馆内的实际体验非常好，虽然没有星空和其他几幅向日葵，但是代表梵高生平的几个关键节点的画作都有在。配合讲解器的中文解说，能够很深入地了解每张画背后的故事，与梵高一同体验那个年代的喜与悲，学会用梵高的眼睛观察这个世界。馆内的数字互动元素很多，印象最深刻的是自己学会用不同颜色调配出梵高画作中的华彩之色，每次淡淡都很快调完了，让我怀疑她是被埋没的画画天才。梵高的色彩表达特别出众，而且偏爱黄色，从向日葵这幅画就能看出，他调配出了各种不同风格的黄色来表达勃勃生机。到了生涯晚期，他弯弯曲曲的画风也反映了当时所受到的精神折磨，包括幻视和幻听症。看了梵高生平和拉瓦尔的生平，我们都一致觉得：梵高的弟弟人真好，保罗高更真的有毒。
 
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BojZN7yleGO/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BojZN7yleGO/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/30504387357/in/datetaken-public/" title="Van Gogh"><img src="https://farm2.staticflickr.com/1944/30504387357_0fe0c5943b_z.jpg" width="640" height="640" alt="Van Gogh"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 离开博物馆，我发现自己的UCSB的毛线帽丢了，非常伤心。这是我最喜欢的帽子了，不仅仅是戴起来好看，也是去UCSB的纪念。一路上淡淡都在安慰我，并让我发现了一个事实：淡淡非常不会安慰人，哈哈哈哈哈哈！在去吃晚饭的路上，托马斯特地带我们穿过了阿姆斯特丹有名的红灯区，这里真的到处都是红灯！街边的各种橱窗里都是性感女郎向你招手，甚至有一个店的老板看到我们用蹩脚的中文大喊：“你好！进来看看！可以发票！”，让人忍俊不禁。
 
