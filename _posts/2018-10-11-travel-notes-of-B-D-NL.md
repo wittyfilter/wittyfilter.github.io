@@ -287,22 +287,44 @@ tags:
 
 早餐吃的是昨晚剩下的披萨，托马斯表示非常震惊，你们竟然早餐能吃披萨？其实中国人早餐啥都能吃，给啥吃啥！离开斯希丹，我们前往阿姆斯特丹。由于阿姆斯特丹停车很贵，所以我们前一晚就在网上预定了中央车站附近的QParking的一天的停车费，一共20欧，很划算，似乎现场去停一天的话要50多欧。
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44525600555/in/datetaken-public/" title="Amsterdam Centraal Station"><img src="https://farm2.staticflickr.com/1968/44525600555_51a33e36eb_z.jpg" width="640" height="427" alt="Amsterdam Centraal Station"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 到达阿姆斯特丹中央车站后我们没有乘坐boat trip（有时间的话，还是比较推荐大家去坐的），而是直奔Rederij Plas。这里是一个小码头，能看到对岸的西北欧特有的“排屋”：一排五颜六色的歪歪扭扭的瘦长的房子，每一幢都好像一块木板立成的道具背景板，淡淡说：好像冰箱贴啊。是的，几乎大部分有关阿姆斯特丹的冰箱贴都会有这样一排河边小房子。托马斯说房子歪歪扭扭的原因是因为整个阿姆斯特丹都建立在水上，因此没有牢固的地基而是木质结构的架子，长期被水泡过以后变形，因此上方的房子相互挤在一起，形成了这样特有的“不规则”排列。
+
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BokIuBxFxDt/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BokIuBxFxDt/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
 离码头不远就是阿姆斯特丹水坝广场和阿姆斯特丹皇宫。因为接近旅行的末尾并且对教堂类建筑看腻了，这个地方并没有很吸引girls。印象最深刻的只有广场上一些奇装异服求拍照的人，以及到处接受游客投食的鸽子群，它们根本不怕人，看到谷物就冲过去吃。不知道是不是受到周杰伦早期音乐影响，对于“广场鸽子，哥特式建筑”这样的场景设定我还是非常喜欢的。离开广场，我们在一家意大利面店吃了午餐，由于厚重的芝士，大家都吃得很饱。值得一提的是，番茄忌廉汤真的差评。
 
-下午我们来到阿姆斯特丹博物馆广场，看到了I am stardam的标志，这个地标是每个来阿姆斯特丹的人都会拍的，于是我们不免很游客地停下来在前面的水池拍了好多照片。广场对面就是有名的梵高艺术馆，门票18欧，讲解器5欧，由于之前错过了很多艺术博物馆，加上梵高的知名度，我们决定进去一探究竟。
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44525594265/in/datetaken-public/" title="Dam Square"><img src="https://farm2.staticflickr.com/1950/44525594265_542411ee8b_z.jpg" width="640" height="427" alt="Dam Square"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-馆内的实际体验非常好，虽然没有星空和其他几幅向日葵，但是代表梵高生平的几个关键节点的画作都有在。配合讲解器的中文解说，能够很深入地了解每张画背后的故事，与梵高一同体验那个年代的喜与悲，学会用梵高的眼睛观察这个世界。馆内的数字互动元素很多，印象最深刻的是自己学会用不同颜色调配出梵高画作中的华彩之色，每次淡淡都很快调完了，让我怀疑她是被埋没的画画天才。
+路上看到一个福尔摩斯主题的密室逃脱，这个标志亮出来的瞬间，我的脑海里已经响起了那个经典的BGM！
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45388567462/in/datetaken-public/" title="Sherlocked Escape Amsterdam"><img src="https://farm2.staticflickr.com/1971/45388567462_e5811ca278_z.jpg" width="640" height="427" alt="Sherlocked Escape Amsterdam"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+下午我们来到阿姆斯特丹博物馆广场，看到了I amstardam的标志，这个地标是每个来阿姆斯特丹的人都会拍的，于是我们不免很游客地停下来在前面的水池拍了好多照片。广场对面就是有名的梵高艺术馆，门票18欧，讲解器5欧，由于之前错过了很多艺术博物馆，加上梵高的知名度，我们决定进去一探究竟。
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/43623263360/in/datetaken-public/" title="I amsterdam"><img src="https://farm2.staticflickr.com/1955/43623263360_e43bb9dff3_z.jpg" width="640" height="427" alt="I amsterdam"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/30500396227/in/datetaken-public/" title="Van Gogh Museum"><img src="https://farm2.staticflickr.com/1931/30500396227_c9561e47a7_z.jpg" width="640" height="427" alt="Van Gogh Museum"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+馆内的实际体验非常好，虽然没有星空和其他几幅向日葵，但是代表梵高生平的几个关键节点的画作都有在。配合讲解器的中文解说，能够很深入地了解每张画背后的故事，与梵高一同体验那个年代的喜与悲，学会用梵高的眼睛观察这个世界。馆内的数字互动元素很多，印象最深刻的是自己学会用不同颜色调配出梵高画作中的华彩之色，每次淡淡都很快调完了，让我怀疑她是被埋没的画画天才。梵高的色彩表达特别出众，而且偏爱黄色，从向日葵这幅画就能看出，他调配出了各种不同风格的黄色来表达勃勃生机。到了生涯晚期，他弯弯曲曲的画风也反映了当时所受到的精神折磨，包括幻视和幻听症。看了梵高生平和拉瓦尔的生平，我们都一致觉得：梵高的弟弟人真好，保罗高更真的有毒。
+
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BojZN7yleGO/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" data-instgrm-version="11" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BojZN7yleGO/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_camera" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"></a></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
-梵高的色彩表达特别出众，而且偏爱黄色，从向日葵这幅画就能看出，他调配出了各种不同风格的黄色来表达勃勃生机。到了生涯晚期，他弯弯曲曲的画风也反映了当时所受到的精神折磨，包括幻视和幻听症。看了梵高生平和拉瓦尔的生平，我们都一致觉得：梵高的弟弟人真好，保罗高更真的有毒。
+离开博物馆，我发现自己的UCSB的毛线帽丢了，非常伤心。这是我最喜欢的帽子了，不仅仅是戴起来好看，也是去UCSB的纪念。一路上淡淡都在安慰我，并让我发现了一个事实：淡淡非常不会安慰人，哈哈哈哈哈哈！在去吃晚饭的路上，托马斯特地带我们穿过了阿姆斯特丹有名的红灯区，这里真的到处都是红灯！街边的各种橱窗里都是性感女郎向你招手，甚至有一个店的老板看到我们用蹩脚的中文大喊：“你好！进来看看！可以发票！”，让人忍俊不禁。
 
-离开博物馆，我发现自己的UCSB的毛线帽丢了，非常伤心。这是我最喜欢的帽子了，不仅仅是戴起来好看，也是去UCSB的纪念。一路上淡淡都在安慰我，并让我发现了一个事实：淡淡非常不会安慰人，哈哈哈哈哈哈。在去吃晚饭的路上，托马斯特地带我们穿过了阿姆斯特丹有名的红灯区，这里真的到处都是红灯！街边的各种橱窗里都是性感女郎向你招手，甚至有一个店的老板看到我们用蹩脚的中文大喊：“你好！进来看看！可以发票！”，让人忍俊不禁。
+晚餐我们在中央车站附近的Eastwood Beer & Grill吃了烤牛排和烤猪腿，看着餐厅对岸的圣尼古拉斯教堂就餐，一切都特别好吃！！！
 
-晚餐我们在中央车站附近的Eastwood Beer & Grill吃了烤牛排和烤猪腿，看着餐厅对岸的圣尼古拉斯教堂就餐，一切都特别好吃！！！阿姆斯特丹真的是一个很美丽的城市，到处都是自行车，甚至比国内的共享单车还密集，但他们的自行车都特别好看！到处都是河道和船，让阿姆斯特丹看起来像是一个更多陆地版的威尼斯。当然，阿姆斯特丹也有令人讨厌的地方。在热闹的时间，街上到处都是吸大麻和迷幻蘑菇的人。甚至有一个男人吸high了，走着走着突然跳到girls面前大叫了一声，把大家吓了一大跳。每走几步就能看到一个Coffee Shop，不是卖咖啡的，而是卖叶子的。可能城市越大，就越会包容各种各样的文化吧，反正我们是很难接受的。
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44716096364/in/datetaken-public/" title="Amsterdam"><img src="https://farm2.staticflickr.com/1917/44716096364_7bd8df94fc_z.jpg" width="640" height="427" alt="Amsterdam"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
+阿姆斯特丹真的是一个很美丽的城市，到处都是自行车，甚至比国内的共享单车还密集，但他们的自行车都特别好看！河道和船只覆盖了大部分的城市面积，让阿姆斯特丹看起来像是一个更多陆地版的威尼斯。
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/43623282440/in/datetaken-public/" title="Amsterdam"><img src="https://farm2.staticflickr.com/1933/43623282440_a17ca5e664_z.jpg" width="427" height="640" alt="Amsterdam"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45440564011/in/datetaken-public/" title="IMG_0103-12"><img src="https://farm2.staticflickr.com/1941/45440564011_0f1e36c88f_z.jpg" width="640" height="427" alt="IMG_0103-12"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44716114004/in/datetaken-public/" title="Amsterdam"><img src="https://farm2.staticflickr.com/1958/44716114004_e4631ab747_z.jpg" width="640" height="427" alt="Amsterdam"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+当然，阿姆斯特丹也有令人讨厌的地方。在热闹的时间，街上到处都是吸大麻和迷幻蘑菇的人。甚至有一个男人吸high了，走着走着突然跳到girls面前大叫了一声，把大家吓了一大跳。每走几步就能看到一个Coffee Shop，不是卖咖啡的，而是卖叶子的。可能城市越大，就越会包容各种各样的文化吧，反正我们是很难接受的。
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/30500378297/in/datetaken-public/" title="Amsterdam"><img src="https://farm2.staticflickr.com/1922/30500378297_e42d6919b2_z.jpg" width="640" height="427" alt="Amsterdam"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 ## 5. Back to China
 
