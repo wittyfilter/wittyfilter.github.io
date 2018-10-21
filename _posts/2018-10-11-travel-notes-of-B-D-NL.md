@@ -173,14 +173,29 @@ href="https://www.flickr.com/photos/wittyfilter/43566291880/in/datetaken-public/
 
 又是一天早起，在附近闲逛时发现旁边有一个小教堂，九点半的时候教堂外面似乎开始了集会，大家开始各自卖自己的东西，有画作，有雕刻，有手织物，特别热闹。与其说是跳蚤市场，更像是另一种形式的邻里聊天，比如我们的广场舞大妈。
 
-离开住的地方，我们前往布鲁塞尔的Atomium（原子塔），这是60年前布鲁塞尔世博会的产物，即使现在看来也特别震撼人心。听说这是将金属铁分子的模型等比例放大，实际上看上去就是一个球连着八个球组成的正方体。登上塔的最高处，能俯瞰布鲁塞尔的城市风光，就好像东方明珠一样。塔内其他球是一些关于那年世博会的介绍以及塔的设计理念与思想，甚至有一个球内是专门播放那种future电子乐的。在一个纪念币贩卖机里面我投入了两欧的硬币，出来一个0欧元的原子塔纪念纸币，看到这个“0”的一刻我突然对淡淡说：我觉得好亏啊！不过要说疯狂还是嘉舟，每到一个地方就要被吸入纪念品店或者0元纪念币机中。
+ <div style="text-align: center">
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45472606961/in/datetaken-public/" title="Sint-Medarduskerk"><img src="https://farm2.staticflickr.com/1907/45472606961_304a415034_z.jpg" width="427" height="640" alt="Sint-Medarduskerk"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/31598003798/in/datetaken-public/" title="Sint-Medarduskerk"><img src="https://farm2.staticflickr.com/1953/31598003798_c7f9e22751_z.jpg" width="640" height="427" alt="Sint-Medarduskerk"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>
+
+离开住的地方，我们前往布鲁塞尔的Atomium（原子塔），这是60年前布鲁塞尔世博会的产物，即使现在看来也特别震撼人心。听说这是将金属铁分子的模型等比例放大，实际上看上去就是一个球连着八个球组成的正方体。
 
  <div style="text-align: center">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44529788955/in/datetaken-public/" title="Atomium"><img src="https://farm2.staticflickr.com/1904/44529788955_df85d8f1c7_z.jpg" width="480" height="640" alt="Atomium"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44529785395/in/datetaken-public/" title="Atomium"><img src="https://farm2.staticflickr.com/1935/44529785395_f41d487cbc_z.jpg" width="285" height="640" alt="Atomium"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
-在原子塔下拍的全景照片：
+登上塔的最高处，能俯瞰布鲁塞尔的城市风光，就好像东方明珠一样。Atomium的对面是Brussels Expo，用于一些会议和展览。楼下有一片公园是Mini-Europe，用于展出微缩欧洲各地建筑模型。
+
+ <div style="text-align: center">
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45420867312/in/datetaken-public/" title="Brussels Expo"><img src="https://farm2.staticflickr.com/1960/45420867312_872067aacb_z.jpg" width="640" height="427" alt="Brussels Expo"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45472591121/in/datetaken-public/" title="Mini-Europe"><img src="https://farm2.staticflickr.com/1911/45472591121_65f0e15350_z.jpg" width="640" height="427" alt="Mini-Europe"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45472572581/in/datetaken-public/" title="Brussels"><img src="https://farm2.staticflickr.com/1978/45472572581_1f1b3d41d4_z.jpg" width="640" height="427" alt="Brussels"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/43655283990/in/datetaken-public/" title="Brussels"><img src="https://farm2.staticflickr.com/1927/43655283990_66c1593d9e_z.jpg" width="427" height="640" alt="Brussels"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44747541894/in/datetaken-public/" title="Brussels"><img src="https://farm2.staticflickr.com/1902/44747541894_bb814ee7c1_z.jpg" width="427" height="640" alt="Brussels"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>
+
+塔内其他球是一些关于那年世博会的介绍以及塔的设计理念与思想，甚至有一个球内是专门播放那种future电子乐的。在一个纪念币贩卖机里面我投入了两欧的硬币，出来一个0欧元的原子塔纪念纸币，看到这个“0”的一刻我突然对淡淡说：我觉得好亏啊！不过要说疯狂还是嘉舟，每到一个地方就要被吸入纪念品店或者0元纪念币机中。对了，在原子塔下，有一个可以免费拍全景照片的地方，一定要去试试：
 
  <div style="text-align: center">
 <video width="320" height="240" controls="controls">
@@ -188,7 +203,15 @@ href="https://www.flickr.com/photos/wittyfilter/43566291880/in/datetaken-public/
 </video>
 </div>
 
-我们买了原子塔的套票，票内还包括了旁边的Mini Europe。Mini Europe里面非常涨知识！建议一定要拿一个中文的手册边走边看。里面最吸引我的是一些逼真的模型，比如欧洲之星的铁轨列车，埃菲尔铁塔微缩，比萨斜塔微缩等等。对于每个国家的特征地点与建筑，在公园内都展现的淋漓尽致，比如布达佩斯的大皇宫做得非常华丽，让girls不禁决定：下次去匈牙利。听说过两年Mini Europe就要关门了，不知道是什么原因？可能由于不是政府经营的，因此也会存在办不下去的情况，但说真的这个公园能学到特别多的知识，寓教于乐的效果非常好，挺舍不得的。
+简单吃了个汉堡后，我们出发去Mini Europe。Mini Europe里面非常涨知识！建议一定要拿一个中文的手册边走边看。里面最吸引我的是一些逼真的模型，比如欧洲之星的铁轨列车，埃菲尔铁塔微缩，比萨斜塔微缩等等。对于每个国家的特征地点与建筑，在公园内都展现的淋漓尽致，比如布达佩斯的大皇宫做得非常华丽，让girls不禁决定：下次去匈牙利。听说过两年Mini Europe就要关门了，不知道是什么原因？可能由于不是政府经营的，因此也会存在办不下去的情况，但说真的这个公园能学到特别多的知识，寓教于乐的效果非常好，挺舍不得的。
+
+ <div style="text-align: center">
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44557795425/in/datetaken-public/" title="Mini-Europe"><img src="https://farm2.staticflickr.com/1959/44557795425_d86507360f_z.jpg" width="640" height="360" alt="Mini-Europe"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44557788325/in/datetaken-public/" title="Mini-Europe"><img src="https://farm2.staticflickr.com/1910/44557788325_4147901618_z.jpg" width="640" height="427" alt="Mini-Europe"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44557774145/in/datetaken-public/" title="Mini-Europe"><img src="https://farm2.staticflickr.com/1918/44557774145_05b5728cda_z.jpg" width="427" height="640" alt="Mini-Europe"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/30531598227/in/datetaken-public/" title="Mini-Europe"><img src="https://farm2.staticflickr.com/1979/30531598227_c37025a6d5_z.jpg" width="480" height="640" alt="Mini-Europe"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/31597135778/in/datetaken-public/" title="Mini-Europe"><img src="https://farm2.staticflickr.com/1925/31597135778_d74d7bc422_z.jpg" width="427" height="640" alt="Mini-Europe"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/31597130728/in/datetaken-public/" title="Mini-Europe"><img src="https://farm2.staticflickr.com/1917/31597130728_550f749103_z.jpg" width="640" height="427" alt="Mini-Europe"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>
 
 本来从布鲁塞尔我们要直接回到托马斯家的，但中途临时起意决定去鲁汶看看，因为托马斯在鲁汶大学念博士中。到了鲁汶大学以后发现：环境真美！！！一流大学真的能享受到更多的资源，淡淡不禁YY起了来鲁汶大学念博士的美好生活：“我要每天喝一杯啤酒！”
 
