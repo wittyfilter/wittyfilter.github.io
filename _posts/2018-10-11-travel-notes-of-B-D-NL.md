@@ -121,7 +121,7 @@ href="https://www.flickr.com/photos/wittyfilter/43566291880/in/datetaken-public/
 
  <div style="text-align: center">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/43627558090/in/datetaken-public/" title="Begijnhuisje, Begijnhof"><img src="https://farm2.staticflickr.com/1957/43627558090_730d429f07_z.jpg" width="480" height="640" alt="Begijnhuisje, Begijnhof"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-<div>
+</div>
 
 由于肚子饿，我们在半路吃了比利时薯条+沙拉酱。比利时薯条又大又脆，吃起来和薯片一样，特别上瘾！再搭配沙拉酱，那味道简直了！难怪托马斯说比利时人才是发明薯条的那个，我一点也不意外，以后不再说French Fries了，就说Belgium Fries！
 
@@ -219,9 +219,18 @@ href="https://www.flickr.com/photos/wittyfilter/43566291880/in/datetaken-public/
 
 一觉起来打开窗户，外面就是草原和奶牛，这样的房间托马斯住了20多年，真的太羡慕了吧！！托马斯家的早餐很好吃，巧克力酱、火腿和芝士夹在面包里，特别有外国早餐的味道，甚至有一种像老鼠屎一样的巧克力米也让我们吃到销魂。饭后的酸奶和水果也特别好吃！我们参观了托马斯家的兔子，鸟儿，鸡（只用于下蛋，不吃），池塘里的锦鲤，还有重头戏：Pony！托爸爸养了五只pony，有黑的有棕的，我们最喜欢一只叫做Simba的小棕马！当我们靠近草地时，它们会piapiapia地跑过来，真的好可爱啊！我们喂它胡萝卜吃，它也和我们很亲近。
 
+ <div style="text-align: center">
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/30530729717/in/datetaken-public/" title="Pony"><img src="https://farm2.staticflickr.com/1909/30530729717_00c31c7c95_z.jpg" width="427" height="640" alt="Pony"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45419363522/in/datetaken-public/" title="Pony"><img src="https://farm2.staticflickr.com/1930/45419363522_35f272ea01_z.jpg" width="427" height="640" alt="Pony"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>
+
 离开阿尔肯前往哈瑟尔特，那是托马斯一直以来上学的地方。听说鲁汶，根特和哈瑟尔特是大学城市，所以风格和其他旅游城市不太一样，这点完全不假，在街上可以看到更多的学生，更少的游客。与其他两个大学城市不同的是，哈瑟尔特也是购物的天堂，在这里能看到很多有名的商店。比如，girls看到了一家kiko，大家集体眼前一亮，进去逛了好一会儿，买了一些口红。另外，听托马斯说哈瑟尔特与日本是历史友好城市，所以市内有一个很大的日本花园，不过我们中大部分都去过了日本，所以并没有去一探那个花园（风格大同小异）。
 
-本来有一个杜松子酒博物馆，里面可以凭票品尝一杯杜松子酒，结果他们刚刚好周一关门！非常不凑巧。于是我们只能在市区看看老市政厅和St. Quintinus Cathedral这样的老建筑。
+ <div style="text-align: center">
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/43653898710/in/datetaken-public/" title="Hasselts"><img src="https://farm2.staticflickr.com/1937/43653898710_f548b2c880_z.jpg" width="427" height="640" alt="Hasselts"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>
+
+本来有一个杜松子酒博物馆，里面可以凭票品尝一杯杜松子酒，结果他们刚刚好周一关门！非常不凑巧。于是我们只能在市区看看老市政厅和St. Quintinus Cathedral这样的老建筑。比较有趣的是，淡淡在教堂里发现了一个叫做St. Barbara的雕塑！
 
  <div style="text-align: center">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45444849571/in/datetaken-public/" title="Stadhuis Hasselt"><img src="https://farm2.staticflickr.com/1916/45444849571_4480edbc6c_z.jpg" width="640" height="480" alt="Stadhuis Hasselt"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
@@ -232,10 +241,16 @@ href="https://www.flickr.com/photos/wittyfilter/43566291880/in/datetaken-public/
 
 下午我们来到了根克的Bokrijk，这里本来是一个非常有名的露天花园Museum，但是没有开门，于是我们只好到旁边的bokrijk公园玩。我们首先在公园里的长凳上吃了一顿野餐，特别开心！都是从托马斯家带来的面包和夹心料。接着我们在公园里面玩到疯，因为这里太好玩了！滑滑梯超级高超级绕，有各种各样攀岩的装置，有索桥可以荡来荡去，也有一个小湖可以人力划船，每一个元素都超级棒！每玩完一个装置就在想，为啥国内的公园没有这样的娱乐设施，而都是老年推推乐？
 
-离开Bokrijk公园，我们来到了Abbey Herkenrode（赫肯洛德修道院），因为是修道院所以特别安静，景色也特别美。我们在这里拍了美美的合照，托马斯也给妹子拍了各种人像照，非常像模特！离开修道院后我们送Jill回家，再见的时候特别不舍！
+ <div style="text-align: center">
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45419348082/in/datetaken-public/" title="Bokrijk Playground"><img src="https://farm2.staticflickr.com/1916/45419348082_3e032a0e6a_z.jpg" width="427" height="640" alt="Bokrijk Playground"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45419333952/in/datetaken-public/" title="Bokrijk Playground"><img src="https://farm2.staticflickr.com/1919/45419333952_ceeff41b3b_z.jpg" width="427" height="640" alt="Bokrijk Playground"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>
+
+离开Bokrijk公园，我们来到了Abbey Herkenrode（赫肯洛德修道院），因为是修道院所以特别安静，景色也特别美。我们在这里拍了美美的合照，托马斯也给妹子拍了各种人像照，非常像模特！在修道院外的草坪上，我第一次看到了驴！
 
  <div style="text-align: center">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44720269784/in/datetaken-public/" title="Abdij van Herkenrode"><img src="https://farm2.staticflickr.com/1963/44720269784_0c45baff70_z.jpg" width="640" height="181" alt="Abdij van Herkenrode"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/31596171958/in/datetaken-public/" title="Abbey Herkenrode"><img src="https://farm2.staticflickr.com/1932/31596171958_b9fd43d392_z.jpg" width="427" height="640" alt="Abbey Herkenrode"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
 晚上回到托马斯家，吃烤肉！饭前，girls开始在托妈妈的指导下撸狗。本来魏滢很怕狗的，这次竟然突破极限，疯狂撸狗起来。作为妈妈的Luna特别安静，好撸，而爸爸Chico虽然凶，但是由于上了年纪所以行动缓慢。另外两只小朋友特别聒噪且好动，根本没法好好撸。撸到最后大家满身都是狗毛，于是拿黏性滚筒清理自己的衣服。在这里要特别批评Chico，我和淡淡把它摸的那么爽了，眼睛都眯起来了，它最后竟然凶我，还咬了淡淡一下，真的是没有良心啊！晚饭时候托爸妈拿了一个长长的铁架子出来，不放油，直接拿肉上去烤。我说这样不是容易烤焦吗？托马斯说没有油比较健康🙄️。然后有些肉烤的久了，会有黑色的烤焦的痕迹，我说这不太健康要去掉，托马斯却说，这是他最喜欢吃的部分，天呐！中外有如此大的差异！但是托马斯爸妈都是当地有名的医生，能拿什么反驳呢？？？
@@ -319,7 +334,7 @@ href="https://www.flickr.com/photos/wittyfilter/43566291880/in/datetaken-public/
 
  <div style="text-align: center">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45392715352/in/datetaken-public/" title="Schiedam"><img src="https://farm2.staticflickr.com/1907/45392715352_08403d0a63_z.jpg" width="640" height="250" alt="Schiedam"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44514375295/in/datetaken-public/" title="Schiedam"><img src="https://farm2.staticflickr.com/1963/44514375295_9cda7474ee_z.jpg" width="427" height="640" alt="Schiedam"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45377801252/in/photostream/" title="Schiedam"><img src="https://farm2.staticflickr.com/1940/45377801252_4b5e27e07f_z.jpg" width="640" height="427" alt="Schiedam"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
 由于交通比较拥挤，我们选择了乘坐公共交通去鹿特丹。第一次坐陆上轨道电车，在城市之中穿梭的感觉特别好，窗外风景令人心醉，就是票价好贵，每人要3.5欧，虽然两小时之内免费换乘，但是我们肯定不止玩两个小时。因此，总的算下来并不划算，况且我们人多，实际停车公摊以后更实惠。在轨道电车上晃晃悠悠来到鹿特丹中央车站，被这个神奇的建筑给惊到了。虽说早有耳闻鹿特丹是以建筑设计闻名的城市，但实际看到这些神奇的建筑的时候还是会叹为观止。鹿特丹的河道很多，所以有很多路是沿着河边走的，配合一些小桥，风景真的独赞！
@@ -359,6 +374,10 @@ href="https://www.flickr.com/photos/wittyfilter/43566291880/in/datetaken-public/
 
 来荷兰一定要看的当然是风车啦！说到风车，最有名的风车世界文化遗产就在鹿特丹附近的金德代克，也就是直译的小孩堤坝。这里本身就是一片河道三角洲区域，风车在这片土地上完美融合。偶尔有小船开过时，连接河道两端的桥就会升起来，很有意思。
 
+<div style="text-align: center">
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44744417704/in/datetaken-public/" title="Kinderdijk"><img src="https://farm2.staticflickr.com/1919/44744417704_ed3448ecb8_z.jpg" width="640" height="427" alt="Kinderdijk"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/30529112907/in/datetaken-public/" title="Kinderdijk"><img src="https://farm2.staticflickr.com/1901/30529112907_2a1c09365d_z.jpg" width="640" height="427" alt="Kinderdijk"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>
 
 看风车看了很久，我们离开金德代克来到海牙。刚到海牙就发现这里的中国元素好多，甚至有一个唐人街！本来要去唐人街里面很有名的月满楼吃火锅，但girls集体表示要吃泰国菜！于是找到了一家叫做Songkhla的泰国菜，刚好赶上开门，里面的泰国菜量很大味道很好吃！托马斯说吃这些菜让他想起了在中国的时光，很棒！不过我至今不明白的是为啥要来欧洲吃亚洲菜？？？（似乎是某天有人发了一张火锅的图片然后大家纷纷表示薯条牛排吃腻了，要吃火锅！！！）
 
@@ -382,6 +401,12 @@ href="https://www.flickr.com/photos/wittyfilter/43566291880/in/datetaken-public/
 </div>
 
 离开海牙，我们前往荷兰角，这是鹿特丹的一个港口小镇，有大量码头用于国际客运和货运，位置得天独厚。荷兰角的海与其他地方的海一样，但不同的是风景：远处是大片的工业设施以及大型风车，近处有轮船顺着滑道进入海洋，夕阳下每一个场景拍下来都是一幅画，我们特别喜欢这里。看完了风景我们在Beachclub the Bing喝了点小酒，便驱车赶回斯希丹的家。今晚吃的是Domino的披萨，外送到家，一共点了五个，每个都很脆很好吃！托马斯说想起在杭州的时候我们实验室请他一起去黄龙的必胜客吃披萨，一群人就点了三两个披萨，根本没吃饱！但他不好意思说出来，于是只好表示自己吃饱了。淡淡说：那次我也没有吃饱！
+
+<div style="text-align: center">
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45413702112/in/datetaken-public/" title="Hoek van Holland"><img src="https://farm2.staticflickr.com/1949/45413702112_90e92663d6_z.jpg" width="640" height="427" alt="Hoek van Holland"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44740200844/in/datetaken-public/" title="Hoek van Holland"><img src="https://farm2.staticflickr.com/1913/44740200844_c9139c196b_z.jpg" width="640" height="427" alt="Hoek van Holland"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45413678362/in/datetaken-public/" title="Hoek van Holland"><img src="https://farm2.staticflickr.com/1935/45413678362_f8ea6c0f58_z.jpg" width="640" height="427" alt="Hoek van Holland"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>
 
 ### Day 8: Amsterdam
 
