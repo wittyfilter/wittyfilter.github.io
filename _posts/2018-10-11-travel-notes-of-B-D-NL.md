@@ -39,7 +39,7 @@ tags:
 ## 2. Day1, Day2: Brussels, Ghent, Bruges and Blankenberge
 
  <div style="text-align: center">
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1F-iPdjJfmnuXywSxCGVj-UEkpECsXU7s" width="400" height="300"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1F-iPdjJfmnuXywSxCGVj-UEkpECsXU7s" width="360" height="270"></iframe>
  </div>
 
 一下飞机我们便开始找托马斯，淡淡一眼就在人群中找到了他：“憨憨的比利时人”。这里憨憨是一个褒义词，代表我们真的很喜欢比利时人民和蔼的帅哥长相，后文会再叙述到。托马斯开来了爸妈的大SUV，好不容易把我们所有人的行李装上车，这就出发去布鲁塞尔市中心了。这里需要提醒读者的是：10天以下的自驾出行不要带太大箱子，单人20寸、两个人一起24寸，都是比较合理的选择。
@@ -101,6 +101,7 @@ href="https://www.flickr.com/photos/wittyfilter/43566291880/in/datetaken-public/
 圣巴夫教堂外面就是根特钟楼，在根特钟楼下的广场，有一个大叔在吹大泡泡，配合欧洲的建筑，显得格外迷人。顺着钟楼继续往前走，就能看到另一个教堂：Saint Nicholas Church，但大家已经走累了，于是准备找一个地方坐下喝啤酒。
 
  <div style="text-align: center">
+ <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44570907965/in/dateposted-public/" title="Sint-baafsplein"><img src="https://farm2.staticflickr.com/1957/44570907965_424067f873.jpg" width="375" height="500" alt="Sint-baafsplein"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/30444230397/in/datetaken-public/" title="Saint Nicholas&#x27; Church"><img src="https://farm2.staticflickr.com/1973/30444230397_2bf3036a8c_z.jpg" width="427" height="640" alt="Saint Nicholas&#x27; Church"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
@@ -189,7 +190,7 @@ href="https://www.flickr.com/photos/wittyfilter/43566291880/in/datetaken-public/
 ## 3. Day3, Day4 and Day5:  Brussels, Leuven, Alken, Hasselts, Aachen and Cologne
 
  <div style="text-align: center">
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1V9KDvxs7WokwuKcxIoD3334h62fb6HCn" width="400" height="300"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1V9KDvxs7WokwuKcxIoD3334h62fb6HCn" width="360" height="270"></iframe>
 </div>
 
 ### Day3: Atomium, Mini-Europe, Leuven and Doorkijkkerk
@@ -263,6 +264,10 @@ href="https://www.flickr.com/photos/wittyfilter/43566291880/in/datetaken-public/
 
 到了托马斯家，天呐，也太豪华了吧！一进门就是一架超古典的钢琴，然后各种好看的画和装饰。四只吉娃娃果然疯狂喊叫，托爸爸托妈妈花了好长时间才把它们安抚下来。托马斯的大姐今天也在家，人超级nice，给我们倒水倒薯片，薯片超级好吃！托爸爸人又高又帅，安然见到了不禁喊了一句：“You are handsome！”他还特地从不知道什么地方拿出来托马斯小时候的照片给我们看，托马斯看到不禁捂脸：“Oh，no！”。托妈妈给我们做了非常多好吃的饭，牛肉stew鸡肉stew还有meat balls，饭后还有冰淇淋和酸奶！太幸福了吧！等到我们吃完了以后托妈妈自己在厨房里吃饭，我们都觉得好惭愧😂。托妈妈和托爸爸都是当地医生，非常有名，在微信上发朋友圈，甚至能找到托马斯家名字的定位！
 
+ <div style="text-align: center">
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45432582072/in/dateposted-public/" title="Thomas"><img src="https://farm2.staticflickr.com/1927/45432582072_8b84f958fb.jpg" width="500" height="333" alt="Thomas"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>
+
 我和淡淡睡托马斯的房间，房间里面真的太舒服了！床也舒服，被子也舒服，淡淡后来说睡了这一趟旅行最舒服的两觉。其他girls的房间也特别好，是托马斯两个姐姐以前的房间。在柜子上托马斯放着潘博送给他的浙江大学纪念品，然后他还穿着浙江大学的纪念品卫衣，真的好感动！房间里特别geek，有ps4，有电焊台，还有一个优秀学生奖牌。托马斯说：“最小的总是最聪明的那一个”（骄傲脸）。
 
 ### Day4: Alken, Hasselts, Genk
@@ -304,7 +309,17 @@ href="https://www.flickr.com/photos/wittyfilter/43566291880/in/datetaken-public/
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/31596171958/in/datetaken-public/" title="Abbey Herkenrode"><img src="https://farm2.staticflickr.com/1932/31596171958_b9fd43d392_z.jpg" width="427" height="640" alt="Abbey Herkenrode"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
-晚上回到托马斯家，吃烤肉！饭前，girls开始在托妈妈的指导下撸狗。本来魏滢很怕狗的，这次竟然突破极限，疯狂撸狗起来。作为妈妈的Luna特别安静，好撸，而爸爸Chico虽然凶，但是由于上了年纪所以行动缓慢。另外两只小朋友特别聒噪且好动，根本没法好好撸。撸到最后大家满身都是狗毛，于是拿黏性滚筒清理自己的衣服。在这里要特别批评Chico，我和淡淡把它摸的那么爽了，眼睛都眯起来了，它最后竟然凶我，还咬了淡淡一下，真的是没有良心啊！晚饭时候托爸妈拿了一个长长的铁架子出来，不放油，直接拿肉上去烤。我说这样不是容易烤焦吗？托马斯说没有油比较健康🙄️。然后有些肉烤的久了，会有黑色的烤焦的痕迹，我说这不太健康要去掉，托马斯却说，这是他最喜欢吃的部分，天呐！中外有如此大的差异！但是托马斯爸妈都是当地有名的医生，能拿什么反驳呢？？？
+晚上回到托马斯家，吃烤肉！饭前，girls开始在托妈妈的指导下撸狗。本来魏滢很怕狗的，这次竟然突破极限，疯狂撸狗起来。作为妈妈的Luna特别安静，好撸，而爸爸Chico虽然凶，但是由于上了年纪所以行动缓慢。另外两只小朋友特别聒噪且好动，根本没法好好撸。撸到最后大家满身都是狗毛，于是拿黏性滚筒清理自己的衣服。在这里要特别批评Chico，我和淡淡把它摸的那么爽了，眼睛都眯起来了，它最后竟然凶我，还咬了淡淡一下，真的是没有良心啊！
+
+ <div style="text-align: center">
+ <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/44758976114/in/dateposted-public/" title="Chihuahua"><img src="https://farm2.staticflickr.com/1942/44758976114_f81472ae2b.jpg" width="500" height="333" alt="Chihuahua"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+ </div>
+
+晚饭时候托爸妈拿了一个长长的铁架子出来，不放油，直接拿肉上去烤。我说这样不是容易烤焦吗？托马斯说没有油比较健康🙄️。然后有些肉烤的久了，会有黑色的烤焦的痕迹，我说这不太健康要去掉，托马斯却说，这是他最喜欢吃的部分，天呐！中外有如此大的差异！但是托马斯爸妈都是当地有名的医生，能拿什么反驳呢？？？
+
+ <div style="text-align: center">
+ <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittyfilter/45432598572/in/dateposted-public/" title="Thomas"><img src="https://farm2.staticflickr.com/1950/45432598572_54ffa3059a.jpg" width="500" height="333" alt="Thomas"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+ </div>
 
 ### Day5: Aachen, Cologne
 
@@ -363,7 +378,7 @@ href="https://www.flickr.com/photos/wittyfilter/43566291880/in/datetaken-public/
 ## 4. Day6, Day7 and Day8: Nijmegen, Rotterdam, Shiedam, Kinderdijk, The Hague, Hoek van Holland and Amsterdam
 
  <div style="text-align: center">
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1brWoEf7SHbWvM3eo5UvzjbzZjIUuVj-z" width="400" height="300"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1brWoEf7SHbWvM3eo5UvzjbzZjIUuVj-z" width="360" height="270"></iframe>
 </div>
 
 ### Day 6: Nijmegen, Rotterdam, Shiedam
