@@ -41,6 +41,5 @@ plugins:
   - jemoji
   - jekyll-paginate
   - jekyll-admin
-  - jekyll-algolia
 
 
