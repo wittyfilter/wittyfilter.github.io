@@ -43,7 +43,7 @@ $ sudo pip3 install homeassistant
 $ sudo 	hass --open-ui
 ``` 
 
-来以root权限运行HA，目的是为了安装一些必要的插件。等到安装好以后就可以以普通用户身份运行HA了！
+来以root权限运行HA，目的是为了安装一些必要的插件。随时去http://树莓派IP地址:8123 看看是不是安装好了。等到安装好以后就可以以普通用户身份运行HA了！即`hass --open-ui`
 
 如果是在树莓派上，还可以考虑官方的[Hass.io](https://www.home-assistant.io/hassio/)，一个基于Docker的HA系统，将镜像烧录到SD卡上就可以即插即用！笔者不考虑Hass.io的原因是希望在树莓派上还可以运行一些别的程序，比如Homebridge或者媒体中心之类的，因此就选择了手动安装啦～
 
@@ -117,7 +117,7 @@ recorder:
 
 # Sensors
 sensor:
-  # Weather prediction
+  # 雅虎天气
   - platform: yweather
     forecast: 2
     monitored_conditions:
@@ -301,15 +301,97 @@ switch:
 
 ### 米家产品
 
+虽然对小米其他产品无感，但是一些智能家居的产品还是很不错的！我认为一个原因是收购了一些像yeelight这样的成熟物联网平台，又有一些例如aqara的衍生产业链；另一个是产品的可控性很高，没有为了生态圈而封闭；还有就是价格低廉（一贯特征）！当初是为了门窗传感器入的坑，刚好双十一有个米家智能家居套装的优惠，里面包括了智能网关、门窗传感器、人体传感器、智能开关与智能插座，很实惠就入了。智能插座可以进行功率统计，来完成一些类似于充满电自动断电的环保功能，这里不展开叙述，聊一聊其他的产品。
+
 #### 网关
+
+大部分米家产品都要先接入智能网关才能在米家APP中使用。同样，智能网关是接入HA的桥梁。打开米家APP，先选择智能网关，然后点选右上角的`···` ，进入后点`关于`。这时候，对着空白地方不断点击，就会出现`局域网通信协议`和`网关信息`选项，是不是和Android开启开发者选项很像！打开局域网通信协议，记住局域网通信协议密码以及网关的 MAC 地址，填入配置文件中：
+
+```yaml
+xiaomi_aqara:
+  gateways:
+    - mac: ???
+      key: ???
+```
+
+网关除了桥接作用，还有很方便的地方便是自带的光照传感器，Alarm以及亮灯功能。光照传感器作为是否需要开灯的先决条件特别重要，Alarm可以作为开门的门铃声，而灯泡可以和人体传感器结合做成自动夜灯。
+
 #### 门窗传感器
+
+其实就是两块磁铁+传感+无线传输，因此买一个门磁套件+ESP8266自己DIY成本不过20人民币！但米家的这个还是很不错的～
+
 #### 人体传感器
-#### 开关
+
+也是可以DIY的低成本产品，放在大概1米～2米的位置，倒立着放90度放都是可以的！但是需要注意一下几个雷区：
+1. 不能隔着玻璃！即使能被看见。 
+2. 感应到有人以后一分钟以内都是进入冻结状态的，无法进行感应。
+3. 不要用于关灯的逻辑！非常尴尬。做饭做一半、洗澡洗一半、上厕所上一半就进入黑夜的感觉很不好！因为总是无法规避有bug，或者一动不动的时候会不会误伤自己。
+
+#### 贴墙式开关
+
+非嵌入式开关，因此灵活性很高，可以有单击、双击、长按三种events。结合Automation可以衍生出无数种events！
+
+#### 86嵌入式墙壁开关
+
+有两种版本，一种是单火线版，一种是零火线版。据论坛上所说后者更加便宜且稳定性更高，但实际家中装修没有留出零线，因此买这类产品前一定要先拆开原来的开关看看线的情况！
+
+另一种问题就是双控开关无法直接替换，因此如果这个开关和另一个开关共同控制负载，那么最好保留原状！一定要改装的话，可以采用一边嵌入式86开关，一边用上述的贴墙式开关，就可以实现联动了！但是原来的那些线就没有用了，且要直接短接掉（操作特别注意，小心用电安全！）。一种常见的双控开关设置如下所示，改装时候可以参考。
+
 #### 小米空净
+
+空净选择小米的原因，一是性价比（打折时候入），二是可以很好地被HA支持。先将小米空净接入米家APP得到ip地址，随后参考[Retrieving the access token](https://www.home-assistant.io/components/vacuum.xiaomi_miio/#retrieving-the-access-token)获得access token，最后在配置中加入：
+
+```yaml
+fan:
+  - platform: xiaomi_miio
+    friendly_name: "???"
+    model: zhimi.airpurifier.v6
+    host: ???
+    token: ???
+```
+
+就可以像控制风扇一样控制开关和风速啦！
+
+此外，小米空净内置的三个传感器：温度，湿度与AQI也可以被利用起来！利用HA的Template sensor模块将xiaomi_miio的attributes抽离出来：
+
+```yaml
+- platform: template
+    sensors:
+      xiaomi_ap_aqi:
+        friendly_name: AQI
+        value_template: "{{ states.fan.xiaomi_miio_device.attributes.aqi }}"
+        unit_of_measurement: AQI
+  - platform: template
+    sensors:
+      xiaomi_ap_temp:
+        friendly_name: "温度"
+        value_template: "{{ states.fan.xiaomi_miio_device.attributes.temperature }}"
+        unit_of_measurement: °C
+        device_class: temperature        
+  - platform: template
+    sensors:
+      xiaomi_ap_humidity:
+        friendly_name: "湿度"
+        value_template: "{{ states.fan.xiaomi_miio_device.attributes.humidity }}"
+        unit_of_measurement: "%"
+        device_class: humidity
+```
 
 ### ESP8266
 
-ESP8266是个好东西，简单理解就是一个带有Wi-Fi模块的廉价微控制器。淘宝一个Nodemcu lua v3只需要13块钱，就可以DIY出各种智能家居设备了！例如和继电器相接控制家里各自电器，或者利用GPIO接入各种类型传感器。
+ESP8266是个好东西，简单理解就是一个带有Wi-Fi模块的廉价微控制器。淘宝一个Nodemcu lua v3只需要13块钱，就可以DIY出各种智能家居设备了！例如和继电器相接控制家里各自电器，或者利用GPIO接入各种类型传感器。根据需要的逻辑，对芯片进行烧写c代码，其风格让我想起了当年电子设计竞赛！
+
+有没有更简单的方法呢？有，就是直接利用串口烧写现成的一些成熟系统，例如ESPEasy和ESPHome，然后就可以在网页上任意配置了！结合MQTT服务，可以让Nodemcu成为数据转发中心，但是我对MQTT不是非常了解，只得作罢。当前，仅用于控制简单的LED灯带而已，操作非常简单：先按照教程刷入ESPEasy，初始化后得到Nodemcu的ip地址，然后就可以在浏览器中输入简单的http请求来控制MCU的GPIO啦！例如输入`http://{ip_address}/control?cmd=GPIO,12,1`就可以让GPIO12拉出高电平了！接下来，在HA中，添加基于command_line的开关模块：
+
+```yaml
+switch http:
+  - platform: command_line
+    switches:
+      lightwall:
+        friendly_name: "???"
+        command_on: 'curl -k "http://???/control?cmd=GPIO,12,1"'
+        command_off: 'curl -k "http://???/control?cmd=GPIO,12,0"'
+```
 
 ### Device Tracker
 
