@@ -68,9 +68,6 @@ homeassistant:
   customize: !include customize.yaml
   packages: !include_dir_named packages
 
-# Show links to resources in log and frontend
-# introduction:
-
 # Enables the frontend
 frontend:
 
@@ -165,22 +162,13 @@ tts:
 # Cloud
 cloud:
 
-# ffmpeg:
-#  ffmpeg_bin: '/usr/local/bin/ffmpeg'
+ffmpeg:
+  ffmpeg_bin: '/usr/local/bin/ffmpeg'
 
-# camera:
-#  - platform: ffmpeg
-#    name: ezviz
-#    input: -rtsp_transport tcp -i rtsp://admin:???@???/h264/ch1/main/av_stream
-#  - platform: ezviz
-#     name: "ezviz"
-#     id: "???"
-#     key: "???"
-#     sec: "???"
-  
-# - platform: ffmpeg
-#    name: webcam
-#    input: -f v4l2 -r 30 -i /dev/video0
+camera:
+  - platform: ffmpeg
+    name: ezviz
+    input: -rtsp_transport tcp -i rtsp://admin:???@???/h264/ch1/main/av_stream
 
 # ecovacs:
 #  username: ???
@@ -273,7 +261,7 @@ script: !include scripts.yaml
 molohub:
 ```
 
-## 3. 设备详情
+## 3. 设备与组件
 
 ### 红外/射频遥控器
 
@@ -432,10 +420,368 @@ asuswrt:
 
 ### 摄像头
 
-### 音响
+把相机作为摄像头输入，可以使用ffmpeg或者mjpeg。以ffmpeg为例，首先从源码编译带有h264和omx的选项，即
+
+```zsh
+sudo ./configure --arch=armel --target-os=linux --enable-gpl --enable-libx264 --enable-nonfree  --enable-omx --enable-omx-rpi
+```
+
+然后在配置中加入：
+
+```yaml
+ ffmpeg:
+  ffmpeg_bin: '/usr/local/bin/ffmpeg'
+```
+
+注意替换成你的ffmpeg安装位置。对于usb摄像头，可以在`/dev/`下看看是video多少的编号，然后在配置中输入：
+
+```yaml
+ - platform: ffmpeg
+    name: webcam
+    input: -f v4l2 -r 30 -i /dev/video0
+```
+
+就大功告成啦！
+
+笔者家里没有usb摄像头，倒是有一个海康萤石的安防摄像头，如何接入呢？有两种方法。第一种是利用萤石摄像头自带的rtsp协议接入HA，也是用的ffmpeg模块。
+```yaml
+camera:
+  - platform: ffmpeg
+    name: ezviz
+    input: -rtsp_transport tcp -i rtsp://admin:???@???/h264/ch1/main/av_stream
+```
+
+第二种方法是参考[](https://bbs.hassbian.com/forum.php?mod=viewthread&tid=3953&highlight=%E8%90%A4%E7%9F%B3)，首先在HA配置文件夹中新增`custom_components/camera/`文件夹，放入[ezviz.py](https://github.com/c1pher-cn/homeassistan-ezviz/blob/master/custom_components/camera/ezviz.py)文件，随后在配置文件中加入：
+
+```yaml
+camera:
+  - platform: ezviz
+     name: "ezviz"
+     id: "???"
+     key: "???"
+     sec: "???"
+```
+
+其中，name是设备名，deviceid（设备序列号）见 https://open.ys7.com/console/device.html ，appkey和appsecret见 https://open.ys7.com/console/application.html 。原理就是每隔30秒调用萤石的api取一次设备图像，这个时间间隔可以在ezviz.py中修改。
+
+虽然在HA中添加了摄像头，但是其图像并不能在Homekit中显示，因为这一部分目前还没有得到实现，怎么办呢？只能退而求其次，用Homebridge来为摄像头桥接了。如何安装Homebridge呢？首先需要安装Nodejs，然后命令行输入：
+
+```zsh
+sudo apt-get install libavahi-compat-libdnssd-dev
+sudo npm install -g --unsafe-perm homebridge
+```
+
+早期HA不支持直接接入Homekit时，还需要利用Homebridge来接入，即安装Homebridge-homeassistant：
+
+```zsh
+sudo npm install -g homebridge-homeassistant
+```
+
+然后在Homebridge的配置文件`/home/pi/.homebridge/config.json`中写入：
+
+```json
+{
+    "bridge": {
+        "name":"Homebridge",
+        "username":"11:22:33:44:55:66",
+        "port":51826,
+        "pin":"123-45-678"
+    },
+
+"platforms": [
+  {
+    "platform": "HomeAssistant",
+    "name": "HomeAssistant",
+    "host": "http://127.0.0.1:8123",
+    "password": "???",
+    "supported_types": ["binary_sensor", "climate", "cover", "device_tracker", "fan", "group", "input_boolean", "light", "lock", "media_player", "remote", "scene", "sensor", "switch"]
+  }]
+}
+```
+
+其中，username是树莓派的MAC地址，port是Homekit的端口默认就好，pin是在 iPhone 上认证 HomeBridge 网关的密码，随喜好输入，而password是在HA中设置的访问密码。
+
+现在HA可以直接接入Homekit了，只需要在`configuration.yaml`中添加一句：
+
+```yaml
+homekit:
+```
+
+即可，因此Homebridge只需要完成摄像头的接入就可以了。安装好Homebridge后还需要安装Camera-ffmpeg：
+
+```zsh
+sudo npm install -g homebridge-camera-ffmpeg
+```
+
+安装后，修改Homebridge的配置`config.json`如下：
+
+```json
+{
+    "bridge": {
+        "name":"Homebridge",
+        "username":"11:22:33:44:55:66",
+        "port":51826,
+        "pin":"123-45-678"
+ },
+"platforms": [
+      {
+      "platform": "Camera-ffmpeg",
+      "cameras": [
+        {
+          "name": "EZVIZ",
+          "videoConfig": {
+              "source": "-rtsp_transport tcp -i rtsp://admin:???@???:554/h264/ch1/main/av_stream",
+              "maxStreams": 2,
+              "maxWidth": 640,
+              "maxHeight": 480,
+              "maxFPS": 30           
+          }
+        }]}
+]
+}
+```
+
+最后，运行
+
+```zsh
+homebridge -D
+```
+
+就可以在Homekit中根据上面的pin添加摄像头啦～
+
+### Media player
+
+之前捣鼓过利用树莓派DIY智能音箱，体验非常差，于是乎听歌还是老老实实手机连接蓝牙音箱。在HA中，也可以指定外接音箱播放特定语音来达到反馈的目的。
+
+media_player组件可以在HA中虚拟出一个播放器，这个播放器和tts（Text to speech）结合就可以让HA说出任何想说的话！首先需要添加一个media_player的运行引擎，我个人喜欢用vlc，最好用的跨平台播放器！首先在树莓派中安装vlc，然后在HA配置中添加：
+
+```yaml
+media_player:
+  - platform: vlc
+```
+
+针对tts的HA组件默认使用的是google，即：
+
+```yaml
+tts:
+   - platform: google
+```
+
+调用tts.google_say服务即可！google的tts非常棒，但是不能说中文，因此如果想要中文的话可以去[百度语音平台](http://yuyin.baidu.com)申请一个免费的应用，用于这里的tts！配置如下：
+
+```yaml
+tts:
+  - platform: baidu
+    app_id: ???
+    api_key: ???
+    secret_key: ???
+```
+
+这样，调用tts.baidu_say服务就可以说话啦！虽然依然存在不足，比如不能有标点符号，比如不能说英文了......
+
+## 4. 自动化（Automation）
+
+自动化是HA的重头戏！智能家居是否“智能”就体现在这里了。基本的自动化有三个要素：
+
+1. Trigger
+      自动化触发的条件！是必须要有的环节。
+2. Condition
+       环境条件，与trigger不同。
+3. Action
+
+>Triggers look at the actions, while conditions look at the results: turning a light on versus a light being on.
 
 
-## 4. 自动化
+附上现有的`automation.yaml`，并加以说明：
+
+```yaml
+- id: '1542637821107'
+  alias: Back home
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.door_window_sensor_158d00023137b7
+      from: 'off'
+      to: 'on'
+  condition:
+    - condition: numeric_state
+      below: '300'
+      entity_id: sensor.illumination_7c49eb17e992
+    - condition: template
+      value_template:  {% raw %}'{{states.binary_sensor.motion_sensor_kitchen.attributes["No motion since"] | int >= 1200}}' {% endraw %}
+  action:
+    - service: switch.turn_on
+      entity_id: switch.kitchen_left
+    - service: light.turn_on
+      entity_id: light._5     
+    - service: tts.baidu_say
+      data:
+        entity_id: media_player.vlc
+        message: 欢迎回家    
+
+- id: '1543895897994'
+  alias: Turn on air purifier
+  trigger:
+    - platform: numeric_state
+      above: '73'
+      entity_id: sensor.filtered_pm25
+  condition:
+    - condition: time
+      after: 07:30
+      before: '23:00'
+      weekday:
+        - mon
+        - tue
+        - wed
+        - thu
+        - fri
+  action:
+    - service: fan.turn_on
+      entity_id: fan.xiaomi_miio_device    
+    - service: fan.set_speed
+      data:
+        entity_id: fan.xiaomi_miio_device
+        speed: Favorite
+
+- id: '1543895897995'
+  alias: Good night
+  trigger:
+    - platform: time
+      at: '23:02:00'
+  condition:
+    - condition: state
+      entity_id: fan.xiaomi_miio_device
+      state: 'on'
+  action:
+    service: fan.set_speed
+    data:
+      entity_id: fan.xiaomi_miio_device
+      speed: Silent
+
+- id: '1543895897996'
+  alias: Turn air purifier strong
+  trigger:
+    - platform: numeric_state
+      above: '73'
+      entity_id: sensor.filtered_pm25
+  condition:
+    - condition: state
+      entity_id: fan.xiaomi_miio_device
+      state: 'on'
+    - condition: template
+      value_template: {% raw %}'{{states.fan.xiaomi_miio_device.attributes["speed"] == "Silent"}}' {% endraw %}
+    - condition: time
+      after: 07:30
+      before: '23:00'
+      weekday:
+        - mon
+        - tue
+        - wed
+        - thu
+        - fri
+  action:
+    service: fan.set_speed
+    data:
+      entity_id: fan.xiaomi_miio_device
+      speed: Favorite
+ 
+- id: '1543895980971'
+  alias: Turn off air purifier
+  trigger:
+    - platform: numeric_state
+      below: '68'
+      entity_id: sensor.filtered_pm25      
+  condition:
+    - condition: time
+      after: 07:30
+      before: '23:00'
+    - condition: state
+      entity_id: fan.xiaomi_miio_device
+      state: 'on' 
+  action:
+    service: fan.turn_off
+    entity_id: fan.xiaomi_miio_device
+
+- id: '1544346029104'
+  alias: Set volume
+  trigger:
+    - platform: homeassistant
+      event: start
+  condition: []
+  action:
+    service: media_player.volume_set
+    data:
+      entity_id: media_player.vlc
+      volume_level: 0.99
+
+- id: '1544883674285'
+  alias: Toggle balcony light
+  trigger:
+    - platform: event
+      event_type: xiaomi_aqara.click
+      event_data:
+        click_type: single
+        entity_id: binary_sensor.switch_balcony        
+  condition: []
+  action:
+    service: switch.toggle
+    entity_id: switch.rack_light
+
+- id: '1542637821109'
+  alias: Turn on balcony light
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.motion_sensor_balcony
+      from: 'off'
+      to: 'on'
+  condition:
+    - condition: state
+      entity_id: switch.rack_light
+      state: 'off'
+    - condition: time
+      after: '17:00'
+      before: 07:00
+  action:  
+    service: switch.turn_on
+    entity_id: switch.rack_light
+
+- id: '1542637821108'
+  alias: Turn on toilet light
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.motion_sensor_toilet
+      from: 'off'    
+      to: 'on'
+  condition: []
+  action:
+    service: switch.turn_on
+    entity_id: switch.toilet_left     
+
+- id: '1545558784756'
+  alias: Turn off table up
+  trigger:
+    - platform: state
+      entity_id: switch.table_up
+      for: 00:03:00
+      from: 'off'      
+      to: 'on'
+  condition: []
+  action:
+    service: switch.turn_off
+    entity_id: switch.table_up
+
+- id: '1545558784757'
+  alias: Turn off table down
+  trigger:
+    - platform: state
+      entity_id: switch.table_down
+      for: 00:03:00
+      from: 'off'      
+      to: 'on'
+  condition: []
+  action:
+    service: switch.turn_off
+    entity_id: switch.table_down
+```
 
 ## 5. 优化
 
