@@ -10,9 +10,11 @@ tags:
 - Homekit
 ---
 
-## 0. 起因
+## 前言
 
-为什么要弄智能家居呢？来源于一个非常小的需求：家里的门锁总感觉不可靠，即使有了淘宝神器也不能完全安心，每天还是会纠结门是否关好。聊天的时候淡淡说有那种门窗传感器可以了解一下，于是乎上张大妈搜了一下，找到了一个讲小米智能家居全家桶排雷的文章，里面介绍到了Home Assistant开源智能家居平台，可以和苹果的Homekit进行对接，这样就可以在手机上监控家中的情况。这篇文章让我想起了国庆去托马斯家住的时候，早上七点钟灯会自动开起来，当时托马斯很自豪地说这是他设置的智能家居程式，让我羡慕不已，感觉有种赛博朋克的味道！正好，在实验室里面找到了闲置许久的树莓派，拿来做家庭控制中心正好不过了！
+为什么要弄智能家居呢？来源于一个非常小的需求：家里的门锁总感觉不可靠，即使有了淘宝神器也不能完全安心，每天还是会纠结门是否关好。聊天的时候淡淡说有那种门窗传感器可以了解一下，于是乎上张大妈搜了一下，找到了一个讲小米智能家居全家桶排雷的文章，里面介绍到了Home Assistant开源智能家居平台，可以和苹果的Homekit进行对接，这样就可以在手机上监控家中的情况。这篇文章让我想起了国庆去托马斯家住的时候，早上七点钟灯会自动开起来，当时托马斯很自豪地说这是他设置的智能家居程式，让我羡慕不已，感觉有种赛博朋克的味道！正好，在实验室里面找到了闲置许久的树莓派，拿来做家庭控制中心，和苹果的Homekit结合正好不过了！先上一张在Homekit中的效果图～
+
+![]({{ site.baseurl }}/public/images/HA1.png)
 
 <!-- more -->
 
@@ -20,7 +22,7 @@ tags:
 
 如果不介意都买一家公司的“全家桶”，那么这家公司自己的智能家庭APP已经可以满足你的需求。如果考虑到价格和性能，每种产品都选择了不同家的公司，那手机里装的APP就要塞不下了。因此，最好的将他们整合在一起的方法便是第三方的开源平台。首先要说开源的Homebridge，由前Homekit程序员创建，用nodejs编写，让无法接入homekit的第三方产品通过插件兼容桥接入。还有其他一些好平台，比如Domoticz，openHAB等元老，笔者尚未接触过。根据网路上的描述，OpenHAB基于Java开发，社区非常成熟，而Domoticz用c++实现，体积小可扩展性高，但其中文社区不够活跃，文档也相对较少。接下来重点介绍Home Assistant（HA，下同）！HA属于新兴力量，基于Python且UI友好，崇尚“Simplicity”，社区活跃而文档丰富，每周都有新版本的小插件发布，比起审核严格的OpenHAB来说快不少。所以，最后综合考虑，我选择了HA作为控制中心，先来上一张效果图吧～对UI没有强迫症的我用的都是默认的UI设置。
 
-![]({{ site.baseurl }}/public/images/HA1.png)
+![]({{ site.baseurl }}/public/images/HA2.png)
 
 虽然智能家居其实和人工智能的“智能”二字相去甚远，但说到底本意是为了方便生活中的一些小细节，因此也算是一个很有意义的“大人的玩具”了～
 
@@ -53,11 +55,11 @@ $ sudo 	hass --open-ui
 
 ```yaml
 homeassistant:
-  # 当前运行HA的名字
-  name: ???
-  # 家庭地址经纬度，用于计算日出日落的时间
-  latitude: ???
-  longitude: ???
+  # Name of the location where Home Assistant is running
+  name: RIVERSIDE
+  # Location required to calculate the time the sun rises and sets
+  latitude: !secret latitude
+  longitude: !secret longitude
   # Impacts weather/sunrise data (altitude above sea level in meters)
   elevation: 0
   # metric for Metric, imperial for Imperial
@@ -68,6 +70,9 @@ homeassistant:
   customize: !include customize.yaml
   packages: !include_dir_named packages
 
+# Show links to resources in log and frontend
+# introduction:
+
 # Enables the frontend
 frontend:
 
@@ -77,7 +82,7 @@ config:
 # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
 http:
 #   base_url: example.duckdns.org:8123
-   api_password: ???
+  api_password: !secret http_password
 
 # Checks for available updates
 # Note: This component will send some information about your system to
@@ -107,20 +112,16 @@ map:
 sun:
 
 recorder:
-  db_url: postgres://???:???@localhost/homeassistant
-	
-# mqtt:
-#  broker: ???
+  db_url: !secret SQL_address
 
 # Sensors
 sensor:
-  # 雅虎天气
+  # Weather prediction
   - platform: yweather
-    forecast: 2
     monitored_conditions:
       - weather
       - temp_min
-      - temp_max
+      - temp_max 
   - platform: template
     sensors:
       xiaomi_ap_aqi_raw:
@@ -129,7 +130,7 @@ sensor:
         unit_of_measurement: AQI
   - platform: filter
     name: "Filtered pm25"
-    friendly_name: "空气质量"
+    friendly_name: AQI
     entity_id: sensor.xiaomi_ap_aqi_raw
     filters:
       - filter: lowpass
@@ -151,72 +152,179 @@ sensor:
         value_template: "{{ states.fan.xiaomi_miio_device.attributes.humidity }}"
         unit_of_measurement: "%"
         device_class: humidity
+  - platform: template
+    sensors:
+      sleeping_probability:
+        friendly_name: "睡觉概率"
+        value_template: {% raw %}"{{ states.binary_sensor.sleeping.attributes.probability | float * 100 }}"{% endraw %}
+        unit_of_measurement: "%"
+
+binary_sensor:
+  - platform: ffmpeg_motion
+    input: !secret ffmpeg_input
+    changes: 2
+    extra_arguments: -filter:v "crop=in_w/2:in_h:in_w/2:0"
+  - platform: template
+    sensors:
+      k_no_motion_for_20:
+        value_template: {% raw %}'{{states.binary_sensor.motion_sensor_kitchen.attributes["No motion since"] | int >= 1200}}'{% endraw %}
+  - platform: template
+    sensors:
+      b_no_motion_for_20:
+        value_template: {% raw %}'{{states.binary_sensor.motion_sensor_balcony.attributes["No motion since"] | int >= 1200}}'{% endraw %}
+  - platform: template
+    sensors:
+      t_no_motion_for_20:
+        value_template: {% raw %}'{{states.binary_sensor.motion_sensor_toilet.attributes["No motion since"] | int >= 1200}}'{% endraw %}
+  - platform: bayesian
+    prior: 0.33
+    name: 'Sleeping'
+    probability_threshold: 0.85
+    observations:
+      - entity_id: 'variable.last_motion'
+        prob_given_true: 0.1
+        prob_given_false: 0.8
+        platform: 'state'
+        to_state: 'FFmpeg Motion'
+      - entity_id: 'variable.last_motion'
+        prob_given_true: 0.66
+        prob_given_false: 0.4
+        platform: 'state'
+        to_state: 'Toilet Motion'
+      - entity_id: 'group.all_light'
+        prob_given_true: 1.0
+        prob_given_false: 0.8
+        platform: 'state'
+        to_state: 'off'
+      - entity_id: 'device_tracker.zoey'
+        prob_given_true: 1
+        prob_given_false: 0.625
+        platform: 'state'
+        to_state: 'not_home'
+      - entity_id: 'device_tracker.simon'
+        prob_given_true: 0.75
+        prob_given_false: 0.625
+        platform: 'state'
+        to_state: 'not_home'
+      - entity_id: 'sensor.illumination_7c49eb17e992'
+        prob_given_true: 0.9
+        prob_given_false: 0.4
+        platform: 'numeric_state'
+        below: 100
+      - entity_id: 'sun.sun'
+        prob_given_true: 0.8
+        prob_given_false: 0.4
+        platform: 'state'
+        to_state: 'below_horizon'
+      - entity_id: 'switch.plug_158d000237cd54'
+        prob_given_true: 0.7
+        prob_given_false: 0.5
+        platform: 'state'
+        to_state: 'on'
+      - entity_id: 'binary_sensor.k_no_motion_for_20'
+        prob_given_true: 1
+        prob_given_false: 0.825
+        platform: 'state'
+        to_state: 'on'
+      - entity_id: 'binary_sensor.b_no_motion_for_20'
+        prob_given_true: 1
+        prob_given_false: 0.825
+        platform: 'state'
+        to_state: 'on'
+      - entity_id: 'binary_sensor.t_no_motion_for_20'
+        prob_given_true: 1
+        prob_given_false: 0.825
+        platform: 'state'
+        to_state: 'on'
 
 # Text to speech
 tts:
   - platform: baidu
-    app_id: ???
-    api_key: ???
-    secret_key: ???
+    app_id: !secret baidu_app_id
+    api_key: !secret baidu_api_key
+    secret_key: !secret baidu_secret_key
 
 # Cloud
 cloud:
+  
+#  - platform: ffmpeg
+#    name: webcam
+#    input: -f v4l2 -r 30 -i /dev/video0
 
-ffmpeg:
-  ffmpeg_bin: '/usr/local/bin/ffmpeg'
-
-camera:
-  - platform: ffmpeg
-    name: ezviz
-    input: -rtsp_transport tcp -i rtsp://admin:???@???/h264/ch1/main/av_stream
-
-# ecovacs:
-#  username: ???
-#  password: ???
-#  country: cn
-#  continent: as
+# mqtt:
+#   broker: !secret mqtt_ip
 
 xiaomi_aqara:
   gateways:
-    - mac: ???
-      key: ???
+    - mac: !secret xiaomi_mac
+      key: !secret xiaomi_key
 
 light: !include lights.yaml
 
 fan:
   - platform: xiaomi_miio
-    friendly_name: "???"
+    friendly_name: "小米空净"
     model: zhimi.airpurifier.v6
-    host: ???
-    token: ???
+    host: !secret xiaomi_ap_ip
+    token: !secret xiaomi_ap_token
 
 switch http:
   - platform: command_line
     switches:
       lightwall:
-        friendly_name: "???"
-        command_on: 'curl -k "http://???/control?cmd=GPIO,???,1"'
-        command_off: 'curl -k "http://???/control?cmd=GPIO,???,0"'
+        friendly_name: "灯带"
+        command_on: !secret lightwall_on
+        command_off: !secret lightwall_off
 
 switch broadlink:
   - platform: broadlink
-    host: ???
-    mac: '???'
+    host: !secret broadlink_rmpro_ip
+    mac: !secret broadlink_rmpro_mac
     timeout: 15
     switches:
       tv_samsung:
         friendly_name: "电视开关"
-        command_on: '???'
-        command_off: '???'           
-        ......
+        command_on: !secret tv_on
+        command_off: !secret tv_on
+      tv_samsung_source:
+        friendly_name: "电视输入源"
+        command_on: !secret tv_source
+        command_off: !secret tv_source
+      tv_samsung_volup:
+        friendly_name: "电视音量调大"
+        command_on: !secret tv_volup
+        command_off: !secret tv_volup
+      tv_samsung_voldown:
+        friendly_name: "电视音量调小"
+        command_on: !secret tv_voldown
+        command_off: !secret tv_voldown
+      
+      study_light:
+        friendly_name: "书房灯"
+        command_on: !secret study_light_on
+        command_off: !secret study_light_off
+      
+      balcony_light:
+        friendly_name: "阳台灯"
+        command_on: !secret balcony_light
+        command_off: !secret balcony_light
+      rack_up:
+        friendly_name: "晾衣架上升"
+        command_on: !secret rack_up
+        command_off: !secret rack_stop
+      rack_down:
+        friendly_name: "晾衣架下降"
+        command_on: !secret rack_down
+        command_off: !secret rack_stop
+      
       table_up:
         friendly_name: "桌子上升"
-        command_on: '???'
-        command_off: '???'
+        command_on: !secret table_up
+        command_off: !secret table_stop
       table_down:
         friendly_name: "桌子下降"
-        command_on: '???'
-        command_off: '???'
+        command_on: !secret table_down
+        command_off: !secret table_stop
 
 cover:
   - platform: template
@@ -235,21 +343,34 @@ cover:
           service: switch.turn_off
           data:
             entity_id: switch.table_up
-				
-ifttt:
-    key: ???
+
+# ifttt:
+#   key: !secret ifttt_key
+
+variable:  
+  last_motion:
+    value: 'Unknown'
+    restore: true
+    attributes:
+      icon: mdi:alarm
+      friendly_name: 'Last Motion'
 
 homekit:
-    filter:
-       exclude_domains: 
-         - automation
-       exclude_entities:
-         - ???
+  filter:
+    exclude_domains: 
+      - automation
+    exclude_entities:
+      - light._2
+      - light._3
+      - light._4
+      - binary_sensor.k_no_motion_for_20
+      - binary_sensor.t_no_motion_for_20
+      - binary_sensor.b_no_motion_for_20
 
 asuswrt:
-    host: ???
-    username: ???
-    ssh_key: /home/pi/.ssh/id_rsa
+  host: !secret asus_ip
+  username: !secret asus_username
+  ssh_key: !secret asus_ssh_key
 
 media_player:
   - platform: vlc
@@ -444,6 +565,7 @@ sudo ./configure --arch=armel --target-os=linux --enable-gpl --enable-libx264 --
 就大功告成啦！
 
 笔者家里没有usb摄像头，倒是有一个海康萤石的安防摄像头，如何接入呢？有两种方法。第一种是利用萤石摄像头自带的rtsp协议接入HA，也是用的ffmpeg模块。
+
 ```yaml
 camera:
   - platform: ffmpeg
@@ -584,207 +706,350 @@ tts:
 自动化是HA的重头戏！智能家居是否“智能”就体现在这里了。基本的自动化有三个要素：
 
 1. Trigger
-      自动化触发的条件！是必须要有的环节。
+  自动化触发的事件！是必须要有的环节。例如：“灯从**关闭**状态到**打开**状态”，“温度低于**18**度时”，“Home Assistant**初次运行**时”，这些都是可以作为触发的事件，重点在于“状态的改变”。
 2. Condition
-       环境条件，与trigger不同。
+  环境条件，与trigger不同，重点在“当前状态”。例如，“当前太阳**落山**”，“当前**灯**开着”，都是环境状态条件。
 3. Action
+  运行一系列操作！例如打开灯，关闭风扇等等。
 
+常常有人会把Trigger和Condition搞混，其实很好理解，看看官网上怎么说的：
 >Triggers look at the actions, while conditions look at the results: turning a light on versus a light being on.
-
 
 附上现有的`automation.yaml`，并加以说明：
 
 ```yaml
-- id: '1542637821107'
+# 回家时打开客厅和厨房的灯，并播放“欢迎回家”。判断回家的条件是：门窗传感器打开，并且此时室内无人已超过20分钟，光照度小于300。
+- id: id1
   alias: Back home
   trigger:
-    - platform: state
-      entity_id: binary_sensor.door_window_sensor_158d00023137b7
-      from: 'off'
-      to: 'on'
+  - platform: state
+    entity_id: binary_sensor.door_window_sensor_158d00023137b7
+    from: 'off'
+    to: 'on'
   condition:
-    - condition: numeric_state
-      below: '300'
-      entity_id: sensor.illumination_7c49eb17e992
-    - condition: template
-      value_template:  {% raw %}'{{states.binary_sensor.motion_sensor_kitchen.attributes["No motion since"] | int >= 1200}}' {% endraw %}
+  - condition: numeric_state
+    below: '300'
+    entity_id: sensor.illumination_7c49eb17e992
+  - condition: template
+    value_template: {% raw %}'{{states.binary_sensor.motion_sensor_kitchen.attributes["No motion since"] | int >= 1200}}'{% endraw %}
   action:
-    - service: switch.turn_on
-      entity_id: switch.kitchen_left
-    - service: light.turn_on
-      entity_id: light._5     
-    - service: tts.baidu_say
-      data:
-        entity_id: media_player.vlc
-        message: 欢迎回家    
-
-- id: '1543895897994'
-  alias: Turn on air purifier
-  trigger:
-    - platform: numeric_state
-      above: '73'
-      entity_id: sensor.filtered_pm25
-  condition:
-    - condition: time
-      after: 07:30
-      before: '23:00'
-      weekday:
-        - mon
-        - tue
-        - wed
-        - thu
-        - fri
-  action:
-    - service: fan.turn_on
-      entity_id: fan.xiaomi_miio_device    
-    - service: fan.set_speed
-      data:
-        entity_id: fan.xiaomi_miio_device
-        speed: Favorite
-
-- id: '1543895897995'
+  - service: switch.turn_on
+    entity_id: switch.kitchen_left
+  - service: light.turn_on
+    entity_id: light._5
+  - service: tts.baidu_say
+    data:
+      entity_id: media_player.vlc
+      message: 欢迎回家
+# 睡觉时候，让空气净化器进入睡眠模式。当前判断睡觉的条件是时间触发，以后会改成贝叶斯传感器的睡觉概率估计。
+- id: id2
   alias: Good night
   trigger:
-    - platform: time
-      at: '23:02:00'
+  - platform: time
+    at: '23:02:00'
   condition:
-    - condition: state
-      entity_id: fan.xiaomi_miio_device
-      state: 'on'
+  - condition: state
+    entity_id: fan.xiaomi_miio_device
+    state: 'on'
   action:
     service: fan.set_speed
     data:
       entity_id: fan.xiaomi_miio_device
       speed: Silent
-
-- id: '1543895897996'
+# Home Assistant开机时，音量调到最大。这是vlc的一个bug修复自动化...
+- id: id3
+  alias: Startup
+  trigger:
+  - event: start
+    platform: homeassistant
+  condition: []
+  action:
+  - service: media_player.volume_set
+    data:
+      entity_id: media_player.vlc
+      volume_level: 0.99
+  - service: cover.close_cover
+    entity_id: cover.garage_door
+  - service: switch.turn_off
+    entity_id: switch.table_down
+# 如果AQI高于73，打开空气净化器并调整至最强风。
+- id: id4
+  alias: Turn on air purifier
+  trigger:
+  - platform: numeric_state
+    above: '73'
+    entity_id: sensor.filtered_pm25
+  condition:
+  - condition: time
+    after: 07:30
+    before: '23:00'
+    weekday:
+    - mon
+    - tue
+    - wed
+    - thu
+    - fri
+  action:
+  - service: fan.turn_on
+    entity_id: fan.xiaomi_miio_device
+  - service: fan.set_speed
+    data:
+      entity_id: fan.xiaomi_miio_device
+      speed: Favorite
+- id: id5
   alias: Turn air purifier strong
   trigger:
-    - platform: numeric_state
-      above: '73'
-      entity_id: sensor.filtered_pm25
+  - platform: numeric_state
+    above: '73'
+    entity_id: sensor.filtered_pm25
   condition:
-    - condition: state
-      entity_id: fan.xiaomi_miio_device
-      state: 'on'
-    - condition: template
-      value_template: {% raw %}'{{states.fan.xiaomi_miio_device.attributes["speed"] == "Silent"}}' {% endraw %}
-    - condition: time
-      after: 07:30
-      before: '23:00'
-      weekday:
-        - mon
-        - tue
-        - wed
-        - thu
-        - fri
+  - condition: state
+    entity_id: fan.xiaomi_miio_device
+    state: 'on'
+  - condition: template
+    value_template: {% raw %}'{{states.fan.xiaomi_miio_device.attributes["speed"] == "Silent"}}'{% endraw %}
+  - condition: time
+    after: 07:30
+    before: '23:00'
+    weekday:
+    - mon
+    - tue
+    - wed
+    - thu
+    - fri
   action:
     service: fan.set_speed
     data:
       entity_id: fan.xiaomi_miio_device
       speed: Favorite
- 
-- id: '1543895980971'
+# 如果AQI小于68，关掉空气净化器。
+- id: id6
   alias: Turn off air purifier
   trigger:
-    - platform: numeric_state
-      below: '68'
-      entity_id: sensor.filtered_pm25      
+  - platform: numeric_state
+    below: '68'
+    entity_id: sensor.filtered_pm25
   condition:
-    - condition: time
-      after: 07:30
-      before: '23:00'
-    - condition: state
-      entity_id: fan.xiaomi_miio_device
-      state: 'on' 
+  - condition: time
+    after: 07:30
+    before: '23:00'
+  - condition: state
+    entity_id: fan.xiaomi_miio_device
+    state: 'on'
   action:
     service: fan.turn_off
     entity_id: fan.xiaomi_miio_device
-
-- id: '1544346029104'
-  alias: Set volume
-  trigger:
-    - platform: homeassistant
-      event: start
-  condition: []
-  action:
-    service: media_player.volume_set
-    data:
-      entity_id: media_player.vlc
-      volume_level: 0.99
-
-- id: '1544883674285'
+# 如果有人单击无线开关，改变阳台灯的状态（开/关）
+- id: id7
   alias: Toggle balcony light
   trigger:
-    - platform: event
-      event_type: xiaomi_aqara.click
-      event_data:
-        click_type: single
-        entity_id: binary_sensor.switch_balcony        
+  - platform: event
+    event_type: xiaomi_aqara.click
+    event_data:
+      click_type: single
+      entity_id: binary_sensor.switch_balcony
   condition: []
   action:
     service: switch.toggle
-    entity_id: switch.rack_light
-
-- id: '1542637821109'
+    entity_id: switch.balcony_light
+# 如果阳台有人，且灯是关闭状态，若此时在晚上则把阳台灯打开。
+- id: id8
   alias: Turn on balcony light
   trigger:
-    - platform: state
-      entity_id: binary_sensor.motion_sensor_balcony
-      from: 'off'
-      to: 'on'
+  - platform: state
+    entity_id: binary_sensor.motion_sensor_balcony
+    from: 'off'
+    to: 'on'
   condition:
-    - condition: state
-      entity_id: switch.rack_light
-      state: 'off'
-    - condition: time
-      after: '17:00'
-      before: 07:00
-  action:  
+  - condition: state
+    entity_id: switch.balcony_light
+    state: 'off'
+  - condition: time
+    after: '17:00'
+    before: 07:00
+  action:
     service: switch.turn_on
-    entity_id: switch.rack_light
-
-- id: '1542637821108'
+    entity_id: switch.balcony_light
+# 如果厕所有人，打开厕所灯。
+- id: id9
   alias: Turn on toilet light
   trigger:
-    - platform: state
-      entity_id: binary_sensor.motion_sensor_toilet
-      from: 'off'    
-      to: 'on'
+  - platform: state
+    entity_id: binary_sensor.motion_sensor_toilet
+    from: 'off'
+    to: 'on'
   condition: []
   action:
     service: switch.turn_on
-    entity_id: switch.toilet_left     
-
-- id: '1545558784756'
+    entity_id: switch.toilet_left
+# 以下为升降桌Cover控制的后续状态修补。
+- id: id10
   alias: Turn off table up
   trigger:
-    - platform: state
-      entity_id: switch.table_up
-      for: 00:03:00
-      from: 'off'      
-      to: 'on'
+  - platform: state
+    entity_id: switch.table_up
+    for: 00:03:00
+    from: 'off'
+    to: 'on'
   condition: []
   action:
     service: switch.turn_off
     entity_id: switch.table_up
-
-- id: '1545558784757'
+- id: id11
   alias: Turn off table down
   trigger:
-    - platform: state
-      entity_id: switch.table_down
-      for: 00:03:00
-      from: 'off'      
-      to: 'on'
+  - platform: state
+    entity_id: switch.table_down
+    for: 00:03:00
+    from: 'off'
+    to: 'on'
   condition: []
   action:
     service: switch.turn_off
     entity_id: switch.table_down
+# 来自小米智能网关的光照传感器bug：当前光照会和前100次采样结果进行平均，因此数据更新经常延时。通过不断开关智能网关的夜灯来强制更新采样结果。
+- id: id12
+  alias: Update lumen sensor
+  trigger:
+  - platform: time
+    minutes: /3
+    seconds: 0
+  action:
+  - data:
+      brightness: 2
+      entity_id: light.gateway_light
+    service: light.turn_on
+  - delay:
+      seconds: 1
+  - entity_id: light.gateway_light
+    service: light.turn_off
+# 早上Zoey出门后，把主卧插座给关了。
+- id: id13
+  alias: Turn off charging power
+  trigger:
+  - entity_id: binary_sensor.door_window_sensor_158d00023137b7
+    for: 00:30:00
+    from: 'on'
+    platform: state
+    to: 'off'
+  condition:
+  - after: '7:00'
+    condition: time
+  - condition: state
+    entity_id: switch.plug_158d000237cd54
+    state: 'on'
+  - condition: state
+    entity_id: device_tracker.zoey
+    state: not_home
+  action:
+  - entity_id: switch.plug_158d000237cd54
+    service: switch.turn_off
+# 房间内最后有人移动出现在哪里？用于判断家里空气安静时，究竟是大家都离开了还是大家都睡觉了。
+- id: id14
+  alias: Update Last Motion
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.motion_sensor_toilet, binary_sensor.motion_sensor_balcony, binary_sensor.motion_sensor_kitchen, binary_sensor.ffmpeg_motion
+      to: 'on'
+  action:
+    - service: variable.set_variable
+      data:
+        variable: last_motion
+        attributes_template: >
+            {
+              "history_1": "{{ variable.state }}",
+              "history_2": "{{ variable.attributes.history_1 }}",
+              "history_3": "{{ variable.attributes.history_2 }}"
+            }
+      data_template:
+        value: "{{ trigger.to_state.attributes.friendly_name }}"
 ```
 
-## 5. 优化
+## 5. 进阶部分
 
-有时候，传感器的数值在某个时间会突然跳动很厉害，造成某些自动化的误触发（比如上述的空气质量差时自动打开空净），这时候就要使用一些方法来去掉这些outliers，或者通过滤波来让数据更加平滑。
+### 5.1 数据优化
+有时候，传感器的数值在某个时间会突然跳动很厉害，造成某些自动化的误触发（比如上述的空气质量差时自动打开空净），这时候就要使用一些方法来去掉这些outliers，或者通过滤波来让数据更加平滑。例如，可以使用Statistics sensor模块来控制：
 
-![]({{ site.baseurl }}/public/images/HA2.png)
+```yaml
+sensor:
+  - platform: template
+    sensors:
+      xiaomi_ap_aqi_raw:
+        friendly_name: AQI Raw
+        value_template: "{{ states.fan.xiaomi_miio_device.attributes.aqi }}"
+        unit_of_measurement: AQI
+  - platform: statistics
+    name: "xiaomi_ap_statistics"
+    entity_id: sensor.xiaomi_ap_aqi_raw  
+  - platform: template
+    sensors:                          
+      xiaomi_aqi_mean:
+        unit_of_measurement: AQI
+        value_template: "{{ states.sensor.xiaomi_ap_statistics.attributes.mean }}"
+```
+
+除了mean，还有min，max，median，STD等参数可以得到统计！另一种方法便是使用Filter sensor模块来滤波，例如：
+
+```yaml
+sensor:
+ - platform: template
+    sensors:
+      xiaomi_ap_aqi_raw:
+        friendly_name: AQI Raw
+        value_template: "{{ states.fan.xiaomi_miio_device.attributes.aqi }}"
+        unit_of_measurement: AQI
+  - platform: filter
+    name: "Filtered AQI"
+    entity_id: sensor.xiaomi_ap_aqi_raw
+    filters:
+      - filter: lowpass
+        time_constant: 10
+      - filter: time_simple_moving_average
+        window_size: 00:05
+        precision: 2
+```
+
+效果如下，能够最大程度减少误触发！
+
+![]({{ site.baseurl }}/public/images/HA3.png)
+
+### 5.2 数据库替换
+
+HA原生的SQLite数据库有时候太慢啦！能不能替换成别的数据库呢？这里介绍一下如何替换成PostgreSQL数据库，参考[墨澜的博客](http://cxlwill.cn/Home-Assistant/HomeAssistant-PostgreSQL/)。首先安装PostgreSQL：
+
+```zsh
+sudo apt-get install postgresql postgresql-server-dev-9.6
+sudo pip3 install psycopg2
+```
+
+其中postgresql-server-dev版本号自查。然后创建PostgreSQL数据库，这里沿用HA的用户名（例如用户名为pi），密码假设设为raspberry，那么：
+
+```zsh
+sudo -u postgres createuser pi
+sudo -u postgres psql
+ALTER USER pi WITH PASSWORD 'raspberry';
+\q
+```
+
+之后创建名为homeassistant的数据库：
+
+```zsh
+sudo -u postgres createdb -O pi homeassistant
+```
+
+在HA的配置文件中，加入：
+
+```yaml
+recorder:
+  db_url: postgres://pi:raspberry@localhost/homeassistant
+```
+
+重启即可体验飞一般的感觉～
+
+### 5.3 与开放AI平台结合
+
+以后补齐
+
+### 5.4 Variable的使用与贝叶斯传感器
+
+以后补齐
