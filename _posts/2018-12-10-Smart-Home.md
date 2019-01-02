@@ -55,73 +55,68 @@ $ sudo 	hass --open-ui
 
 ```yaml
 homeassistant:
-  # Name of the location where Home Assistant is running
+  # HA的名字
   name: RIVERSIDE
-  # Location required to calculate the time the sun rises and sets
+  # 经纬度，用于判断太阳升起落下的时间
   latitude: !secret latitude
   longitude: !secret longitude
-  # Impacts weather/sunrise data (altitude above sea level in meters)
+  # 海拔
   elevation: 0
-  # metric for Metric, imperial for Imperial
+  # 公制，英制单位
   unit_system: metric
-  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  # 时区，请在: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones中查找
   time_zone: Asia/Shanghai
-  # Customization file
+  # 个性化设置文件位置，例如改变实体名称，改变在HA中是否可见的状态等等
   customize: !include customize.yaml
   packages: !include_dir_named packages
 
-# Show links to resources in log and frontend
-# introduction:
-
-# Enables the frontend
+# 开启前端
 frontend:
 
-# Enables configuration UI
+# 开启配置管理的UI
 config:
 
-# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+# 如果使用 SSL/TLS, 或者运行在 Docker 容器内，请注释掉这个
 http:
-#   base_url: example.duckdns.org:8123
+#   旧的验证方式，不安全，但某些插件需要这个密码
   api_password: !secret http_password
 
-# Checks for available updates
-# Note: This component will send some information about your system to
-# the developers to assist with development of Home Assistant.
-# For more information, please see:
-# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
+# 系统更新器，会上传主机的参数，详见https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
 updater:
   # Optional, allows Home Assistant developers to focus on popular components.
   # include_used_components: true
 
-# Discover some devices automatically
+# 自动嗅探新的设备
 discovery:
 
 # Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
 
-# Enables support for tracking state changes over time
+# 保存设备状态的历史
 history:
 
-# View all events in a logbook
+#保存HA的日志
 logbook:
 
-# Enables a map showing the location of tracked devices
+# 查看跟踪设备的地图位置
 map:
 
-# Track the sun
+# 太阳所在的位置
 sun:
 
+# 数据库位置
 recorder:
   db_url: !secret SQL_address
 
-# Sensors
+# 传感器
 sensor:
-  # Weather prediction
+  # 天气预测，使用yahoo天气组件
   - platform: yweather
     monitored_conditions:
       - weather
       - temp_min
       - temp_max 
+  # 小米空净的AQI，温度，湿度传感器。AQI传感器包含一个Filter Sensor进行滤波，详见https://www.home-assistant.io/components/sensor.filter/
   - platform: template
     sensors:
       xiaomi_ap_aqi_raw:
@@ -152,6 +147,7 @@ sensor:
         value_template: "{{ states.fan.xiaomi_miio_device.attributes.humidity }}"
         unit_of_measurement: "%"
         device_class: humidity
+  # 贝叶斯睡觉传感器的概率记录，用于debug
   - platform: template
     sensors:
       sleeping_probability:
@@ -159,11 +155,14 @@ sensor:
         value_template: {% raw %}"{{ states.binary_sensor.sleeping.attributes.probability | float * 100 }}"{% endraw %}
         unit_of_measurement: "%"
 
+# 二进制传感器
 binary_sensor:
+  # ffmpeg motion组件，根据视频压缩中scene change的特性进行画面中的运动检测，详见https://www.home-assistant.io/components/binary_sensor.ffmpeg_motion/
   - platform: ffmpeg_motion
     input: !secret ffmpeg_input
     changes: 2
     extra_arguments: -filter:v "crop=in_w/2:in_h:in_w/2:0"
+  # 厕所，阳台，厨房的20分钟无人二进制传感
   - platform: template
     sensors:
       k_no_motion_for_20:
@@ -176,6 +175,7 @@ binary_sensor:
     sensors:
       t_no_motion_for_20:
         value_template: {% raw %}'{{states.binary_sensor.motion_sensor_toilet.attributes["No motion since"] | int >= 1200}}'{% endraw %}
+  # 贝叶斯传感器检测是否睡觉，详见https://www.home-assistant.io/components/binary_sensor.bayesian/
   - platform: bayesian
     prior: 0.33
     name: 'Sleeping'
@@ -237,7 +237,7 @@ binary_sensor:
         platform: 'state'
         to_state: 'on'
 
-# Text to speech
+# 文字转语音，使用百度api
 tts:
   - platform: baidu
     app_id: !secret baidu_app_id
@@ -247,20 +247,25 @@ tts:
 # Cloud
 cloud:
   
+# USB摄像头监控，未启用
 #  - platform: ffmpeg
 #    name: webcam
 #    input: -f v4l2 -r 30 -i /dev/video0
 
+# MQTT服务器，未启用
 # mqtt:
 #   broker: !secret mqtt_ip
 
+# 小米网关接入
 xiaomi_aqara:
   gateways:
     - mac: !secret xiaomi_mac
       key: !secret xiaomi_key
 
+# 灯具列表文件
 light: !include lights.yaml
 
+# 小米空净接入
 fan:
   - platform: xiaomi_miio
     friendly_name: "小米空净"
@@ -268,6 +273,7 @@ fan:
     host: !secret xiaomi_ap_ip
     token: !secret xiaomi_ap_token
 
+# 命令行开关接入，详见https://www.home-assistant.io/components/switch.command_line/
 switch http:
   - platform: command_line
     switches:
@@ -276,6 +282,7 @@ switch http:
         command_on: !secret lightwall_on
         command_off: !secret lightwall_off
 
+# 博联红外/射频遥控器接入
 switch broadlink:
   - platform: broadlink
     host: !secret broadlink_rmpro_ip
@@ -326,6 +333,7 @@ switch broadlink:
         command_on: !secret table_down
         command_off: !secret table_stop
 
+# 利用博联开关模拟车库门/卷帘窗操作（实际用处不大，因为状态不可控）
 cover:
   - platform: template
     covers:
@@ -344,9 +352,11 @@ cover:
           data:
             entity_id: switch.table_up
 
+# IFTTT接入，暂时没有需求，未启用
 # ifttt:
 #   key: !secret ifttt_key
 
+# 变量控制，详见https://github.com/rogro82/hass-variables
 variable:  
   last_motion:
     value: 'Unknown'
@@ -355,6 +365,7 @@ variable:
       icon: mdi:alarm
       friendly_name: 'Last Motion'
 
+# Homekit接入，把不需要的部分列出
 homekit:
   filter:
     exclude_domains: 
@@ -367,18 +378,22 @@ homekit:
       - binary_sensor.t_no_motion_for_20
       - binary_sensor.b_no_motion_for_20
 
+# 接入刷了梅林的Netgear或原生Asus路由器，用于探测谁在家
 asuswrt:
   host: !secret asus_ip
   username: !secret asus_username
   ssh_key: !secret asus_ssh_key
 
+# 音频播放，利用vlc作为引擎
 media_player:
   - platform: vlc
 
+# 分组、自动化和脚本文件所在的位置
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
 
+# 一个远程查看HA状态的平台，详见https://www.molo.cn/
 molohub:
 ```
 
@@ -1048,8 +1063,8 @@ recorder:
 
 ### 5.3 与开放AI平台结合
 
-以后补齐
+例如如何在开门时进行人形识别，判断是谁在家？
 
 ### 5.4 Variable的使用与贝叶斯传感器
 
-以后补齐
+详见[Useful Sensor: Bayesian Sleep Detection in Home Assistant](https://diyfuturism.com/index.php/2017/12/29/useful-sensor-bayesian-sleep-detection-in-home-assistant/) 和 [Useful Sensor: Motion Last Seen & Meta Motion Sensor](https://diyfuturism.com/index.php/2017/12/15/useful-sensor-motion-last-seen-________/)
