@@ -42,7 +42,7 @@ $ sudo pip3 install homeassistant
 
 即可。随后运行
 ```zsh
-$ sudo 	hass --open-ui
+$ sudo hass --open-ui
 ``` 
 
 来以root权限运行HA，目的是为了安装一些必要的插件。随时去http://树莓派IP地址:8123 看看是不是安装好了。等到安装好以后就可以以普通用户身份运行HA了！即`hass --open-ui`
@@ -110,12 +110,17 @@ recorder:
 
 # 传感器
 sensor:
-  # 天气预测，使用yahoo天气组件
-  - platform: yweather
+  # 天气预测，使用yr天气组件预测24小时后的温度
+  - platform: yr
+    forecast: 24
     monitored_conditions:
-      - weather
-      - temp_min
-      - temp_max 
+      - temperature
+      - dewpointTemperature
+      - symbol
+  # 时间
+  - platform: time_date
+    display_options:
+      - 'time'
   # 小米空净的AQI，温度，湿度传感器。AQI传感器包含一个Filter Sensor进行滤波，详见https://www.home-assistant.io/components/sensor.filter/
   - platform: template
     sensors:
@@ -162,6 +167,11 @@ binary_sensor:
     input: !secret ffmpeg_input
     changes: 2
     extra_arguments: -filter:v "crop=in_w/2:in_h:in_w/2:0"
+  # 可能醒着的时间段（睡眠时间段的反）
+  - platform: template
+    sensors:
+      prone_to_wake:
+        value_template: {% raw %}'{{ states.sensor.time.state > "09:00" and states.sensor.time.state <= "21:59"}}'{% endraw %}
   # 厕所，阳台，厨房的20分钟无人二进制传感
   - platform: template
     sensors:
@@ -187,10 +197,15 @@ binary_sensor:
         platform: 'state'
         to_state: 'FFmpeg Motion'
       - entity_id: 'variable.last_motion'
-        prob_given_true: 0.66
-        prob_given_false: 0.4
+        prob_given_true: 0.6
+        prob_given_false: 0.2
         platform: 'state'
         to_state: 'Toilet Motion'
+      - entity_id: 'variable.last_motion'
+        prob_given_true: 0.45
+        prob_given_false: 0.3
+        platform: 'state'
+        to_state: 'Kitchen Motion'
       - entity_id: 'group.all_light'
         prob_given_true: 1.0
         prob_given_false: 0.8
@@ -202,20 +217,20 @@ binary_sensor:
         platform: 'state'
         to_state: 'not_home'
       - entity_id: 'device_tracker.simon'
-        prob_given_true: 0.75
+        prob_given_true: 0.8
         prob_given_false: 0.625
         platform: 'state'
         to_state: 'not_home'
       - entity_id: 'sensor.illumination_7c49eb17e992'
-        prob_given_true: 0.9
+        prob_given_true: 0.8
         prob_given_false: 0.4
         platform: 'numeric_state'
         below: 100
-      - entity_id: 'sun.sun'
-        prob_given_true: 0.8
-        prob_given_false: 0.4
+      - entity_id: 'binary_sensor.prone_to_wake'
+        prob_given_true: 0.3
+        prob_given_false: 0.7
         platform: 'state'
-        to_state: 'below_horizon'
+        to_state: 'on'
       - entity_id: 'switch.plug_158d000237cd54'
         prob_given_true: 0.7
         prob_given_false: 0.5
@@ -377,6 +392,7 @@ homekit:
       - binary_sensor.k_no_motion_for_20
       - binary_sensor.t_no_motion_for_20
       - binary_sensor.b_no_motion_for_20
+      - binary_sensor.prone_to_wake
 
 # 接入刷了梅林的Netgear或原生Asus路由器，用于探测谁在家
 asuswrt:
@@ -387,6 +403,10 @@ asuswrt:
 # 音频播放，利用vlc作为引擎
 media_player:
   - platform: vlc
+
+# 外部脚本，用于人体识别
+shell_command:
+  recog_people: python3 /home/pi/recog_people.py
 
 # 分组、自动化和脚本文件所在的位置
 group: !include groups.yaml
@@ -733,35 +753,35 @@ tts:
 附上现有的`automation.yaml`，并加以说明：
 
 ```yaml
-# 回家时打开客厅和厨房的灯，并播放“欢迎回家”。判断回家的条件是：门窗传感器打开，并且此时室内无人已超过20分钟，光照度小于300。
+# 回家时打开客厅和厨房的灯，并根据门口监控判断回来的是谁，播放欢迎词。判断回家的条件是：门窗传感器打开，并且此时室内无人，光照度小于250。
 - id: id1
   alias: Back home
   trigger:
   - platform: state
     entity_id: binary_sensor.door_window_sensor_158d00023137b7
-    from: 'off'
+    from: 'off'   
     to: 'on'
   condition:
   - condition: numeric_state
-    below: '300'
     entity_id: sensor.illumination_7c49eb17e992
-  - condition: template
-    value_template: {% raw %}'{{states.binary_sensor.motion_sensor_kitchen.attributes["No motion since"] | int >= 1200}}'{% endraw %}
+    below: 250
+  - condition: state
+    entity_id: binary_sensor.motion_sensor_kitchen
+    state: 'off'
   action:
-  - service: switch.turn_on
-    entity_id: switch.kitchen_left
-  - service: light.turn_on
-    entity_id: light._5
-  - service: tts.baidu_say
-    data:
-      entity_id: media_player.vlc
-      message: 欢迎回家
-# 睡觉时候，让空气净化器进入睡眠模式。当前判断睡觉的条件是时间触发，以后会改成贝叶斯传感器的睡觉概率估计。
+  - entity_id: switch.kitchen_left
+    service: switch.turn_on
+  - entity_id: light._5
+    service: light.turn_on
+  - service: shell_command.recog_people
+# 睡觉时候，让空气净化器进入睡眠模式。当前判断睡觉的条件是贝叶斯传感器的睡觉概率。
 - id: id2
   alias: Good night
   trigger:
-  - platform: time
-    at: '23:02:00'
+  - platform: state
+    entity_id: binary_sensor.sleeping
+    from: 'off'
+    to: 'on'
   condition:
   - condition: state
     entity_id: fan.xiaomi_miio_device
@@ -795,15 +815,12 @@ tts:
     above: '73'
     entity_id: sensor.filtered_pm25
   condition:
-  - condition: time
-    after: 07:30
-    before: '23:00'
-    weekday:
-    - mon
-    - tue
-    - wed
-    - thu
-    - fri
+  - condition: state
+    entity_id: binary_sensor.sleeping
+    state: 'off'
+  - condition: state
+    entity_id: fan.xiaomi_miio_device
+    state: 'off'
   action:
   - service: fan.turn_on
     entity_id: fan.xiaomi_miio_device
@@ -823,15 +840,9 @@ tts:
     state: 'on'
   - condition: template
     value_template: {% raw %}'{{states.fan.xiaomi_miio_device.attributes["speed"] == "Silent"}}'{% endraw %}
-  - condition: time
-    after: 07:30
-    before: '23:00'
-    weekday:
-    - mon
-    - tue
-    - wed
-    - thu
-    - fri
+  - condition: state
+    entity_id: binary_sensor.sleeping
+    state: 'off'
   action:
     service: fan.set_speed
     data:
@@ -845,9 +856,9 @@ tts:
     below: '68'
     entity_id: sensor.filtered_pm25
   condition:
-  - condition: time
-    after: 07:30
-    before: '23:00'
+  - condition: state
+    entity_id: binary_sensor.sleeping
+    state: 'off'
   - condition: state
     entity_id: fan.xiaomi_miio_device
     state: 'on'
@@ -867,24 +878,24 @@ tts:
   action:
     service: switch.toggle
     entity_id: switch.balcony_light
-# 如果阳台有人，且灯是关闭状态，若此时在晚上则把阳台灯打开。
+# 在太阳下山时，如果阳台有人，且灯是关闭状态，则把阳台灯打开。
 - id: id8
   alias: Turn on balcony light
   trigger:
-  - platform: state
-    entity_id: binary_sensor.motion_sensor_balcony
+  - entity_id: binary_sensor.motion_sensor_balcony
     from: 'off'
+    platform: state
     to: 'on'
   condition:
   - condition: state
     entity_id: switch.balcony_light
     state: 'off'
-  - condition: time
-    after: '17:00'
-    before: 07:00
+  - condition: state
+    entity_id: sun.sun
+    state: 'below_horizon'
   action:
+  - entity_id: switch.balcony_light
     service: switch.turn_on
-    entity_id: switch.balcony_light
 # 如果厕所有人，打开厕所灯。
 - id: id9
   alias: Turn on toilet light
@@ -922,12 +933,12 @@ tts:
   action:
     service: switch.turn_off
     entity_id: switch.table_down
-# 来自小米智能网关的光照传感器bug：当前光照会和前100次采样结果进行平均，因此数据更新经常延时。通过不断开关智能网关的夜灯来强制更新采样结果。
+# 来自小米智能网关的光照传感器bug：当前光照会和前100次采样结果进行平均，因此数据更新经常延时。通过每十分钟不断开关智能网关的夜灯来强制更新采样结果。
 - id: id12
   alias: Update lumen sensor
   trigger:
   - platform: time
-    minutes: /3
+    minutes: /10
     seconds: 0
   action:
   - data:
@@ -938,18 +949,17 @@ tts:
       seconds: 1
   - entity_id: light.gateway_light
     service: light.turn_off
-# 早上Zoey出门后，把主卧插座给关了。
+# 早上Zoey出门十分钟后，把主卧插座给关了。
 - id: id13
   alias: Turn off charging power
-  trigger:
+ trigger:
   - entity_id: binary_sensor.door_window_sensor_158d00023137b7
-    for: 00:30:00
+    for: 
+      minutes: 10
     from: 'on'
     platform: state
     to: 'off'
   condition:
-  - after: '7:00'
-    condition: time
   - condition: state
     entity_id: switch.plug_158d000237cd54
     state: 'on'
@@ -1063,7 +1073,119 @@ recorder:
 
 ### 5.3 与开放AI平台结合
 
-例如如何在开门时进行人形识别，判断是谁在家？
+例如如何在开门时进行人形识别，判断是谁回来了，并且播放欢迎词？以下以百度AI的人体分析为例。
+
+首先，去ai.baidu.com申请一个开发账号，在人工智能-人体分析中创建一个新的应用，获得Api Key和Secret Key。然后，在本地新建一个python文件，例如`body_recognition.py`。首先，利用api key和secret key获得一个可用的token：
+
+```python
+import requests
+
+apikey_baidu = '???'
+apisecret_baidu = '???'
+
+host_baidu_token = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials'
+token_baidu = requests.post(host_baidu_token, data={'client_id':apikey_baidu, 'client_secret':apisecret_baidu}).json()
+```
+
+然后，获取一张当前摄像头的图片，并且转换为Base64编码（百度人体识别api的要求，但类似于萤石开放平台的人体识别api就可选直接输入图片url，然而笔者写下这段话的时候该功能还未开通...）。图片转换为Base64编码的方法很简单，在python的base64库中就可以利用`b64encode`方法来进行编码。那么图片如何获取呢？有两种方法，一种是利用摄像头自带的rtsp协议地址，让ffmpeg来帮你截图。这里利用subprocess来运行外部指令：
+
+```python
+from subprocess import call
+import base64
+
+call(["ffmpeg", "-i", "rtsp://{username}:{password}@{ip_address}:554/h264/ch1/main/av_stream", "-f", "image2", "-t", "0.001", "-y", "/home/pi/tmpimg/snapshot.jpg"])
+with open("/home/pi/tmpimg/snapshot.jpg", "rb") as f:
+  base64_data = base64.b64encode(f.read())
+```
+
+或者，利用萤石开放平台的api获得当前截图的网络地址，同样需要获得设备的序列号和accessToken，具体方法不展开，请到open.ys7.com查找：
+
+```python
+result = requests.post('https://open.ys7.com/api/lapp/device/capture', data={'accessToken':'???','deviceSerial':'???','channelNo':1}).json()
+if (result['code']=='200'):
+  imgurl = result['data']['picUrl']
+else:
+  imgurl = ''
+base64_data = base64.b64encode(io.BytesIO(requests.get(imgurl).content).read())
+```
+
+不管用何种方法得到base64编码后的图片，接下来都可以上传到服务器上进行识别啦！
+
+```python
+host_baidu_body = 'https://aip.baidubce.com/rest/2.0/image-classify/v1/body_attr'
+result = requests.post(host_baidu_body, data={'access_token':token_baidu['access_token'],'image':base64_data, 'type': 'gender,age,glasses'}).json()
+```
+
+这里的type可以选取你想要得到的信息，我想要得到的是性别、年龄和是否戴眼镜。所有可选的属性包括以下几种，虽然大部分的用处都不多：
+
+```
+gender-性别，
+age-年龄阶段，
+lower_wear-下身服饰，
+upper_wear-上身服饰，
+headwear-是否戴帽子，
+glasses-是否戴眼镜，
+upper_color-上身服饰颜色，
+lower_color-下身服饰颜色，
+cellphone-是否使用手机，
+upper_wear_fg-上身服饰细分类，
+upper_wear_texture-上身服饰纹理，
+orientation-身体朝向，
+umbrella-是否撑伞；
+bag-背包,
+smoke-是否吸烟,
+vehicle-交通工具,
+carrying_item-是否有手提物,
+upper_cut-上方截断,
+lower_cut-下方截断,
+occlusion-遮挡
+```
+
+为了防止截图中没有人，设置一个循环直到上述返回值中`person_num`参数不为0，并设置一个`timeout`参数控制循环上限:
+
+```python
+timeout = 10
+while result['person_num'] == 0:
+  call(["ffmpeg", "-i", "rtsp://{username}:{password}@{ip_address}:554/h264/ch1/main/av_stream", "-f", "image2", "-t", "0.001", "-y", "/home/pi/tmpimg/snapshot.jpg"])
+  with open("/home/pi/tmpimg/snapshot.jpg", "rb") as f:
+    base64_data = base64.b64encode(f.read())
+  result = requests.post(host_baidu_body, data={'access_token':token_baidu['access_token'],'image':base64_data, 'type': 'gender,age,glasses'}).json()
+  timeout = timeout-1
+  if timeout == 0:
+  	quit()
+```
+
+接下来，调用HA的service！这里需要import一个叫做`homeassistant.remote`的模块，然后传递HA的api密码（即在设置中的`api_password`），接着就可以自由使用服务了！以判断性别和人数为例，让HA报出不同的欢迎词：
+
+```python
+import homeassistant.remote as remote
+
+api = remote.API('127.0.0.1', '{api_password}')
+domain = 'tts'
+entity_id = 'media_player.vlc'
+message1 = "欢迎你们"
+message2 = "欢迎女主人"
+message3 = "欢迎男主人"
+message4 = "欢迎回家"
+
+if result['person_num'] > 1:
+  remote.call_service(api, domain, 'baidu_say', {'entity_id': entity_id, 'message': message1})
+elif result['person_info'][0]['attributes']['gender']['score'] < 0.75:
+  remote.call_service(api, domain, 'baidu_say', {'entity_id': entity_id, 'message': message4})
+elif result['person_info'][0]['attributes']['gender']['name'] == "女性":
+  remote.call_service(api, domain, 'baidu_say', {'entity_id': entity_id, 'message': message2})
+else:
+  remote.call_service(api, domain, 'baidu_say', {'entity_id': entity_id, 'message': message3})
+```
+
+最后，记得在`configuration.yaml`里面加入一行：
+
+```yaml
+shell_command:
+  body_recognition: python3 /home/pi/body_recognition.py
+```
+
+这样，在自动化中就可以用`service: shell_command.body_recognition`来调用这个脚本啦～
 
 ### 5.4 Variable的使用与贝叶斯传感器
 
