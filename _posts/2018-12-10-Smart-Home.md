@@ -18,7 +18,18 @@ tags:
 
 <!-- more -->
 
-那么，这么多智能家居平台，要选择哪一家呢？说到智能家居，每个公司都有自己的战略布局，有小米博联这样的“半开放”平台（虽然加塞了自己的东西但是可以很好地接入第三方平台）和阿里京东这样的“封闭”平台（截止目前，天猫精灵AI联盟里面买的东西还是只能用天猫精灵控制，也就是从自家的app里面添加以外别无他法）。其实我们最经常能接触到的智能家居控制中心便是苹果的Homekit，界面非常符合苹果一贯的简洁风格，但是Homekit的配件都很贵，预算有限的人（包括我）常常会望而却步，才不得不考虑买其他家的智能家居产品。如果不介意都买一家公司的“全家桶”，那么这家公司自己的智能家庭APP已经可以满足你的需求。如果考虑到价格和性能，每种产品都选择了不同家的公司，那手机里装的APP就要塞不下了。
+什么是智能家居？请看Home Assistant官网的概括：
+
+![](https://developers.home-assistant.io/img/en/architecture/home_automation_landscape.svg)
+
+可以看到，智能家居主要分三个层次：
+1. Home Control，收集组件的信息并对组件进行控制，同样也接收来自用户的控制并返回信息。
+2. Home Automation，根据用户的配置，自动发送控制指令（通过用户指导来替代用户层的操作）。
+3. Smart Home，根据各种之前的控制行为与结果，自学习到下一次发送的控制指令（无需用户指导而替代用户层的操作）。
+
+根据上述的架构，显然当前智能家居还停留在自定义的控制规则上，和人工智能的“智能”二字相去甚远，但说到底其本意是为了方便生活中的一些小细节，因此也算是一个很有意义的“大人的玩具”了！再者，当前大的互联网公司在布局自己的智能家居产品时，或多或少会收集一些用户数据，这些数据日后经过训练，都有可能作为一种智能服务提供给消费者，真正做到Smart Home这一级别的智能家居。
+
+那么，这么多智能家居平台，要选择哪一家呢？虽然每个公司都有自己的战略布局，但当前对于开发者的友好程度并不一致。例如，有小米博联这样的“半开放”平台（虽然加塞了自己的东西但是可以很好地接入第三方平台）和阿里京东这样的“封闭”平台（截止目前，天猫精灵AI联盟里面买的东西还是只能用天猫精灵控制，也就是从自家的app里面添加以外别无他法）。其实我们最经常能接触到的智能家居控制中心便是苹果的Homekit，界面非常符合苹果一贯的简洁风格，但是Homekit的配件都很贵，预算有限的人（包括我）常常会望而却步，才不得不考虑买其他家的智能家居产品。如果不介意都买一家公司的“全家桶”，那么这家公司自己的智能家庭APP已经可以满足你的需求。如果考虑到价格和性能，每种产品都选择了不同家的公司，那手机里装的APP就要塞不下了。
 
 ![]({{ site.baseurl }}/public/images/HA2.png)
 
@@ -30,9 +41,7 @@ tags:
 
 ![]({{ site.baseurl }}/public/images/HA3.png)
 
-虽然智能家居其实和人工智能的“智能”二字相去甚远，但说到底本意是为了方便生活中的一些小细节，因此也算是一个很有意义的“大人的玩具”了～
-
-## 1. 安装Home Assistant
+## 1. 安装与配置Home Assistant
 
 任何电脑，任何操作系统，只要能运行python，都可以运行HA：笔记本、台式机、Mac、微型电脑...等等。选择树莓派的原因是自己刚好就有一块，而且放在那里常开功率也不会太大，不会进入睡眠模式。虽然亲测初代B版树莓派也是可以满足需求的，但是在编译安装HA和其他插件的过程中总会出现这样那样的错误，和内存与算力均有关系。考虑到未来会加入摄像头（ffmpeg），或者希望自带WiFi（可以放在任何角落而不需要放在路由器旁边），树莓派三代B+版本是最好的选择。
 
@@ -49,19 +58,7 @@ $ sudo pip3 install homeassistant
 $ hass --open-ui
 ``` 
 
-第一次运行需要来以root权限运行HA，即`sudo hass --open-ui`，其目的是为了安装一些必要的插件（需要权限）。随时去http://树莓派IP地址:8123 看看是不是安装好了。等到安装好以后，以后都只需以普通用户身份运行HA，值得注意的是运行必要的一些配置文件，如`configuration.yaml`和`groups.yaml`等，需要在本地的`.homeassistant/`中再建一个，原来的配置都放在`/root/.homeassistant`下了。具体需要哪些请在以普通身份运行HA时看终端的输出～
-
-如果是在树莓派上，还可以考虑官方的[Hass.io](https://www.home-assistant.io/hassio/)，一个基于Docker的HA系统，将镜像烧录到SD卡上就可以即插即用！笔者不考虑Hass.io的原因是希望在树莓派上还可以运行一些别的程序，比如Homebridge或者媒体中心之类的，因此就选择了手动安装啦～
-
-## 2. 原理与配置
-
-HA的基本原理用其官网的一张图就可以概括：
-
-![](https://developers.home-assistant.io/img/en/architecture/ha_architecture.svg)
-
-可以看到HA的核心便是不同的Events
-
-在HA的配置文件夹（一般是`/home/{your_username}/.homeassistant/`下），编辑主配置文件`configuration.yaml`。下面贴出我的参考文件：
+第一次运行需要来以root权限运行HA，即`sudo hass --open-ui`，其目的是为了安装一些必要的插件（需要权限）。随时去http://树莓派IP地址:8123 看看是不是安装好了。等到安装好以后，以后都只需以普通用户身份运行HA，值得注意的是运行必要的一些配置文件，如`configuration.yaml`，`groups.yaml`和`automations.yaml`等，需要在本地的`.homeassistant/`中再建一个（一般是`/home/{your_username}/.homeassistant/`），原来的配置都放在`/root/.homeassistant`下了。具体需要哪些请在以普通身份运行HA时看终端的输出～下面贴出基本的配置参数：
 
 ```yaml
 homeassistant:
@@ -109,10 +106,42 @@ map:
 # 太阳所在的位置
 sun:
 
-# 数据库位置
+# 数据库
 recorder:
-  db_url: !secret SQL_address
 
+# google文字转语音
+tts:
+  - platform: google
+
+# 天气预测，使用yr天气组件预测24小时后的温度
+sensor:
+  - platform: yr
+    forecast: 24
+    monitored_conditions:
+      - temperature
+      - dewpointTemperature
+      - symbol
+
+# 分组、自动化和脚本文件所在的位置
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+```
+
+如果是在树莓派上，还可以考虑官方的[Hass.io](https://www.home-assistant.io/hassio/)，一个基于Docker的HA系统，将镜像烧录到SD卡上就可以即插即用！笔者不考虑Hass.io的原因是希望在树莓派上还可以运行一些别的程序，比如Homebridge或者媒体中心之类的，因此就选择了手动安装啦～
+
+## 2. 原理与组件
+
+HA的基本原理用其官网的一张图就可以概括：
+
+![](https://developers.home-assistant.io/img/en/architecture/ha_architecture.svg)
+
+可以看到，HA的核心是Events Bus，它不断侦听和产生不同的事件，就好像心脏不停在跳动一般给HA输送血液；各种不同的组件，如灯、开关、传感器等等的状态通过状态机模块记录，一旦有状态变化就会产生一个“状态变化”事件发送给Event Bus；服务中心侦听Events Bus的服务请求，并根据组件们事先注册好的服务来发送控制指令；计时器模块每秒钟发送“时间变化”事件，就好像时钟电路的上升沿触发作用一样。
+
+核心机制在每个HA系统中都是固定的，而让每个HA与众不同的关键便是：组件（Component）。组件分两种，一种是和各种物联网设备交互的组件，另一种是响应HA中发生的各种事件的组件。
+
+
+```yaml
 # 传感器:
 sensor: !include sensor.yaml
 
@@ -125,32 +154,9 @@ tts:
     app_id: !secret baidu_app_id
     api_key: !secret baidu_api_key
     secret_key: !secret baidu_secret_key
-  
-# USB摄像头监控，未启用
-#  - platform: ffmpeg
-#    name: webcam
-#    input: -f v4l2 -r 30 -i /dev/video0
-
-# MQTT服务器，未启用
-# mqtt:
-#   broker: !secret mqtt_ip
-
-# 小米网关接入
-xiaomi_aqara:
-  gateways:
-    - mac: !secret xiaomi_mac
-      key: !secret xiaomi_key
 
 # 灯具
 light: !include lights.yaml
-
-# 小米空净接入
-fan:
-  - platform: xiaomi_miio
-    friendly_name: "小米空净"
-    model: zhimi.airpurifier.v6
-    host: !secret xiaomi_ap_ip
-    token: !secret xiaomi_ap_token
 
 # 开关：
 switch: !include switch.yaml
@@ -174,9 +180,19 @@ cover:
           data:
             entity_id: switch.table_up
 
-# IFTTT接入，暂时没有需求，未启用
-# ifttt:
-#   key: !secret ifttt_key
+# 小米网关接入
+xiaomi_aqara:
+  gateways:
+    - mac: !secret xiaomi_mac
+      key: !secret xiaomi_key
+			
+# 小米空净接入
+fan:
+  - platform: xiaomi_miio
+    friendly_name: "小米空净"
+    model: zhimi.airpurifier.v6
+    host: !secret xiaomi_ap_ip
+    token: !secret xiaomi_ap_token
 
 # 变量控制，详见https://github.com/rogro82/hass-variables
 variable:  
@@ -215,28 +231,12 @@ media_player:
 shell_command:
   recog_people: python3 /home/pi/.homeassistant/recog_people.py
 
-# 分组、自动化和脚本文件所在的位置
-group: !include groups.yaml
-automation: !include automations.yaml
-script: !include scripts.yaml
-
 # 一个远程查看HA状态的平台，详见https://www.molo.cn/
 molohub:
 ```
 
 传感器列表`sensor.yaml`如下：
 ```yaml
-# 天气预测，使用yr天气组件预测24小时后的温度
-- platform: yr
-  forecast: 24
-  monitored_conditions:
-    - temperature
-    - dewpointTemperature
-    - symbol
-# 时间
-- platform: time_date
-  display_options:
-    - 'time'
 # 小米空净的AQI，温度，湿度传感器。AQI传感器包含一个Filter Sensor进行滤波，详见https://www.home-assistant.io/components/sensor.filter/
 - platform: template
   sensors:
@@ -428,7 +428,8 @@ molohub:
       command_on: !secret table_down
       command_off: !secret table_stop
 ```
-## 3. 设备与组件
+
+## 3. 设备接入
 
 ### 红外/射频遥控器
 
@@ -675,7 +676,9 @@ sudo npm install -g homebridge-homeassistant
 homekit:
 ```
 
-即可，因此Homebridge只需要完成摄像头的接入就可以了。安装好Homebridge后还需要安装Camera-ffmpeg：
+即可。需要注意初次启用homekit 组件后，HA 主页会出现 PIN 码，若没有出现，删除配置文件夹下 `.homekit.state` 重试。
+
+接下来，Homebridge只需要完成摄像头的接入就可以了。安装好Homebridge后还需要安装Camera-ffmpeg：
 
 ```zsh
 sudo npm install -g homebridge-camera-ffmpeg
