@@ -108,149 +108,11 @@ sun:
 recorder:
   db_url: !secret SQL_address
 
-# 传感器
-sensor:
-  # 天气预测，使用yr天气组件预测24小时后的温度
-  - platform: yr
-    forecast: 24
-    monitored_conditions:
-      - temperature
-      - dewpointTemperature
-      - symbol
-  # 时间
-  - platform: time_date
-    display_options:
-      - 'time'
-  # 小米空净的AQI，温度，湿度传感器。AQI传感器包含一个Filter Sensor进行滤波，详见https://www.home-assistant.io/components/sensor.filter/
-  - platform: template
-    sensors:
-      xiaomi_ap_aqi_raw:
-        friendly_name: AQI Raw
-        value_template: "{{ states.fan.xiaomi_miio_device.attributes.aqi }}"
-        unit_of_measurement: AQI
-  - platform: filter
-    name: "Filtered pm25"
-    friendly_name: AQI
-    entity_id: sensor.xiaomi_ap_aqi_raw
-    filters:
-      - filter: lowpass
-        time_constant: 10
-      - filter: time_simple_moving_average
-        window_size: 00:05
-        precision: 2
-  - platform: template
-    sensors:
-      xiaomi_ap_temp:
-        friendly_name: "温度"
-        value_template: "{{ states.fan.xiaomi_miio_device.attributes.temperature }}"
-        unit_of_measurement: °C
-        device_class: temperature        
-  - platform: template
-    sensors:
-      xiaomi_ap_humidity:
-        friendly_name: "湿度"
-        value_template: "{{ states.fan.xiaomi_miio_device.attributes.humidity }}"
-        unit_of_measurement: "%"
-        device_class: humidity
-  # 贝叶斯睡觉传感器的概率记录，用于debug
-  - platform: template
-    sensors:
-      sleeping_probability:
-        friendly_name: "睡觉概率"
-        value_template: {% raw %}"{{ states.binary_sensor.sleeping.attributes.probability | float * 100 }}"{% endraw %}
-        unit_of_measurement: "%"
+# 传感器:
+sensor: !include sensor.yaml
 
-# 二进制传感器
-binary_sensor:
-  # ffmpeg motion组件，根据视频压缩中scene change的特性进行画面中的运动检测，详见https://www.home-assistant.io/components/binary_sensor.ffmpeg_motion/
-  - platform: ffmpeg_motion
-    input: !secret ffmpeg_input
-    changes: 2
-    extra_arguments: -filter:v "crop=in_w/2:in_h:in_w/2:0"
-  # 可能醒着的时间段（睡眠时间段的反）
-  - platform: template
-    sensors:
-      prone_to_wake:
-        value_template: {% raw %}'{{ states.sensor.time.state > "09:00" and states.sensor.time.state <= "21:59"}}'{% endraw %}
-  # 厕所，阳台，厨房的20分钟无人二进制传感
-  - platform: template
-    sensors:
-      k_no_motion_for_20:
-        value_template: {% raw %}'{{states.binary_sensor.motion_sensor_kitchen.attributes["No motion since"] | int >= 1200}}'{% endraw %}
-  - platform: template
-    sensors:
-      b_no_motion_for_20:
-        value_template: {% raw %}'{{states.binary_sensor.motion_sensor_balcony.attributes["No motion since"] | int >= 1200}}'{% endraw %}
-  - platform: template
-    sensors:
-      t_no_motion_for_20:
-        value_template: {% raw %}'{{states.binary_sensor.motion_sensor_toilet.attributes["No motion since"] | int >= 1200}}'{% endraw %}
-  # 贝叶斯传感器检测是否睡觉，详见https://www.home-assistant.io/components/binary_sensor.bayesian/
-  - platform: bayesian
-    prior: 0.33
-    name: 'Sleeping'
-    probability_threshold: 0.85
-    observations:
-      - entity_id: 'variable.last_motion'
-        prob_given_true: 0.1
-        prob_given_false: 0.8
-        platform: 'state'
-        to_state: 'FFmpeg Motion'
-      - entity_id: 'variable.last_motion'
-        prob_given_true: 0.6
-        prob_given_false: 0.2
-        platform: 'state'
-        to_state: 'Toilet Motion'
-      - entity_id: 'variable.last_motion'
-        prob_given_true: 0.45
-        prob_given_false: 0.3
-        platform: 'state'
-        to_state: 'Kitchen Motion'
-      - entity_id: 'group.all_light'
-        prob_given_true: 1.0
-        prob_given_false: 0.8
-        platform: 'state'
-        to_state: 'off'
-      - entity_id: 'device_tracker.zoey'
-        prob_given_true: 1
-        prob_given_false: 0.625
-        platform: 'state'
-        to_state: 'not_home'
-      - entity_id: 'device_tracker.simon'
-        prob_given_true: 0.8
-        prob_given_false: 0.625
-        platform: 'state'
-        to_state: 'not_home'
-      - entity_id: 'sensor.illumination_7c49eb17e992'
-        prob_given_true: 0.8
-        prob_given_false: 0.4
-        platform: 'numeric_state'
-        below: 100
-      - entity_id: 'binary_sensor.prone_to_wake'
-        prob_given_true: 0.3
-        prob_given_false: 0.7
-        platform: 'state'
-        to_state: 'on'
-      - entity_id: 'switch.plug_158d000237cd54'
-        prob_given_true: 0.7
-        prob_given_false: 0.5
-        platform: 'state'
-        to_state: 'on'
-      - entity_id: 'binary_sensor.k_no_motion_for_20'
-        prob_given_true: 1
-        prob_given_false: 0.825
-        platform: 'state'
-        to_state: 'on'
-      - entity_id: 'binary_sensor.b_no_motion_for_20'
-        prob_given_true: 1
-        prob_given_false: 0.825
-        platform: 'state'
-        to_state: 'on'
-      - entity_id: 'binary_sensor.t_no_motion_for_20'
-        prob_given_true: 1
-        prob_given_false: 0.825
-        platform: 'state'
-        to_state: 'on'
+# 二进制传感器:
+binary_sensor: !include binary_sensor.yaml
 
 # 文字转语音，使用百度api
 tts:
@@ -258,9 +120,6 @@ tts:
     app_id: !secret baidu_app_id
     api_key: !secret baidu_api_key
     secret_key: !secret baidu_secret_key
-
-# Cloud
-cloud:
   
 # USB摄像头监控，未启用
 #  - platform: ffmpeg
@@ -277,7 +136,7 @@ xiaomi_aqara:
     - mac: !secret xiaomi_mac
       key: !secret xiaomi_key
 
-# 灯具列表文件
+# 灯具
 light: !include lights.yaml
 
 # 小米空净接入
@@ -288,65 +147,8 @@ fan:
     host: !secret xiaomi_ap_ip
     token: !secret xiaomi_ap_token
 
-# 命令行开关接入，详见https://www.home-assistant.io/components/switch.command_line/
-switch http:
-  - platform: command_line
-    switches:
-      lightwall:
-        friendly_name: "灯带"
-        command_on: !secret lightwall_on
-        command_off: !secret lightwall_off
-
-# 博联红外/射频遥控器接入
-switch broadlink:
-  - platform: broadlink
-    host: !secret broadlink_rmpro_ip
-    mac: !secret broadlink_rmpro_mac
-    timeout: 15
-    switches:
-      tv_samsung:
-        friendly_name: "电视开关"
-        command_on: !secret tv_on
-        command_off: !secret tv_on
-      tv_samsung_source:
-        friendly_name: "电视输入源"
-        command_on: !secret tv_source
-        command_off: !secret tv_source
-      tv_samsung_volup:
-        friendly_name: "电视音量调大"
-        command_on: !secret tv_volup
-        command_off: !secret tv_volup
-      tv_samsung_voldown:
-        friendly_name: "电视音量调小"
-        command_on: !secret tv_voldown
-        command_off: !secret tv_voldown
-      
-      study_light:
-        friendly_name: "书房灯"
-        command_on: !secret study_light_on
-        command_off: !secret study_light_off
-      
-      balcony_light:
-        friendly_name: "阳台灯"
-        command_on: !secret balcony_light
-        command_off: !secret balcony_light
-      rack_up:
-        friendly_name: "晾衣架上升"
-        command_on: !secret rack_up
-        command_off: !secret rack_stop
-      rack_down:
-        friendly_name: "晾衣架下降"
-        command_on: !secret rack_down
-        command_off: !secret rack_stop
-      
-      table_up:
-        friendly_name: "桌子上升"
-        command_on: !secret table_up
-        command_off: !secret table_stop
-      table_down:
-        friendly_name: "桌子下降"
-        command_on: !secret table_down
-        command_off: !secret table_stop
+# 开关：
+switch: !include switch.yaml
 
 # 利用博联开关模拟车库门/卷帘窗操作（实际用处不大，因为状态不可控）
 cover:
@@ -406,7 +208,7 @@ media_player:
 
 # 外部脚本，用于人体识别
 shell_command:
-  recog_people: python3 /home/pi/recog_people.py
+  recog_people: python3 /home/pi/.homeassistant/recog_people.py
 
 # 分组、自动化和脚本文件所在的位置
 group: !include groups.yaml
@@ -417,6 +219,210 @@ script: !include scripts.yaml
 molohub:
 ```
 
+传感器列表`sensor.yaml`如下：
+```yaml
+# 天气预测，使用yr天气组件预测24小时后的温度
+- platform: yr
+  forecast: 24
+  monitored_conditions:
+    - temperature
+    - dewpointTemperature
+    - symbol
+# 时间
+- platform: time_date
+  display_options:
+    - 'time'
+# 小米空净的AQI，温度，湿度传感器。AQI传感器包含一个Filter Sensor进行滤波，详见https://www.home-assistant.io/components/sensor.filter/
+- platform: template
+  sensors:
+    xiaomi_ap_aqi_raw:
+      friendly_name: AQI Raw
+      value_template: "{{ states.fan.xiaomi_miio_device.attributes.aqi }}"
+      unit_of_measurement: AQI
+- platform: filter
+  name: "Filtered pm25"
+  friendly_name: AQI
+  entity_id: sensor.xiaomi_ap_aqi_raw
+  filters:
+    - filter: lowpass
+      time_constant: 10
+    - filter: time_simple_moving_average
+      window_size: 00:05
+      precision: 2
+- platform: template
+  sensors:
+    xiaomi_ap_temp:
+      friendly_name: "温度"
+      value_template: "{{ states.fan.xiaomi_miio_device.attributes.temperature }}"
+      unit_of_measurement: °C
+      device_class: temperature        
+- platform: template
+  sensors:
+    xiaomi_ap_humidity:
+      friendly_name: "湿度"
+      value_template: "{{ states.fan.xiaomi_miio_device.attributes.humidity }}"
+      unit_of_measurement: "%"
+      device_class: humidity
+# 贝叶斯睡觉传感器的概率记录，用于debug
+- platform: template
+  sensors:
+    sleeping_probability:
+      friendly_name: "睡觉概率"
+      value_template: {% raw %}"{{ states.binary_sensor.sleeping.attributes.probability | float * 100 }}"{% endraw %}
+      unit_of_measurement: "%"
+```
+二进制传感器列表`binary_sensor.yaml`如下：
+```yaml
+# ffmpeg motion组件，根据视频压缩中scene change的特性进行画面中的运动检测，详见https://www.home-assistant.io/components/binary_sensor.ffmpeg_motion/
+- platform: ffmpeg_motion
+  input: !secret ffmpeg_input
+  changes: 2
+  extra_arguments: -filter:v "crop=in_w/2:in_h:in_w/2:0"
+# 可能醒着的时间段（睡眠时间段的反）
+- platform: template
+  sensors:
+    prone_to_wake:
+      value_template: {% raw %}'{{ states.sensor.time.state > "09:00" and states.sensor.time.state <= "21:59"}}'{% endraw %}
+# 厕所，阳台，厨房的20分钟无人二进制传感
+- platform: template
+  sensors:
+    k_no_motion_for_20:
+      value_template: {% raw %}'{{states.binary_sensor.motion_sensor_kitchen.attributes["No motion since"] | int >= 1200}}'{% endraw %}
+- platform: template
+  sensors:
+    b_no_motion_for_20:
+      value_template: {% raw %}'{{states.binary_sensor.motion_sensor_balcony.attributes["No motion since"] | int >= 1200}}'{% endraw %}
+- platform: template
+  sensors:
+    t_no_motion_for_20:
+      value_template: {% raw %}'{{states.binary_sensor.motion_sensor_toilet.attributes["No motion since"] | int >= 1200}}'{% endraw %}
+# 贝叶斯传感器检测是否睡觉，详见https://www.home-assistant.io/components/binary_sensor.bayesian/
+- platform: bayesian
+  prior: 0.33
+  name: 'Sleeping'
+  probability_threshold: 0.85
+  observations:
+    - entity_id: 'variable.last_motion'
+      prob_given_true: 0.1
+      prob_given_false: 0.8
+      platform: 'state'
+      to_state: 'FFmpeg Motion'
+    - entity_id: 'variable.last_motion'
+      prob_given_true: 0.6
+      prob_given_false: 0.2
+      platform: 'state'
+      to_state: 'Toilet Motion'
+    - entity_id: 'variable.last_motion'
+      prob_given_true: 0.45
+      prob_given_false: 0.3
+      platform: 'state'
+      to_state: 'Kitchen Motion'
+    - entity_id: 'group.all_light'
+      prob_given_true: 1.0
+      prob_given_false: 0.8
+      platform: 'state'
+      to_state: 'off'
+    - entity_id: 'device_tracker.zoey'
+      prob_given_true: 1
+      prob_given_false: 0.625
+      platform: 'state'
+      to_state: 'not_home'
+    - entity_id: 'device_tracker.simon'
+      prob_given_true: 0.8
+      prob_given_false: 0.625
+      platform: 'state'
+      to_state: 'not_home'
+    - entity_id: 'sensor.illumination_7c49eb17e992'
+      prob_given_true: 0.8
+      prob_given_false: 0.4
+      platform: 'numeric_state'
+      below: 100
+    - entity_id: 'binary_sensor.prone_to_wake'
+      prob_given_true: 0.3
+      prob_given_false: 0.7
+      platform: 'state'
+      to_state: 'on'
+    - entity_id: 'switch.plug_158d000237cd54'
+      prob_given_true: 0.7
+      prob_given_false: 0.5
+      platform: 'state'
+      to_state: 'on'
+    - entity_id: 'binary_sensor.k_no_motion_for_20'
+      prob_given_true: 1
+      prob_given_false: 0.825
+      platform: 'state'
+      to_state: 'on'
+    - entity_id: 'binary_sensor.b_no_motion_for_20'
+      prob_given_true: 1
+      prob_given_false: 0.825
+      platform: 'state'
+      to_state: 'on'
+    - entity_id: 'binary_sensor.t_no_motion_for_20'
+      prob_given_true: 1
+      prob_given_false: 0.825
+      platform: 'state'
+      to_state: 'on'
+```
+开关列表`switch.yaml`如下：
+```yaml
+# 命令行开关接入，详见https://www.home-assistant.io/components/switch.command_line/
+- platform: command_line
+  switches:
+   lightwall:
+      friendly_name: "灯带"
+      command_on: !secret lightwall_on
+      command_off: !secret lightwall_off
+
+# 博联红外/射频遥控器接入
+- platform: broadlink
+  host: !secret broadlink_rmpro_ip
+  mac: !secret broadlink_rmpro_mac
+  timeout: 15
+  switches:
+    tv_samsung:
+      friendly_name: "电视开关"
+      command_on: !secret tv_on
+      command_off: !secret tv_on
+    tv_samsung_source:
+      friendly_name: "电视输入源"
+      command_on: !secret tv_source
+      command_off: !secret tv_source
+    tv_samsung_volup:
+      friendly_name: "电视音量调大"
+      command_on: !secret tv_volup
+      command_off: !secret tv_volup
+    tv_samsung_voldown:
+      friendly_name: "电视音量调小"
+      command_on: !secret tv_voldown
+      command_off: !secret tv_voldown
+
+    study_light:
+      friendly_name: "书房灯"
+      command_on: !secret study_light_on
+      command_off: !secret study_light_off
+
+    balcony_light:
+      friendly_name: "阳台灯"
+      command_on: !secret balcony_light
+      command_off: !secret balcony_light
+    rack_up:
+      friendly_name: "晾衣架上升"
+      command_on: !secret rack_up
+      command_off: !secret rack_stop
+    rack_down:
+      friendly_name: "晾衣架下降"
+      command_on: !secret rack_down
+      command_off: !secret rack_stop
+
+    table_up:
+      friendly_name: "桌子上升"
+      command_on: !secret table_up
+      command_off: !secret table_stop
+    table_down:
+      friendly_name: "桌子下降"
+      command_on: !secret table_down
+      command_off: !secret table_stop
+```
 ## 3. 设备与组件
 
 ### 红外/射频遥控器
