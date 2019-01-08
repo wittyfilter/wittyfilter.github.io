@@ -130,7 +130,7 @@ script: !include scripts.yaml
 
 如果是在树莓派上，还可以考虑官方的[Hass.io](https://www.home-assistant.io/hassio/)，一个基于Docker的HA系统，将镜像烧录到SD卡上就可以即插即用！笔者不考虑Hass.io的原因是希望在树莓派上还可以运行一些别的程序，比如Homebridge或者媒体中心之类的，因此就选择了手动安装啦～
 
-## 2. 原理与组件
+## 2. 原理与接入Homekit
 
 HA的基本原理用其官网的一张图就可以概括：
 
@@ -138,8 +138,89 @@ HA的基本原理用其官网的一张图就可以概括：
 
 可以看到，HA的核心是Events Bus，它不断侦听和产生不同的事件，就好像心脏不停在跳动一般给HA输送血液；各种不同的组件，如灯、开关、传感器等等的状态通过状态机模块记录，一旦有状态变化就会产生一个“状态变化”事件发送给Event Bus；服务中心侦听Events Bus的服务请求，并根据组件们事先注册好的服务来发送控制指令；计时器模块每秒钟发送“时间变化”事件，就好像时钟电路的上升沿触发作用一样。
 
-核心机制在每个HA系统中都是固定的，而让每个HA与众不同的关键便是：组件（Component）。组件分两种，一种是和各种物联网设备交互的组件，另一种是响应HA中发生的各种事件的组件。
+核心机制在每个HA系统中都是固定的，而让每个HA与众不同的关键便是：组件（Component）。组件分两种，一种是和各种物联网设备交互的组件，另一种是响应HA中发生的各种事件的组件。例如在上述配置文件`configuration.yaml`中，`sensor:`和`tts:`都代表了组件。我们来看看HA中“当太阳下山，而家里有人时打开灯”这一过程中涉及的组件：
 
+![](https://developers.home-assistant.io/img/en/architecture/component_interaction.png)
+
+1. 第一种组件将不同的物联网设备封装起来，通过统一的接口向外提供状态信息，并在服务中心注册服务使得HA能够控制它们。例如不同类型的开关都可以通过Switch组件接入HA，它们在HA中的状态都是“开/关”，并且都可以呼叫服务对它们进行“打开开关”和“关闭开关”的控制操作。
+2. 第二种组件其实就是一些系统内置和用户自定义的自动化操作，我的理解是将前一种类型组件的状态和这些组件对应的服务进行打包的一个集合。
+
+把HA和上述智能家居层次图进行对比，可以看到HA实际上是Home Control+Home Automation的集合，Smart Home功能并没有实现（毕竟需要大量数据）。展开来看，完整的HA架构和流程如下图所示（以灯组件和开灯自动化为例）：
+
+![](https://developers.home-assistant.io/img/en/architecture/ha_full_architecture.png)
+
+因此，HA确实是一个相对复杂的系统（相较于其他几个系统已经好很多了），那么如果想更简单地监测和控制家里的电器，要怎么办呢？这里就不得不说苹果的Homekit了，真·傻瓜式操作，界面清新。可以将HA和Homekit进行对接吗？答案是完全可以！这里列举一下使用HA对接HomeKit的几个好处：
+
+1. 可以用Siri来控制家电啦！
+2. 有一台iPad或者Mac的话，就能作为家庭中心，在外面也能访问Homekit，进而控制家电。HA的外网接入比较麻烦。
+
+最早将第三方平台接入Homekit的方法是利用HomeBridge，例如米家网关利用HomeBridge-Mi-Aqara插件接入HomeBridge，从而接入Homekit。这种方法的限制是只能够一次控制一类家居，比如 HomeBridge-Mi-Aqara 就只能控制米家类家居。而Home Assistant的引入让整个平台更加统一，兼容，因此后来有了HomeBridge-HomeAssistant插件让Home Assistant通过HomeBridge桥接进Homekit。最后，HomeBridge-HomeAssistant这个东西被抛弃了，Home Assistant选择原生直接接入Homekit，虽然有一些限制（仅特定的Components能接入，详情看https://www.home-assistant.io/components/homekit/#supported-components ，包括开关、传感器、风扇和灯具等等）。下面总结了这三种方法是如何接入Homekit与用户交互的。
+
+![]({{ site.baseurl }}/public/images/HA7.png)
+
+那么如何安装HomeBridge呢？首先需要安装Nodejs，然后命令行输入：
+
+```zsh
+sudo apt-get install libavahi-compat-libdnssd-dev
+sudo npm install -g --unsafe-perm homebridge
+```
+
+安装不再维护的Homebridge-homeassistant插件：
+
+```zsh
+sudo npm install -g homebridge-homeassistant
+```
+
+然后在Homebridge的配置文件`/home/pi/.homebridge/config.json`中写入：
+
+```json
+{
+    "bridge": {
+        "name":"Homebridge",
+        "username":"11:22:33:44:55:66",
+        "port":51826,
+        "pin":"123-45-678"
+    },
+
+"platforms": [
+  {
+    "platform": "HomeAssistant",
+    "name": "HomeAssistant",
+    "host": "http://127.0.0.1:8123",
+    "password": "???",
+    "supported_types": ["binary_sensor", "climate", "cover", "device_tracker", "fan", "group", "input_boolean", "light", "lock", "media_player", "remote", "scene", "sensor", "switch"]
+  }]
+}
+```
+
+其中，username是树莓派的MAC地址，port是Homekit的端口默认就好，pin是在 iPhone 上认证 HomeBridge 网关的密码，随喜好输入，而password是在HA中设置的访问密码。最后的supported_types就是你希望支持的组件啦！最后，运行
+
+```zsh
+homebridge -D
+```
+
+即可将HA通过HomeBridge接入Homekit！那么，HA中原生支持的Homekit组件怎么添加呢？只需要在配置中写上：
+
+```yaml
+homekit:
+```
+
+需要注意初次启用homekit组件后，HA 主页会出现 PIN 码，若没有出现，删除配置文件夹下 `.homekit.state` 重试。如果想要让一些HA中的组件不要在Homekit中出现，只需要在filter域中添加` exclude_domains`和` exclude_entities`部分即可，例如：
+
+```yaml
+homekit:
+  filter:
+    exclude_domains: 
+      - automation
+    exclude_entities:
+      - light._2
+      - binary_sensor.k_no_motion_for_20
+      - binary_sensor.prone_to_wake
+```
+
+## 3. 设备接入
+
+可以看到，让HA多姿多彩的重要因素是不断扩充的组件大家庭。那么，究竟在配置中要添加哪些组件呢？这还得根据你买了哪些设备来添加。为了缩减配置文件`configuration.yaml`的规模，同时也是便于管理，可以将配置文件根据组件类型分成不同的几个文件，例如：
 
 ```yaml
 # 传感器:
@@ -148,19 +229,40 @@ sensor: !include sensor.yaml
 # 二进制传感器:
 binary_sensor: !include binary_sensor.yaml
 
-# 文字转语音，使用百度api
-tts:
-  - platform: baidu
-    app_id: !secret baidu_app_id
-    api_key: !secret baidu_api_key
-    secret_key: !secret baidu_secret_key
-
 # 灯具
 light: !include lights.yaml
 
 # 开关：
 switch: !include switch.yaml
+```
 
+接下来，开始细说笔者家中有哪些设备，是如何接入HA的～
+
+### 红外/射频遥控器
+
+为了解决平时找遥控器怎么也找不到的难题，把所有遥控器控制集中在手机上是个不错的选择。目前市面上的遥控器不是红外控制就是射频控制，由于这两个频段不一样（包括射频自己的频段选择），因此诸如小米天猫万能遥控器有时候是不管用的。可以自己购买无线收发模块DIY，但如果追求省事那就购买博联的RM Pro吧！配置很简单，在接入网络获取到ip后，在`configuration.yaml`里面加入如下字段（以飞利浦电视开关为例）：
+
+```yaml
+switch:
+  - platform: broadlink
+    host: 'IP_ADDRESS'
+    mac: 'MAC_ADDRESS'
+    timeout: 15
+    switches:
+      # Will work on most Phillips TVs:
+      tv_phillips:
+        friendly_name: "Phillips Tv Power"
+        command_on: 'JgAcAB0dHB44HhweGx4cHR06HB0cHhwdHB8bHhwADQUAAAAAAAAAAAAAAAA='
+        command_off: 'JgAaABweOR4bHhwdHB4dHRw6HhsdHR0dOTocAA0FAAAAAAAAAAAAAAAAAAA='
+```
+
+这里的一大串数字字母组合就是学习到的码，如何获得呢？首先先把模板中字段填好，即`command_on: ' '`和`command_off: ' '`部分，保存重启HA。随后进入HA面板中的Services部分，选择`switch.broadlink_learn_command`这个服务并CALL SERVICE，然后按下你需要学习的遥控器按键，顺利的话在HA面板中的States部分会有一个新的Entity叫做`persistent_notification.notification`，查看它的message就能看到学习到的码啦，填入之前留空的模板即可！
+
+如果是射频码的学习，稍微有一点麻烦。目前最省事的方法就是在iOS系统中下载易控这个App，按照里面的操作提示，添加你的RM pro，然后进行扫频操作，按下遥控器的按键后扫频即完成。此时再进入HA进行上述的码学习流程即可！
+
+目前加入的遥控设备有：电视（开关，输入源选择，音量大小），阳台自动晾衣杆（照明，上升，下降），自动升降桌（上升，下降），松下遥控吸顶灯。此外，还可以利用HA的cover组件对升降类设备进行cover的模拟（卷帘车库门，自动卷帘窗等等），例如：
+
+```yaml
 # 利用博联开关模拟车库门/卷帘窗操作（实际用处不大，因为状态不可控）
 cover:
   - platform: template
@@ -179,281 +281,7 @@ cover:
           service: switch.turn_off
           data:
             entity_id: switch.table_up
-
-# 小米网关接入
-xiaomi_aqara:
-  gateways:
-    - mac: !secret xiaomi_mac
-      key: !secret xiaomi_key
-			
-# 小米空净接入
-fan:
-  - platform: xiaomi_miio
-    friendly_name: "小米空净"
-    model: zhimi.airpurifier.v6
-    host: !secret xiaomi_ap_ip
-    token: !secret xiaomi_ap_token
-
-# 变量控制，详见https://github.com/rogro82/hass-variables
-variable:  
-  last_motion:
-    value: 'Unknown'
-    restore: true
-    attributes:
-      icon: mdi:alarm
-      friendly_name: 'Last Motion'
-
-# Homekit接入，把不需要的部分列出
-homekit:
-  filter:
-    exclude_domains: 
-      - automation
-    exclude_entities:
-      - light._2
-      - light._3
-      - light._4
-      - binary_sensor.k_no_motion_for_20
-      - binary_sensor.t_no_motion_for_20
-      - binary_sensor.b_no_motion_for_20
-      - binary_sensor.prone_to_wake
-
-# 接入刷了梅林的Netgear或原生Asus路由器，用于探测谁在家
-asuswrt:
-  host: !secret asus_ip
-  username: !secret asus_username
-  ssh_key: !secret asus_ssh_key
-
-# 音频播放，利用vlc作为引擎
-media_player:
-  - platform: vlc
-
-# 外部脚本，用于人体识别
-shell_command:
-  recog_people: python3 /home/pi/.homeassistant/recog_people.py
-
-# 一个远程查看HA状态的平台，详见https://www.molo.cn/
-molohub:
 ```
-
-传感器列表`sensor.yaml`如下：
-```yaml
-# 小米空净的AQI，温度，湿度传感器。AQI传感器包含一个Filter Sensor进行滤波，详见https://www.home-assistant.io/components/sensor.filter/
-- platform: template
-  sensors:
-    xiaomi_ap_aqi_raw:
-      friendly_name: AQI Raw
-      value_template: "{{ states.fan.xiaomi_miio_device.attributes.aqi }}"
-      unit_of_measurement: AQI
-- platform: filter
-  name: "Filtered pm25"
-  friendly_name: AQI
-  entity_id: sensor.xiaomi_ap_aqi_raw
-  filters:
-    - filter: lowpass
-      time_constant: 10
-    - filter: time_simple_moving_average
-      window_size: 00:05
-      precision: 2
-- platform: template
-  sensors:
-    xiaomi_ap_temp:
-      friendly_name: "温度"
-      value_template: "{{ states.fan.xiaomi_miio_device.attributes.temperature }}"
-      unit_of_measurement: °C
-      device_class: temperature        
-- platform: template
-  sensors:
-    xiaomi_ap_humidity:
-      friendly_name: "湿度"
-      value_template: "{{ states.fan.xiaomi_miio_device.attributes.humidity }}"
-      unit_of_measurement: "%"
-      device_class: humidity
-# 贝叶斯睡觉传感器的概率记录，用于debug
-- platform: template
-  sensors:
-    sleeping_probability:
-      friendly_name: "睡觉概率"
-      value_template: {% raw %}"{{ states.binary_sensor.sleeping.attributes.probability | float * 100 }}"{% endraw %}
-      unit_of_measurement: "%"
-```
-二进制传感器列表`binary_sensor.yaml`如下：
-```yaml
-# ffmpeg motion组件，根据视频压缩中scene change的特性进行画面中的运动检测，详见https://www.home-assistant.io/components/binary_sensor.ffmpeg_motion/
-- platform: ffmpeg_motion
-  input: !secret ffmpeg_input
-  changes: 2
-  extra_arguments: -filter:v "crop=in_w/2:in_h:in_w/2:0"
-# 可能醒着的时间段（睡眠时间段的反）
-- platform: template
-  sensors:
-    prone_to_wake:
-      value_template: {% raw %}'{{ states.sensor.time.state > "09:00" and states.sensor.time.state <= "21:59"}}'{% endraw %}
-# 厕所，阳台，厨房的20分钟无人二进制传感
-- platform: template
-  sensors:
-    k_no_motion_for_20:
-      value_template: {% raw %}'{{states.binary_sensor.motion_sensor_kitchen.attributes["No motion since"] | int >= 1200}}'{% endraw %}
-- platform: template
-  sensors:
-    b_no_motion_for_20:
-      value_template: {% raw %}'{{states.binary_sensor.motion_sensor_balcony.attributes["No motion since"] | int >= 1200}}'{% endraw %}
-- platform: template
-  sensors:
-    t_no_motion_for_20:
-      value_template: {% raw %}'{{states.binary_sensor.motion_sensor_toilet.attributes["No motion since"] | int >= 1200}}'{% endraw %}
-# 贝叶斯传感器检测是否睡觉，详见https://www.home-assistant.io/components/binary_sensor.bayesian/
-- platform: bayesian
-  prior: 0.33
-  name: 'Sleeping'
-  probability_threshold: 0.85
-  observations:
-    - entity_id: 'variable.last_motion'
-      prob_given_true: 0.1
-      prob_given_false: 0.8
-      platform: 'state'
-      to_state: 'FFmpeg Motion'
-    - entity_id: 'variable.last_motion'
-      prob_given_true: 0.6
-      prob_given_false: 0.2
-      platform: 'state'
-      to_state: 'Toilet Motion'
-    - entity_id: 'variable.last_motion'
-      prob_given_true: 0.45
-      prob_given_false: 0.3
-      platform: 'state'
-      to_state: 'Kitchen Motion'
-    - entity_id: 'group.all_light'
-      prob_given_true: 1.0
-      prob_given_false: 0.8
-      platform: 'state'
-      to_state: 'off'
-    - entity_id: 'device_tracker.zoey'
-      prob_given_true: 1
-      prob_given_false: 0.625
-      platform: 'state'
-      to_state: 'not_home'
-    - entity_id: 'device_tracker.simon'
-      prob_given_true: 0.8
-      prob_given_false: 0.625
-      platform: 'state'
-      to_state: 'not_home'
-    - entity_id: 'sensor.illumination_7c49eb17e992'
-      prob_given_true: 0.8
-      prob_given_false: 0.4
-      platform: 'numeric_state'
-      below: 100
-    - entity_id: 'binary_sensor.prone_to_wake'
-      prob_given_true: 0.3
-      prob_given_false: 0.7
-      platform: 'state'
-      to_state: 'on'
-    - entity_id: 'switch.plug_158d000237cd54'
-      prob_given_true: 0.7
-      prob_given_false: 0.5
-      platform: 'state'
-      to_state: 'on'
-    - entity_id: 'binary_sensor.k_no_motion_for_20'
-      prob_given_true: 1
-      prob_given_false: 0.825
-      platform: 'state'
-      to_state: 'on'
-    - entity_id: 'binary_sensor.b_no_motion_for_20'
-      prob_given_true: 1
-      prob_given_false: 0.825
-      platform: 'state'
-      to_state: 'on'
-    - entity_id: 'binary_sensor.t_no_motion_for_20'
-      prob_given_true: 1
-      prob_given_false: 0.825
-      platform: 'state'
-      to_state: 'on'
-```
-开关列表`switch.yaml`如下：
-```yaml
-# 命令行开关接入，详见https://www.home-assistant.io/components/switch.command_line/
-- platform: command_line
-  switches:
-   lightwall:
-      friendly_name: "灯带"
-      command_on: !secret lightwall_on
-      command_off: !secret lightwall_off
-
-# 博联红外/射频遥控器接入
-- platform: broadlink
-  host: !secret broadlink_rmpro_ip
-  mac: !secret broadlink_rmpro_mac
-  timeout: 15
-  switches:
-    tv_samsung:
-      friendly_name: "电视开关"
-      command_on: !secret tv_on
-      command_off: !secret tv_on
-    tv_samsung_source:
-      friendly_name: "电视输入源"
-      command_on: !secret tv_source
-      command_off: !secret tv_source
-    tv_samsung_volup:
-      friendly_name: "电视音量调大"
-      command_on: !secret tv_volup
-      command_off: !secret tv_volup
-    tv_samsung_voldown:
-      friendly_name: "电视音量调小"
-      command_on: !secret tv_voldown
-      command_off: !secret tv_voldown
-
-    study_light:
-      friendly_name: "书房灯"
-      command_on: !secret study_light_on
-      command_off: !secret study_light_off
-
-    balcony_light:
-      friendly_name: "阳台灯"
-      command_on: !secret balcony_light
-      command_off: !secret balcony_light
-    rack_up:
-      friendly_name: "晾衣架上升"
-      command_on: !secret rack_up
-      command_off: !secret rack_stop
-    rack_down:
-      friendly_name: "晾衣架下降"
-      command_on: !secret rack_down
-      command_off: !secret rack_stop
-
-    table_up:
-      friendly_name: "桌子上升"
-      command_on: !secret table_up
-      command_off: !secret table_stop
-    table_down:
-      friendly_name: "桌子下降"
-      command_on: !secret table_down
-      command_off: !secret table_stop
-```
-
-## 3. 设备接入
-
-### 红外/射频遥控器
-
-为了解决平时找遥控器怎么也找不到的难题，把所有遥控器控制集中在手机上是个不错的选择。目前市面上的遥控器不是红外控制就是射频控制，由于这两个频段不一样（包括射频自己的频段选择），因此诸如小米天猫万能遥控器有时候是不管用的。可以自己购买无线收发模块DIY，但如果追求省事那就购买博联的RM Pro吧！配置很简单，在接入网络获取到ip后，在`configuration.yaml`里面加入如下字段（以飞利浦电视开关为例）：
-
-```yaml
-switch:
-  - platform: broadlink
-    host: IP_ADDRESS
-    mac: 'MAC_ADDRESS'
-    timeout: 15
-    switches:
-      # Will work on most Phillips TVs:
-      tv_phillips:
-        friendly_name: "Phillips Tv Power"
-        command_on: 'JgAcAB0dHB44HhweGx4cHR06HB0cHhwdHB8bHhwADQUAAAAAAAAAAAAAAAA='
-        command_off: 'JgAaABweOR4bHhwdHB4dHRw6HhsdHR0dOTocAA0FAAAAAAAAAAAAAAAAAAA='
-```
-
-这里的一大串数字字母组合就是学习到的码，如何获得呢？首先先把模板中字段填好，即`command_on: ' '`和`command_off: ' '`部分，保存重启HA。随后进入HA面板中的Services部分，选择`switch.broadlink_learn_command`这个服务并CALL SERVICE，然后按下你需要学习的遥控器按键，顺利的话在HA面板中的States部分会有一个新的Entity叫做`persistent_notification.notification`，查看它的message就能看到学习到的码啦，填入之前留空的模板即可！
-
-如果是射频码的学习，稍微有一点麻烦。目前最省事的方法就是在iOS系统中下载易控这个App，按照里面的操作提示，添加你的RM pro，然后进行扫频操作，按下遥控器的按键后扫频即完成。此时再进入HA进行上述的码学习流程即可！
-
-目前加入的遥控设备有：电视（开关，输入源选择，音量大小），阳台自动晾衣杆（照明，上升，下降），自动升降桌（上升，下降），松下遥控吸顶灯（当前仅开关，亮度调节懒得实现了哈哈哈）
 
 ### 米家产品
 
@@ -537,7 +365,7 @@ fan:
 
 ESP8266是个好东西，简单理解就是一个带有Wi-Fi模块的廉价微控制器。淘宝一个Nodemcu lua v3只需要13块钱，就可以DIY出各种智能家居设备了！例如和继电器相接控制家里各自电器，或者利用GPIO接入各种类型传感器。根据需要的逻辑，对芯片进行烧写c代码，其风格让我想起了当年电子设计竞赛！
 
-有没有更简单的方法呢？有，就是直接利用串口烧写现成的一些成熟系统，例如ESPEasy和ESPHome，然后就可以在网页上任意配置了！结合MQTT服务，可以让Nodemcu成为数据转发中心，但是我对MQTT不是非常了解，只得作罢。当前，仅用于控制简单的LED灯带而已，操作非常简单：先按照教程刷入ESPEasy，初始化后得到Nodemcu的ip地址，然后就可以在浏览器中输入简单的http请求来控制MCU的GPIO啦！例如输入`http://{ip_address}/control?cmd=GPIO,12,1`就可以让GPIO12拉出高电平了！接下来，在HA中，添加基于command_line的开关模块：
+有没有更简单的方法呢？有，就是直接利用串口烧写现成的一些成熟系统，例如ESPEasy和ESPHome，然后就可以在网页上任意配置了！结合MQTT服务，可以让Nodemcu成为数据转发中心，但是我对MQTT不是非常了解，只得作罢。当前，仅用于控制简单的LED灯带而已，操作非常简单：先按照教程刷入ESPEasy，初始化后得到Nodemcu的ip地址，然后就可以在浏览器中输入简单的http请求来控制MCU的GPIO啦！例如输入`http://{ip_address}/control?cmd=GPIO,12,1`就可以让GPIO12拉出高电平了！接下来，在HA中添加command_line的开关组件：
 
 ```yaml
 switch http:
@@ -568,7 +396,7 @@ device_tracker:
 ```yaml
 device_tracker:
   - platform: netgear
-    host: 192.168.1.1
+    host: ???
     username: ???
     interval_seconds: 10
     consider_home: 180
@@ -579,10 +407,12 @@ device_tracker:
 或者：
 ```yaml
 asuswrt:
-    host: 192.168.1.1
-    username: ???
-    ssh_key: /home/pi/.ssh/id_rsa
+  host: ???
+  username: ???
+  ssh_key: path_to_sshkey
 ```
+
+这里使用ssh而不是密码的原因是为了安全，需要在路由器的控制中心中打开ssh访问（LAN only）。
 
 具体每个device是否要track，使用什么图片作为头像，别名等等，都可以在`known_devices.yaml`这个配置文件里面得到编辑。
 
@@ -609,8 +439,6 @@ sudo ./configure --arch=armel --target-os=linux --enable-gpl --enable-libx264 --
     input: -f v4l2 -r 30 -i /dev/video0
 ```
 
-就大功告成啦！
-
 笔者家里没有usb摄像头，倒是有一个海康萤石的安防摄像头，如何接入呢？有两种方法。第一种是利用萤石摄像头自带的rtsp协议接入HA，也是用的ffmpeg模块。
 
 ```yaml
@@ -633,52 +461,7 @@ camera:
 
 其中，name是设备名，deviceid（设备序列号）见 https://open.ys7.com/console/device.html ，appkey和appsecret见 https://open.ys7.com/console/application.html 。原理就是每隔30秒调用萤石的api取一次设备图像，这个时间间隔可以在ezviz.py中修改。
 
-虽然在HA中添加了摄像头，但是其图像并不能在Homekit中显示，因为这一部分目前还没有得到实现，怎么办呢？只能退而求其次，用Homebridge来为摄像头桥接了。如何安装Homebridge呢？首先需要安装Nodejs，然后命令行输入：
-
-```zsh
-sudo apt-get install libavahi-compat-libdnssd-dev
-sudo npm install -g --unsafe-perm homebridge
-```
-
-早期HA不支持直接接入Homekit时，还需要利用Homebridge来接入，即安装Homebridge-homeassistant：
-
-```zsh
-sudo npm install -g homebridge-homeassistant
-```
-
-然后在Homebridge的配置文件`/home/pi/.homebridge/config.json`中写入：
-
-```json
-{
-    "bridge": {
-        "name":"Homebridge",
-        "username":"11:22:33:44:55:66",
-        "port":51826,
-        "pin":"123-45-678"
-    },
-
-"platforms": [
-  {
-    "platform": "HomeAssistant",
-    "name": "HomeAssistant",
-    "host": "http://127.0.0.1:8123",
-    "password": "???",
-    "supported_types": ["binary_sensor", "climate", "cover", "device_tracker", "fan", "group", "input_boolean", "light", "lock", "media_player", "remote", "scene", "sensor", "switch"]
-  }]
-}
-```
-
-其中，username是树莓派的MAC地址，port是Homekit的端口默认就好，pin是在 iPhone 上认证 HomeBridge 网关的密码，随喜好输入，而password是在HA中设置的访问密码。
-
-现在HA可以直接接入Homekit了，只需要在`configuration.yaml`中添加一句：
-
-```yaml
-homekit:
-```
-
-即可。需要注意初次启用homekit 组件后，HA 主页会出现 PIN 码，若没有出现，删除配置文件夹下 `.homekit.state` 重试。
-
-接下来，Homebridge只需要完成摄像头的接入就可以了。安装好Homebridge后还需要安装Camera-ffmpeg：
+虽然在HA中添加了摄像头，但是其图像并不能在Homekit中显示，因为这一部分目前还没有得到实现，怎么办呢？只能退而求其次，用Homebridge来为摄像头桥接了。安装Camera-ffmpeg插件：
 
 ```zsh
 sudo npm install -g homebridge-camera-ffmpeg
@@ -712,13 +495,17 @@ sudo npm install -g homebridge-camera-ffmpeg
 }
 ```
 
-最后，运行
+运行HomeBridge后就可以在Homekit中根据上面的pin添加摄像头啦～
 
-```zsh
-homebridge -D
+FFmpeg还有另外一个功能，那就是运动检测，怎么做到呢？因为现在的视频压缩算法需要判断当前的画面和之前画面的差别，如果差别很大就会产生一个新的场景（scene），这一特性刚好可以用来判断静止的相机画面中是否有运动。正好，HA中就有一个FFmpeg Motion的组件：
+
+```yaml
+# ffmpeg motion组件，根据视频压缩中scene change的特性进行画面中的运动检测，详见https://www.home-assistant.io/components/binary_sensor.ffmpeg_motion/
+- platform: ffmpeg_motion
+  input: rtsp://admin:???@???/h264/ch1/main/av_stream
+  changes: 2
+  extra_arguments: -filter:v "crop=in_w/2:in_h:in_w/2:0"
 ```
-
-就可以在Homekit中根据上面的pin添加摄像头啦～
 
 ### Media player
 
@@ -764,11 +551,7 @@ tts:
 常常有人会把Trigger和Condition搞混，其实很好理解，看看官网上怎么说的：
 >Triggers look at the actions, while conditions look at the results: turning a light on versus a light being on.
 
-另外，官网上的一张例程图可以很好地说明这一过程是怎么实现的：
-
-![](https://developers.home-assistant.io/img/en/architecture/component_interaction.png)
-
-上图说的是，当检测到有动作时，打开灯。接下来，举几个笔者写在`automation.yaml`里的例子，并加以说明：
+接下来，举几个笔者写在`automation.yaml`里的例子，并加以说明：
 
 ```yaml
 # 回家时打开客厅和厨房的灯，并根据门口监控判断回来的是谁，播放欢迎词。判断回家的条件是：门窗传感器打开，并且此时室内无人，光照度小于250。
@@ -846,28 +629,8 @@ tts:
     data:
       entity_id: fan.xiaomi_miio_device
       speed: Favorite
-- id: id5
-  alias: Turn air purifier strong
-  trigger:
-  - platform: numeric_state
-    above: '73'
-    entity_id: sensor.filtered_pm25
-  condition:
-  - condition: state
-    entity_id: fan.xiaomi_miio_device
-    state: 'on'
-  - condition: template
-    value_template: {% raw %}'{{states.fan.xiaomi_miio_device.attributes["speed"] == "Silent"}}'{% endraw %}
-  - condition: state
-    entity_id: binary_sensor.sleeping
-    state: 'off'
-  action:
-    service: fan.set_speed
-    data:
-      entity_id: fan.xiaomi_miio_device
-      speed: Favorite
 # 如果AQI小于68，关掉空气净化器。
-- id: id6
+- id: id5
   alias: Turn off air purifier
   trigger:
   - platform: numeric_state
@@ -884,7 +647,7 @@ tts:
     service: fan.turn_off
     entity_id: fan.xiaomi_miio_device
 # 如果有人单击无线开关，改变阳台灯的状态（开/关）
-- id: id7
+- id: id6
   alias: Toggle balcony light
   trigger:
   - platform: event
@@ -897,7 +660,7 @@ tts:
     service: switch.toggle
     entity_id: switch.balcony_light
 # 在太阳下山时，如果阳台有人，且灯是关闭状态，则把阳台灯打开。
-- id: id8
+- id: id7
   alias: Turn on balcony light
   trigger:
   - entity_id: binary_sensor.motion_sensor_balcony
@@ -914,49 +677,12 @@ tts:
   action:
   - entity_id: switch.balcony_light
     service: switch.turn_on
-# 如果厕所有人，打开厕所灯。
-- id: id9
-  alias: Turn on toilet light
-  trigger:
-  - platform: state
-    entity_id: binary_sensor.motion_sensor_toilet
-    from: 'off'
-    to: 'on'
-  condition: []
-  action:
-    service: switch.turn_on
-    entity_id: switch.toilet_left
-# 以下为升降桌Cover控制的后续状态修补。
-- id: id10
-  alias: Turn off table up
-  trigger:
-  - platform: state
-    entity_id: switch.table_up
-    for: 00:03:00
-    from: 'off'
-    to: 'on'
-  condition: []
-  action:
-    service: switch.turn_off
-    entity_id: switch.table_up
-- id: id11
-  alias: Turn off table down
-  trigger:
-  - platform: state
-    entity_id: switch.table_down
-    for: 00:03:00
-    from: 'off'
-    to: 'on'
-  condition: []
-  action:
-    service: switch.turn_off
-    entity_id: switch.table_down
-# 来自小米智能网关的光照传感器bug：当前光照会和前100次采样结果进行平均，因此数据更新经常延时。通过每十分钟不断开关智能网关的夜灯来强制更新采样结果。
-- id: id12
+# 来自小米智能网关的光照传感器bug：当前光照会和前100次采样结果进行平均，因此数据更新经常延时。通过每3分钟不断开关智能网关的夜灯来强制更新采样结果。
+- id: id8
   alias: Update lumen sensor
   trigger:
   - platform: time
-    minutes: /10
+    minutes: /3
     seconds: 0
   action:
   - data:
@@ -968,7 +694,7 @@ tts:
   - entity_id: light.gateway_light
     service: light.turn_off
 # 早上Zoey出门十分钟后，把主卧插座给关了。
-- id: id13
+- id: id9
   alias: Turn off charging power
  trigger:
   - entity_id: binary_sensor.door_window_sensor_158d00023137b7
@@ -987,25 +713,6 @@ tts:
   action:
   - entity_id: switch.plug_158d000237cd54
     service: switch.turn_off
-# 房间内最后有人移动出现在哪里？用于判断家里空气安静时，究竟是大家都离开了还是大家都睡觉了。
-- id: id14
-  alias: Update Last Motion
-  trigger:
-    - platform: state
-      entity_id: binary_sensor.motion_sensor_toilet, binary_sensor.motion_sensor_balcony, binary_sensor.motion_sensor_kitchen, binary_sensor.ffmpeg_motion
-      to: 'on'
-  action:
-    - service: variable.set_variable
-      data:
-        variable: last_motion
-        attributes_template: >
-            {
-              "history_1": "{{ variable.state }}",
-              "history_2": "{{ variable.attributes.history_1 }}",
-              "history_3": "{{ variable.attributes.history_2 }}"
-            }
-      data_template:
-        value: "{{ trigger.to_state.attributes.friendly_name }}"
 ```
 
 ## 5. 进阶部分
@@ -1091,9 +798,9 @@ recorder:
 
 ### 5.3 与开放AI平台结合
 
-例如如何在开门时进行人形识别，判断是谁回来了，并且播放欢迎词？以下以百度AI的人体分析为例。
+AI应用的例子：如何在开门时进行人形识别，判断是谁回来了，并且播放欢迎词？以下以百度AI的人体分析为例。
 
-首先，去ai.baidu.com申请一个开发账号，在人工智能-人体分析中创建一个新的应用，获得Api Key和Secret Key。然后，在本地新建一个python文件，例如`body_recognition.py`。首先，利用api key和secret key获得一个可用的token：
+首先，去ai.baidu.com申请一个开发账号，在人工智能-人体分析中创建一个新的应用，获得Api Key和Secret Key。然后，在本地新建一个python文件，例如`body_recognition.py`。利用api key和secret key获得一个可用的token：
 
 ```python
 import requests
@@ -1173,7 +880,7 @@ while result['person_num'] == 0:
   	quit()
 ```
 
-接下来，调用HA的service！这里需要import一个叫做`homeassistant.remote`的模块，然后传递HA的api密码（即在设置中的`api_password`），接着就可以自由使用服务了！以判断性别和人数为例，让HA报出不同的欢迎词：
+接下来，调用HA的service！这里需要import一个叫做`homeassistant.remote`的模块，然后传递HA的api密码（即在设置中的`api_password`），接着就可以自由呼叫服务了！以判断性别和人数为例，让HA报出不同的欢迎词：
 
 ```python
 import homeassistant.remote as remote
@@ -1196,15 +903,151 @@ else:
   remote.call_service(api, domain, 'baidu_say', {'entity_id': entity_id, 'message': message3})
 ```
 
-最后，记得在`configuration.yaml`里面加入一行：
+那么，怎么运行这个外部的脚本呢？需要使用到Shell Command组件。在`configuration.yaml`里面加入：
 
 ```yaml
 shell_command:
   body_recognition: python3 /home/pi/body_recognition.py
 ```
 
-这样，在自动化中就可以用`service: shell_command.body_recognition`来调用这个脚本啦～
+这样，在HA的自动化中就可以用`service: shell_command.body_recognition`来调用这个脚本啦～
 
 ### 5.4 Variable的使用与贝叶斯传感器
 
 详见[Useful Sensor: Bayesian Sleep Detection in Home Assistant](https://diyfuturism.com/index.php/2017/12/29/useful-sensor-bayesian-sleep-detection-in-home-assistant/) 和 [Useful Sensor: Motion Last Seen & Meta Motion Sensor](https://diyfuturism.com/index.php/2017/12/15/useful-sensor-motion-last-seen-________/)
+
+在配置中添加variable组件：
+
+```yaml
+# 变量控制，详见https://github.com/rogro82/hass-variables
+variable:  
+  last_motion:
+    value: 'Unknown'
+    restore: true
+    attributes:
+      icon: mdi:alarm
+      friendly_name: 'Last Motion'
+```
+
+然后在自动化文件中添加自动化：
+
+```yaml
+# 房间内最后有人移动出现在哪里？
+- id: id10
+  alias: Update Last Motion
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.motion_sensor_toilet, binary_sensor.motion_sensor_balcony, binary_sensor.motion_sensor_kitchen, binary_sensor.ffmpeg_motion
+      to: 'on'
+  action:
+    - service: variable.set_variable
+      data:
+        variable: last_motion
+        attributes_template: >
+            {
+              "history_1": "{{ variable.state }}",
+              "history_2": "{{ variable.attributes.history_1 }}",
+              "history_3": "{{ variable.attributes.history_2 }}"
+            }
+      data_template:
+        value: "{{ trigger.to_state.attributes.friendly_name }}"
+```
+
+在配置文件中添加基于贝叶斯传感器组件的睡眠传感器
+```yaml
+# 贝叶斯传感器检测是否睡觉，详见https://www.home-assistant.io/components/binary_sensor.bayesian/
+binary_sensor:
+  - platform: bayesian
+    prior: 0.33
+    name: 'Sleeping'
+    probability_threshold: 0.85
+    observations:
+      - entity_id: 'variable.last_motion'
+        prob_given_true: 0.1
+        prob_given_false: 0.8
+        platform: 'state'
+        to_state: 'FFmpeg Motion'
+      - entity_id: 'variable.last_motion'
+        prob_given_true: 0.6
+        prob_given_false: 0.2
+        platform: 'state'
+        to_state: 'Toilet Motion'
+      - entity_id: 'variable.last_motion'
+        prob_given_true: 0.45
+        prob_given_false: 0.3
+        platform: 'state'
+        to_state: 'Kitchen Motion'
+      - entity_id: 'group.all_light'
+        prob_given_true: 1.0
+        prob_given_false: 0.8
+        platform: 'state'
+        to_state: 'off'
+      - entity_id: 'device_tracker.zoey'
+        prob_given_true: 1
+        prob_given_false: 0.625
+        platform: 'state'
+        to_state: 'not_home'
+      - entity_id: 'device_tracker.simon'
+        prob_given_true: 0.8
+        prob_given_false: 0.625
+        platform: 'state'
+        to_state: 'not_home'
+      - entity_id: 'sensor.illumination_7c49eb17e992'
+        prob_given_true: 0.8
+        prob_given_false: 0.4
+        platform: 'numeric_state'
+        below: 100
+      - entity_id: 'binary_sensor.prone_to_wake'
+        prob_given_true: 0.3
+        prob_given_false: 0.7
+        platform: 'state'
+        to_state: 'on'
+      - entity_id: 'switch.plug_158d000237cd54'
+        prob_given_true: 0.7
+        prob_given_false: 0.5
+        platform: 'state'
+        to_state: 'on'
+      - entity_id: 'binary_sensor.k_no_motion_for_20'
+        prob_given_true: 1
+        prob_given_false: 0.825
+        platform: 'state'
+        to_state: 'on'
+      - entity_id: 'binary_sensor.b_no_motion_for_20'
+        prob_given_true: 1
+        prob_given_false: 0.825
+        platform: 'state'
+        to_state: 'on'
+      - entity_id: 'binary_sensor.t_no_motion_for_20'
+        prob_given_true: 1
+        prob_given_false: 0.825
+        platform: 'state'
+        to_state: 'on'
+```
+
+其中，可能醒着的时间段和每个地方是否无人超过20分钟是通过模版实现的：
+```yaml
+binary_sensor:
+  # 可能醒着的时间段（睡眠时间段的反）
+  - platform: template
+    sensors:
+      prone_to_wake:
+        value_template: {% raw %}'{{ states.sensor.time.state > "09:00" and states.sensor.time.state <= "21:59"}}'{% endraw %}
+  # 20分钟无人二进制传感例子
+  - platform: template
+    sensors:
+      k_no_motion_for_20:
+        value_template: {% raw %}'{{states.binary_sensor.motion_sensor_kitchen.attributes["No motion since"] | int >= 1200}}'{% endraw %}
+```
+
+为了Debug，可以随时监测贝叶斯传感器的触发概率：
+
+```yaml
+# 贝叶斯睡觉传感器的概率记录，用于debug
+sensor:
+  - platform: template
+    sensors:
+      sleeping_probability:
+        friendly_name: "睡觉概率"
+        value_template: {% raw %}"{{ states.binary_sensor.sleeping.attributes.probability | float * 100 }}"{% endraw %}
+        unit_of_measurement: "%"
+```
