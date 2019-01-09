@@ -5,16 +5,16 @@ categories:
 - Technique
 tags:
 - Raspberry Pi
-- Home-assistant
-- Homebridge
-- Homekit
+- Home Assistant
+- HomeBridge
+- HomeKit
 ---
 
 ## 前言
 
 ![]({{ site.baseurl }}/public/images/HA1.png)
 
-上面的画面是否有一种浓浓的科技感？没有错，这就是苹果在iOS10中带来的智能家居应用Homekit。图中的每一个元素都是家中电器设备或传感单元的控制接口。为什么笔者要弄智能家居呢？来源于一个非常小的需求：家里的门锁总感觉不可靠，即使有了淘宝神器也不能完全安心，每天还是会纠结门是否关好。聊天的时候淡淡说有那种门窗传感器可以了解一下，于是乎上什么值得买搜了一下，找到了一个讲小米智能家居全家桶排雷的文章，里面介绍到了Home Assistant开源智能家居平台，可以和苹果的Homekit进行对接，这样就可以在手机上监控家中的情况。这篇文章让我想起了国庆去托马斯家住的时候，早上七点钟灯会自动开起来，当时托马斯很自豪地说这是他设置的智能家居程式，让我羡慕不已，感觉有种赛博朋克的味道！正好，在实验室里面找到了闲置许久的树莓派，拿来做家庭控制中心正好不过了！
+上面的画面是否有一种浓浓的科技感？没有错，这就是苹果在iOS10中带来的智能家居应用HomeKit。图中的每一个元素都是家中电器设备或传感单元的控制接口。为什么笔者要弄智能家居呢？来源于一个非常小的需求：家里的门锁总感觉不可靠，即使有了淘宝神器也不能完全安心，每天还是会纠结门是否关好。聊天的时候淡淡说有那种门窗传感器可以了解一下，于是乎上什么值得买搜了一下，找到了一个讲小米智能家居全家桶排雷的文章，里面介绍到了Home Assistant开源智能家居平台，可以和苹果的HomeKit进行对接，这样就可以在手机上监控家中的情况。这篇文章让我想起了国庆去托马斯家住的时候，早上七点钟灯会自动开起来，当时托马斯很自豪地说这是他设置的智能家居程式，让我羡慕不已，感觉有种赛博朋克的味道！正好，在实验室里面找到了闲置许久的树莓派，拿来做家庭控制中心正好不过了！
 
 <!-- more -->
 
@@ -29,11 +29,11 @@ tags:
 
 根据上述的架构，显然当前智能家居还停留在自定义的控制规则上，和人工智能的“智能”二字相去甚远，但说到底其本意是为了方便生活中的一些小细节，因此也算是一个很有意义的“大人的玩具”了！再者，当前大的互联网公司在布局自己的智能家居产品时，或多或少会收集一些用户数据，这些数据日后经过训练，都有可能作为一种智能服务提供给消费者，真正做到Smart Home这一级别的智能家居。
 
-那么，这么多智能家居平台，要选择哪一家呢？虽然每个公司都有自己的战略布局，但当前对于开发者的友好程度并不一致。例如，有小米博联这样的“半开放”平台（虽然加塞了自己的东西但是可以很好地接入第三方平台）和阿里京东这样的“封闭”平台（截止目前，天猫精灵AI联盟里面买的东西还是只能用天猫精灵控制，也就是从自家的app里面添加以外别无他法）。其实我们最经常能接触到的智能家居控制中心便是苹果的Homekit，界面非常符合苹果一贯的简洁风格，但是Homekit的配件都很贵，预算有限的人（包括我）常常会望而却步，才不得不考虑买其他家的智能家居产品。如果不介意都买一家公司的“全家桶”，那么这家公司自己的智能家庭APP已经可以满足你的需求。如果考虑到价格和性能，每种产品都选择了不同家的公司，那手机里装的APP就要塞不下了。
+那么，这么多智能家居平台，要选择哪一家呢？虽然每个公司都有自己的战略布局，但当前对于开发者的友好程度并不一致。例如，有小米博联这样的“半开放”平台（虽然加塞了自己的东西但是可以很好地接入第三方平台）和阿里京东这样的“封闭”平台（截止目前，天猫精灵AI联盟里面买的东西还是只能用天猫精灵控制，也就是从自家的app里面添加以外别无他法）。其实我们最经常能接触到的智能家居控制中心便是苹果的HomeKit，界面非常符合苹果一贯的简洁风格，但是HomeKit的配件都很贵，预算有限的人（包括我）常常会望而却步，才不得不考虑买其他家的智能家居产品。如果不介意都买一家公司的“全家桶”，那么这家公司自己的智能家庭APP已经可以满足你的需求。如果考虑到价格和性能，每种产品都选择了不同家的公司，那手机里装的APP就要塞不下了。
 
 ![]({{ site.baseurl }}/public/images/HA2.png)
 
-因此，为了将很多家智能家居设备整合在一起，需要用到第三方的开放平台。首先要说开源的Homebridge，它由前Homekit程序员创建，用Node.js编写，让无法接入Homekit的第三方产品通过插件兼容桥接入。然后就是本文的重点Home Assistant（HA，下同），它属于新兴力量，基于Python且UI友好，崇尚“Simplicity”，社区活跃而文档丰富，每周都有新版本的小插件发布。此外还有其他一些好平台，比如Domoticz，openHAB等，笔者尚未接触过。根据网路上的描述，OpenHAB基于Java开发，社区非常成熟，但插件审核严格，更新较慢；而Domoticz用C++实现，体积小可扩展性高，但其中文社区不够活跃，文档也相对较少。
+因此，为了将很多家智能家居设备整合在一起，需要用到第三方的开放平台。首先要说开源的HomeBridge，它由前HomeKit程序员创建，用Node.js编写，让无法接入HomeKit的第三方产品通过插件兼容桥接入。然后就是本文的重点Home Assistant（HA，下同），它属于新兴力量，基于Python且UI友好，崇尚“Simplicity”，社区活跃而文档丰富，每周都有新版本的小插件发布。此外还有其他一些好平台，比如Domoticz，openHAB等，笔者尚未接触过。根据网路上的描述，OpenHAB基于Java开发，社区非常成熟，但插件审核严格，更新较慢；而Domoticz用C++实现，体积小可扩展性高，但其中文社区不够活跃，文档也相对较少。
 
 ![]({{ site.baseurl }}/public/images/HA5.png)
 
@@ -128,9 +128,9 @@ automation: !include automations.yaml
 script: !include scripts.yaml
 ```
 
-如果是在树莓派上，还可以考虑官方的[Hass.io](https://www.home-assistant.io/hassio/)，一个基于Docker的HA系统，将镜像烧录到SD卡上就可以即插即用！笔者不考虑Hass.io的原因是希望在树莓派上还可以运行一些别的程序，比如Homebridge或者媒体中心之类的，因此就选择了手动安装啦～
+如果是在树莓派上，还可以考虑官方的[Hass.io](https://www.home-assistant.io/hassio/)，一个基于Docker的HA系统，将镜像烧录到SD卡上就可以即插即用！笔者不考虑Hass.io的原因是希望在树莓派上还可以运行一些别的程序，比如HomeBridge或者媒体中心之类的，因此就选择了手动安装啦～
 
-## 2. 原理与接入Homekit
+## 2. 原理与接入HomeKit
 
 HA的基本原理用其官网的一张图就可以概括：
 
@@ -149,12 +149,12 @@ HA的基本原理用其官网的一张图就可以概括：
 
 ![](https://developers.home-assistant.io/img/en/architecture/ha_full_architecture.png)
 
-因此，HA确实是一个相对复杂的系统（相较于其他几个系统已经好很多了），那么如果想更简单地监测和控制家里的电器，要怎么办呢？这里就不得不说苹果的Homekit了，真·傻瓜式操作，界面清新。可以将HA和Homekit进行对接吗？答案是完全可以！这里列举一下使用HA对接HomeKit的几个好处：
+因此，HA确实是一个相对复杂的系统（相较于其他几个系统已经好很多了），那么如果想更简单地监测和控制家里的电器，要怎么办呢？这里就不得不说苹果的HomeKit了，真·傻瓜式操作，界面清新。可以将HA和HomeKit进行对接吗？答案是完全可以！这里列举一下使用HA对接HomeKit的几个好处：
 
 1. 可以用Siri来控制家电啦！
-2. 有一台iPad或者Mac的话，就能作为家庭中心，在外面也能访问Homekit，进而控制家电。HA的外网接入比较麻烦。
+2. 有一台iPad或者Mac的话，就能作为家庭中心，在外面也能访问HomeKit，进而控制家电。HA的外网接入比较麻烦。
 
-最早将第三方平台接入Homekit的方法是利用HomeBridge，例如米家网关利用HomeBridge-Mi-Aqara插件接入HomeBridge，从而接入Homekit。这种方法的限制是只能够一次控制一类家居，比如 HomeBridge-Mi-Aqara 就只能控制米家类家居。而Home Assistant的引入让整个平台更加统一，兼容，因此后来有了HomeBridge-HomeAssistant插件让Home Assistant通过HomeBridge桥接进Homekit。最后，HomeBridge-HomeAssistant这个东西被抛弃了，Home Assistant选择原生直接接入Homekit，虽然有一些限制（仅特定的Components能接入，详情看https://www.home-assistant.io/components/homekit/#supported-components ，包括开关、传感器、风扇和灯具等等）。下面总结了这三种方法是如何接入Homekit与用户交互的。
+最早将第三方平台接入HomeKit的方法是利用HomeBridge，例如米家网关利用HomeBridge-Mi-Aqara插件接入HomeBridge，从而接入HomeKit。这种方法的限制是只能够一次控制一类家居，比如 HomeBridge-Mi-Aqara 就只能控制米家类家居。而Home Assistant的引入让整个平台更加统一，兼容，因此后来有了HomeBridge-HomeAssistant插件让Home Assistant通过HomeBridge桥接进HomeKit。最后，HomeBridge-HomeAssistant这个东西被抛弃了，Home Assistant选择原生直接接入HomeKit，虽然有一些限制（仅特定的Components能接入，详情看https://www.home-assistant.io/components/HomeKit/#supported-components ，包括开关、传感器、风扇和灯具等等）。下面总结了这三种方法是如何接入HomeKit与用户交互的。
 
 ![]({{ site.baseurl }}/public/images/HA7.png)
 
@@ -162,21 +162,21 @@ HA的基本原理用其官网的一张图就可以概括：
 
 ```zsh
 sudo apt-get install libavahi-compat-libdnssd-dev
-sudo npm install -g --unsafe-perm homebridge
+sudo npm install -g --unsafe-perm HomeBridge
 ```
 
-安装不再维护的Homebridge-homeassistant插件：
+安装不再维护的HomeBridge-homeassistant插件：
 
 ```zsh
-sudo npm install -g homebridge-homeassistant
+sudo npm install -g HomeBridge-homeassistant
 ```
 
-然后在Homebridge的配置文件`/home/pi/.homebridge/config.json`中写入：
+然后在HomeBridge的配置文件`/home/pi/.HomeBridge/config.json`中写入：
 
 ```json
 {
     "bridge": {
-        "name":"Homebridge",
+        "name":"HomeBridge",
         "username":"11:22:33:44:55:66",
         "port":51826,
         "pin":"123-45-678"
@@ -193,22 +193,22 @@ sudo npm install -g homebridge-homeassistant
 }
 ```
 
-其中，username是树莓派的MAC地址，port是Homekit的端口默认就好，pin是在 iPhone 上认证 HomeBridge 网关的密码，随喜好输入，而password是在HA中设置的访问密码。最后的supported_types就是你希望支持的组件啦！最后，运行
+其中，username是树莓派的MAC地址，port是HomeKit的端口默认就好，pin是在 iPhone 上认证 HomeBridge 网关的密码，随喜好输入，而password是在HA中设置的访问密码。最后的supported_types就是你希望支持的组件啦！最后，运行
 
 ```zsh
-homebridge -D
+HomeBridge -D
 ```
 
-即可将HA通过HomeBridge接入Homekit！那么，HA中原生支持的Homekit组件怎么添加呢？只需要在配置中写上：
+即可将HA通过HomeBridge接入HomeKit！那么，HA中原生支持的HomeKit组件怎么添加呢？只需要在配置中写上：
 
 ```yaml
-homekit:
+HomeKit:
 ```
 
-需要注意初次启用homekit组件后，HA 主页会出现 PIN 码，若没有出现，删除配置文件夹下 `.homekit.state` 重试。如果想要让一些HA中的组件不要在Homekit中出现，只需要在filter域中添加` exclude_domains`和` exclude_entities`部分即可，例如：
+需要注意初次启用HomeKit组件后，HA 主页会出现 PIN 码，若没有出现，删除配置文件夹下 `.HomeKit.state` 重试。如果想要让一些HA中的组件不要在HomeKit中出现，只需要在filter域中添加` exclude_domains`和` exclude_entities`部分即可，例如：
 
 ```yaml
-homekit:
+HomeKit:
   filter:
     exclude_domains: 
       - automation
@@ -461,18 +461,18 @@ camera:
 
 其中，name是设备名，deviceid（设备序列号）见 https://open.ys7.com/console/device.html ，appkey和appsecret见 https://open.ys7.com/console/application.html 。原理就是每隔30秒调用萤石的api取一次设备图像，这个时间间隔可以在ezviz.py中修改。
 
-虽然在HA中添加了摄像头，但是其图像并不能在Homekit中显示，因为这一部分目前还没有得到实现，怎么办呢？只能退而求其次，用Homebridge来为摄像头桥接了。安装Camera-ffmpeg插件：
+虽然在HA中添加了摄像头，但是其图像并不能在HomeKit中显示，因为这一部分目前还没有得到实现，怎么办呢？只能退而求其次，用HomeBridge来为摄像头桥接了。安装Camera-ffmpeg插件：
 
 ```zsh
-sudo npm install -g homebridge-camera-ffmpeg
+sudo npm install -g HomeBridge-camera-ffmpeg
 ```
 
-安装后，修改Homebridge的配置`config.json`如下：
+安装后，修改HomeBridge的配置`config.json`如下：
 
 ```json
 {
     "bridge": {
-        "name":"Homebridge",
+        "name":"HomeBridge",
         "username":"11:22:33:44:55:66",
         "port":51826,
         "pin":"123-45-678"
@@ -495,7 +495,7 @@ sudo npm install -g homebridge-camera-ffmpeg
 }
 ```
 
-运行HomeBridge后就可以在Homekit中根据上面的pin添加摄像头啦～
+运行HomeBridge后就可以在HomeKit中根据上面的pin添加摄像头啦～
 
 FFmpeg还有另外一个功能，那就是运动检测，怎么做到呢？因为现在的视频压缩算法需要判断当前的画面和之前画面的差别，如果差别很大就会产生一个新的场景（scene），这一特性刚好可以用来判断静止的相机画面中是否有运动。正好，HA中就有一个FFmpeg Motion的组件：
 
