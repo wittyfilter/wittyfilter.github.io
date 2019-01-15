@@ -202,13 +202,13 @@ HomeBridge -D
 即可将HA通过HomeBridge接入HomeKit！那么，HA中原生支持的HomeKit组件怎么添加呢？只需要在配置中写上：
 
 ```yaml
-HomeKit:
+homekit:
 ```
 
-需要注意初次启用HomeKit组件后，HA 主页会出现 PIN 码，若没有出现，删除配置文件夹下 `.HomeKit.state` 重试。如果想要让一些HA中的组件不要在HomeKit中出现，只需要在filter域中添加` exclude_domains`和` exclude_entities`部分即可，例如：
+需要注意初次启用HomeKit组件后，HA 主页会出现 PIN 码，若没有出现，删除配置文件夹下 `.homekit.state` 重试。如果想要让一些HA中的组件不要在HomeKit中出现，只需要在filter域中添加` exclude_domains`和` exclude_entities`部分即可，例如：
 
 ```yaml
-HomeKit:
+homekit:
   filter:
     exclude_domains: 
       - automation
