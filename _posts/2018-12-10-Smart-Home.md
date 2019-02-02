@@ -880,13 +880,17 @@ while result['person_num'] == 0:
   	quit()
 ```
 
-接下来，调用HA的service！这里需要import一个叫做`homeassistant.remote`的模块，然后传递HA的api密码（即在设置中的`api_password`），接着就可以自由呼叫服务了！以判断性别和人数为例，让HA报出不同的欢迎词：
+接下来，调用HA的service！这里就需要我们的RESTful API了，下面代码展示了如何向目标url进行post操作来调用HA的服务。以判断性别和人数为例，让HA报出不同的欢迎词：
 
 ```python
-import homeassistant.remote as remote
+import json
 
-api = remote.API('127.0.0.1', '{api_password}')
-domain = 'tts'
+url = 'http://localhost:8123/api/services/tts/baidu_say'
+timeout = 10
+headers = {
+  'Authorization': 'Bearer ABCDEFG',
+  'content-type': 'application/json',
+}
 entity_id = 'media_player.vlc'
 message1 = "欢迎你们"
 message2 = "欢迎女主人"
@@ -894,16 +898,16 @@ message3 = "欢迎男主人"
 message4 = "欢迎回家"
 
 if result['person_num'] > 1:
-  remote.call_service(api, domain, 'baidu_say', {'entity_id': entity_id, 'message': message1})
+  r = requests.post(url, data=json.dumps({'entity_id': entity_id, 'message': message1}), headers=headers)
 elif result['person_info'][0]['attributes']['gender']['score'] < 0.75:
-  remote.call_service(api, domain, 'baidu_say', {'entity_id': entity_id, 'message': message4})
+  r = requests.post(url, data=json.dumps({'entity_id': entity_id, 'message': message4}), headers=headers)
 elif result['person_info'][0]['attributes']['gender']['name'] == "女性":
-  remote.call_service(api, domain, 'baidu_say', {'entity_id': entity_id, 'message': message2})
+  r = requests.post(url, data=json.dumps({'entity_id': entity_id, 'message': message2}), headers=headers)
 else:
-  remote.call_service(api, domain, 'baidu_say', {'entity_id': entity_id, 'message': message3})
+  r = requests.post(url, data=json.dumps({'entity_id': entity_id, 'message': message3}), headers=headers)
 ```
 
-那么，怎么运行这个外部的脚本呢？需要使用到Shell Command组件。在`configuration.yaml`里面加入：
+上面的`ABCDEFG`是HA的token，可以在http://localhost:8123/profile 中找到"Long-Lived Access Token"来获取。那么，接下来怎么运行这个外部的脚本呢？需要使用到Shell Command组件。在`configuration.yaml`里面加入：
 
 ```yaml
 shell_command:
