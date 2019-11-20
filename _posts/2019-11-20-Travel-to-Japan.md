@@ -1,5 +1,12 @@
 ---
 title: 日本5日游记
+layout: post
+categories:
+- Travel
+tags:
+- Japan
+- Tokyo
+- Hakone
 ---
 
 本次行程的路线图与关键地点：
