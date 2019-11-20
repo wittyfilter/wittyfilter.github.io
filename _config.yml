@@ -12,10 +12,10 @@ excerpt_separator: <!-- more -->
 
 title: WittyFilter
 description: > # this means to ignore newlines until "baseurl:"
- 幻想乡音乐家，信电库里（误）
+ 幻想乡音乐家与摄影师
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://wittyfilter.github.io" # the base hostname & protocol for your site
-tagline:	'并不机智的滤波器'
+tagline:	'机智的滤波器'
 
 timezone: Asia/Shanghai
 
@@ -24,12 +24,12 @@ paginate_path: "/page:num/"
 
 # About/contact
 author:
-  name:              Simon Yang
-  url:               https://twitter.com/WittyFilter
+  name:              Zhe Yang
+  url:               https://www.instagram.com/wittyfilter/
   email:             
 
 # Custom vars
-version:             3.0.0
+version:             4.0.0
 
 
 # Build settings

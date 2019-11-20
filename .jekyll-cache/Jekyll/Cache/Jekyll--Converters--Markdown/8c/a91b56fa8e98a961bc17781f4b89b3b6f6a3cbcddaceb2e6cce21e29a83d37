@@ -1,0 +1,49 @@
+I"�<p>记录一下自己Openbox配置，with Archlinux</p>
+
+<hr />
+
+<h3 id="关于openbox">关于Openbox</h3>
+
+<p>openbox是一个轻量级，可定制性高的窗口管理器。<br />
+安装完成后, 应该把默认的配置文件 rc.xml, menu.xml, 和 autostart 和environment复制到<code class="highlighter-rouge">~/.config/openbox</code>：</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">mkdir</span> <span class="nt">-p</span> ~/.config/openbox
+<span class="nv">$ </span><span class="nb">cp</span> /etc/xdg/openbox/<span class="o">{</span>rc.xml,menu.xml,autostart,environment<span class="o">}</span> ~/.config/openbox
+</code></pre></div></div>
+
+<p><strong>注意: 不要用 root 进行以上操作，应使用普通用户</strong></p>
+
+<p>这四个文件组成了Openbox配置的基础。每一个文件是配置的独立的部分，它们的功能是：</p>
+
+<ul>
+  <li>
+    <p>rc.xml
+本文件是配置文件，用于定义键盘快捷键, 主题, 虚拟桌面等。</p>
+  </li>
+  <li>
+    <p>menu.xml
+ 本文件定义了在桌面用鼠标击键时显示的菜单。它定义了程序启动器和快捷方式。</p>
+  </li>
+  <li>
+    <p>autostart
+本文件在 Openbox 启动时读取。包含了一些需要启动的程序，通常用来定义许多环境变量、启动面板/dock、设置壁纸或者执行其他启动脚本等等。</p>
+  </li>
+  <li>
+    <p>environment
+本文件被openbox-session启动时调用。它包含了在Openbox上下文中定义的变量。任何你想对 Openbox 本身可见以及从菜单启动的程序需要的变量都放在这里。</p>
+  </li>
+</ul>
+
+<p>如果将Openbox作为单独的窗口管理器使用，则只需要在<code class="highlighter-rouge">~./xinitrc</code>中添加</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>exec openbox-session
+</code></pre></div></div>
+
+<p>startx即可启动Openbox。Openbox中的xdg-autostart需要pyxdg。
+如果有桌面环境的话，自带的登录管理器会话选择就比较方便。推荐cdm，基于会话且轻量。</p>
+
+<hr />
+
+<h3 id="配置openbox">配置Openbox</h3>
+
+:ET

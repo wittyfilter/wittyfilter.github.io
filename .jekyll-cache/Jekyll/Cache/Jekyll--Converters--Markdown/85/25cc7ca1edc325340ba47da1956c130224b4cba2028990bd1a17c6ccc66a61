@@ -1,0 +1,24 @@
+I"0<p>记录一下平时怎么科 学 上 网</p>
+
+<h1 id="1-ss">1. ss</h1>
+
+<p>Shadowsocks是首选啦，目前暂时可用。</p>
+
+<h1 id="2-goagent">2. goagent</h1>
+
+<p>这个不必多说，一度以来用的人太多了……<a href="https://github.com/goagent/goagent">项目主页</a>，Wiki里面有安装和使用的介绍，非常详细。</p>
+
+<p><strong>项目已被和谐，原来有下载的仍可以使用</strong></p>
+
+<h1 id="3-sshproxy">3. ssh+proxy</h1>
+
+<p>一个老办法了。首先，你要有个SSH帐号，例如去<a href="http://www.myssh.cc/buy.html">MySSH</a>申请一个。有了帐号以后，linux下如果有ssh客户端的话，直接</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>ssh <span class="nt">-D</span> 127.0.0.1:7070 username@216.194.70.6
+</code></pre></div></div>
+
+<p>windows下可以使用MyEnTunnel，注意启用动态SOCKS，本地端口填7070(非SSH端口22)。</p>
+
+<p>接下来就是浏览器的扩展了。</p>
+
+:ET

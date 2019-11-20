@@ -1,0 +1,82 @@
+I"�<h2 id="如何扩充词库">如何扩充词库？</h2>
+<h3 id="1-使用dictunifier--stardict等词库数据">1. 使用DictUnifier + Stardict等词库数据</h3>
+
+<p>下载安装<a href="https://github.com/jjgod/mac-dictionary-kit">DictUnifier</a>，然后将词典数据拖入即可完成自动安装。词典数据请参考<a href="http://download.huzheng.org/zh_CN">Huzheng’s Blog</a></p>
+
+<p>比较推荐小学馆的中日日中，以及朗道的英汉汉英。</p>
+
+<!-- more -->
+<h3 id="2-使用mdict转换">2. 使用Mdict转换</h3>
+
+<p>参考<a href="https://kaihao.io/2018/mdict-to-macos-dictionary/">Kaihao’s Blog</a>，此处不赘述。具体需要的工具是<a href="https://github.com/ilius/pyglossary">pyglossary</a>，<a href="https://github.com/jd-boyd/python-lzo">python-lzo</a>和其他一些包：[lxml beautifulsoup4 html5lib]</p>
+
+<p>他在知乎上的<a href="https://www.zhihu.com/question/21964466">回答</a>已经帮我们转换好了Macmillan English Dictionary，Oxford Advanced Learner’s Dictionary和Longman Dictionary of Contemporary English，这三个.dictionary文件亲测足够用了，拖到<code class="highlighter-rouge">~/Library/Dictionaries</code>里面试试看吧！</p>
+
+<h2 id="生词本功能">生词本功能</h2>
+<p>可以参考<a href="https://github.com/pooriaazimi/BetterDictionary">BetterDictionary</a>，但是已经很久没有维护了。</p>
+
+<p>另一种需要自己动动手的方法是利用OS X自己的Automator（自动操作），请参考<a href="https://hectorguo.com/zh/save-words-in-dictionary/">郭海旭的博客</a>，其中比较亮点的是自动保存到Evernote的功能，操作方法是：</p>
+
+<ol>
+  <li>先设置一个变量叫wordName（用来保存选中的单词）</li>
+  <li>获取释义</li>
+  <li>获取变量wordName</li>
+  <li>执行AppleScript（把如下代码拷贝过去，就可以了）：</li>
+</ol>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>on run <span class="o">{</span>input<span class="o">}</span>
+	tell application <span class="s2">"Evernote"</span> to activate
+	<span class="nb">set </span>selectedText to first item of input
+	<span class="nb">set </span>wordName to second item of input
+	tell application <span class="s2">"Evernote"</span>
+		<span class="k">if</span> <span class="o">(</span>not <span class="o">(</span>notebook named <span class="s2">"wordlist"</span> exists<span class="o">))</span> <span class="k">then
+			</span>make notebook with properties <span class="o">{</span>name:<span class="s2">"wordlist"</span><span class="o">}</span>
+		end <span class="k">if
+		</span>try
+			create note title wordName with text selectedText notebook <span class="s2">"wordlist"</span>
+			synchronize
+		end try
+	end tell
+end run
+</code></pre></div></div>
+
+<p>今天要说的是，如何利用Automator将生词格式化保存到一个Markdown文件里面，作为一个单独的page（或者post）呢？这就要把Shell脚本稍微改改了。原先保存为一个html文件的脚本为：</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 将单词释义保存到桌面的wordlist.html文件下，若文件不存在，则初始化文件（填充html的标签）</span>
+<span class="nv">FILE</span><span class="o">=</span><span class="nv">$HOME</span>/Desktop/wordlist.html
+<span class="nv">INIT_STRING</span><span class="o">=</span><span class="s1">'&lt;!DOCTYPE html&gt;&lt;html lang="en"&gt;&lt;head&gt;&lt;meta charset="UTF-8"&gt;&lt;title&gt;MAC-Wordlist&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;table&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;'</span>
+<span class="c"># 格式化单词释义（把单词，音标，解释分离开）</span>
+<span class="nv">RESULT</span><span class="o">=</span><span class="si">$(</span><span class="nb">echo</span> <span class="nt">-e</span> <span class="nv">$1</span> | <span class="nb">sed</span> <span class="nt">-E</span> <span class="s1">'s#([a-zA-Z]+) (\|[^\|]+\|)(.*)#&lt;tr&gt;&lt;td&gt;\1&lt;/td&gt;&lt;td&gt;\2&lt;/td&gt;&lt;td&gt;\3&lt;/td&gt;&lt;/tr&gt;#g'</span><span class="si">)</span>
+<span class="k">if</span> <span class="o">[</span> <span class="o">!</span> <span class="nt">-f</span> <span class="nv">$FILE</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+	</span><span class="nb">echo</span> <span class="nv">$INIT_STRING</span> <span class="o">&gt;</span> <span class="nv">$FILE</span>
+<span class="k">fi
+</span><span class="nb">sed</span> <span class="nt">-Ei</span> <span class="s1">''</span> <span class="s2">"s#(&lt;/table&gt;)#</span><span class="nv">$RESULT</span><span class="se">\1</span><span class="s2">#g"</span> <span class="nv">$FILE</span>
+</code></pre></div></div>
+
+<p>改成：</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">FILE</span><span class="o">=</span><span class="nv">$HOME</span>/wittyfilter.github.io/wordlists.md
+<span class="nv">INIT_STRING</span><span class="o">=</span><span class="s1">'---
+layout: page
+title: Word Lists
+---
+'</span>
+<span class="c"># 格式化单词释义（把单词，音标，解释分离开）</span>
+<span class="nv">RESULT</span><span class="o">=</span><span class="si">$(</span><span class="nb">echo</span> <span class="nt">-e</span> <span class="nv">$1</span> | <span class="nb">sed</span> <span class="nt">-E</span> <span class="s1">'s/([a-zA-Z]+) (\|[^\|]+\|) (.*)/\
+### \1\
+&gt;\3\
+/g'</span><span class="si">)</span>
+<span class="k">if</span> <span class="o">[</span> <span class="o">!</span> <span class="nt">-f</span> <span class="nv">$FILE</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+	</span><span class="nb">echo</span> <span class="nv">$INIT_STRING</span> <span class="o">&gt;</span> <span class="nv">$FILE</span>
+<span class="k">fi
+</span><span class="nb">echo</span> <span class="nv">$RESULT</span> <span class="o">&gt;&gt;</span> <span class="nv">$FILE</span>
+</code></pre></div></div>
+
+<p>完成后的效果如下：</p>
+
+<p><img src="/public/images/wordlists2.png" alt="" /></p>
+
+<p>Automator的设置如下：</p>
+
+<p><img src="/public/images/wordlists1.png" alt="" /></p>
+:ET

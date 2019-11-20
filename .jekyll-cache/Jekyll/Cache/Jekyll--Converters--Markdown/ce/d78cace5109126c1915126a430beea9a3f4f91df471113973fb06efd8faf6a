@@ -1,0 +1,55 @@
+I"�
+<h2 id="小车控制">小车控制</h2>
+
+<h3 id="1-登陆">1. 登陆</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ssh root@host1
+</code></pre></div></div>
+<p>pw: ***</p>
+
+<h3 id="2-环境设置">2. 环境设置</h3>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">source</span> /opt/ros/kinetic/setup.bash
+<span class="nv">$ </span><span class="nb">cd </span>firmware/autolabor2.5/launch
+<span class="nv">$ </span>./lidar_nav_sh.sh &amp;
+</code></pre></div></div>
+<h3 id="3-小车控制">3. 小车控制</h3>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>rostopic pub cmd_vel geometry_msgs/Twist <span class="nt">-r</span> 2 <span class="nt">--</span> <span class="s1">'[1,0,0]'</span> <span class="s1">'[0,0,3.5]'</span>
+</code></pre></div></div>
+<p>其中 -r 参数代表了指令发送的频率（Hz单位，例子中为2Hz），第一个[x, y, z] 代表了位移，第二个[u, v, w]代表了旋转。</p>
+
+<p>或者可以将指令写到一个文件中，请参考command_run.sh和command_yz.sh</p>
+
+<!-- more -->
+
+<h2 id="tx1控制">TX1控制</h2>
+
+<h3 id="1-登陆-1">1. 登陆</h3>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ssh nvidia@host2
+</code></pre></div></div>
+<p>pw: nvidia</p>
+
+<p>登陆后开启X11VNC进行调试</p>
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>./x11vncscript
+</code></pre></div></div>
+<p>VNC请访问<em>host2</em>，pw: ***</p>
+
+<h3 id="2-orb-slam">2. ORB SLAM</h3>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cd</span> ~/ORB_SLAM2/build
+<span class="nv">$ </span>make
+<span class="nv">$ </span>./slamscript
+</code></pre></div></div>
+<p>在出现Loading ORB Vocabulary以后，optitrack可以开始准备录制。
+结束后，请在应用窗口双击<code class="highlighter-rouge">Esc</code>退出程序，将在build文件夹下保存两个轨迹文档。</p>
+
+<h3 id="3-方波调试">3. 方波调试</h3>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cd</span> ~/Dependency/jetsonTX1GPIO
+<span class="nv">$ </span>g++ test_gpio.cpp jetsonGPIO.c <span class="nt">--std</span><span class="o">=</span>c++11 <span class="nt">-o</span> testgpio
+<span class="nv">$ </span><span class="nb">sudo</span> ./testgpio k
+</code></pre></div></div>
+<p>k为频率（Hz）</p>
+:ET

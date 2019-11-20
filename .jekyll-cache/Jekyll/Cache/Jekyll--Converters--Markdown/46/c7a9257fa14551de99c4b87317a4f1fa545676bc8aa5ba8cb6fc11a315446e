@@ -1,0 +1,12 @@
+I"}<p>lsof查下载的文件：</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ps aux | <span class="nb">grep </span>GarageBand  
+lsof <span class="nt">-g</span> 291 <span class="o">&gt;</span> ~/log.txt
+</code></pre></div></div>
+
+<p>在我的电脑上下载后所保存的临时目录为：</p>
+
+<p><code class="highlighter-rouge">/private/var/folders/数字/.../C/com.apple.garageband10/com.apple.MusicApps/audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_GarageBandCoreContent.pkg</code></p>
+
+<p>去下面这里下载（除了第一个，下面都是可选）：</p>
+:ET

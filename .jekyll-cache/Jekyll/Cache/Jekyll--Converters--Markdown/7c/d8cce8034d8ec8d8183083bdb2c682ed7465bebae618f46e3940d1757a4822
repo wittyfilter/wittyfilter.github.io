@@ -1,0 +1,43 @@
+I"�	<h1 id="1-关于vnc中出现的-error-could-not-run-xauth">1. 关于VNC中出现的 <code class="highlighter-rouge">Error: could not run xauth</code></h1>
+
+<p>If the SELinux configuration is set to enforcing then we need to make sure the home directories are set in the correct context:</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>egrep <span class="nt">-e</span> <span class="s1">'^SELINUX='</span> /etc/selinux/config
+<span class="nv">$ SELINUX</span><span class="o">=</span>enforcing
+</code></pre></div></div>
+
+<p>Taking a look at the SELinux settings for the home directories (use Z with the ls command):</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">ls</span> <span class="nt">-aslZ</span> /home/
+total 36
+drwxr-xr-x. root    root    system_u:object_r:home_root_t:s0 <span class="nb">.</span>
+drwxr-xr-x. root    root    system_u:object_r:root_t:s0      ..
+drwx------. 55 unconfined_u:object_r:home_root_t:s0 jason <span class="nb">users  </span>4096 Jan 20 14:22 jason
+</code></pre></div></div>
+
+<p>The context for my home directory (jason) should be unconfined_u:object_r:user_home_dir_t:s0 and not unconfined_u:object_r:home_root_t:s0 as it is a home directory and not part of the root file system per se.</p>
+
+<h1 id="2-ldap管理">2. LDAP管理</h1>
+
+<p>login-&gt;beetle: x.x.45.210:636(SSL)<br />
+cn=admin,dc=vlsi5,dc=vlsi,dc=zju,dc=edu,dc=cn<br />
+pw-&gt;Gemini7!30<br />
+test connection成功的话fetch DNs</p>
+
+<h1 id="3-新建用户后adduser或用ldap新建">3. 新建用户后(adduser或用ldap新建)</h1>
+
+<p>在<code class="highlighter-rouge">/home</code>下</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>restorecon <span class="nv">$USER</span> <span class="nt">-R</span>
+<span class="nv">$ </span><span class="nb">ls</span> <span class="nt">-Z</span>
+</code></pre></div></div>
+
+<p>查看是否user_home_dir</p>
+
+<h1 id="4-故障排除">4. 故障排除：</h1>
+<p><code class="highlighter-rouge">iptables -S</code> 查看端口开的情况
+<code class="highlighter-rouge">system-config-firewall</code> 设置端口，防火墙等</p>
+
+<h1 id="5-windows虚拟机">5. windows虚拟机</h1>
+<p>root登录diamond后，执行 <code class="highlighter-rouge">virt-manager</code></p>
+:ET

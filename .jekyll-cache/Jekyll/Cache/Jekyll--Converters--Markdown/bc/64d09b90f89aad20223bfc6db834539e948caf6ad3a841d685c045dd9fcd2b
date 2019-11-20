@@ -1,0 +1,106 @@
+I";<p>lsof查下载的文件：</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ps aux | <span class="nb">grep </span>GarageBand  
+lsof <span class="nt">-g</span> 291 <span class="o">&gt;</span> ~/log.txt
+</code></pre></div></div>
+
+<p>在我的电脑上下载后所保存的临时目录为：</p>
+
+<p><code class="highlighter-rouge">/private/var/folders/数字/.../C/com.apple.garageband10/com.apple.MusicApps/audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_GarageBandCoreContent.pkg</code></p>
+
+<p>去下面这里下载（除了第一个，下面都是可选）：
+<!-- more -->
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_GarageBandCoreContent.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_GarageBandPremiumContent.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_GB_StereoDrumKitsSongWriter.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_GB_StereoDrumKitsAlternative.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_GB_StereoDrumKitsRock.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_GB_StereoDrumKitsRnB.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MGBContentCompatibility.pkg</p>
+
+<p>直接双击安装就成，之前把~/Library和/Library中跟GarageBand相关的东西都删除（别顺手把主文件删除）。</p>
+
+<p>特别注意~/Library/Containers中有GarageBand的文件夹缓存一定要删除，删除完最后重启，然后安装下载的这个音效包，然后再启动GarageBand就不会再要求下载了。</p>
+
+<p>2015:</p>
+
+<p>http://audiocontentdownload.apple.com/lp10_ms3_content_2015/MAContent10_GarageBandCoreContent2.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2015/MAContent10_GarageBandCoreContent_v3.pkg</p>
+
+<p>如果安装之后还不生效的话，那就用cleanmymac重置一下GarageBand，然后再安装就可以了。</p>
+
+<p>附：Logic Pro的内容</p>
+
+<p>2G Essential包：</p>
+
+<p>http://audiocontentdownload.apple.com/lp10_ms3_content_2013/ProAudioCoreContent10.pkg</p>
+
+<p>新贝司</p>
+
+<p>http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_InstrumentsBass.pkg</p>
+
+<p>新Drum Kits</p>
+
+<p>http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_StereoDrumKitsAlternative.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_StereoDrumKitsSongwriter.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_StereoDrumKitsRock.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_StereoDrumKitsRnB.pkg</p>
+
+<p>新的Producer Drum Kits</p>
+
+<p>http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_ProducerClassicSixtiesKit.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_ProducerPawnShopKit.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_ProducerBirchKit.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_ProducerSeventiesPlexiKit.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_ProducerTightMapleKit.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_ProducerModernMapleKit.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_ProducerStudioKit.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_ProducerPatches.pkg</p>
+
+<p>新鼓机</p>
+
+<p>http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_ElectronicDrumKits.pkg</p>
+
+<p>新吉他</p>
+
+<p>http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_InstrumentsGuitar.pkg</p>
+
+<p>新击槌
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_InstrumentsMallet.pkg</p>
+
+<p>新交响乐器</p>
+
+<p>http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_InstrumentsOrchestralBrass.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_InstrumentsOrchestralChoir.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_InstrumentsOrchestralHarp.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_InstrumentsOrchestralKeyboard.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_InstrumentsOrchestralPercussion.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_InstrumentsOrchestralPipeOrgan.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_InstrumentsOrchestralStrings.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_InstrumentsOrchestralWoodwinds.pkg</p>
+
+<p>新的钢琴</p>
+
+<p>http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_InstrumentsPiano.pkg</p>
+
+<p>新的世界音乐</p>
+
+<p>http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_InstrumentsWorldKeyboards.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_InstrumentsWorldPercussion.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_InstrumentsWorldStringed.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_InstrumentsWorldVoice.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_InstrumentsWorldWoodwind.pkg</p>
+
+<p>新的Apple Loop</p>
+
+<p>http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_AppleLoopsElectroHouse.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_AppleLoopsHipHop.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_AppleLoopsModernRnB.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_AppleLoopsTechHouse.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_AppleLoopsDubstep.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_AppleLoopsChillwave.pkg<br />
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_AppleLoopsDeepHouse.pkg</p>
+
+<p>新混响－立体声
+http://audiocontentdownload.apple.com/lp10_ms3_content_2013/MAContent10_IRsStereo.pkg</p>
+:ET

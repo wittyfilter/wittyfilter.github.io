@@ -1,0 +1,10 @@
+I"â<h1 id="1-watch-ascii-star-wars">1. Watch ASCII Star Wars</h1>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>telnet towel.blinkenlights.nl 23
+</code></pre></div></div>
+
+<h1 id="2-nyan-cat">2. Nyan Cat</h1>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>nc <span class="nt">-v</span> nyancat.dakko.us 23
+</code></pre></div></div>
+:ET
