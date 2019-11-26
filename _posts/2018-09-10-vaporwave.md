@@ -27,7 +27,7 @@ date: '2018-09-10 08:00:00 +0800'
 >
 > [^1]: 注：笔者虽然对赛博朋克这个话题也很感兴趣，奈何所了解的背景知识太少，涉猎的相关作品也不多，希望以后能积累出一篇关于赛博朋克的介绍
 
-![](https://file.digitaling.com/eImg/uimages/20170928/1506586466815568.jpg)
+[![Shibuya Sky](https://i.postimg.cc/sfnmKjmF/R0004396-2.jpg)](https://postimg.cc/MXQ1p8gt)
 
 <!-- more -->
 
