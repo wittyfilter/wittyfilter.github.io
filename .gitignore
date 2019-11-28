@@ -4,3 +4,5 @@ _themes/
 .jekyll-metadata
 .DS_Store
 gitscript
+.jekyll-cache
+.bundle
