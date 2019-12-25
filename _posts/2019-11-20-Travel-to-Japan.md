@@ -8,7 +8,7 @@ tags:
 - Tokyo
 - Hakone
 - Torii
-- GR III
+- GR3
 - 70D
 ---
 
