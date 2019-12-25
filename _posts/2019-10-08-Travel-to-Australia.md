@@ -15,6 +15,8 @@ tags:
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/wittyfilter/49247536216/in/datetaken-public/" title="Sydney Night"><img src="https://live.staticflickr.com/65535/49247536216_d1a74b704c_k.jpg" width="2048" height="534" alt="Sydney Night"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
+第二天一早，我们出发前往海德公园（Hyde Park）。
+
 穿过海德公园来到悉尼皇家植物园（Royal Botanic Gardens），这里有众多博物馆与艺术馆，在植物园东边还有澳洲皇家海军的军舰。我们此行的目的便是赶在正午之前到达麦考利夫人岬角（Mrs. Macquarie's Point），看看悉尼歌剧院和海港大桥重叠的视角，这也是很多明信片或冰箱贴上特有的场景。
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/wittyfilter/49141060262/in/datetaken-public/" title="Sydney"><img src="https://live.staticflickr.com/65535/49141060262_48ecd5f7db_k.jpg" width="2048" height="541" alt="Sydney"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
