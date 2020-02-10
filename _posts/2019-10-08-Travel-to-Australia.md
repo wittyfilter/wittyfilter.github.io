@@ -30,23 +30,26 @@ tags:
 晚上八点，飞机降落在墨尔本机场，老妈的老朋友周萍阿姨带我们从机场到了住宿的宜必思酒店，还送给我们新婚礼物，瞬间就感受到了在异国的家乡温暖😭。
 
 第二天一早，在Evelyn的推荐下去吃了Brick Lane的早午饭，特别好吃！强烈推荐经典的Benedict Egg，尽管我的辣炒蛋味道也不错。
-
 [![R0003451.jpg](https://i.postimg.cc/3xRKGWXr/R0003451.jpg)](https://postimg.cc/svkddjHb)
 [![R0003448.jpg](https://i.postimg.cc/dtnsDGTS/R0003448.jpg)](https://postimg.cc/tYZQMZkh)
 
 吃完饭出发去墨尔本大学，途中路过维多利亚女皇市场（Queen Victoria Market）是一个特别热闹的市集，还能淘到各种性价比小物品，可惜当天是周三，市场不开门，只能从外面一探究竟。
-
 [![R0003455.jpg](https://i.postimg.cc/BvgMkb72/R0003455.jpg)](https://postimg.cc/qtNsCJT7)
 [![IMG-3028.jpg](https://i.postimg.cc/x8k9nx7y/IMG-3028.jpg)](https://postimg.cc/BPGrCgJX)
 
-墨尔本大学的Gate 10处是个拍游客纪念照的好地方，门口本来还有一个纪念品商店但是没有开门。除此之外，Old Art楼和Baillieu图书馆也是值得打卡的网红地点。
+墨尔本的街道整洁干净，偶尔也会有一些叛逆的涂鸦，给这个慢节奏的城市增添一丝年轻的气息。设计感在这里随处可见，街拍美照也是抬手就来。
+[![IMG-3026.jpg](https://i.postimg.cc/W3Y2RL91/IMG-3026.jpg)](https://postimg.cc/vg9R9jFJ)
+[![IMG-3066.jpg](https://i.postimg.cc/qBm80mYW/IMG-3066.jpg)](https://postimg.cc/z3gLFkqk)
+[![R0003555.jpg](https://i.postimg.cc/przTt045/R0003555.jpg)](https://postimg.cc/8fkDRb1T)
+[![R0003461.jpg](https://i.postimg.cc/PfFX6vVn/R0003461.jpg)](https://postimg.cc/WtgczzP5)
 
+墨尔本大学的Gate 10处是个拍游客纪念照的好地方，门口本来还有一个纪念品商店但是没有开门。除此之外，Old Art楼和Baillieu图书馆也是值得打卡的网红地点。
 [![2020-02-04-165547.jpg](https://i.postimg.cc/85J31qrN/2020-02-04-165547.jpg)](https://postimg.cc/R6mGdpRD)
 [![R0003516.jpg](https://i.postimg.cc/pL69N1Lk/R0003516.jpg)](https://postimg.cc/0z75DnmJ)
+[![IMG-3048.jpg](https://i.postimg.cc/prsqzRsH/IMG-3048.jpg)](https://postimg.cc/9wqdj538)
 [![R0003553.jpg](https://i.postimg.cc/XJwXCjcD/R0003553.jpg)](https://postimg.cc/zbGJm1Qn)
 
 途中路过维多利亚州立图书馆（State Library Victoria），似乎还在修缮中，广场前的雕像特别挺拔，偶尔也会有一两只鸽子停留。
-
 [![R0003564.jpg](https://i.postimg.cc/brxz5ZSQ/R0003564.jpg)](https://postimg.cc/zHfZbXjB)
 [![IMG-3065.jpg](https://i.postimg.cc/mg4My0Fz/IMG-3065.jpg)](https://postimg.cc/BXhXq7p4)
 
@@ -56,15 +59,63 @@ tags:
 
 下午预约了维多利亚州国立美术馆（National Gallery of Victoria）的Kaws展览，之前对Kaws只是一些稀疏印象，这次现场亲临体验设计美学。NGV虽然很有名，但是展览是否好看还是需要事前筛选一番的，Kaws展虽然内容不多，好在比较容易留下一些艺术照片。
 [![R0003581.jpg](https://i.postimg.cc/BvzQP9G1/R0003581.jpg)](https://postimg.cc/67dNFPq9)
+[![IMG-3093.jpg](https://i.postimg.cc/ncMxyF45/IMG-3093.jpg)](https://postimg.cc/jLVBNrkQ)
 [![2020-02-09-170313.jpg](https://i.postimg.cc/c1FZkgnw/2020-02-09-170313.jpg)](https://postimg.cc/8sfqjCwz)
 
-亚拉河
-[![R0003805.jpg](https://i.postimg.cc/1zV8ycgS/R0003805.jpg)](https://postimg.cc/yJB1PRXp)
+除了NGV，我还预约了尤里卡88层观景台（Eureka Skydeck）一览墨尔本夜景，淡淡对我到一个城市就要爬塔的行为嗤之以鼻，但还是陪我一起上去了。从日落到夜幕降临，从高楼林立的City区到遥远的海岸线，我也拍到了梦寐以求的梦幻city view。
+[![R0003725.jpg](https://i.postimg.cc/xjMT84pc/R0003725.jpg)](https://postimg.cc/kDMdhfmm)
+[![R0003733.jpg](https://i.postimg.cc/cHdT3jM0/R0003733.jpg)](https://postimg.cc/gwBvFgTT)
+[![R0003779.jpg](https://i.postimg.cc/VkX79DjG/R0003779.jpg)](https://postimg.cc/75YMw1t0)
+
+从尤里卡上下来后，我们便去和Evelyn与Jasper会和，一起在Dodee吃了泰国菜，聊一聊一中往事和澳洲生活趣事，分别时依然意犹未尽。Evelyn后来给我们推荐的酸奶、西红柿和面包店，在接下来的几天让我和淡淡特别受用，不得不佩服认真生活并把它们玩出花样的人儿。
 
 ## 2. 大洋路
 
+都说来墨尔本应该要去大洋路体验一下，机会难得。在周萍阿姨的推荐下，我们报名了宏城旅游（Grandcity Tour），因为是华人搞的因此比较方便，但是事实证明体验比较一般，原因有二：
+
+**虽然沿途风景不错，但是导游一路上说着和旅途没关系的东西，而且反华情绪严重，说出来的话自相矛盾，给我们造成了较差体验。另一点是，我们报了13人以下的小团，说是更精品更自由，体验更丰富，但是费用贵了一倍，结束以后我和淡淡都觉得很不值得。**
+
+
+
+虽说如此，沿途的风景还是绝赞啊！离开墨尔本后，首先会经过安吉西（Anglesea）小镇，这里会看到一些安格斯牛，还有远方绿色深浅不一的山脉。
+[![IMG-3138.jpg](https://i.postimg.cc/wjMpKmgH/IMG-3138.jpg)](https://postimg.cc/HVqKXjrP)
+[![IMG-3141.jpg](https://i.postimg.cc/yd44Sp9Y/IMG-3141.jpg)](https://postimg.cc/bGTF7T3K)
+
+第一个景点是小红帽灯塔（Split Point Lighthouse），虽然不能登上去，但是在远处拍照也很好看。
+[![R0003834.jpg](https://i.postimg.cc/dt4YSBM4/R0003834.jpg)](https://postimg.cc/gnXQx32Z)
+[![IMG-3156.jpg](https://i.postimg.cc/YSBwLQ5K/IMG-3156.jpg)](https://postimg.cc/9DbkvwXJ)
+
+灯塔附近的断崖很美，近海的礁石也别有特色。
+[![IMG-3172.jpg](https://i.postimg.cc/nVjj1k66/IMG-3172.jpg)](https://postimg.cc/Z0m5brYc)
+[![R0003819.jpg](https://i.postimg.cc/W3Q4yBQx/R0003819.jpg)](https://postimg.cc/34F74crZ)
+[![IMG-3181.jpg](https://i.postimg.cc/TPtGzzWC/IMG-3181.jpg)](https://postimg.cc/VS03MHgC)
+[![R0003836.jpg](https://i.postimg.cc/gkbJHPyZ/R0003836.jpg)](https://postimg.cc/QVShjwy8)
+
+在大洋路纪念拱门（Memorial Arch）听了一小段大洋路历史后，继续出发，途径洛恩（Lorne）小镇，最后在阿波罗湾（Apollo Bay）驻足并吃午饭。
+[![R0003859.jpg](https://i.postimg.cc/pLqLvhwf/R0003859.jpg)](https://postimg.cc/qN6TXRMq)
+[![R0003857.jpg](https://i.postimg.cc/J0ZhCT80/R0003857.jpg)](https://postimg.cc/9wX2GYrH)
+
+午饭后出发前往十二门徒（Twelve Apostles），它是海岸边一系列风化的石灰岩的组合，目前只剩下七块了，而且消逝的速度正在加剧。海上乌云密布，西落的太阳艰难地突破屏障，在海面上形成圣光普照之景。
+[![R0003902.jpg](https://i.postimg.cc/bJbPZsBF/R0003902.jpg)](https://postimg.cc/VrYpTL1j)
+[![R0003889.jpg](https://i.postimg.cc/WpCrRKGN/R0003889.jpg)](https://postimg.cc/hh8hT2Z6)
+[![2020-02-06-225627.jpg](https://i.postimg.cc/qMYr0PQ7/2020-02-06-225627.jpg)](https://postimg.cc/rKS3NYB6)
+
+十二门徒附近还有一个长得像入海大闸门的沉船峡谷（Loch Ard Gorge），也是大洋路网红地点之一，命名原因是百年前曾有一艘同名英国船只由于灯塔信号穿透力不足，在此附近沉没。
+[![R0003879.jpg](https://i.postimg.cc/3xJ3trkd/R0003879.jpg)](https://postimg.cc/rK36mkCk)
+[![IMG-3349.jpg](https://i.postimg.cc/jdyDpjqc/IMG-3349.jpg)](https://postimg.cc/9rFXTC7w)
+[![R0003882.jpg](https://i.postimg.cc/QMFhr6kD/R0003882.jpg)](https://postimg.cc/rd2v1NPZ)
+
+大洋路之行还有一个意外惊喜是看到了一些有趣的动物，包括考拉，金刚鹦鹉，小袋鼠（Wallaby）等等。
+[![IMG-3292.jpg](https://i.postimg.cc/QtnjbfhW/IMG-3292.jpg)](https://postimg.cc/zbKmDSLJ)
+[![IMG-3255.jpg](https://i.postimg.cc/qv5Y1qFg/IMG-3255.jpg)](https://postimg.cc/xXLtCfnS)
+[![IMG-3265.jpg](https://i.postimg.cc/2S6Mdh2P/IMG-3265.jpg)](https://postimg.cc/xcw6nJrR)
+[![IMG-3376.jpg](https://i.postimg.cc/pVwHLhTx/IMG-3376.jpg)](https://postimg.cc/jC498jPk)
+
+回到墨尔本已是深夜，由于一路上都没有好好吃饭，因此和淡淡一起去酒店附近的Pepper Lunch Elizabeth吃烤牛肉夜宵，虽然很解馋，但是也让淡淡吃得有些过敏，乐极生悲😂。
 
 ## 3. 悉尼
+
+
 
 夜晚步行至岩石区，这里的建筑风格很古典，据说因为是澳大利亚第一批移民的定居点，因此保留了些许传统建筑特色。在Circular Quay，看到了悉尼歌剧院和海港大桥的入夜全景，无数次梦到的悉尼歌剧院，确实是想象中的那个样子。
 
