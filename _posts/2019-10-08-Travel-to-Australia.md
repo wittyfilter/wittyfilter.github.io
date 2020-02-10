@@ -33,7 +33,7 @@ tags:
 [![R0003451.jpg](https://i.postimg.cc/3xRKGWXr/R0003451.jpg)](https://postimg.cc/svkddjHb)
 [![R0003448.jpg](https://i.postimg.cc/dtnsDGTS/R0003448.jpg)](https://postimg.cc/tYZQMZkh)
 
-吃完饭出发去墨尔本大学，途中路过维多利亚女皇市场（Queen Victoria Market）是一个特别热闹的市集，还能淘到各种性价比小物品，可惜当天是周三，市场不开门，只能从外面一探究竟。
+吃完饭出发去墨尔本大学，途中路过维多利亚女皇市场（Queen Victoria Market），这里是一个特别热闹的市集，还能淘到各种性价比小物品，可惜当天是周三，市场不开门，只能从外面一探究竟。
 [![R0003455.jpg](https://i.postimg.cc/BvgMkb72/R0003455.jpg)](https://postimg.cc/qtNsCJT7)
 [![IMG-3028.jpg](https://i.postimg.cc/x8k9nx7y/IMG-3028.jpg)](https://postimg.cc/BPGrCgJX)
 
@@ -71,13 +71,11 @@ tags:
 
 ## 2. 大洋路
 
-都说来墨尔本应该要去大洋路体验一下，机会难得。在周萍阿姨的推荐下，我们报名了宏城旅游（Grandcity Tour），因为是华人搞的因此比较方便，但是事实证明体验比较一般，原因有二：
+都说来墨尔本应该要去大洋路体验一下，机会难得。在周萍阿姨的推荐下，我们报名了宏城旅游（Grandcity Tour），因为是华人办的比较方便，但是事实证明体验很一般，原因有二：
 
 **虽然沿途风景不错，但是导游一路上说着和旅途没关系的东西，而且反华情绪严重，说出来的话自相矛盾，给我们造成了较差体验。另一点是，我们报了13人以下的小团，说是更精品更自由，体验更丰富，但是费用贵了一倍，结束以后我和淡淡都觉得很不值得。**
 
-
-
-虽说如此，沿途的风景还是绝赞啊！离开墨尔本后，首先会经过安吉西（Anglesea）小镇，这里会看到一些安格斯牛，还有远方绿色深浅不一的山脉。
+尽管如此，沿途的风景还是绝赞啊！离开墨尔本后，首先会经过安吉西（Anglesea）小镇，这里会看到一些安格斯牛，还有远方绿色深浅不一的山脉。
 [![IMG-3138.jpg](https://i.postimg.cc/wjMpKmgH/IMG-3138.jpg)](https://postimg.cc/HVqKXjrP)
 [![IMG-3141.jpg](https://i.postimg.cc/yd44Sp9Y/IMG-3141.jpg)](https://postimg.cc/bGTF7T3K)
 
@@ -130,7 +128,7 @@ tags:
 下午午觉以后，电脑手贱更新系统而宕机，为了保证毕业论文能顺利写完，便留在住处修理电脑，淡淡自己出门去Chemist Warehouse买澳大利亚的保健品，包括鱼油和维生素等等，确实比国内买要便宜许多！待我修好电脑后立刻下楼与淡淡会和，一起去吃Madang Korean BBQ，点了一碗牛尾汤和一锅牛杂烩，无比好吃，是我在澳大利亚吃得最开心的一餐。
 [![R0003945.jpg](https://i.postimg.cc/FRZsNktj/R0003945.jpg)](https://postimg.cc/mzPGSDgD)
 
-晚饭后步行至岩石区，这里的建筑风格很古典，据说因为是澳大利亚第一批移民的定居点，因此保留了些许传统建筑特色。在Circular Quay，看到了悉尼歌剧院和海港大桥（Sydney Harbour Bridge）的入夜全景，无数次梦到的悉尼歌剧院，确实是想象中的那个样子。
+晚饭后步行至岩石区（The Rocks），这里的建筑风格很古典，据说因为是澳大利亚第一批移民的定居点，因此保留了些许传统建筑特色。在Circular Quay，看到了悉尼歌剧院和海港大桥（Sydney Harbour Bridge）的入夜全景，无数次梦到的悉尼歌剧院，确实是想象中的那个样子。
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/wittyfilter/49247536216/in/datetaken-public/" title="Sydney Night"><img src="https://live.staticflickr.com/65535/49247536216_d1a74b704c_k.jpg" width="2048" height="534" alt="Sydney Night"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 [![IMG-3414-2.jpg](https://i.postimg.cc/44zjvsnV/IMG-3414-2.jpg)](https://postimg.cc/qgvm4fsv)
 [![R0003972.jpg](https://i.postimg.cc/MTfBXSnv/R0003972.jpg)](https://postimg.cc/347NbzCT)
