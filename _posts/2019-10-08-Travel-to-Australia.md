@@ -19,6 +19,8 @@ tags:
 **悉尼**
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1CfMxjaVKyG6MQNHIKLcjb1rcolFkHDkn" width="640" height="480"></iframe>
 
+<!-- more -->
+
 关于签证：进入[澳洲签证申请网站](https://online.immi.gov.au/lusc/login)，注册账号开始申请填表，按照说明附上各种扫描件即可，非常方便。签证缴费140澳元，大概11天之后我们拿到了带有电子签证的邮件。
 
 关于电话卡：除了4G上网以外，还是推荐有个具体的电话号码，这样可以注册一个新的uber或者滴滴澳洲账号，不仅有很多新人优惠券，还有机场接送的大额折扣可以享受！
@@ -32,7 +34,7 @@ tags:
 [![R0003451.jpg](https://i.postimg.cc/3xRKGWXr/R0003451.jpg)](https://postimg.cc/svkddjHb)
 [![R0003448.jpg](https://i.postimg.cc/dtnsDGTS/R0003448.jpg)](https://postimg.cc/tYZQMZkh)
 
-吃完饭出发去墨尔本大学，途中路过Queen Victoria Market，是一个特别热闹的市集，还能淘到各种性价比小物品，可惜当天是周三，市场不开门，只能从外面一探究竟。
+吃完饭出发去墨尔本大学，途中路过维多利亚女皇市场（Queen Victoria Market）是一个特别热闹的市集，还能淘到各种性价比小物品，可惜当天是周三，市场不开门，只能从外面一探究竟。
 
 [![R0003455.jpg](https://i.postimg.cc/BvgMkb72/R0003455.jpg)](https://postimg.cc/qtNsCJT7)
 [![IMG-3028.jpg](https://i.postimg.cc/x8k9nx7y/IMG-3028.jpg)](https://postimg.cc/BPGrCgJX)
@@ -40,13 +42,21 @@ tags:
 墨尔本大学的Gate 10处是个拍游客纪念照的好地方，门口本来还有一个纪念品商店但是没有开门。除此之外，Old Art楼和Baillieu图书馆也是值得打卡的网红地点。
 
 [![2020-02-04-165547.jpg](https://i.postimg.cc/85J31qrN/2020-02-04-165547.jpg)](https://postimg.cc/R6mGdpRD)
+[![R0003516.jpg](https://i.postimg.cc/pL69N1Lk/R0003516.jpg)](https://postimg.cc/0z75DnmJ)
+[![R0003553.jpg](https://i.postimg.cc/XJwXCjcD/R0003553.jpg)](https://postimg.cc/zbGJm1Qn)
 
-
-途中路过
+途中路过维多利亚州立图书馆（State Library Victoria），似乎还在修缮中，广场前的雕像特别挺拔，偶尔也会有一两只鸽子停留。
 
 [![R0003564.jpg](https://i.postimg.cc/brxz5ZSQ/R0003564.jpg)](https://postimg.cc/zHfZbXjB)
 [![IMG-3065.jpg](https://i.postimg.cc/mg4My0Fz/IMG-3065.jpg)](https://postimg.cc/BXhXq7p4)
 
+沿着Swanston街一直向南走，就会来到弗林德斯大街车站（Flinders Street Station），这是我特别喜欢的一个建筑，现代化的铁路和古典的建筑完美融合，恢宏之中又带着典雅。车站旁紧挨着的是亚拉河，河上横过一道王子桥（Princes Bridge），车辆川流之中偶尔也会有马车来往。
+[![R0003576.jpg](https://i.postimg.cc/tgJ4gR8j/R0003576.jpg)](https://postimg.cc/jWVbgTsg)
+[![R0003580.jpg](https://i.postimg.cc/HxfxRGZC/R0003580.jpg)](https://postimg.cc/2b7rLtNH)
+
+下午预约了维多利亚州国立美术馆（National Gallery of Victoria）的Kaws展览，之前对Kaws只是一些稀疏印象，这次现场亲临体验设计美学。NGV虽然很有名，但是展览是否好看还是需要事前筛选一番的，Kaws展虽然内容不多，好在比较容易留下一些艺术照片。
+[![R0003581.jpg](https://i.postimg.cc/BvzQP9G1/R0003581.jpg)](https://postimg.cc/67dNFPq9)
+[![2020-02-09-170313.jpg](https://i.postimg.cc/c1FZkgnw/2020-02-09-170313.jpg)](https://postimg.cc/8sfqjCwz)
 
 亚拉河
 [![R0003805.jpg](https://i.postimg.cc/1zV8ycgS/R0003805.jpg)](https://postimg.cc/yJB1PRXp)
