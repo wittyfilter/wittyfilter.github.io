@@ -115,20 +115,51 @@ tags:
 
 ## 3. 悉尼
 
+从墨尔本飞往悉尼，接机和送机都选择了网约车，折扣后近乎免费，让我们享受到了莫大的福利。到达悉尼的住宿后，我们立刻前往Gucci专卖店，因为听说澳大利亚买Gucci是全球最便宜的，且汇率比起美元要优惠很多。正值国庆黄金周，Gucci门前排起了长队，几乎都是🇨🇳人，导购柜姐中会说中文的也不在少数。购物之后我们到Firedoor Restaurant吃烤牛排，这里的服务上乘，环境优雅，价格实惠，即使是很高档的牛排也不会太贵！唯一的难处便是服务员超高速而又难以理解的澳洲英语，让我和淡淡感受到了被英语听力支配的恐惧😱。
+[![R0003937.jpg](https://i.postimg.cc/bJ8N7H5y/R0003937.jpg)](https://postimg.cc/bGChbb8W)
 
+悉尼整体感觉比墨尔本更混乱一些，包括街道和人群。尽管如此，一些古典风格的建筑还是令人舒心，包括悉尼市政厅（Sydney Town Hall）和维多利亚女王大厦（Queen Victoria Building）。
+[![R0003950.jpg](https://i.postimg.cc/vHrWWb3n/R0003950.jpg)](https://postimg.cc/9rfR253X)
+[![R0003960.jpg](https://i.postimg.cc/WbLGFh6j/R0003960.jpg)](https://postimg.cc/G9K8635S)
+[![R0003942.jpg](https://i.postimg.cc/Mpz15NFF/R0003942.jpg)](https://postimg.cc/F7nfsWmy)
 
-夜晚步行至岩石区，这里的建筑风格很古典，据说因为是澳大利亚第一批移民的定居点，因此保留了些许传统建筑特色。在Circular Quay，看到了悉尼歌剧院和海港大桥的入夜全景，无数次梦到的悉尼歌剧院，确实是想象中的那个样子。
+第二天睡到自然醒，Evelyn给我们推荐了悉尼绝佳的早午饭餐厅Devon Cafe，在那里我和淡淡体验了墨鱼海鲜面和三文鱼沙拉。
+[![2019-10-05-093637.jpg](https://i.postimg.cc/V6NBQqnQ/2019-10-05-093637.jpg)](https://postimg.cc/KKdgtg0J)
+[![2019-10-05-093628.jpg](https://i.postimg.cc/W486HWDw/2019-10-05-093628.jpg)](https://postimg.cc/Y44W4xzv)
 
+下午午觉以后，电脑手贱更新系统而宕机，为了保证毕业论文能顺利写完，便留在住处修理电脑，淡淡自己出门去Chemist Warehouse买澳大利亚的保健品，包括鱼油和维生素等等，确实比国内买要便宜许多！待我修好电脑后立刻下楼与淡淡会和，一起去吃Madang Korean BBQ，点了一碗牛尾汤和一锅牛杂烩，无比好吃，是我在澳大利亚吃得最开心的一餐。
+[![R0003945.jpg](https://i.postimg.cc/FRZsNktj/R0003945.jpg)](https://postimg.cc/mzPGSDgD)
+
+晚饭后步行至岩石区，这里的建筑风格很古典，据说因为是澳大利亚第一批移民的定居点，因此保留了些许传统建筑特色。在Circular Quay，看到了悉尼歌剧院和海港大桥（Sydney Harbour Bridge）的入夜全景，无数次梦到的悉尼歌剧院，确实是想象中的那个样子。
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/wittyfilter/49247536216/in/datetaken-public/" title="Sydney Night"><img src="https://live.staticflickr.com/65535/49247536216_d1a74b704c_k.jpg" width="2048" height="534" alt="Sydney Night"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+[![IMG-3414-2.jpg](https://i.postimg.cc/44zjvsnV/IMG-3414-2.jpg)](https://postimg.cc/qgvm4fsv)
+[![R0003972.jpg](https://i.postimg.cc/MTfBXSnv/R0003972.jpg)](https://postimg.cc/347NbzCT)
+[![R0003986.jpg](https://i.postimg.cc/NGTTcQhn/R0003986.jpg)](https://postimg.cc/14m40h30)
+[![R0003973.jpg](https://i.postimg.cc/C5yqqQ8J/R0003973.jpg)](https://postimg.cc/cgmCqTX8)
 
-第二天一早，我们出发前往海德公园（Hyde Park）。
+第三天一早，我们出发前往海德公园（Hyde Park），穿过圣玛丽教堂（St Mary's Cathedral），来到悉尼皇家植物园（Royal Botanic Gardens），这里有众多博物馆与艺术馆，在植物园东边还有澳洲皇家海军的军舰。
+[![R0004003.jpg](https://i.postimg.cc/jSCSRhwj/R0004003.jpg)](https://postimg.cc/RW5BRKTr)
+[![2019-11-30-231505.jpg](https://i.postimg.cc/9M9VQx45/2019-11-30-231505.jpg)](https://postimg.cc/Ppd06Qz2)
+[![IMG-3469.jpg](https://i.postimg.cc/tCcdYVy5/IMG-3469.jpg)](https://postimg.cc/qz86FqNh)
 
-穿过海德公园来到悉尼皇家植物园（Royal Botanic Gardens），这里有众多博物馆与艺术馆，在植物园东边还有澳洲皇家海军的军舰。我们此行的目的便是赶在正午之前到达麦考利夫人岬角（Mrs. Macquarie's Point），看看悉尼歌剧院和海港大桥重叠的视角，这也是很多明信片或冰箱贴上特有的场景。
-
+我们此行的目的便是赶在正午之前到达麦考利夫人岬角（Mrs. Macquarie's Point），看看悉尼歌剧院和海港大桥重叠的视角，这也是很多明信片或冰箱贴上特有的场景，如果不在正午前赶到，所有的照片都会背光。
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/wittyfilter/49141060262/in/datetaken-public/" title="Sydney"><img src="https://live.staticflickr.com/65535/49141060262_48ecd5f7db_k.jpg" width="2048" height="541" alt="Sydney"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+[![IMG-3486.jpg](https://i.postimg.cc/qqjLmmPV/IMG-3486.jpg)](https://postimg.cc/D44L0cfB)
+[![IMG-3485.jpg](https://i.postimg.cc/gk24wWhY/IMG-3485.jpg)](https://postimg.cc/G96vN6zN)
 
-
-Pancake
-
+中午回来在住宿楼下吃了泰国菜Home Thai，意外地有空心菜，让我们找到了在杭州的美泰吃虾酱空心菜的感觉。下午出发去情人港（Darling Harbour），这里确实是一个很浪漫的地方，没有愧对这个名字。晚饭时分在情人港我们品尝了悉尼比较特色的甜品店Pancakes on the Rocks，不得不说真的有点太甜了，让我和淡淡想起了在比利时被热可可支配的恐惧。
+[![R0004037.jpg](https://i.postimg.cc/vT3Gs1G9/R0004037.jpg)](https://postimg.cc/xNJwG1JT)
+[![IMG-3499.jpg](https://i.postimg.cc/wjtVVQFZ/IMG-3499.jpg)](https://postimg.cc/HrgXW5q9)
 [![R0004032.jpg](https://i.postimg.cc/7h1KhDP8/R0004032.jpg)](https://postimg.cc/BP6T7r1M)
 [![R0004033.jpg](https://i.postimg.cc/MHHxwsmS/R0004033.jpg)](https://postimg.cc/vgJCLtKq)
+
+晚饭后又要去登塔啦！淡淡一脸不屑地和我登上了Sydney Tower Eye，这里的景色虽然不如墨尔本，但是也能清晰地看到海港大桥和情人港等标志性风光。入夜比较深的时刻，赛博朋克风格的照片也相宜。
+[![R0004071.jpg](https://i.postimg.cc/05fkm47Q/R0004071.jpg)](https://postimg.cc/0rz11cWR)
+[![R0004077.jpg](https://i.postimg.cc/PJqB1Skp/R0004077.jpg)](https://postimg.cc/mz0XsNkB)
+[![IMG-3517.jpg](https://i.postimg.cc/W14KPZ8w/IMG-3517.jpg)](https://postimg.cc/svtKYvtM)
+[![R0004091.jpg](https://i.postimg.cc/WzQWvVLv/R0004091.jpg)](https://postimg.cc/4HQb6rxL)
+[![R0004105.jpg](https://i.postimg.cc/MT339R9X/R0004105.jpg)](https://postimg.cc/8JWb5FQV)
+[![R0004117-2-2.jpg](https://i.postimg.cc/PJL39x7y/R0004117-2-2.jpg)](https://postimg.cc/BP0B1q4P)
+[![R0004123-2.jpg](https://i.postimg.cc/cHCXtCdW/R0004123-2.jpg)](https://postimg.cc/xJrKW0kp)
+
+第四天坐飞机回杭州，结束了这场梦幻般的蜜月旅行。淡淡在飞机上发现了植物大战僵尸，在落地时竟然给她玩通关了，简直不可思议！回国之后又继续马不停蹄地忙毕业论文了（后记：万幸在两个月后顺利毕业了😂）。
