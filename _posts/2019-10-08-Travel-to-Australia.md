@@ -137,7 +137,7 @@ tags:
 
 第三天一早，我们出发前往海德公园（Hyde Park），穿过圣玛丽教堂（St Mary's Cathedral），来到悉尼皇家植物园（Royal Botanic Gardens），这里有众多博物馆与艺术馆，在植物园东边还有澳洲皇家海军的军舰。
 [![R0004003.jpg](https://i.postimg.cc/jSCSRhwj/R0004003.jpg)](https://postimg.cc/RW5BRKTr)
-[![2019-11-30-231505.jpg](https://i.postimg.cc/9M9VQx45/2019-11-30-231505.jpg)](https://postimg.cc/Ppd06Qz2)
+[![IMG-3443.jpg](https://i.postimg.cc/3wvSVz4G/IMG-3443.jpg)](https://postimg.cc/B8JB1YCZ)
 [![IMG-3469.jpg](https://i.postimg.cc/tCcdYVy5/IMG-3469.jpg)](https://postimg.cc/qz86FqNh)
 
 我们此行的目的便是赶在正午之前到达麦考利夫人岬角（Mrs. Macquarie's Point），看看悉尼歌剧院和海港大桥重叠的视角，这也是很多明信片或冰箱贴上特有的场景，如果不在正午前赶到，所有的照片都会背光。
