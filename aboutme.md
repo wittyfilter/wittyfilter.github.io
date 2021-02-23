@@ -23,7 +23,7 @@ Thanks to Zhejiang University where I spent my youth and found my lovely wife, Z
 [[2] Z. Yang, Y. Pan, Q. Tian, and R. Huan, “Real-Time Infrastructureless Indoor Tracking for Pedestrian Using a Smartphone,” *IEEE Sensors Journal*, vol. 19, no. 22, pp. 10782–10795, Nov. 2019.](https://ieeexplore.ieee.org/document/8766979)
 
 
-[[3] Z. Yang, Y. Pan, R. Huan, and Y. Bao, “Gridding place recognition for fast loop closure detection on mobile platforms,” *Electronics Letters*, vol. 55, no. 17, pp. 931–933, 2019.](https://ieeexplore.ieee.org/document/8805565)
+[[3] Z. Yang, Y. Pan, R. Huan, and Y. Bao, “Gridding place recognition for fast loop closure detection on mobile platforms,” *Electronics Letters*, vol. 55, no. 17, pp. 931–933, 2019.](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/el.2019.1148)
 
 
 [[4] Z. Yang, Y. Pan, and L. Zhang, “Hybrid orientation filter aided indoor tracking for pedestrians using a smartphone,” in *2017 13th IEEE International Conference on Control Automation (ICCA)*, 2017, pp. 107–112.](https://ieeexplore.ieee.org/document/8003043)
