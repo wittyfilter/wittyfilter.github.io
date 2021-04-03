@@ -17,7 +17,7 @@ Thanks to Zhejiang University where I spent my youth and found my lovely wife, Z
 
 
 ## 2. Publications
-[[1] Z. Yang, Y. Pan, L. Deng, Y. Xie, and R. Huan, “PLSAV: Parallel loop searching and verifying for loop closure detection,” *IET Intelligent Transport Systems*, 2021. (To appear)](https://ietresearch.onlinelibrary.wiley.com/journal/17519578)
+[[1] Z. Yang, Y. Pan, L. Deng, Y. Xie, and R. Huan, “PLSAV: Parallel loop searching and verifying for loop closure detection,” *IET Intelligent Transport Systems*, vol. 15, no. 5, pp. 683-698, May. 2021.](https://ietresearch.onlinelibrary.wiley.com/journal/17519578)
 
 
 [[2] Z. Yang, Y. Pan, Q. Tian, and R. Huan, “Real-Time Infrastructureless Indoor Tracking for Pedestrian Using a Smartphone,” *IEEE Sensors Journal*, vol. 19, no. 22, pp. 10782–10795, Nov. 2019.](https://ieeexplore.ieee.org/document/8766979)
