@@ -9,7 +9,7 @@ categories:
 date: 2014-02-22 00:00:00
 ---
 
-**原处不可考**
+原文来自知耻而后勇的蜗牛：[模拟电路----三极管开关原理与场效应管开关原理](https://blog.csdn.net/yf210yf/article/details/7527323)
 
 # BJT的开关工作原理：
 
