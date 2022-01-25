@@ -1,8 +1,8 @@
 _site/
 _themes/
-.sass-cache
+.sass-cache/
 .jekyll-metadata
 .DS_Store
 gitscript
-.jekyll-cache
-.bundle
+.jekyll-cache/
+.bundle/
