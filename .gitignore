@@ -6,3 +6,5 @@ _themes/
 gitscript
 .jekyll-cache/
 .bundle/
+vendor/
+Gemfile.lock
