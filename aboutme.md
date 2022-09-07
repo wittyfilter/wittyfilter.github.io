@@ -18,24 +18,7 @@ Thanks to Zhejiang University where I spent my youth and found my lovely wife, Z
 
 ## 2. Publications
 
-0. [Z. Yang, M. Qu, Y. Pan, and R. Huan, “Comparing Cross-Subject Performance on Human Activities Recognition Using Learning Models,” *IEEE ACCESS*, vol. x, pp. 2377-3766, Sep. 2022.](https://doi.org/10.1109/ACCESS.2022.3204739)
-
-
-0. [Y. Bao, Z. Yang, Y. Pan, and R. Huan, “Semantic-Direct Visual Odometry,” *IEEE Robotics and Automation Letters*, vol. 7, no. 3, pp. 2377-3766, Jul. 2022.](https://doi.org/10.1109/LRA.2022.3176799)
-
-0. [Y. Bao, Y. Pan, Z. Yang, and R. Huan, “Utilization of Semantic Planes: Improved Localization and Dense Semantic Map for Monocular SLAM in Urban Environment,” *IEEE Robotics and Automation Letters*, vol. 6, no. 3, pp. 6108–6115, Jul. 2021.](https://doi.org/10.1109/LRA.2021.3091396)
-
-0. [Z. Yang, Y. Pan, L. Deng, Y. Xie, and R. Huan, “PLSAV: Parallel loop searching and verifying for loop closure detection,” *IET Intelligent Transport Systems*, vol. 15, no. 5, pp. 683-698, May. 2021.](https://doi.org/10.1049/itr2.12054)
-
-0. [Z. Yang, Y. Pan, Q. Tian, and R. Huan, “Real-Time Infrastructureless Indoor Tracking for Pedestrian Using a Smartphone,” *IEEE Sensors Journal*, vol. 19, no. 22, pp. 10782–10795, Nov. 2019.](https://doi.org/10.1109/JSEN.2019.2930070)
-
-
-0. [Z. Yang, Y. Pan, R. Huan, and Y. Bao, “Gridding place recognition for fast loop closure detection on mobile platforms,” *Electronics Letters*, vol. 55, no. 17, pp. 931–933, 2019.](https://doi.org/10.1049/el.2019.1148)
-
-
-0. [Z. Yang, Y. Pan, and L. Zhang, “Hybrid orientation filter aided indoor tracking for pedestrians using a smartphone,” in *2017 13th IEEE International Conference on Control Automation (ICCA)*, 2017, pp. 107–112.](https://doi.org/10.1109/ICCA.2017.8003043)
-
-
+{% include publications link=true style='apa' %}
 
 ## 3. Flight Data
 
