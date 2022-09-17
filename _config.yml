@@ -40,5 +40,6 @@ permalink: "/blog/:title"
 plugins:
   - jekyll-paginate
   - jekyll-admin
+  - jekyll-scholar
 
 
