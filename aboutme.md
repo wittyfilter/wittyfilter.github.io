@@ -20,8 +20,6 @@ Thanks to Zhejiang University where I spent my youth and found my lovely wife, Z
 
 {% include publications link=true style='apa' %}
 
-{% bibliography %}
-
 ## 3. Flight Data
 
 <a href="https://my.flightradar24.com/wittyfilter"><img src="https://banners-my.flightradar24.com/wittyfilter.png" alt="My Flightdiary.net profile" /></a>
